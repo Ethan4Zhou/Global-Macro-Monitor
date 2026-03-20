@@ -21,6 +21,7 @@ if "app" in sys.modules and not hasattr(sys.modules["app"], "__path__"):
 
 from app.regime.change_detection import build_mode_comparison
 from app.regime.global_monitor import build_country_status
+from app.regime.nowcast import build_country_nowcast_overlay, build_global_nowcast_overlay
 from app.utils.config import get_country_config, get_supported_countries
 from app.data.china_ingestion import validate_china_data
 from app.data.eurozone_ingestion import validate_eurozone_data
@@ -218,6 +219,10 @@ TEXT_MAP_ZH = {
     "Latest Regime": "当前宏观阶段",
     "Liquidity Overlay": "流动性环境",
     "Latest Date": "最新日期",
+    "System Update Date": "系统更新日期",
+    "Data Through Date": "数据截至日期",
+    "Latest Market-sensitive Input": "最新市场敏感输入",
+    "Nowcast Overlay": "实时偏移层",
     "Growth Score": "增长评分",
     "Inflation Score": "通胀评分",
     "Liquidity Score": "流动性评分",
@@ -289,6 +294,10 @@ TEXT_MAP_ZH = {
     "No global summary data available for the selected mode yet.": "当前所选模式下暂无全球汇总数据。",
     "Selected Mode": "当前模式",
     "Summary Date": "汇总日期",
+    "System Update Date": "系统更新日期",
+    "Data Through Date": "数据截至日期",
+    "Latest Market-sensitive Input": "最新市场敏感输入",
+    "Nowcast Overlay": "实时偏移层",
     "Latest Global Regime": "当前全球宏观阶段",
     "Investment Clock": "投资时钟",
     "Coverage Ratio": "覆盖率",
@@ -334,6 +343,11 @@ TEXT_MAP_ZH = {
     "No confidence bucket summary": "暂无置信度分桶汇总",
     "No prior snapshot is available yet for this mode.": "当前模式暂时还没有上一条可比快照。",
     "China valuation is proxy-based: HS300 PE/PB when available, plus real yield and term spread proxies.": "中国估值为代理指标口径：优先使用沪深300市盈率/市净率代理，并辅以实际收益率与期限利差代理。",
+    "The system was refreshed on {system_date}. The macro regime is still based on data through {data_date}.": "系统已于 {system_date} 刷新，但宏观阶段仍基于截至 {data_date} 的数据。",
+    "{country} has fresher market-sensitive inputs through {market_date} ({series}), while the macro regime still runs through {data_date}.": "{country} 的市场敏感输入已更新到 {market_date}（{series}），但宏观阶段仍截至 {data_date}。",
+    "No fresher market-sensitive inputs were found beyond the current macro snapshot.": "当前没有比主模型更晚的市场敏感输入。",
+    "Global macro state is based on data through {data_date}, while fresher market-sensitive inputs are available through {market_date} ({details}).": "全球宏观主状态截至 {data_date}，但更高频的市场敏感输入已更新到 {market_date}（{details}）。",
+    "Global macro state and the latest market-sensitive inputs are aligned at the same date.": "全球宏观主状态与最新市场敏感输入日期一致。",
 }
 REGION_MAP_ZH = {"North America": "北美", "Europe": "欧洲", "Asia": "亚洲"}
 FREE_TEXT_LABEL_MAP_ZH = {
@@ -656,6 +670,14 @@ def format_display_value(value: object, missing_label: str = "No data") -> str:
     return str(value)
 
 
+def _format_optional_date(value: object) -> str:
+    """Format an optional timestamp or date for dashboard metrics."""
+    timestamp = pd.to_datetime(value, errors="coerce")
+    if pd.isna(timestamp):
+        return tr("No data")
+    return timestamp.date().isoformat()
+
+
 def format_entity_name(value: object) -> str:
     """Format change-log entity names into readable display labels."""
     return humanize_label(value)
@@ -828,6 +850,9 @@ def render_country_view(country: str) -> None:
     latest_valuation = valuation_data.iloc[-1] if not valuation_data.empty else pd.Series(dtype="object")
     latest_assets = asset_data.iloc[-1] if not asset_data.empty else pd.Series(dtype="object")
     latest_date = pd.Timestamp(latest["date"])
+    nowcast_overlay = build_country_nowcast_overlay(country, latest_date)
+    system_update_date = _format_optional_date(nowcast_overlay["system_update_timestamp"])
+    market_input_date = _format_optional_date(nowcast_overlay["freshest_market_date"])
 
     if (pd.Timestamp.utcnow().tz_localize(None) - latest_date).days > 180:
         st.warning(
@@ -838,10 +863,40 @@ def render_country_view(country: str) -> None:
             )
         )
 
-    top_left, top_mid, top_right = st.columns(3)
+    top_left, top_mid, top_right, top_far_right = st.columns(4)
     top_left.metric(tr("Latest Regime"), humanize_label(latest.get("regime")))
     top_mid.metric(tr("Liquidity Overlay"), humanize_label(latest.get("liquidity_regime")))
-    top_right.metric(tr("Latest Date"), pd.Timestamp(latest["date"]).date().isoformat())
+    top_right.metric(tr("System Update Date"), system_update_date)
+    top_far_right.metric(tr("Data Through Date"), pd.Timestamp(latest["date"]).date().isoformat())
+
+    st.subheader(tr("Nowcast Overlay"))
+    overlay_left, overlay_mid = st.columns(2)
+    overlay_left.metric(tr("Latest Market-sensitive Input"), market_input_date)
+    overlay_mid.metric(
+        tr("Source"),
+        ", ".join(humanize_label(item) for item in nowcast_overlay["freshest_market_series"])
+        if nowcast_overlay["freshest_market_series"]
+        else tr("No data"),
+    )
+    if nowcast_overlay["has_newer_market_input"]:
+        st.info(
+            tr(
+                "{country} has fresher market-sensitive inputs through {market_date} ({series}), while the macro regime still runs through {data_date}.",
+                country=country_label,
+                market_date=market_input_date,
+                series=", ".join(humanize_label(item) for item in nowcast_overlay["freshest_market_series"]),
+                data_date=latest_date.date().isoformat(),
+            )
+        )
+    else:
+        st.caption(
+            tr(
+                "The system was refreshed on {system_date}. The macro regime is still based on data through {data_date}.",
+                system_date=system_update_date,
+                data_date=latest_date.date().isoformat(),
+            )
+        )
+        st.caption(tr("No fresher market-sensitive inputs were found beyond the current macro snapshot."))
 
     score_left, score_mid, score_right = st.columns(3)
     score_left.metric(tr("Growth Score"), f"{latest.get('growth_score', float('nan')):.2f}")
@@ -1154,23 +1209,54 @@ def render_global_view() -> None:
         return
     latest = mode_summary.iloc[-1]
     status_table = build_country_status(mode=mode)
+    country_regime_dates = {
+        country: latest.get(f"{country}_latest_date") for country in get_supported_countries()
+    }
+    global_overlay = build_global_nowcast_overlay(latest.get("summary_date"), country_regime_dates)
+    system_update_date = _format_optional_date(global_overlay["system_update_timestamp"])
+    market_input_date = _format_optional_date(global_overlay["freshest_market_date"])
 
     if latest.get("global_regime") == "partial_view":
         st.warning(translate_runtime_text(latest.get("coverage_warning")))
-    top_left, top_mid, top_right = st.columns(3)
+    top_left, top_mid, top_right, top_far_right = st.columns(4)
     top_left.metric(tr("Selected Mode"), humanize_label(mode))
-    top_mid.metric(tr("Summary Date"), format_display_value(
+    top_mid.metric(tr("System Update Date"), system_update_date)
+    top_right.metric(tr("Data Through Date"), format_display_value(
         pd.Timestamp(latest["summary_date"]).date().isoformat()
         if pd.notna(latest.get("summary_date"))
         else None
     ))
-    top_right.metric(tr("Latest Global Regime"), humanize_label(latest.get("global_regime")))
-    metric_left, metric_mid = st.columns(2)
+    top_far_right.metric(tr("Latest Global Regime"), humanize_label(latest.get("global_regime")))
+    metric_left, metric_mid, metric_right = st.columns(3)
     metric_left.metric(
         tr("Investment Clock"),
         humanize_label(latest.get("investment_clock", latest.get("global_investment_clock"))),
     )
     metric_mid.metric(tr("Coverage Ratio"), f"{float(latest.get('coverage_ratio', 0.0)):.2f}")
+    metric_right.metric(tr("Latest Market-sensitive Input"), market_input_date)
+
+    st.subheader(tr("Nowcast Overlay"))
+    if global_overlay["countries_with_newer_inputs"]:
+        st.info(
+            tr(
+                "Global macro state is based on data through {data_date}, while fresher market-sensitive inputs are available through {market_date} ({details}).",
+                data_date=_format_optional_date(latest.get("summary_date")),
+                market_date=market_input_date,
+                details=", ".join(
+                    f"{humanize_label(item.split(':', 1)[0])}:{humanize_label(item.split(':', 1)[1])}"
+                    for item in global_overlay["freshest_market_sources"]
+                ),
+            )
+        )
+    else:
+        st.caption(
+            tr(
+                "The system was refreshed on {system_date}. The macro regime is still based on data through {data_date}.",
+                system_date=system_update_date,
+                data_date=_format_optional_date(latest.get("summary_date")),
+            )
+        )
+        st.caption(tr("Global macro state and the latest market-sensitive inputs are aligned at the same date."))
 
     coverage_left, coverage_mid = st.columns(2)
     coverage_left.metric(tr("Available Countries"), format_country_list(latest.get("countries_available")))
