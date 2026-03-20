@@ -135,6 +135,63 @@ The dashboard now supports country views and a global view. Country pages show t
 pytest
 ```
 
+## Streamlit Deployment And Automatic Refresh
+
+This project can be deployed to Streamlit Community Cloud and refreshed automatically through GitHub Actions.
+
+### Deploy to Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. Open [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Create an app from your repository.
+4. Use this entrypoint:
+
+```text
+app/dashboard/app.py
+```
+
+### Streamlit secrets
+
+In your Streamlit app settings, add these root-level secrets:
+
+```toml
+FRED_API_KEY = "your_fred_api_key"
+ECB_API_BASE = "https://data-api.ecb.europa.eu/service/data"
+EUROSTAT_API_BASE = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
+OECD_API_BASE = "https://sdmx.oecd.org/public/rest/data"
+APP_ENV = "production"
+REQUEST_TIMEOUT = "15"
+DUCKDB_PATH = "data/processed/global_macro.duckdb"
+```
+
+`TUSHARE_TOKEN` is optional in the current setup because the China pipeline is AkShare-first.
+
+### GitHub Actions automatic refresh
+
+The repository includes a workflow at `.github/workflows/refresh-monitor.yml`.
+
+It runs:
+
+```bash
+python main.py refresh-monitor
+pytest
+```
+
+on a daily schedule and can also be run manually from the GitHub Actions page.
+
+To enable it, add these GitHub repository secrets:
+
+- `FRED_API_KEY`
+- `TUSHARE_TOKEN` (optional)
+
+The workflow:
+
+- refreshes US, China, and Eurozone data
+- rebuilds macro, valuation, allocation, and consensus outputs
+- commits updated data files back to `main`
+
+Once GitHub pushes new data files, Streamlit Community Cloud will redeploy and show the latest results.
+
 ## Valuation And Asset Mapping
 
 Macro regime alone is often not enough for investment interpretation. The same `goldilocks` or `slowdown` regime can imply very different asset decisions when equities are already expensive or when real yields are unusually restrictive.
