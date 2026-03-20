@@ -1,0 +1,4 @@
+scope,regime,observations,transition_count,asset,avg_next_1m,avg_next_3m,avg_next_6m,note
+global,partial_view,869,3,,,,,No proxy return series available.
+global,reflation,1,3,,,,,No proxy return series available.
+global,goldilocks,1,3,,,,,No proxy return series available.

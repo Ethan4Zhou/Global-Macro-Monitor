@@ -1,0 +1,320 @@
+countries:
+  us:
+    macro:
+      - key: cpi
+        name: Headline CPI
+        source: fred
+        series_id: cpi
+        source_series_id: CPIAUCSL
+        category: inflation
+        frequency: monthly
+        transform: yoy
+      - key: core_cpi
+        name: Core CPI
+        source: fred
+        series_id: core_cpi
+        source_series_id: CPILFESL
+        category: inflation
+        frequency: monthly
+        transform: yoy
+      - key: unrate
+        name: Unemployment Rate
+        source: fred
+        series_id: unrate
+        source_series_id: UNRATE
+        category: growth
+        frequency: monthly
+        transform: level
+      - key: policy_rate
+        name: Federal Funds Effective Rate
+        source: fred
+        series_id: policy_rate
+        source_series_id: FEDFUNDS
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+      - key: yield_10y
+        name: 10Y Treasury Yield
+        source: fred
+        series_id: yield_10y
+        source_series_id: GS10
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+      - key: m2
+        name: M2 Money Stock
+        source: fred
+        series_id: m2
+        source_series_id: M2SL
+        category: liquidity
+        frequency: monthly
+        transform: yoy
+    valuation:
+      - key: buffett_indicator
+        name: Buffett Indicator
+        source: manual
+        series_id: buffett_indicator
+        source_series_id: buffett_indicator
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: real_yield
+        name: Real Yield
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: term_spread
+        name: Term Spread
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: equity_risk_proxy
+        name: Equity Risk Proxy
+        source: manual
+        series_id: equity_risk_proxy
+        source_series_id: equity_risk_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: credit_spread_proxy
+        name: Credit Spread Proxy
+        source: manual
+        series_id: credit_spread_proxy
+        source_series_id: credit_spread_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+  china:
+    macro:
+      - key: cpi
+        name: China CPI
+        source: china_akshare
+        series_id: cpi
+        source_series_id: cpi
+        source_hint: consumer_price_index
+        category: inflation
+        frequency: monthly
+        transform: yoy
+        fallback_source: china_nbs
+        required_for_minimum_regime: true
+      - key: pmi
+        name: China PMI
+        source: china_akshare
+        series_id: pmi
+        source_series_id: pmi
+        source_hint: manufacturing_pmi
+        category: growth
+        frequency: monthly
+        transform: level
+        fallback_source: china_nbs
+        required_for_minimum_regime: true
+      - key: industrial_production
+        name: China Industrial Production
+        source: china_akshare
+        series_id: industrial_production
+        source_series_id: industrial_production
+        source_hint: industrial_output
+        category: growth
+        frequency: monthly
+        transform: yoy
+        fallback_source: china_nbs
+        required_for_minimum_regime: false
+      - key: policy_rate
+        name: China Short-Rate Proxy
+        source: china_akshare
+        series_id: policy_rate
+        source_series_id: policy_rate
+        source_hint: fr007_proxy
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+        fallback_source: china_rates
+        required_for_minimum_regime: true
+      - key: yield_10y
+        name: China 10Y Yield Proxy
+        source: china_akshare
+        series_id: yield_10y
+        source_series_id: yield_10y
+        source_hint: cgb_10y_proxy
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+        fallback_source: china_rates
+        required_for_minimum_regime: true
+      - key: m2
+        name: China M2
+        source: china_akshare
+        series_id: m2
+        source_series_id: m2
+        source_hint: money_supply_m2
+        category: liquidity
+        frequency: monthly
+        transform: yoy
+        fallback_source: china_nbs
+        required_for_minimum_regime: false
+      - key: core_cpi
+        name: China Core CPI
+        source: china_nbs
+        series_id: core_cpi
+        source_series_id: core_cpi
+        source_hint: core_cpi
+        category: inflation
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: false
+      - key: unrate
+        name: China Unemployment Rate
+        source: china_akshare
+        series_id: unrate
+        source_series_id: unrate
+        source_hint: urban_unemployment
+        category: growth
+        frequency: monthly
+        transform: level
+        fallback_source: imf
+        required_for_minimum_regime: false
+    valuation:
+      - key: hs300_pe_proxy
+        name: HS300 PE Proxy
+        source: china_akshare
+        series_id: hs300_pe_proxy
+        source_series_id: hs300_pe_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+        fallback_source: manual
+      - key: hs300_pb_proxy
+        name: HS300 PB Proxy
+        source: china_akshare
+        series_id: hs300_pb_proxy
+        source_series_id: hs300_pb_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+        fallback_source: manual
+      - key: real_yield
+        name: China Real Yield Proxy
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: term_spread
+        name: China Term Spread Proxy
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level
+  eurozone:
+    macro:
+      - key: cpi
+        name: Eurozone HICP
+        source: eurozone_eurostat
+        series_id: cpi
+        source_series_id: prc_hicp_manr?geo=EA20&coicop=CP00&unit=RCH_A&freq=M
+        category: inflation
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: true
+      - key: growth_proxy
+        name: Eurozone Growth Proxy
+        source: eurozone_eurostat
+        series_id: growth_proxy
+        source_series_id: sts_inpr_m?geo=EA20&indic_bt=PRD&nace_r2=B-D&s_adj=SCA&unit=I21&freq=M
+        category: growth
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: true
+      - key: policy_rate
+        name: ECB Deposit Facility Proxy
+        source: eurozone_ecb
+        series_id: policy_rate
+        source_series_id: FM/D.U2.EUR.4F.KR.DFR.LEV
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+        fallback_source: manual
+        required_for_minimum_regime: true
+      - key: yield_10y
+        name: Eurozone 10Y Yield Proxy
+        source: eurozone_ecb
+        series_id: yield_10y
+        source_series_id: FM/M.U2.EUR.4F.BB.U2_10Y.YLD
+        category: rates
+        frequency: monthly
+        transform: diff_3m
+        fallback_source: manual
+        required_for_minimum_regime: true
+      - key: industrial_production
+        name: Eurozone Industrial Production
+        source: eurozone_eurostat
+        series_id: industrial_production
+        source_series_id: sts_inpr_m?geo=EA20&indic_bt=PRD&nace_r2=B-D&s_adj=SCA&unit=I21&freq=M
+        category: growth
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: false
+      - key: core_cpi
+        name: Eurozone Core HICP
+        source: eurozone_eurostat
+        series_id: core_cpi
+        source_series_id: prc_hicp_manr?geo=EA20&coicop=TOT_X_NRG_FOOD&unit=RCH_A&freq=M
+        category: inflation
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: false
+      - key: unrate
+        name: Eurozone Unemployment Rate
+        source: eurozone_eurostat
+        series_id: unrate
+        source_series_id: une_rt_m?geo=EA20&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&freq=M
+        category: growth
+        frequency: monthly
+        transform: level
+        fallback_source: manual
+        required_for_minimum_regime: false
+      - key: m3
+        name: Eurozone M3
+        source: eurozone_ecb
+        series_id: m3
+        source_series_id: BSI/M.U2.Y.V.M30.X.1.U2.2300.Z01.E
+        category: liquidity
+        frequency: monthly
+        transform: yoy
+        fallback_source: manual
+        required_for_minimum_regime: false
+    valuation:
+      - key: equity_pe_proxy
+        name: Eurozone Equity PE Proxy
+        source: manual
+        series_id: equity_pe_proxy
+        source_series_id: equity_pe_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: equity_pb_proxy
+        name: Eurozone Equity PB Proxy
+        source: manual
+        series_id: equity_pb_proxy
+        source_series_id: equity_pb_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: real_yield
+        name: Eurozone Real Yield
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: term_spread
+        name: Eurozone Term Spread
+        source: derived
+        category: valuation
+        frequency: monthly
+        transform: level

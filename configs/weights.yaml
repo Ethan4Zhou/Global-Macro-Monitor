@@ -1,0 +1,14 @@
+weights:
+  growth:
+    pmi: 0.4
+    unemployment_rate: -0.3
+    m2: 0.3
+  inflation:
+    cpi: 0.5
+    core_cpi: 0.5
+  policy:
+    policy_rate: -0.6
+    yield_10y: -0.4
+  markets:
+    equity_index: 0.5
+    market_cap_to_gdp: -0.5

@@ -1,0 +1,13 @@
+countries:
+  us:
+    display_name: United States
+    currency: USD
+    region: North America
+  china:
+    display_name: China
+    currency: CNY
+    region: Asia
+  eurozone:
+    display_name: Eurozone
+    currency: EUR
+    region: Europe

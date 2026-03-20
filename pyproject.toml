@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "global-macro-monitor"
+version = "0.1.0"
+description = "A global macro monitoring system for investment research."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "akshare>=1.18.40",
+    "duckdb>=1.1.0",
+    "pandas>=2.2.0",
+    "plotly>=5.24.0",
+    "pydantic>=2.8.0",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.0",
+    "streamlit>=1.39.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+]
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

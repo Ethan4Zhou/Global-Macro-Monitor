@@ -1,0 +1,4 @@
+region,snapshot_date,growth_consensus,inflation_consensus,policy_bias_consensus,consensus_confidence,source_count,source_recency_score,latest_note_date,growth_reason,inflation_reason,policy_reason
+china,2026-03-16,neutral,neutral,hawkish,medium,3,0.7833333333333333,2026-03-16,Growth consensus leans neutral based on 3 recent notes.,Inflation consensus leans neutral based on 3 recent notes.,Policy consensus leans hawkish based on 3 recent notes.
+eurozone,2026-03-19,neutral,neutral,neutral,high,22,0.8481818181818181,2026-03-19,Growth consensus leans neutral based on 22 recent notes.,Inflation consensus leans neutral based on 22 recent notes.,Policy consensus leans neutral based on 22 recent notes.
+us,2026-03-18,neutral,neutral,neutral,medium,15,0.676,2026-03-18,Growth consensus leans neutral based on 15 recent notes.,Inflation consensus leans neutral based on 15 recent notes.,Policy consensus leans neutral based on 15 recent notes.

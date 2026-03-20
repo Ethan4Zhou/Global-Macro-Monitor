@@ -1,0 +1,11 @@
+series_id,source_used,row_count,latest_date,required_for_minimum_regime,status,ingested_at
+cpi,china_akshare,218,2026-02-01,True,ready,2026-03-20 07:04:00.572784+00:00
+pmi,china_akshare,218,2026-02-01,True,ready,2026-03-20 07:04:00.572784+00:00
+industrial_production,china_akshare,404,2025-08-01,False,ready,2026-03-20 07:04:00.572784+00:00
+policy_rate,china_akshare,12,2026-03-01,True,ready,2026-03-20 07:04:00.572784+00:00
+yield_10y,china_akshare,13,2026-03-01,True,ready,2026-03-20 07:04:00.572784+00:00
+m2,china_akshare,330,2025-08-01,False,ready,2026-03-20 07:04:00.572784+00:00
+core_cpi,china_nbs,0,,False,missing,2026-03-20 07:04:00.572784+00:00
+unrate,imf,0,,False,missing,2026-03-20 07:04:00.572784+00:00
+hs300_pe_proxy,china_akshare,252,2026-03-01,False,ready,2026-03-20 07:04:00.572784+00:00
+hs300_pb_proxy,china_akshare,252,2026-03-01,False,ready,2026-03-20 07:04:00.572784+00:00
