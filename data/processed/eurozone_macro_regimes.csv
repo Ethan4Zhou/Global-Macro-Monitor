@@ -5,7 +5,7 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1970-04-01,eurozone,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
 1970-05-01,eurozone,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
 1970-06-01,eurozone,,,-0.42547960987510397,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1970-07-01,eurozone,,,1.6552048525916014,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1970-07-01,eurozone,,,1.6552048525916019,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1970-08-01,eurozone,,,1.901566218021009,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1970-09-01,eurozone,,,1.9711079964173777,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1970-10-01,eurozone,,,0.9663775413974665,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
@@ -77,89 +77,89 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1976-04-01,eurozone,,,-1.1552597915137417,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1976-05-01,eurozone,,,-1.7312048753332525,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1976-06-01,eurozone,,,-2.05010025570481,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1976-07-01,eurozone,,,-0.6343641188692144,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1976-07-01,eurozone,,,-0.6343641188692143,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1976-08-01,eurozone,,,-0.6510606739590175,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1976-09-01,eurozone,,,0.2252370105412173,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1976-10-01,eurozone,,,-0.7799494121539107,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1976-11-01,eurozone,,,0.3753646810882456,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1976-10-01,eurozone,,,-0.7799494121539106,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1976-11-01,eurozone,,,0.37536468108824556,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1976-12-01,eurozone,,,0.28231847327276327,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1977-01-01,eurozone,,,0.8617044399322609,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1977-02-01,eurozone,,,0.34320761428315455,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1977-01-01,eurozone,,,0.8617044399322606,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1977-02-01,eurozone,,,0.3432076142831545,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1977-03-01,eurozone,,,0.5811140879497889,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1977-04-01,eurozone,,,0.3665189407625501,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1977-04-01,eurozone,,,0.36651894076255004,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1977-05-01,eurozone,,,0.728061255406785,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1977-06-01,eurozone,,,0.3501541136279626,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1977-06-01,eurozone,,,0.35015411362796256,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1977-07-01,eurozone,,,0.5876606869704514,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1977-08-01,eurozone,,,0.4550706382758714,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1977-09-01,eurozone,,,0.7978770974666742,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1977-08-01,eurozone,,,0.45507063827587135,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1977-09-01,eurozone,,,0.7978770974666741,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1977-10-01,eurozone,,,0.5363635351849629,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1977-11-01,eurozone,,,0.5332315719645848,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1977-12-01,eurozone,,,0.43362492142137654,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1978-01-01,eurozone,,,0.9967296924314505,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1978-02-01,eurozone,,,0.8310192490047437,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1978-03-01,eurozone,,,1.014980147375919,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1978-04-01,eurozone,,,0.85590497097293,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1978-05-01,eurozone,,,0.4740424500113156,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1978-01-01,eurozone,,,0.9967296924314504,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1978-02-01,eurozone,,,0.8310192490047436,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1978-03-01,eurozone,,,1.0149801473759188,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1978-04-01,eurozone,,,0.8559049709729298,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1978-05-01,eurozone,,,0.47404245001131556,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1978-06-01,eurozone,,,0.3727728121686641,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1978-07-01,eurozone,,,-0.018875943287039468,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1978-08-01,eurozone,,,0.4740417217918226,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1978-09-01,eurozone,,,-0.027684872708409133,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1978-10-01,eurozone,,,-0.5422887643000812,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1978-11-01,eurozone,,,-0.8152510019004974,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1978-12-01,eurozone,,,0.07098232641785276,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1978-12-01,eurozone,,,0.07098232641785275,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1979-01-01,eurozone,,,0.7061709166402739,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1979-02-01,eurozone,,,0.47754392230051035,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1979-03-01,eurozone,,,-0.35166276049986356,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1979-04-01,eurozone,,,-0.7698359092538748,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1979-04-01,eurozone,,,-0.7698359092538747,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1979-05-01,eurozone,,,-1.2315514498795657,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1979-06-01,eurozone,,,-1.56325968843702,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1979-06-01,eurozone,,,-1.5632596884370198,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1979-07-01,eurozone,,,-1.6158844526419942,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1979-08-01,eurozone,,,-0.9928868577811617,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1979-09-01,eurozone,,,-0.6067087170769293,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1979-09-01,eurozone,,,-0.6067087170769292,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1979-10-01,eurozone,,,-0.7418041838641941,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1979-11-01,eurozone,,,-1.3923709652074097,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1979-12-01,eurozone,,,-1.9862503742953144,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1980-01-01,eurozone,,,-1.6783550511952425,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1980-02-01,eurozone,,,-2.464954331266285,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1979-11-01,eurozone,,,-1.3923709652074094,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1979-12-01,eurozone,,,-1.9862503742953141,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1980-01-01,eurozone,,,-1.6783550511952423,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1980-02-01,eurozone,,,-2.4649543312662847,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1980-03-01,eurozone,,,-3.216810317227823,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1980-04-01,eurozone,,,-2.5902050231118707,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1980-05-01,eurozone,,,-0.17880741437223216,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1980-06-01,eurozone,,,1.8445819113569228,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1980-05-01,eurozone,,,-0.17880741437223213,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1980-06-01,eurozone,,,1.8445819113569226,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1980-07-01,eurozone,,,1.4744954654164615,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1980-08-01,eurozone,,,0.538771032652731,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1980-08-01,eurozone,,,0.5387710326527309,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1980-09-01,eurozone,,,-0.6586736198772948,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1980-10-01,eurozone,,,-1.4221326871680147,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1980-10-01,eurozone,,,-1.4221326871680144,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1980-11-01,eurozone,,,-1.6762938371240057,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1980-12-01,eurozone,,,-0.7268529810723107,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1980-12-01,eurozone,,,-0.7268529810723106,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1981-01-01,eurozone,,,-0.14540537044646049,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1981-02-01,eurozone,,,-1.1334238665721825,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1981-03-01,eurozone,,,-0.8518646572689066,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1981-04-01,eurozone,,,-0.40349455968577175,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1981-05-01,eurozone,,,-0.6368138063318047,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1981-04-01,eurozone,,,-0.4034945596857715,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1981-05-01,eurozone,,,-0.6368138063318045,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1981-06-01,eurozone,,,-0.7060540511004023,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1981-07-01,eurozone,,,-1.0394314975545735,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1981-08-01,eurozone,,,-0.573437305881075,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1981-09-01,eurozone,,,-0.004583359737963977,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1981-08-01,eurozone,,,-0.5734373058810749,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1981-09-01,eurozone,,,-0.004583359737963921,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1981-10-01,eurozone,,,-0.12183187882910468,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1981-11-01,eurozone,,,-0.6404208034412155,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1981-12-01,eurozone,,,0.4863125526291365,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1981-12-01,eurozone,,,0.48631255262913636,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1982-01-01,eurozone,,,0.6730030264534314,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1982-02-01,eurozone,,,0.3386629360046488,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1982-03-01,eurozone,,,0.6302412825792737,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1982-03-01,eurozone,,,0.6302412825792736,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1982-04-01,eurozone,,,0.5938393599699183,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1982-05-01,eurozone,,,-0.05339358049182885,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1982-06-01,eurozone,,,0.3884977313033438,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1982-06-01,eurozone,,,0.38849773130334375,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1982-07-01,eurozone,,,0.46797630496378334,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1982-08-01,eurozone,,,1.677329906425288,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1982-09-01,eurozone,,,1.7419699169435887,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1982-10-01,eurozone,,,1.6598826702434726,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1982-10-01,eurozone,,,1.6598826702434724,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1982-11-01,eurozone,,,1.2411860425228842,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1982-12-01,eurozone,,,1.7848235851681278,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1982-12-01,eurozone,,,1.7848235851681276,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1983-01-01,eurozone,,,1.3194194853593983,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1983-02-01,eurozone,,,1.091425621338585,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1983-03-01,eurozone,,,0.05218702277710974,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1983-04-01,eurozone,,,-0.27756164603051264,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1983-05-01,eurozone,,,-0.34335208504748405,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1983-03-01,eurozone,,,0.052187022777109626,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1983-04-01,eurozone,,,-0.2775616460305127,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1983-05-01,eurozone,,,-0.3433520850474841,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1983-06-01,eurozone,,,-1.353857167905587,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1983-07-01,eurozone,,,-1.2356910315394332,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1983-08-01,eurozone,,,-1.3094042026291617,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
@@ -168,34 +168,34 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1983-11-01,eurozone,,,-0.8979932738511602,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1983-12-01,eurozone,,,-0.7671087915646781,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1984-01-01,eurozone,,,-0.6350311141837492,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1984-02-01,eurozone,,,-0.38175153941303486,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1984-03-01,eurozone,,,-0.32773071316974345,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-02-01,eurozone,,,-0.38175153941303497,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-03-01,eurozone,,,-0.32773071316974356,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1984-04-01,eurozone,,,-0.5314944164337926,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1984-05-01,eurozone,,,-0.7576227775666922,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1984-06-01,eurozone,,,-0.81595470808847,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1984-07-01,eurozone,,,-0.6042133220177922,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1984-08-01,eurozone,,,-0.21759332777945894,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1984-09-01,eurozone,,,0.011491277569753877,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1984-10-01,eurozone,,,0.20431530420044375,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1984-11-01,eurozone,,,0.2112293523209694,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1984-12-01,eurozone,,,0.32976416895178606,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1985-01-01,eurozone,,,0.3920982337356709,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1985-02-01,eurozone,,,0.33192790758087914,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-08-01,eurozone,,,-0.21759332777945906,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-09-01,eurozone,,,0.011491277569753766,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-10-01,eurozone,,,0.20431530420044353,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-11-01,eurozone,,,0.2112293523209693,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1984-12-01,eurozone,,,0.32976416895178584,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1985-01-01,eurozone,,,0.39209823373567076,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1985-02-01,eurozone,,,0.33192790758087903,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1985-03-01,eurozone,,,0.04378868688917706,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1985-04-01,eurozone,,,-0.22291614878354984,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1985-04-01,eurozone,,,-0.22291614878354987,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1985-05-01,eurozone,,,-0.3836631180356489,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1985-06-01,eurozone,,,-0.3106341450270652,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1985-07-01,eurozone,,,-0.5476312168697487,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1985-07-01,eurozone,,,-0.5476312168697488,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1985-08-01,eurozone,,,-0.6353500280583946,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1985-09-01,eurozone,,,-0.626061201829085,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1985-10-01,eurozone,,,-0.4204651302923713,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1985-10-01,eurozone,,,-0.4204651302923714,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1985-11-01,eurozone,,,-0.489280352880998,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1985-12-01,eurozone,,,-0.2875587395091253,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1986-01-01,eurozone,,,-0.3348526528289154,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1985-12-01,eurozone,,,-0.28755873950912536,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1986-01-01,eurozone,,,-0.3348526528289155,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1986-02-01,eurozone,,,-0.6626108417786816,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1986-03-01,eurozone,,,0.06837504930962435,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1986-04-01,eurozone,,,0.2777832348888165,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1986-05-01,eurozone,,,0.6426659676934048,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1986-03-01,eurozone,,,0.06837504930962424,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1986-04-01,eurozone,,,0.2777832348888163,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1986-05-01,eurozone,,,0.6426659676934046,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1986-06-01,eurozone,,,-0.012338875465559451,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1986-07-01,eurozone,,,-0.6198525932328673,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1986-08-01,eurozone,,,-0.6576109467858864,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
@@ -208,74 +208,74 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1987-03-01,eurozone,,,-0.7219185946193769,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1987-04-01,eurozone,,,-0.45268821894032296,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1987-05-01,eurozone,,,-0.5451128065529773,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1987-06-01,eurozone,,,-0.8096308939196306,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1987-07-01,eurozone,,,-1.0834098606471771,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1987-06-01,eurozone,,,-0.8096308939196304,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1987-07-01,eurozone,,,-1.083409860647177,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1987-08-01,eurozone,,,-1.1935733120469498,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1987-09-01,eurozone,,,-1.2257357093136345,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1987-10-01,eurozone,,,-1.2512147066325652,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1987-11-01,eurozone,,,-0.27467581745943065,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1987-12-01,eurozone,,,0.09301134002929945,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1987-12-01,eurozone,,,0.0930113400292994,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-01-01,eurozone,,,0.48247529788725535,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-02-01,eurozone,,,0.22564591075995155,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-03-01,eurozone,,,0.09648970931437884,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1988-04-01,eurozone,,,0.06929287891910613,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1988-04-01,eurozone,,,0.06929287891910607,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-05-01,eurozone,,,-0.3626598047732313,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-06-01,eurozone,,,-0.3712118457906951,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-07-01,eurozone,,,-0.4565925838565881,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-08-01,eurozone,,,-0.3478083050320048,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1988-09-01,eurozone,,,-0.42982300102232285,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1988-09-01,eurozone,,,-0.4298230010223228,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-10-01,eurozone,,,-0.16348611323738726,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1988-11-01,eurozone,,,-0.01937584703005557,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1988-11-01,eurozone,,,-0.0193758470300556,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1988-12-01,eurozone,,,-0.20516197065432148,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-01-01,eurozone,,,-0.36814726953312027,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1989-02-01,eurozone,,,-0.5320844232476271,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1989-02-01,eurozone,,,-0.532084423247627,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1989-03-01,eurozone,,,-0.3490662056740543,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-04-01,eurozone,,,-0.5199799212198168,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1989-05-01,eurozone,,,-0.31874699473289836,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1989-05-01,eurozone,,,-0.31874699473289825,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-06-01,eurozone,,,0.32827023759835117,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-07-01,eurozone,,,0.3237698810484929,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-08-01,eurozone,,,0.3902705774693508,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1989-09-01,eurozone,,,0.10871598205347827,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1989-10-01,eurozone,,,-0.21915608873866055,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1989-09-01,eurozone,,,0.10871598205347828,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1989-10-01,eurozone,,,-0.2191560887386605,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1989-11-01,eurozone,,,-0.5416318323549512,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1989-12-01,eurozone,,,-0.19652231518955943,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1989-12-01,eurozone,,,-0.19652231518955932,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1990-01-01,eurozone,,,-0.09358859312271561,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1990-02-01,eurozone,,,-0.38202574678811557,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1990-02-01,eurozone,,,-0.38202574678811546,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1990-03-01,eurozone,,,-0.8331694112579852,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1990-04-01,eurozone,,,-0.3483850427478318,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1990-04-01,eurozone,,,-0.34838504274783166,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1990-05-01,eurozone,,,0.13227207243425418,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1990-06-01,eurozone,,,1.6802767233927696,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1990-07-01,eurozone,,,1.4927566028594996,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1990-08-01,eurozone,,,0.9523197657366074,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1990-09-01,eurozone,,,0.7141999182189116,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1990-10-01,eurozone,,,0.6149837885521632,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1990-11-01,eurozone,,,1.0977550767539432,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1990-12-01,eurozone,,,1.338757247316114,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1990-11-01,eurozone,,,1.0977550767539435,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1990-12-01,eurozone,,,1.3387572473161142,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1991-01-01,eurozone,,,1.0891490081279782,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1991-02-01,eurozone,,,1.5212695868739323,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1991-02-01,eurozone,,,1.521269586873932,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1991-03-01,eurozone,,,1.4108604513313736,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1991-04-01,eurozone,,,1.6891967260390555,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1991-05-01,eurozone,-1.1184137772414238,,1.387176377032244,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1991-06-01,eurozone,0.48278309565477906,,-0.11004916322816183,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1991-05-01,eurozone,-1.1184137772414238,,1.3871763770322438,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1991-06-01,eurozone,0.48278309565477884,,-0.11004916322816188,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1991-07-01,eurozone,0.030133698836801476,,-0.5526695848834886,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1991-08-01,eurozone,-0.01690353620961546,,-0.6306537699514535,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1991-09-01,eurozone,-1.0368923603421318,,-0.44609482111210647,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1991-10-01,eurozone,0.07964494810105799,,-0.10629587137481927,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1991-11-01,eurozone,0.901476703769132,,-0.1314156335890932,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1991-12-01,eurozone,0.7517280082833948,,-0.3347162888401676,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1992-01-01,eurozone,1.269519608414341,,-0.3016468299995819,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-01-01,eurozone,1.2695196084143408,,-0.301646829999582,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1992-02-01,eurozone,1.2375826920854442,,-0.2916356208290424,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1992-03-01,eurozone,0.8312847078093176,,-0.1902003889482204,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1992-04-01,eurozone,0.5655123220730056,,-0.38200187958263043,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1992-05-01,eurozone,-0.3612673388140821,,-0.32416874279894253,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1992-06-01,eurozone,-1.133521914736032,,-0.575309618799595,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1992-07-01,eurozone,-1.5861733276872245,,-0.7806403868863105,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1992-04-01,eurozone,0.5655123220730057,,-0.38200187958263043,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-05-01,eurozone,-0.36126733881408196,,-0.32416874279894253,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-06-01,eurozone,-1.1335219147360318,,-0.575309618799595,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1992-07-01,eurozone,-1.5861733276872243,,-0.7806403868863105,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1992-08-01,eurozone,-1.467336869845716,,-1.0376100525674747,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1992-09-01,eurozone,-1.730494107235675,,-0.3254631560255028,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-09-01,eurozone,-1.7304941072356754,,-0.3254631560255028,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1992-10-01,eurozone,-1.2456497846805494,,-0.493539358094716,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1992-11-01,eurozone,-1.6363047373020232,,-0.05608971080451297,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1992-12-01,eurozone,-1.8578764575529743,,-0.43953418434940417,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1993-01-01,eurozone,-1.6939098801550712,,0.145473741904253,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-12-01,eurozone,-1.8578764575529743,,-0.4395341843494042,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-01-01,eurozone,-1.6939098801550714,,0.145473741904253,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1993-02-01,eurozone,-1.7256594354539814,,0.11807910184210113,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1993-03-01,eurozone,-1.1329380909424611,,0.6797007868663337,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1993-04-01,eurozone,-1.3501455533136502,,0.14814191121919656,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
@@ -283,44 +283,44 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1993-06-01,eurozone,-1.0822848409304082,,-0.22935588960593561,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1993-07-01,eurozone,-1.0035567218895582,,0.05455928866567539,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1993-08-01,eurozone,-0.4069375268393772,,0.47935118921259934,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1993-09-01,eurozone,-0.0012734100428831256,,0.15623046540896213,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-09-01,eurozone,-0.0012734100428831256,,0.1562304654089619,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1993-10-01,eurozone,0.18585302062301545,,0.22042696558028474,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1993-11-01,eurozone,-0.07117052771877574,,-0.365402779833061,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1993-12-01,eurozone,0.23587195021935758,,-0.2708673305459683,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1994-01-01,eurozone,0.1307986582314227,,-0.03623369402821863,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-11-01,eurozone,-0.07117052771877573,,-0.365402779833061,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-12-01,eurozone,0.23587195021935758,,-0.27086733054596834,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-01-01,eurozone,0.13079865823142275,,-0.036233694028218744,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1994-02-01,eurozone,0.7551809854763678,,-0.32778437272568706,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1994-03-01,eurozone,0.788491214557363,,-1.3155147709203168,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1994-04-01,eurozone,1.3067712399547735,,-1.9527905824200005,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1994-04-01,eurozone,1.3067712399547737,,-1.95279058242,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-05-01,eurozone,1.026427702038794,,-2.2080318742611422,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-06-01,eurozone,1.1914081079688459,,-2.3371441632088827,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-07-01,eurozone,0.9769120610121375,,-2.154467379846232,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1994-08-01,eurozone,0.8714169798127496,,-2.2605933353693874,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1994-08-01,eurozone,0.8714169798127496,,-2.260593335369388,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-09-01,eurozone,0.975878940076005,,-2.131216974073271,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-10-01,eurozone,1.2411422051217855,,-2.207775900031,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1994-11-01,eurozone,1.4445643111903805,,-1.9292438556633955,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1994-12-01,eurozone,1.616488057944944,,-1.660264692097526,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1995-01-01,eurozone,1.2207236479686905,,-1.7945440386934939,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1995-02-01,eurozone,0.9737703724314494,,-1.5379635017760724,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1994-12-01,eurozone,1.616488057944944,,-1.6602646920975261,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1995-01-01,eurozone,1.2207236479686905,,-1.794544038693494,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1995-02-01,eurozone,0.9737703724314494,,-1.5379635017760727,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-03-01,eurozone,0.6639963478522435,,-1.8539892204725554,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1995-04-01,eurozone,0.7970633329506943,,-1.4068259481295093,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1995-04-01,eurozone,0.7970633329506943,,-1.4068259481295096,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-05-01,eurozone,0.8752480452264187,,-0.8820585480199029,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-06-01,eurozone,0.7601996530981182,,-0.4952004689914986,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1995-07-01,eurozone,0.6011387619163407,,-0.6623498485878327,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-08-01,eurozone,0.4673088327041494,,-0.7581202081077891,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-09-01,eurozone,0.6577137057721264,,-0.5202072187378484,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1995-10-01,eurozone,0.19458872960143161,,-0.6752409192341877,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1995-10-01,eurozone,0.1945887296014316,,-0.6752409192341877,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-11-01,eurozone,0.23308360259263175,,-0.5043868191646022,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1995-12-01,eurozone,0.39116468006853716,,-0.005011630141276813,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1996-01-01,eurozone,0.47702231760615343,,0.5689139751091433,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 1996-02-01,eurozone,0.3817119986286477,,-0.055371267788207335,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1996-03-01,eurozone,-0.000599467490293761,,-0.5084955448160755,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-03-01,eurozone,-0.0005994674902937517,,-0.5084955448160756,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1996-04-01,eurozone,-0.14081044046557614,,-0.6721679957457118,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1996-05-01,eurozone,0.18597871477303873,,-0.3701510629019634,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1996-06-01,eurozone,0.2825739856693135,,-0.30192514186728264,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1996-06-01,eurozone,0.2825739856693135,,-0.30192514186728275,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1996-07-01,eurozone,0.1840011440684003,,-0.3469941314987086,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1996-08-01,eurozone,0.36766669598465446,,-0.43871600902363317,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1996-09-01,eurozone,0.29183222998670494,,-0.231989518777812,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1996-10-01,eurozone,0.5937905407207541,,0.05589197279306968,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1996-09-01,eurozone,0.2918322299867049,,-0.231989518777812,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1996-10-01,eurozone,0.5937905407207541,,0.055891972793069566,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1996-11-01,eurozone,0.4776640277943942,,0.1683305730176351,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1996-12-01,eurozone,0.3354696839179006,,0.016606856484206234,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1997-01-01,eurozone,0.5331423853223457,,-0.43782397689250985,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
@@ -329,348 +329,348 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 1997-04-01,eurozone,1.5958662088868774,,-1.13964618892316,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1997-05-01,eurozone,1.0318805972544862,,-0.9756992715554973,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1997-06-01,eurozone,1.3900972175632118,,-0.5113046280803902,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1997-07-01,eurozone,1.508023834709172,,-0.11925362734318967,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1997-07-01,eurozone,1.508023834709172,,-0.11925362734318956,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1997-08-01,eurozone,1.6767067419631487,,-0.5492192406026268,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1997-09-01,eurozone,1.1327095521532098,,-0.32689190425908154,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1997-10-01,eurozone,1.5146929436299577,,-0.6057136923067995,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-09-01,eurozone,1.1327095521532098,,-0.32689190425908143,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1997-10-01,eurozone,1.5146929436299577,,-0.6057136923067994,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1997-11-01,eurozone,1.4093305718849374,,-0.3098399210398298,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1997-12-01,eurozone,1.7615327887104169,,-0.47715674987008494,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1997-12-01,eurozone,1.7615327887104169,,-0.47715674987008483,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-01-01,eurozone,1.4184348747645903,,-0.02307036161323217,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-02-01,eurozone,1.6026299472419911,,-0.10029083035286662,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1998-02-01,eurozone,1.6026299472419911,,-0.10029083035286651,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-03-01,eurozone,1.2524574465980673,,-0.09734379272804994,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-04-01,eurozone,1.2183817149215734,,-0.2300670191512504,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1998-04-01,eurozone,1.2183817149215734,,-0.23006701915125014,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-05-01,eurozone,1.3410016138827479,,-0.46301346195081067,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-06-01,eurozone,0.9433642010602243,,-0.42034146808575756,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-07-01,eurozone,1.1990053692869964,,-0.33875857161304196,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-08-01,eurozone,0.5415936043944783,,-0.008042503905448972,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-09-01,eurozone,0.77041831713521,,0.07462292502651668,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1998-09-01,eurozone,0.7704183171352103,,0.0746229250265168,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-10-01,eurozone,0.3199032943220323,,0.06984566513688806,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1998-11-01,eurozone,0.579205618211123,,-0.18067939985406162,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-12-01,eurozone,0.11556441464211901,,-0.28658108609399024,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1998-12-01,eurozone,0.11556441464211901,,-0.28658108609399013,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1999-01-01,eurozone,0.6476546751336446,,-0.16321075265000962,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1999-02-01,eurozone,0.21977577052391517,,-0.43937328953434185,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1999-02-01,eurozone,0.21977577052391517,,-0.43937328953434174,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1999-03-01,eurozone,0.5768109452687121,,-0.6389778550663571,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1999-04-01,eurozone,0.19937567737297754,,-0.04037699869804845,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1999-05-01,eurozone,0.7455340231025142,,-0.21944182771229356,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1999-06-01,eurozone,0.8889025851576678,,-0.26785385289677155,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1999-05-01,eurozone,0.7455340231025142,,-0.21944182771229348,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1999-06-01,eurozone,0.8889025851576678,,-0.2678538528967716,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 1999-07-01,eurozone,1.056992209331728,,-0.9720073584618334,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1999-08-01,eurozone,1.0361478163905065,,-0.8844688649721031,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1999-09-01,eurozone,1.1592025757571056,,-0.7180170361284772,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-09-01,eurozone,1.1592025757571056,,-0.7180170361284771,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1999-10-01,eurozone,1.2911981401205799,,-0.6871173718234037,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1999-11-01,eurozone,1.4266236911605648,,-1.120510429962321,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 1999-12-01,eurozone,1.3153853516645206,,-0.925558878280216,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-01-01,eurozone,0.7253902181970068,,-0.8842864787863521,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-02-01,eurozone,1.2921549541893793,,-0.9407496381289028,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-03-01,eurozone,1.30231622230731,,-0.979140589424935,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-04-01,eurozone,1.8534381259319062,,-0.8630333486627327,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-05-01,eurozone,1.7750752141514305,,-0.7418561128031143,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-06-01,eurozone,0.9317103695574505,,-1.075457927023867,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-07-01,eurozone,0.9549367684416916,,-0.9632053715192476,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-04-01,eurozone,1.8534381259319062,,-0.8630333486627332,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-05-01,eurozone,1.7750752141514305,,-0.7418561128031144,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-06-01,eurozone,0.9317103695574505,,-1.0754579270238673,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-07-01,eurozone,0.9549367684416914,,-0.9632053715192471,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-08-01,eurozone,0.489964358556996,,-0.7667039513213558,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-09-01,eurozone,1.0729041138160251,,-0.8253229246630196,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-09-01,eurozone,1.0729041138160251,,-0.8253229246630195,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-10-01,eurozone,0.8577559984798084,,-0.919874589295973,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-11-01,eurozone,1.0828066744687554,,-0.9071406779436244,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2000-12-01,eurozone,1.2059169052402692,,-0.5526259301682198,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-01-01,eurozone,1.0041715246072591,,-0.10557129692177458,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-02-01,eurozone,1.224556141936584,,-0.13546464002963252,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2001-01-01,eurozone,1.0041715246072591,,-0.10557129692177454,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2001-02-01,eurozone,1.224556141936584,,-0.13546464002963304,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 2001-03-01,eurozone,0.5909315426747267,,-0.22459253147449715,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 2001-04-01,eurozone,0.08595663817262485,,-0.34929945690230235,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-05-01,eurozone,-0.1757796227348972,,-0.1116591152157037,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-06-01,eurozone,0.030133602205468523,,-0.01072600104390771,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2001-05-01,eurozone,-0.1757796227348972,,-0.1116591152157032,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2001-06-01,eurozone,0.030133602205468523,,-0.010726001043907724,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 2001-07-01,eurozone,-0.28893669266743005,,0.06525877885690712,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-08-01,eurozone,0.25050309074386634,,0.3387035628641572,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2001-08-01,eurozone,0.25050309074386634,,0.3387035628641567,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
 2001-09-01,eurozone,-0.05814683767467925,,0.834888233356855,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 2001-10-01,eurozone,-0.06584622087117935,,0.9724173363071307,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2001-11-01,eurozone,-0.8525533396201131,,1.2419722957380275,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+2001-11-01,eurozone,-0.8525533396201131,,1.241972295738028,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
 2001-12-01,eurozone,-0.49019239907653206,,0.8262733919335485,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2002-01-01,eurozone,-0.18121003159956764,,0.32671241106768867,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2002-02-01,eurozone,0.08228434946813526,0.5799100931120871,-0.09598807787141735,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2002-01-01,eurozone,-0.18121003159956764,,0.3267124110676886,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2002-02-01,eurozone,0.08228434946813526,0.5799100931120873,-0.09598807787141735,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2002-03-01,eurozone,0.20487929092367335,0.036861455514330406,-0.09474015560258799,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2002-04-01,eurozone,0.21569877705504287,-1.0282090579264156,-0.060755360887413776,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2002-05-01,eurozone,0.09122363804323178,-1.4396164162246128,-0.02520182346865956,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2002-06-01,eurozone,0.039451374415298314,-1.2362653377452757,0.11302219031165277,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2002-07-01,eurozone,-0.15707135007098533,-0.6560699162690639,0.18840032465327586,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2002-08-01,eurozone,-0.1458087246773898,0.028037460505743943,0.3562348010384746,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2002-08-01,eurozone,-0.1458087246773898,0.02803746050574403,0.3562348010384746,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
 2002-09-01,eurozone,-0.21572803732554027,0.009640902486900476,0.39958590193653704,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
 2002-10-01,eurozone,-8.39158916178917e-05,0.4361430380621715,0.22631180800932127,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2002-11-01,eurozone,0.031750791274586423,1.1229047546921045,0.10186108591050538,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2002-12-01,eurozone,-0.46693433132495465,0.779044770720871,0.5511124261955702,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2002-11-01,eurozone,0.031750791274586423,1.1229047546921045,0.1018610859105054,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2002-12-01,eurozone,-0.46693433132495465,0.779044770720871,0.5511124261955703,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2003-01-01,eurozone,-0.21575383042163754,-0.5356324989239406,0.7038823031588092,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2003-02-01,eurozone,-0.2339948349093178,-0.39632555888748244,0.8687220189123537,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2003-02-01,eurozone,-0.2339948349093178,-0.39632555888748233,0.8687220189123537,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2003-03-01,eurozone,-0.2412188445674901,-0.40790357405915056,0.6440185101286404,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2003-04-01,eurozone,-0.258007862753105,-0.08023910909773113,0.5884837737814196,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2003-04-01,eurozone,-0.25800786275310494,-0.08023910909773113,0.5884837737814196,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
 2003-05-01,eurozone,-0.762777458818187,-0.5982682575466646,0.600364285913686,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2003-06-01,eurozone,-0.4998186917613319,-0.08712424579899747,1.0196472432249672,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2003-07-01,eurozone,-0.14653341611258258,-0.2727265332595637,0.876161405816196,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2003-08-01,eurozone,-0.15091486281946226,-0.3778088875231813,0.5717092486567233,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2003-09-01,eurozone,-0.241791608700475,0.19648981974337842,0.02145708908138482,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2003-10-01,eurozone,0.1516303728916888,-0.034184988684244855,0.21598723406909387,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2003-11-01,eurozone,0.33355886070672025,-0.18518064730160388,0.15210918627611034,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2003-07-01,eurozone,-0.14653341611258258,-0.2727265332595637,0.8761614058161955,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2003-08-01,eurozone,-0.15091486281946226,-0.3778088875231813,0.5717092486567235,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2003-09-01,eurozone,-0.24179160870047495,0.19648981974337842,0.021457089081384828,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2003-10-01,eurozone,0.1516303728916888,-0.034184988684244855,0.21598723406909437,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2003-11-01,eurozone,0.33355886070672025,-0.18518064730160386,0.15210918627611034,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2003-12-01,eurozone,0.31326841628980673,-0.5541976666674828,0.16238661473538402,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2004-01-01,eurozone,-0.46752112860046796,0.40311393700952963,0.20060636682406996,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2004-02-01,eurozone,-0.268235123911476,0.2135140051665797,0.27958259026037574,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2004-01-01,eurozone,-0.46752112860046796,0.4031139370095297,0.20060636682406996,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2004-02-01,eurozone,-0.2682351239114761,0.2135140051665797,0.2795825902603758,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2004-03-01,eurozone,-0.21782383015518647,0.1269073216686858,0.3301804272311911,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2004-04-01,eurozone,0.18392722974849865,0.7972176078059735,0.046055537975754124,reflation,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
-2004-05-01,eurozone,0.2014513641997202,2.3197380513831787,-0.12356801641574944,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2004-06-01,eurozone,0.25403413853994594,1.7530484632270709,-0.17755727253173378,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2004-07-01,eurozone,0.20012165149066333,1.6571457026896312,-0.00103245591072329,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2004-08-01,eurozone,-0.19707701503885416,1.492659458295127,0.16085562838128661,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2004-09-01,eurozone,0.16892161875031309,0.7874250600898138,0.2878632531684822,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2004-10-01,eurozone,-0.043295306224320776,1.1688210943362471,0.2787154919825092,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2004-11-01,eurozone,0.0238181884262865,1.0186747860803225,0.2361823818077023,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2004-12-01,eurozone,-0.18311765559988574,1.4647225167119182,0.37295468349925054,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2005-01-01,eurozone,0.18362613687144524,0.3864663794109102,0.35068055626046146,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2004-04-01,eurozone,0.18392722974849857,0.7972176078059735,0.046055537975754124,reflation,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2004-05-01,eurozone,0.2014513641997202,2.3197380513831787,-0.1235680164157495,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2004-06-01,eurozone,0.25403413853994594,1.7530484632270709,-0.1775572725317337,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2004-07-01,eurozone,0.20012165149066333,1.6571457026896315,-0.00103245591072329,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2004-08-01,eurozone,-0.1970770150388542,1.492659458295127,0.1608556283812865,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2004-09-01,eurozone,0.16892161875031303,0.7874250600898138,0.2878632531684821,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2004-10-01,eurozone,-0.043295306224320776,1.1688210943362471,0.2787154919825091,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2004-11-01,eurozone,0.0238181884262865,1.0186747860803227,0.2361823818077023,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2004-12-01,eurozone,-0.18311765559988574,1.4647225167119182,0.37295468349925043,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2005-01-01,eurozone,0.18362613687144522,0.3864663794109102,0.35068055626046096,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2005-02-01,eurozone,0.26749243877051665,0.5675968738853931,0.28663066029928486,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-03-01,eurozone,0.33130145297893315,0.8782585757404708,0.07664622675821178,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-04-01,eurozone,0.12250288418870739,-0.35367839239783017,0.19010041324207638,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2005-05-01,eurozone,-0.01751071899389004,-0.7190688457487465,0.34558975249623963,slowdown,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2005-06-01,eurozone,0.21778254423646634,-0.9515787359062216,0.5510619430146791,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2005-07-01,eurozone,0.36932833811641297,-0.8599900776530466,0.4483344966955278,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-08-01,eurozone,0.3052540638168491,-0.8206622685496865,0.3724683868376557,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-09-01,eurozone,0.4653952144595662,-0.004456655507099283,0.3997301938348618,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2005-10-01,eurozone,0.21125972291966452,-0.2475896246959333,0.2870620300491292,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-11-01,eurozone,1.1060231957589646,-0.366044664666726,0.18351069105238213,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-12-01,eurozone,0.569681799861679,-0.3573537588595857,-0.09318572465225199,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-01-01,eurozone,0.8922122836767791,0.6314376358156837,0.00783180388616897,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-02-01,eurozone,0.6302828523151115,0.49160498108560724,0.05566094769301208,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-03-01,eurozone,1.2098396454496423,-0.12649442454020596,-0.13479059961694065,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2005-03-01,eurozone,0.33130145297893315,0.8782585757404708,0.07664622675821113,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-04-01,eurozone,0.12250288418870733,-0.3536783923978302,0.19010041324207688,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2005-05-01,eurozone,-0.01751071899389004,-0.7190688457487466,0.34558975249623963,slowdown,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2005-06-01,eurozone,0.21778254423646634,-0.9515787359062216,0.5510619430146796,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2005-07-01,eurozone,0.36932833811641297,-0.8599900776530467,0.4483344966955278,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-08-01,eurozone,0.30525406381684905,-0.8206622685496866,0.37246838683765543,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-09-01,eurozone,0.4653952144595662,-0.004456655507099394,0.39973019383486175,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2005-10-01,eurozone,0.2112597229196645,-0.24758962469593335,0.28706203004912917,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-11-01,eurozone,1.1060231957589646,-0.366044664666726,0.18351069105238235,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-12-01,eurozone,0.569681799861679,-0.3573537588595857,-0.09318572465225221,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-01-01,eurozone,0.8922122836767791,0.6314376358156837,0.007831803886168942,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-02-01,eurozone,0.6302828523151114,0.49160498108560724,0.055660947693012025,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-03-01,eurozone,1.2098396454496423,-0.12649442454020599,-0.13479059961694043,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
 2006-04-01,eurozone,1.088030303257775,1.3117993159114465,-0.2649461644478187,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-05-01,eurozone,1.597956182816804,0.800525192499653,-0.21578496543674117,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-05-01,eurozone,1.5979561828168038,0.800525192499653,-0.21578496543674117,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2006-06-01,eurozone,1.4804018330211965,1.4308648143080842,-0.26112020049486356,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-07-01,eurozone,1.385994256556073,1.4707241211188546,-0.20046440221118816,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-08-01,eurozone,1.1507631595360914,0.7611377108909758,-0.29674252993246064,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-09-01,eurozone,1.077582411953144,-0.05508526719616602,0.026671783873307098,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2006-10-01,eurozone,1.077926687809135,-0.4388179834687689,-0.23070043201193066,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-07-01,eurozone,1.385994256556073,1.470724121118855,-0.20046440221118816,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-08-01,eurozone,1.1507631595360912,0.761137710890976,-0.29674252993246064,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-09-01,eurozone,1.077582411953144,-0.05508526719616591,0.026671783873307098,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2006-10-01,eurozone,1.0779266878091347,-0.43881798346876877,-0.23070043201193066,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2006-11-01,eurozone,1.1957834222163417,0.08715342703195311,-0.044210088133867065,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2006-12-01,eurozone,1.809944449990105,0.2925433870308894,-0.37469325198764714,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-12-01,eurozone,1.8099444499901047,0.2925433870308894,-0.374693251987647,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2007-01-01,eurozone,1.5755143761196009,0.8070057161313191,-0.19925050698844204,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-02-01,eurozone,1.701739380425164,0.8827902800815659,-0.2576266889874917,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-03-01,eurozone,1.4153627133848117,1.1022873241929116,-0.11845356748214536,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-04-01,eurozone,1.2573852719322198,0.17836685390372442,-0.2301664817787245,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2007-05-01,eurozone,1.3549186223760394,0.5133564208490579,-0.21594328978210992,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-06-01,eurozone,1.2879714369313011,0.12539870760188154,-0.4556104587597898,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2007-07-01,eurozone,1.4596939295069085,0.008492842282004753,-0.21264393388039665,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2007-08-01,eurozone,1.2804747104110044,0.3638865075823646,-0.05939344959721432,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-09-01,eurozone,1.1256206259752746,1.3582170903877244,0.2829565068726344,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-10-01,eurozone,1.3180859613957412,2.302438259089016,0.3808711033998638,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-11-01,eurozone,1.12084616323501,2.178873879027635,0.38929720332887985,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-02-01,eurozone,1.7017393804251637,0.8827902800815661,-0.25762668898749225,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-03-01,eurozone,1.4153627133848123,1.1022873241929112,-0.11845356748214536,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-04-01,eurozone,1.2573852719322196,0.17836685390372442,-0.2301664817787245,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2007-05-01,eurozone,1.3549186223760394,0.5133564208490576,-0.21594328978210936,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-06-01,eurozone,1.2879714369313011,0.12539870760188154,-0.45561045875978956,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2007-07-01,eurozone,1.4596939295069085,0.008492842282004642,-0.21264393388039654,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2007-08-01,eurozone,1.2804747104110044,0.3638865075823644,-0.05939344959721432,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-09-01,eurozone,1.1256206259752743,1.3582170903877242,0.2829565068726344,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-10-01,eurozone,1.3180859613957412,2.302438259089016,0.38087110339986385,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-11-01,eurozone,1.1208461632350097,2.178873879027635,0.38929720332887996,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2007-12-01,eurozone,0.8909368373742106,1.8970332895860338,0.14514913629624565,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2008-01-01,eurozone,1.1757793692267708,1.7275140567615872,0.3176546842947362,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-02-01,eurozone,1.1368137929740858,1.3806392571854877,0.27517024470400486,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-02-01,eurozone,1.1368137929740856,1.3806392571854877,0.27517024470400486,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2008-03-01,eurozone,0.9137085107151905,1.7202737470030518,0.24595027600579625,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-04-01,eurozone,0.8705955995015706,1.0848785319160534,0.09889816293518244,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-05-01,eurozone,-0.13611633140014695,1.4453873225343743,-0.07653950601608828,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2008-06-01,eurozone,-0.07937833654041371,1.6616976669122356,-0.4150205472403075,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2008-04-01,eurozone,0.8705955995015706,1.0848785319160532,0.09889816293518244,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-05-01,eurozone,-0.13611633140014695,1.4453873225343743,-0.07653950601608822,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2008-06-01,eurozone,-0.07937833654041362,1.6616976669122356,-0.4150205472403075,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
 2008-07-01,eurozone,-0.47879205773696165,1.63306976530665,-0.5978933334102492,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-08-01,eurozone,-0.19395696572320534,1.5345206199633759,-0.3559926751476188,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2008-09-01,eurozone,-0.3153871353289657,0.8461311416503257,-0.1319299075491464,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-10-01,eurozone,-1.0283007582041517,0.34892301938067205,0.1403487518775969,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-11-01,eurozone,-1.8286950478873059,-0.4858391107661947,0.5224366598913488,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2008-12-01,eurozone,-2.7636564905771386,-0.6935547609928054,1.4452103982423408,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2008-08-01,eurozone,-0.19395696572320537,1.5345206199633759,-0.3559926751476188,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2008-09-01,eurozone,-0.3153871353289657,0.8461311416503255,-0.1319299075491464,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-10-01,eurozone,-1.028300758204152,0.34892301938067205,0.1403487518775969,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-11-01,eurozone,-1.8286950478873052,-0.4858391107661947,0.5224366598913488,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2008-12-01,eurozone,-2.763656490577138,-0.6935547609928054,1.4452103982423408,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-01-01,eurozone,-3.2673505407561656,-1.1813507534348588,1.8411436337325653,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-02-01,eurozone,-3.1459039644604094,-0.9836792900444763,1.2191329711333012,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-02-01,eurozone,-3.14590396446041,-0.9836792900444763,1.219132971133301,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-03-01,eurozone,-2.815926182344721,-1.7073227182113992,0.9364484244428462,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-04-01,eurozone,-2.345394673309486,-0.8642833750896401,0.6796018096810297,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-05-01,eurozone,-1.5681332467407123,-1.4562281490268787,0.5616577427812273,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-06-01,eurozone,-1.1881374079420017,-1.7297599941571893,0.10782165859886733,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2009-07-01,eurozone,-0.972024440442733,-1.832891713499217,-0.003753207284502569,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2009-08-01,eurozone,-1.1493025167786506,-1.8407772207823014,0.03729880209246217,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2009-09-01,eurozone,-0.881117121733577,-1.9697428812377922,0.09667548975382612,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-07-01,eurozone,-0.972024440442733,-1.8328917134992173,-0.003753207284502569,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-08-01,eurozone,-1.1493025167786504,-1.8407772207823014,0.03729880209246228,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-09-01,eurozone,-0.881117121733577,-1.969742881237792,0.09667548975382612,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2009-10-01,eurozone,-0.8836702442694166,-1.936354183082833,-0.1998440777420779,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2009-11-01,eurozone,-0.7225446478595389,-1.7895718194057728,-0.37829827541303285,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-11-01,eurozone,-0.7225446478595389,-1.7895718194057728,-0.37829827541303296,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2009-12-01,eurozone,-0.7390795922256863,-1.3219394267308324,-0.42928018763458337,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-01-01,eurozone,-0.31454878869314923,-1.238156877595525,-0.6205259709519246,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2010-02-01,eurozone,-0.23440980179547913,-1.533473848978629,-0.6307351859098256,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2010-03-01,eurozone,0.13398833852880346,1.2509830858156428,-0.48802927707700394,reflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2010-01-01,eurozone,-0.3145487886931491,-1.238156877595525,-0.6205259709519246,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2010-02-01,eurozone,-0.23440980179547904,-1.533473848978629,-0.6307351859098256,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2010-03-01,eurozone,0.13398833852880354,1.2509830858156428,-0.48802927707700394,reflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2010-04-01,eurozone,0.07450974151327737,0.21391072172118974,-0.45363056835054333,reflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2010-05-01,eurozone,0.34621328474931756,4.006466896792341,-0.12111025151019017,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-06-01,eurozone,0.21997383905824286,-3.9455697084090113,-0.3383142394253219,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-05-01,eurozone,0.34621328474931773,4.006466896792341,-0.12111025151019017,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-06-01,eurozone,0.21997383905824294,-3.9455697084090113,-0.3383142394253219,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2010-07-01,eurozone,0.22835209408287077,-1.148822054860516,-0.1847503287739839,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-08-01,eurozone,0.2923539968850404,-3.297067526024289,-0.28796603441617796,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-09-01,eurozone,0.11664198749787813,-1.0459141642131677,-0.3265375475525191,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2010-10-01,eurozone,0.21794016351765455,-2.839019550756643,-0.246206598843297,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-08-01,eurozone,0.29235399688504043,-3.297067526024289,-0.28796603441617796,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-09-01,eurozone,0.11664198749787816,-1.0459141642131677,-0.3265375475525191,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2010-10-01,eurozone,0.21794016351765455,-2.8390195507566425,-0.2462065988432972,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2010-11-01,eurozone,0.2352539429057218,0.8577541076256456,-0.5295752933565956,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2010-12-01,eurozone,0.395040575714933,0.2419901542363044,-0.6751304848772697,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-01-01,eurozone,0.3523611416465708,0.9950569583019397,-0.6544420934167212,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-02-01,eurozone,0.3599661496203664,1.416685850876232,-0.7326954223455997,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-03-01,eurozone,0.2011801160647913,0.6884136059299222,-0.5316488044469861,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-04-01,eurozone,0.22830618457165758,2.2352352339926393,-0.945460926253946,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-05-01,eurozone,0.04525345615880638,1.4971446499788028,-0.44286551199730545,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2011-06-01,eurozone,-0.192236812662415,1.1850080147505775,-0.28886398349540815,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2011-07-01,eurozone,-0.15328540670583696,0.5798265595363803,-0.3649558157965041,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2011-08-01,eurozone,-0.2838172112998253,0.5895223552325183,-0.26917493766336287,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-12-01,eurozone,0.3950405757149329,0.2419901542363044,-0.6751304848772697,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-01-01,eurozone,0.3523611416465708,0.9950569583019396,-0.6544420934167214,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-02-01,eurozone,0.3599661496203663,1.416685850876232,-0.7326954223455997,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-03-01,eurozone,0.2011801160647913,0.6884136059299222,-0.5316488044469867,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-04-01,eurozone,0.22830618457165763,2.2352352339926393,-0.9454609262539455,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-05-01,eurozone,0.045253456158806424,1.4971446499788028,-0.4428655119973055,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2011-06-01,eurozone,-0.192236812662415,1.1850080147505773,-0.28886398349540765,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2011-07-01,eurozone,-0.15328540670583685,0.5798265595363803,-0.3649558157965041,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2011-08-01,eurozone,-0.28381721129982573,0.5895223552325184,-0.26917493766336287,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2011-09-01,eurozone,-0.4263500521224966,0.8218759277173033,-0.14179502693108903,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2011-10-01,eurozone,-0.6583806061564704,1.0288807516428913,0.0864876289385284,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2011-11-01,eurozone,-0.6934712445688328,1.011132085882252,-0.11889753517318286,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2011-12-01,eurozone,-0.6478471423869288,1.1980407227240066,0.1805060670798745,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2011-11-01,eurozone,-0.6934712445688328,1.011132085882252,-0.1188975351731828,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2011-12-01,eurozone,-0.6478471423869288,1.1980407227240064,0.1805060670798745,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2012-01-01,eurozone,-0.7191787040740285,0.9784006569921806,0.30465178447258384,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2012-02-01,eurozone,-0.6906063309389154,0.9597240131134186,0.4436395062988905,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2012-03-01,eurozone,-0.7670660614363942,0.46523391759848576,0.43051114529627077,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2012-04-01,eurozone,-0.8010666189460715,0.049061983846992424,0.22402489877231824,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2012-05-01,eurozone,-0.7962687016923893,0.1596967071698924,0.07185865259585633,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2012-06-01,eurozone,-0.7681915493271315,0.15896883704502524,-0.12000689202269815,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2012-07-01,eurozone,-0.6017178321407932,0.7755750110906777,0.27912476875124775,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2012-08-01,eurozone,-0.584071139413798,0.4893945974606927,0.4332638433650067,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2012-09-01,eurozone,-0.7640139232196119,-0.08394837578471276,0.6903599610560667,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
-2012-10-01,eurozone,-1.0862943806563683,-0.08880427176490226,0.5876344954453006,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2012-03-01,eurozone,-0.7670660614363942,0.4652339175984857,0.43051114529627066,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2012-04-01,eurozone,-0.8010666189460715,0.04906198384699242,0.22402489877231824,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2012-05-01,eurozone,-0.7962687016923892,0.1596967071698924,0.07185865259585633,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2012-06-01,eurozone,-0.7681915493271314,0.1589688370450252,-0.12000689202269826,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2012-07-01,eurozone,-0.6017178321407932,0.7755750110906776,0.27912476875124764,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2012-08-01,eurozone,-0.584071139413798,0.48939459746069264,0.4332638433650067,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2012-09-01,eurozone,-0.7640139232196119,-0.08394837578471274,0.6903599610560662,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2012-10-01,eurozone,-1.086294380656368,-0.08880427176490224,0.5876344954453008,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
 2012-11-01,eurozone,-1.3155590404433064,-0.2150218453427614,0.4644718903035179,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2012-12-01,eurozone,-0.9269189571646652,-0.09444768934812367,0.186455940642674,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2012-12-01,eurozone,-0.9269189571646652,-0.09444768934812366,0.18645594064267423,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2013-01-01,eurozone,-0.88787102726922,-0.2232075764704788,-0.07766035441070296,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-02-01,eurozone,-0.7003707451775254,-0.23255559817170277,-0.3932011568334389,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-03-01,eurozone,-0.5832246211702431,-0.11590065532336696,-0.6261235962678278,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-04-01,eurozone,-0.3033242216375748,-0.702772419377579,-0.30936885277750487,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-05-01,eurozone,-0.3505876493781505,-0.4537551718421132,0.02784994803375246,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-06-01,eurozone,-0.3712774465467483,-0.4372411662461292,-0.1411925040958456,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-07-01,eurozone,-0.45991063284692435,-0.6179176973274921,-0.28730967206019914,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-08-01,eurozone,-0.379883790326274,-0.48573676175650876,-0.3433308905038087,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-09-01,eurozone,-0.2743137679024194,-0.613949066842196,-0.3183993697788965,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-10-01,eurozone,-0.29683971388937974,-0.8676022561731519,-0.1999331996689328,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-11-01,eurozone,-0.12935613428421855,-0.5172908614572915,-0.2040897701521746,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2013-02-01,eurozone,-0.7003707451775254,-0.23255559817170274,-0.3932011568334389,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-03-01,eurozone,-0.5832246211702431,-0.11590065532336695,-0.6261235962678278,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-04-01,eurozone,-0.3033242216375748,-0.7027724193775788,-0.30936885277750487,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-05-01,eurozone,-0.3505876493781505,-0.45375517184211317,0.02784994803375246,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-06-01,eurozone,-0.3712774465467483,-0.4372411662461291,-0.14119250409584538,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-07-01,eurozone,-0.45991063284692435,-0.617917697327492,-0.28730967206019914,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-08-01,eurozone,-0.37988379032627406,-0.48573676175650876,-0.3433308905038087,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-09-01,eurozone,-0.2743137679024194,-0.613949066842196,-0.3183993697788967,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-10-01,eurozone,-0.29683971388937974,-0.8676022561731517,-0.1999331996689328,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2013-11-01,eurozone,-0.12935613428421855,-0.5172908614572914,-0.2040897701521746,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2013-12-01,eurozone,-0.10300195042769948,-0.9556362503796703,-0.1532775471863289,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-01-01,eurozone,-0.15196958309609535,-0.6780043484295719,-0.18907368629538346,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-02-01,eurozone,-0.11336327553507977,-0.40725910922448993,-0.10837755172319785,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-01-01,eurozone,-0.15196958309609537,-0.6780043484295719,-0.18907368629538346,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-02-01,eurozone,-0.11336327553507977,-0.4072591092244899,-0.10837755172319785,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2014-03-01,eurozone,-0.21844513461814236,-0.9457245698316867,0.07496935312068509,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2014-04-01,eurozone,0.2656059779554106,0.0465915411708714,0.1527013627940111,reflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2014-05-01,eurozone,0.012740309583183262,-0.7246383316480594,0.14888610266817343,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2014-06-01,eurozone,0.06419546546302893,-0.5805434709453816,0.3215230833212477,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2014-07-01,eurozone,-0.08718657202503413,-0.4811832192913096,0.24281065509105743,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-08-01,eurozone,-0.14973819961043616,-0.3089000835209515,0.3056572487283759,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-09-01,eurozone,-0.16211710389728726,-0.34569948042162246,0.2867503837459197,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-04-01,eurozone,0.2656059779554106,0.04659154117087138,0.1527013627940111,reflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2014-05-01,eurozone,0.012740309583183219,-0.7246383316480591,0.14888610266817343,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2014-06-01,eurozone,0.06419546546302893,-0.5805434709453815,0.3215230833212477,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2014-07-01,eurozone,-0.08718657202503415,-0.4811832192913096,0.24281065509105743,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-08-01,eurozone,-0.1497381996104362,-0.3089000835209515,0.3056572487283759,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-09-01,eurozone,-0.16211710389728726,-0.3456994804216226,0.2867503837459197,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2014-10-01,eurozone,-0.19003289245477417,-0.16021917582005957,0.3224494122373586,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2014-11-01,eurozone,-0.2276630269138286,-0.5110075687317044,0.3061366159999255,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2014-12-01,eurozone,0.024085044389497146,-0.07475596760079882,0.40561397795649584,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2014-12-01,eurozone,0.024085044389497146,-0.07475596760079879,0.40561397795649584,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2015-01-01,eurozone,0.049842005746034854,-0.6071940160430036,0.44243494869150346,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2015-02-01,eurozone,0.5589854804907601,-0.6378632793135527,0.4378757584711182,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-02-01,eurozone,0.5589854804907601,-0.6378632793135527,0.4378757584711183,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2015-03-01,eurozone,0.4109688112420885,-0.05815526337120856,0.5197764639946724,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2015-04-01,eurozone,0.33763113393331246,-0.15339082424522177,0.5346982612896105,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2015-05-01,eurozone,0.10207634109206867,1.6779433787973197,0.17937027368710518,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2015-06-01,eurozone,0.2503970552780605,1.001399067117702,-0.1760001247108552,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-07-01,eurozone,0.5885148199438778,1.4423707408884023,-0.13050727428685352,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-08-01,eurozone,0.38154316243460507,1.0504162814146947,0.20121009068012474,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-09-01,eurozone,0.3905002880311771,1.0876074980253285,0.3225268537974765,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-10-01,eurozone,0.10911795355267198,1.704484521075167,0.4518587673329381,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2015-11-01,eurozone,0.2980830358410042,0.43192753730358974,0.38894582731928734,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-12-01,eurozone,0.10206909956940091,0.10302256577685465,0.40014044222576495,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2015-04-01,eurozone,0.3376311339333124,-0.15339082424522177,0.5346982612896107,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2015-05-01,eurozone,0.10207634109206865,1.6779433787973197,0.17937027368710518,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2015-06-01,eurozone,0.25039705527806044,1.0013990671177018,-0.17600012471085524,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-07-01,eurozone,0.5885148199438777,1.4423707408884023,-0.13050727428685358,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-08-01,eurozone,0.38154316243460507,1.0504162814146945,0.20121009068012474,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-09-01,eurozone,0.390500288031177,1.087607498025328,0.3225268537974765,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-10-01,eurozone,0.10911795355267198,1.704484521075167,0.45185876733293817,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2015-11-01,eurozone,0.2980830358410042,0.4319275373035897,0.38894582731928734,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-12-01,eurozone,0.10206909956940087,0.10302256577685459,0.40014044222576495,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2016-01-01,eurozone,0.5261512930882942,0.8764713363750775,0.2685146033756941,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-02-01,eurozone,0.17268179754572918,0.4167202771971451,0.30470976693003515,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2016-03-01,eurozone,0.17494701428159484,0.5781771618945364,0.38942166376462184,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-02-01,eurozone,0.17268179754572918,0.41672027719714505,0.30470976693003515,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-03-01,eurozone,0.17494701428159481,0.5781771618945364,0.38942166376462184,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2016-04-01,eurozone,0.21120837267398232,-0.7224901876989349,0.30896331295136537,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-05-01,eurozone,0.19940061637887668,-0.7351268299919218,0.27711894362890216,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2016-06-01,eurozone,0.3090949493221688,-0.6199650134764486,0.20085348293473285,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-07-01,eurozone,0.18739795874346948,-0.5814344060502944,0.35659427670256083,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2016-08-01,eurozone,0.36129176943180824,-0.6712306503324285,0.37798631475820615,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-09-01,eurozone,0.3897965374803037,-0.3245169017636891,0.2574205872647674,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-10-01,eurozone,0.3536679008949546,-0.637305569134744,0.031218097906211967,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-11-01,eurozone,0.45745536124302955,0.8346506843621303,-0.23509659997799878,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-12-01,eurozone,0.36388977235066305,0.5821532021268496,-0.16985510526743894,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-01-01,eurozone,0.2874470770056782,0.7772891362705605,-0.17449779900243617,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-02-01,eurozone,0.5864278710420778,-3.4033684095019194,0.005023983747571792,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-03-01,eurozone,0.55663285201307,inf,0.0840730109308456,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-04-01,eurozone,0.736769647008873,0.0789638601431919,0.16734360993166666,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-05-01,eurozone,0.19940061637887663,-0.7351268299919216,0.27711894362890216,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-06-01,eurozone,0.30909494932216874,-0.6199650134764485,0.20085348293473285,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-07-01,eurozone,0.18739795874346946,-0.5814344060502943,0.35659427670256083,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-08-01,eurozone,0.36129176943180824,-0.6712306503324285,0.37798631475820627,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-09-01,eurozone,0.3897965374803037,-0.32451690176368897,0.25742058726476735,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-10-01,eurozone,0.3536679008949546,-0.6373055691347439,0.03121809790621194,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-11-01,eurozone,0.45745536124302955,0.8346506843621301,-0.23509659997799884,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-12-01,eurozone,0.36388977235066305,0.5821532021268496,-0.169855105267439,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-01-01,eurozone,0.2874470770056782,0.7772891362705603,-0.17449779900243617,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-02-01,eurozone,0.5864278710420778,-3.403368409501919,0.005023983747571764,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-03-01,eurozone,0.5566328520130699,inf,0.08407301093084554,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-04-01,eurozone,0.7367696470088729,0.07896386014319168,0.16734360993166672,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2017-05-01,eurozone,0.6647445437103527,-1.928629567270097,0.2829387704271964,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-06-01,eurozone,0.845926859461084,inf,0.3555737592230256,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-07-01,eurozone,0.7729936437545647,1.4384339982926175,0.12941744082867,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-08-01,eurozone,0.9546808514098963,1.8257128371469182,0.20345851953255292,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-09-01,eurozone,0.809272004579275,1.3002261294846962,0.09554322835023765,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-06-01,eurozone,0.845926859461084,inf,0.35557375922302564,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-07-01,eurozone,0.7729936437545646,1.4384339982926175,0.12941744082867,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-08-01,eurozone,0.9546808514098961,1.8257128371469182,0.20345851953255292,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-09-01,eurozone,0.8092720045792747,1.3002261294846962,0.09554322835023765,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2017-10-01,eurozone,0.7698045384367014,0.7867265815974478,0.15889771007352038,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-11-01,eurozone,1.0472672640831335,0.49072242089997575,0.157391226760137,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2017-12-01,eurozone,1.12535277096447,0.100943087350179,0.21339051373670911,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-01-01,eurozone,0.6849149661874956,0.21240983069749064,0.13753355346552962,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-02-01,eurozone,0.2608750189498473,0.3965471097290032,-0.1558644311843048,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-11-01,eurozone,1.0472672640831335,0.4907224208999757,0.157391226760137,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2017-12-01,eurozone,1.12535277096447,0.10094308735017898,0.21339051373670911,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-01-01,eurozone,0.6849149661874956,0.21240983069749061,0.13753355346552962,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-02-01,eurozone,0.2608750189498473,0.39654710972900314,-0.15586443118430487,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2018-03-01,eurozone,0.3560561741826335,0.9474598968088618,-0.18342092698971751,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-04-01,eurozone,0.5132797511227085,-0.6343371933255291,-0.032149749201263816,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-05-01,eurozone,0.9116843900289581,0.6493765026510054,0.07182129878986165,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-04-01,eurozone,0.5132797511227085,-0.6343371933255288,-0.032149749201263816,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-05-01,eurozone,0.9116843900289581,0.6493765026510054,0.0718212987898616,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2018-06-01,eurozone,0.8518037509860426,-0.11208298324551536,0.0020358420973551894,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2018-07-01,eurozone,0.7216800013553453,0.04089918494060249,0.008645862296360385,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-08-01,eurozone,0.6703315625076258,-0.1328919485876428,-0.05880012920081684,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2018-09-01,eurozone,0.4843935700327058,-0.2753539890754805,-0.0041333574264820205,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-10-01,eurozone,0.6282121399120537,0.6862312975221115,-0.17501663431619413,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-11-01,eurozone,0.11058002257424379,0.1062459452944483,0.01076767860770353,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-12-01,eurozone,0.24279823971346262,0.0888786669844165,0.13548707402649823,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-01-01,eurozone,0.46103798648858313,0.23414114238025985,0.265116047997339,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-02-01,eurozone,0.5757138487113119,0.11961724943602985,0.25400594094333473,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-03-01,eurozone,0.6410169500637279,-0.366296232934272,0.24763402332894327,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-07-01,eurozone,0.7216800013553454,0.040899184940602504,0.008645862296360385,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-08-01,eurozone,0.6703315625076256,-0.1328919485876428,-0.05880012920081684,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2018-09-01,eurozone,0.4843935700327059,-0.2753539890754804,-0.0041333574264820205,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-10-01,eurozone,0.6282121399120538,0.6862312975221114,-0.1750166343161942,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-11-01,eurozone,0.11058002257424353,0.10624594529444828,0.01076767860770353,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-12-01,eurozone,0.24279823971346265,0.08887866698441649,0.13548707402649823,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-01-01,eurozone,0.46103798648858313,0.2341411423802598,0.265116047997339,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-02-01,eurozone,0.5757138487113119,0.11961724943602983,0.25400594094333473,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-03-01,eurozone,0.6410169500637276,-0.36629623293427194,0.24763402332894327,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2019-04-01,eurozone,0.5201795755084185,1.4595292927319117,0.27837262667952956,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-05-01,eurozone,0.6332041578362909,-0.5201571649986906,0.2719587515562793,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-06-01,eurozone,0.44255662694519876,0.1628774333085057,0.3417073922150703,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2019-07-01,eurozone,0.4647500657020637,-0.306820407419539,0.5024894675329385,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2019-05-01,eurozone,0.6332041578362909,-0.5201571649986906,0.27195875155627935,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-06-01,eurozone,0.44255662694519843,0.1628774333085057,0.3417073922150703,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2019-07-01,eurozone,0.4647500657020636,-0.306820407419539,0.5024894675329385,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2019-08-01,eurozone,0.34165958716869577,-0.17489666570238172,0.6579083359059839,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2019-09-01,eurozone,0.3922762171960729,0.14119898407274953,0.6047972470650262,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2019-10-01,eurozone,0.629019500170703,-0.17606588806605106,0.41012553122273976,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-11-01,eurozone,0.296847055442506,0.6853547322685712,0.14426606054070598,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-12-01,eurozone,-0.011672857756133507,0.7334056529311325,-0.06533022257098117,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2020-01-01,eurozone,0.18223305950860397,0.05691584185059759,0.03911488076429033,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2020-02-01,eurozone,0.5455936599610134,0.33891448918383243,0.2691028101512045,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2020-03-01,eurozone,-1.0391670947823903,0.3689702938372206,0.3320388293595145,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2020-04-01,eurozone,-3.4228643830473837,-0.5587665094520633,0.24102427226745984,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2020-05-01,eurozone,-2.524420670919292,0.10835175310788081,0.22592228278706114,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2020-06-01,eurozone,-1.0771370411385761,-0.4946688968809088,0.4898332771334196,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2020-07-01,eurozone,0.5872067472829687,0.4876930298022988,0.6794512091401903,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2019-09-01,eurozone,0.3922762171960729,0.1411989840727495,0.6047972470650262,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
+2019-10-01,eurozone,0.6290195001707027,-0.17606588806605106,0.4101255312227398,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-11-01,eurozone,0.29684705544250606,0.6853547322685711,0.14426606054070604,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-12-01,eurozone,-0.011672857756133503,0.7334056529311324,-0.0653302225709811,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-01-01,eurozone,0.18223305950860405,0.05691584185059758,0.03911488076429033,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2020-02-01,eurozone,0.5455936599610134,0.3389144891838325,0.2691028101512045,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-03-01,eurozone,-1.0391670947823903,0.3689702938372205,0.3320388293595145,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-04-01,eurozone,-3.4228643830473837,-0.5587665094520632,0.24102427226745982,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-05-01,eurozone,-2.5244206709192913,0.10835175310788075,0.22592228278706114,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2020-06-01,eurozone,-1.0771370411385761,-0.49466889688090876,0.4898332771334196,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-07-01,eurozone,0.587206747282969,0.4876930298022988,0.6794512091401903,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2020-08-01,eurozone,0.12030778061215867,-1.0038471259123734,0.6246747928004464,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,easy
 2020-09-01,eurozone,-0.04147136037207026,-1.3947687187453055,0.6192055543517437,slowdown,reflation,low,Regime change was held back because one score remained near neutral.,easy
 2020-10-01,eurozone,0.44737209683973483,-1.4099074472404218,0.6389146953829823,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2020-11-01,eurozone,1.028885032938592,-1.2967247137540179,0.6730176486732721,goldilocks,goldilocks,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2020-12-01,eurozone,1.0359323500793658,-1.380936864944603,0.7663170104143876,goldilocks,goldilocks,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-01-01,eurozone,0.7104559488800282,0.43678385127624536,0.6859656616050137,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-02-01,eurozone,0.3088451735594964,-0.08036899222428334,0.5635080847052583,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,easy
-2021-03-01,eurozone,1.0264477000087173,0.07315674716570036,0.3164858358249403,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-04-01,eurozone,1.9177828633707636,0.4467967464955643,0.22874598364730286,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-05-01,eurozone,1.308562025203225,3.0759760583170483,0.15696298773468711,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-06-01,eurozone,1.047685003638931,1.0452170559362333,0.2292282411791523,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-07-01,eurozone,1.2132084972927442,0.09882958998300051,0.3647427082502691,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-08-01,eurozone,0.9617386923758195,1.655835218507335,0.5565507604320643,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-01-01,eurozone,0.7104559488800282,0.4367838512762454,0.6859656616050137,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-02-01,eurozone,0.3088451735594964,-0.08036899222428331,0.5635080847052583,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,easy
+2021-03-01,eurozone,1.0264477000087173,0.07315674716570036,0.3164858358249402,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-04-01,eurozone,1.9177828633707636,0.44679674649556433,0.22874598364730284,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-05-01,eurozone,1.308562025203225,3.0759760583170483,0.1569629877346871,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-06-01,eurozone,1.047685003638931,1.0452170559362333,0.22922824117915216,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-07-01,eurozone,1.2132084972927444,0.09882958998300073,0.3647427082502691,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-08-01,eurozone,0.9617386923758197,1.655835218507335,0.5565507604320643,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2021-09-01,eurozone,0.9479661390400331,4.526394302278993,0.3863811664972207,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2021-10-01,eurozone,0.6919026648797576,3.161131209375963,0.20556188787127427,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2021-11-01,eurozone,0.8543420614362807,1.4054250525860135,0.1371062756080818,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-12-01,eurozone,1.0508096400824438,2.3798419752816526,0.21091056235616265,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-01-01,eurozone,0.9274142399062321,0.8330004393127675,0.14393220590652162,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-02-01,eurozone,1.0063738363885757,1.2471458935155448,-0.14342089591771148,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-03-01,eurozone,0.5246966232152601,1.4655771328201204,-0.2517160723731557,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-04-01,eurozone,0.5769482581277697,1.9446394740945077,-0.3972447248438572,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-05-01,eurozone,0.7643217514236895,1.403670600941052,-0.3599297852121334,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-06-01,eurozone,0.865598091277097,1.6105762595604558,-0.6293863506296902,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-07-01,eurozone,0.602831800752202,2.1023840588118192,-0.6592177812631533,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2021-12-01,eurozone,1.0508096400824438,2.3798419752816526,0.2109105623561626,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-01-01,eurozone,0.9274142399062321,0.8330004393127672,0.14393220590652156,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-02-01,eurozone,1.0063738363885757,1.2471458935155448,-0.1434208959177116,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-03-01,eurozone,0.5246966232152601,1.4655771328201201,-0.2517160723731557,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-04-01,eurozone,0.5769482581277697,1.9446394740945077,-0.39724472484385726,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-05-01,eurozone,0.7643217514236895,1.403670600941052,-0.35992978521213354,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-06-01,eurozone,0.865598091277097,1.6105762595604558,-0.6293863506296903,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-07-01,eurozone,0.602831800752202,2.1023840588118192,-0.6592177812631534,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2022-08-01,eurozone,0.6750552061673835,0.8311708831029452,-0.42342979217119026,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2022-09-01,eurozone,0.9212253009594707,0.751001301876878,-1.2698200295220032,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2022-10-01,eurozone,0.861427236223132,0.6556474569741058,-1.3726321483136597,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-11-01,eurozone,0.7991920363016606,0.4233945411692199,-1.9762000270820557,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-11-01,eurozone,0.7991920363016606,0.4233945411692199,-1.9762000270820559,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2022-12-01,eurozone,0.2964409820918613,0.4225233015837698,-1.5291845856223227,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2023-01-01,eurozone,0.5711556634803714,0.5146615936717815,-1.3576137145286518,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2023-02-01,eurozone,0.7139409107766336,0.3966400851731281,-1.5502509769075041,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2023-03-01,eurozone,0.5906041387091379,0.26867111917479997,-1.6502537036915017,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-04-01,eurozone,0.49342395384990817,0.15912009728614962,-1.6526248924472464,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-04-01,eurozone,0.49342395384990817,0.15912009728614968,-1.6526248924472464,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2023-05-01,eurozone,0.38778638543299015,0.0708558090372698,-1.4345802430505552,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2023-06-01,eurozone,0.7160069761765517,0.06503912609415045,-1.3191534796362157,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-07-01,eurozone,0.3387784464866618,0.02151720966620462,-1.4367674717968262,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-08-01,eurozone,0.06809072165295282,-0.022293526709268256,-1.59025871853441,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2023-09-01,eurozone,-0.059424203887265284,-0.1472578031837141,-1.7553347205852816,slowdown,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2023-10-01,eurozone,0.19346493675834714,-0.2032929868333223,-1.7873122680819788,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2023-11-01,eurozone,0.41294639881860284,-0.25165795129230073,-1.3663514713346603,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-07-01,eurozone,0.3387784464866618,0.02151720966620463,-1.4367674717968266,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-08-01,eurozone,0.06809072165295287,-0.022293526709268256,-1.5902587185344097,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2023-09-01,eurozone,-0.059424203887265235,-0.1472578031837141,-1.755334720585282,slowdown,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2023-10-01,eurozone,0.19346493675834714,-0.20329298683332228,-1.7873122680819788,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2023-11-01,eurozone,0.41294639881860284,-0.25165795129230073,-1.3663514713346605,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2023-12-01,eurozone,0.4672862207739611,-0.265580816154171,-0.6674146567053953,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-01-01,eurozone,0.25187886286337136,-0.27564792143013944,-0.5704693488379109,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-02-01,eurozone,0.04138310910387959,-0.30260228603686395,-0.8000158610894741,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2024-03-01,eurozone,0.13608136447276561,-0.3130702286905602,-1.0380560635958114,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2024-04-01,eurozone,0.4789027739244891,-0.3228091291935372,-1.0316330115340038,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-05-01,eurozone,0.31158564986898896,-0.29085685358763586,-0.9768917528446467,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-06-01,eurozone,0.4315408391135369,-0.29011995309538646,-0.7523199069059173,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-07-01,eurozone,0.2953102867186616,-0.28474585498156385,-0.6326481011345635,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-08-01,eurozone,0.5637725128140996,-0.2924284549586153,-0.42378026502682864,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-09-01,eurozone,0.3760511553955551,-0.26855247181310027,-0.2894928297743935,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-10-01,eurozone,0.558092829570394,-0.21356164556183888,-0.0980154318855215,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-11-01,eurozone,0.38997711403999713,-0.14328384710299505,-0.2145683526830217,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2024-12-01,eurozone,0.3439267919535223,-0.138044965353271,-0.15579554729802775,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-01-01,eurozone,0.25187886286337136,-0.27564792143013944,-0.5704693488379107,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2024-02-01,eurozone,0.041383109103879614,-0.30260228603686395,-0.8000158610894739,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2024-03-01,eurozone,0.13608136447276542,-0.3130702286905602,-1.0380560635958112,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2024-04-01,eurozone,0.47890277392448893,-0.3228091291935372,-1.031633011534004,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2024-05-01,eurozone,0.31158564986898896,-0.29085685358763586,-0.9768917528446466,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2024-06-01,eurozone,0.4315408391135369,-0.29011995309538646,-0.7523199069059174,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2024-07-01,eurozone,0.2953102867186616,-0.28474585498156385,-0.632648101134563,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2024-08-01,eurozone,0.5637725128140996,-0.29242845495861525,-0.4237802650268285,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-09-01,eurozone,0.3760511553955551,-0.26855247181310027,-0.28949282977439317,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-10-01,eurozone,0.558092829570394,-0.21356164556183888,-0.09801543188552136,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-11-01,eurozone,0.38997711403999713,-0.14328384710299505,-0.2145683526830216,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-12-01,eurozone,0.3439267919535223,-0.138044965353271,-0.1557955472980276,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-01-01,eurozone,0.4010549589816915,-0.12014604199366014,-0.4727910120683837,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-02-01,eurozone,0.5081251048225368,-0.11323519521333775,-0.1378106072235361,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-03-01,eurozone,0.7420698611179599,-0.11298280400734287,-0.38383149408791495,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-02-01,eurozone,0.5081251048225368,-0.11323519521333775,-0.13781060722353605,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-03-01,eurozone,0.7420698611179599,-0.11298280400734287,-0.38383149408791484,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-04-01,eurozone,0.4823437544635736,-0.047531805055079375,0.1288499227506156,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-05-01,eurozone,0.5067351483142314,-0.15035777796585328,-0.08882050161863468,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-06-01,eurozone,0.36176097367495724,-0.14089498819516552,0.08556126949271053,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-07-01,eurozone,0.5173698990617421,-0.14467560185917216,-0.27536264431738744,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-08-01,eurozone,0.4050482756012374,-0.11504032403693337,-0.3555526386709729,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-05-01,eurozone,0.5067351483142314,-0.15035777796585328,-0.08882050161863454,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-06-01,eurozone,0.36176097367495724,-0.14089498819516555,0.08556126949271059,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-07-01,eurozone,0.5173698990617421,-0.14467560185917216,-0.2753626443173874,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-08-01,eurozone,0.4050482756012374,-0.11504032403693337,-0.35555263867097286,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-09-01,eurozone,0.45791828115068345,-0.05203873644272057,-0.5468595522981738,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2025-10-01,eurozone,0.48919057023460477,-0.07026432257889542,-0.4039464502271093,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-11-01,eurozone,0.6539132258535438,-0.08284751801136951,-0.3806962132416602,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-12-01,eurozone,0.6210236779542484,-0.11307053593340138,-0.4707458355479018,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-01-01,eurozone,0.43130977351763156,-0.11730564530591805,-0.45257452408780074,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-02-01,eurozone,0.28736807356157323,-0.08617958725998355,-0.4169791712663026,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-03-01,eurozone,0.26403467545514614,-0.05132760987106591,-0.35667347873528876,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-11-01,eurozone,0.6539132258535438,-0.08284751801136951,-0.38069621324166014,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-12-01,eurozone,0.6210236779542484,-0.11307053593340138,-0.4707458355479017,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-01-01,eurozone,0.43130977351763156,-0.11730564530591805,-0.45257452408780063,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-02-01,eurozone,0.2873680735615733,-0.10097478652778581,-0.4169791712663026,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-03-01,eurozone,0.26403467545514614,-0.06732965757726508,-0.35667347873528865,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
