@@ -27,7 +27,7 @@ from app.data.china_ingestion import validate_china_data
 from app.data.eurozone_ingestion import validate_eurozone_data
 
 
-ACTIVE_LANGUAGE = "en"
+ACTIVE_LANGUAGE = "zh"
 LANGUAGE_OPTIONS = {"中文": "zh", "English": "en"}
 
 LABEL_MAP_EN = {
@@ -104,8 +104,12 @@ LABEL_MAP_EN = {
     "pmi": "PMI",
     "industrial_production": "Industrial Production",
     "unrate": "Unemployment Rate",
+    "buffett_indicator": "Buffett Indicator",
+    "earnings_yield_proxy": "Earnings Yield Proxy",
     "equity_pe_proxy": "Equity PE Proxy",
+    "shiller_pe_proxy": "Shiller CAPE Proxy",
     "equity_pb_proxy": "Equity PB Proxy",
+    "credit_spread_proxy": "Corporate OAS Proxy",
     "ecb": "ECB",
     "eurostat": "Eurostat",
     "eurostat_flash": "Eurostat Flash",
@@ -113,6 +117,7 @@ LABEL_MAP_EN = {
     "china_nbs": "China NBS",
     "china_rates": "China Rates",
     "normalized_api": "Normalized API",
+    "siblis": "Siblis",
     "No loaded data": "No loaded data",
 }
 
@@ -195,8 +200,12 @@ LABEL_MAP_ZH = {
     "pmi": "PMI",
     "industrial_production": "工业增加值",
     "unrate": "失业率",
+    "buffett_indicator": "巴菲特指标",
+    "earnings_yield_proxy": "盈利收益率代理",
     "equity_pe_proxy": "权益市盈率代理",
+    "shiller_pe_proxy": "席勒CAPE代理",
     "equity_pb_proxy": "权益市净率代理",
+    "credit_spread_proxy": "公司债OAS代理",
     "ecb": "ECB",
     "eurostat": "Eurostat",
     "eurostat_flash": "Eurostat 快报",
@@ -204,6 +213,7 @@ LABEL_MAP_ZH = {
     "china_nbs": "国家统计局",
     "china_rates": "中国货币网/债券数据",
     "normalized_api": "标准化API数据",
+    "siblis": "Siblis",
     "No loaded data": "未加载数据",
 }
 
@@ -211,6 +221,11 @@ TEXT_MAP_ZH = {
     "No data": "无数据",
     "View": "视图",
     "Language": "语言",
+    "User Guide": "用户手册",
+    "Open User Guide": "用户手册",
+    "Back to Dashboard": "返回监控页面",
+    "Open to understand how to read the model, scores, confidence, and allocation views.": "展开后可查看模型、评分、置信度与资产偏好的阅读方法。",
+    "Detailed guide to the model, scoring system, confidence, consensus deviation, and asset mapping.": "这是一份关于模型、评分体系、置信度、共识偏差和资产映射逻辑的详细说明。",
     "Global": "全球",
     "{country} Macro Monitor": "{country}宏观监测",
     "Region: {region} | Currency: {currency}": "地区：{region} | 货币：{currency}",
@@ -230,6 +245,9 @@ TEXT_MAP_ZH = {
     "Raw Regime": "原始阶段判定",
     "Valuation Regime": "估值状态",
     "Valuation Score": "估值评分",
+    "Valuation Confidence": "估值置信度",
+    "Valuation Inputs Used": "估值已用输入",
+    "Valuation Inputs Missing": "估值缺失输入",
     "China Data Status": "中国数据状态",
     "Eurozone Data Status": "欧元区数据状态",
     "API Series Available": "API 可用序列数",
@@ -343,6 +361,12 @@ TEXT_MAP_ZH = {
     "No confidence bucket summary": "暂无置信度分桶汇总",
     "No prior snapshot is available yet for this mode.": "当前模式暂时还没有上一条可比快照。",
     "China valuation is proxy-based: HS300 PE/PB when available, plus real yield and term spread proxies.": "中国估值为代理指标口径：优先使用沪深300市盈率/市净率代理，并辅以实际收益率与期限利差代理。",
+    "Valuation confidence: {level}": "估值置信度：{level}",
+    "Valuation inputs used: {items}": "估值已用输入：{items}",
+    "Valuation inputs still missing: {items}": "估值仍缺失输入：{items}",
+    "Macro and valuation inputs are both available with strong coverage.": "宏观与估值输入均已具备，且估值覆盖较完整。",
+    "Macro and valuation inputs are available, but valuation coverage is still partial.": "宏观与估值输入已具备，但估值覆盖仍然不完整。",
+    "Valuation is missing, so local allocation is still produced with reduced confidence.": "估值输入缺失，因此本地资产偏好仍会生成，但置信度会下调。",
     "The system was refreshed on {system_date}. The macro regime is still based on data through {data_date}.": "系统已于 {system_date} 刷新，但宏观阶段仍基于截至 {data_date} 的数据。",
     "{country} has fresher market-sensitive inputs through {market_date} ({series}), while the macro regime still runs through {data_date}.": "{country} 的市场敏感输入已更新到 {market_date}（{series}），但宏观阶段仍截至 {data_date}。",
     "No fresher market-sensitive inputs were found beyond the current macro snapshot.": "当前没有比主模型更晚的市场敏感输入。",
@@ -433,6 +457,383 @@ def tr(text: str, language: str | None = None, **kwargs: object) -> str:
     return template.format(**kwargs)
 
 
+def build_user_manual_markdown(language: str | None = None) -> str:
+    """Return a professional in-app manual for reading the monitor."""
+    lang = get_display_language(language)
+    if lang == "zh":
+        return """
+这套系统首先回答两个问题：  
+第一，当前宏观阶段处在什么位置。  
+第二，这种宏观与估值组合下，哪些资产更适合超配、维持中性或低配。
+
+## 一、四种宏观阶段先看这个
+
+| 宏观阶段 | 核心含义 | 典型超配 | 典型中性 | 典型低配 |
+| --- | --- | --- | --- | --- |
+| 温和增长 | 增长平稳、通胀温和、流动性不明显收紧 | 全球权益资产、美国权益资产、欧元区权益资产 | 美元久期、大宗商品 | 黄金、美元 |
+| 再通胀 | 增长改善、通胀回升、名义增长抬升 | 权益资产、大宗商品 | 美元、黄金 | 美元久期 |
+| 增长放缓 | 增长回落、通胀回落、风险偏好下降 | 美元久期 | 黄金、美元 | 权益资产、大宗商品 |
+| 滞胀 | 增长走弱但通胀偏高，是最不友好的组合之一 | 黄金、部分大宗商品 | 美元 | 权益资产、美元久期 |
+
+上表是典型框架，不是机械指令。  
+最终页面里的资产偏好还会受到流动性环境、估值状态和数据置信度影响。
+
+## 二、资产偏好标签怎么读
+
+### 超配
+代表当前宏观阶段、流动性和估值组合对该资产相对有利。  
+这不是价格保证，而是相对配置倾向更偏正面。
+
+### 中性
+代表信号并不集中，或者宏观结论与估值结论互相抵消。  
+中性通常意味着不急于做强方向判断。
+
+### 低配
+代表当前宏观阶段、流动性或估值组合对该资产相对不利。  
+低配也不是一定下跌，而是相对吸引力较弱。
+
+## 三、全球页里每个资产到底代表什么
+
+### 全球权益资产
+用于表达全球汇总口径下的权益偏好，是全球风险资产方向的核心指标。
+
+### 美元久期
+全球页里的久期采用美国本地利率与久期框架判断，因为全球久期定价通常仍以美元利率周期为主导。
+
+### 黄金
+主要反映通胀、防御、滞胀和避险逻辑，不完全等同于单一地区的本地判断。
+
+### 美元
+表示在当前宏观与流动性背景下，对美元资产或美元敞口的偏好。
+
+### 大宗商品
+主要反映增长、再通胀和供给冲击的综合判断。
+
+### 美国 / 中国 / 欧元区权益资产
+表示在各地区本地宏观框架下，对当地权益资产的配置倾向。
+
+## 四、地区页应该怎么读
+
+每个地区页都建议按同样顺序看：
+
+1. 先看当前宏观阶段
+2. 再看增长、通胀、流动性三项评分
+3. 再看估值状态和估值置信度
+4. 最后看资产偏好表和理由
+
+如果阶段判断和估值结论同向，资产信号通常更强。  
+如果阶段支持但估值偏贵，资产偏好可能只会停留在中性。
+
+## 五、评分体系逻辑
+
+### 增长评分
+- 分数越高：增长越偏强
+- 分数越低：增长越偏弱
+
+### 通胀评分
+- 分数越高：通胀压力越强
+- 分数越低：越偏去通胀
+
+### 流动性评分
+- 分数越高：金融条件越宽松
+- 分数越低：金融条件越偏紧
+
+### 估值评分
+- 分数越高：越低估，或折现环境越友好
+- 分数越低：越高估，或折现压力越大
+
+这些分数是规则驱动的标准化结果。  
+它们是为了把不同国家的宏观与估值信号映射到同一套阅读框架里，而不是黑盒概率模型。
+
+## 六、估值层怎么理解
+
+### 美国
+更接近正式投研口径，综合使用 Buffett 指标、PE、CAPE、PB、实际利率、期限利差、股权风险补偿与信用利差。
+
+### 中国
+采用研究代理口径，重点看 HS300 PE、HS300 PB、China CAPE、实际利率、期限利差和股权风险补偿。
+
+### 欧元区
+采用研究代理口径，重点看 Europe PE、Europe CAPE、实际利率、期限利差和股权风险补偿。
+
+估值层不要只看一个标签。  
+最有用的是一起看：
+- `估值状态`
+- `估值评分`
+- `估值置信度`
+- `估值已用输入`
+
+## 七、共识偏差怎么看
+
+共识偏差不是拿新闻预测市场。  
+它是在比较：模型现在的判断，与主流公开叙事是否一致。
+
+比较维度只有三个：
+- 增长
+- 通胀
+- 政策倾向
+
+### 增长偏离评分
+- 为正：模型比市场共识更偏增长乐观
+- 为负：模型比市场共识更偏增长谨慎
+
+### 通胀偏离评分
+- 为正：模型判断的通胀风险低于主流叙事
+- 为负：模型判断的通胀风险高于主流叙事
+
+### 政策偏离评分
+- 为正：模型比主流叙事更偏鸽派或更偏宽松
+- 为负：模型比主流叙事更偏鹰派或更偏偏紧
+
+### 总偏离评分
+- 越接近 0：模型与共识越一致
+- 绝对值越大：模型与共识偏离越明显
+
+如果共识偏差很大，说明模型和市场主流叙事站在不同一边，值得重点复核。
+
+## 八、置信度怎么读
+
+### 高
+数据覆盖较完整，数据较新，估值输入较充分，结论相对更稳。
+
+### 中
+主链路可用，但部分估值或增强输入不完整，结论需要结合理由一起读。
+
+### 低
+通常意味着数据滞后、覆盖不足、估值输入缺失较多，结论只能谨慎使用。
+
+置信度不是方向判断，它是在告诉你：这条结论有多扎实。
+
+## 九、为什么理由一定要看
+
+理由是在解释：  
+当前这条资产偏好，究竟是由宏观阶段驱动，还是由流动性条件驱动，还是被估值明显抵消。
+
+因此建议始终一起看：
+- 偏好
+- 评分
+- 置信度
+- 理由
+
+如果只看“超配 / 中性 / 低配”，很容易误读。
+
+## 十、两种全球口径的区别
+
+### 最新可得口径
+每个地区使用各自最近一期有效数据。  
+优点是更贴近实时监控。  
+缺点是各地区日期不一定完全一致。
+
+### 共同日期口径
+所有地区退回到最近共同日期。  
+优点是横向比较更整齐。  
+缺点是会牺牲一部分时效性。
+
+## 十一、系统更新日期和数据截至日期为什么不同
+
+这两个日期不同是正常的：
+
+- `系统更新日期`：程序今天已经刷新
+- `数据截至日期`：该模块实际能拿到的最新有效数据日期
+
+很多官方宏观数据本来就不是日更，所以不能把“今天刷新了”理解成“所有宏观数据都更新到今天”。
+
+## 十二、最实用的阅读顺序
+
+建议你每次都按这个顺序：
+
+1. 先看宏观阶段有没有切换
+2. 再看增长、通胀、流动性评分是否靠近或越过中性区
+3. 再看估值是在支持还是抵消宏观结论
+4. 再看资产偏好是否发生方向变化
+5. 最后看共识偏差，判断模型是否和市场主流叙事站在不同一边
+
+这套系统最适合用作：
+- 宏观监控框架
+- 投研讨论底稿
+- 资产配置辅助系统
+
+不建议把它直接理解成自动交易引擎。
+""".strip()
+
+    return """
+This system answers two questions first:
+what macro regime are we in, and what should that imply for asset allocation.
+
+## 1. Start with the four macro states
+
+| Macro state | Core meaning | Typical overweight | Typical neutral | Typical underweight |
+| --- | --- | --- | --- | --- |
+| Goldilocks | Growth is resilient, inflation is softer, liquidity is not a major drag | Global equities, US equities, Eurozone equities | USD duration, commodities | Gold, dollar |
+| Reflation | Growth improves and inflation rises | Equities, commodities | Dollar, gold | USD duration |
+| Slowdown | Growth weakens and inflation softens | USD duration | Gold, dollar | Equities, commodities |
+| Stagflation | Growth weakens but inflation remains firm | Gold, some commodities | Dollar | Equities, USD duration |
+
+The table above is the base framework rather than a mechanical rule.  
+Final preferences still depend on liquidity, valuation, and confidence.
+
+## 2. How to read asset preferences
+
+### Bullish
+The macro-plus-valuation mix supports overweight positioning.
+
+### Neutral
+Signals are mixed, or macro and valuation are offsetting each other.
+
+### Cautious
+The macro-plus-valuation mix argues for underweight positioning.
+
+Asset preferences are directional allocation tilts, not price guarantees.
+
+## 3. What each asset means
+
+### On the global page
+- `Global Equities`: the aggregate equity view across the monitored regions
+- `USD Duration`: a US-led duration view for the global rate cycle
+- `Gold`: inflation, defense, and stagflation hedge exposure
+- `Dollar`: dollar exposure under the current liquidity and risk backdrop
+- `Commodities`: the combined growth-plus-inflation cycle view
+- `US / China / Eurozone Equities`: local regional equity views
+
+### On country pages
+- `Equities`: local equity preference
+- `Duration`: local duration preference
+- `Gold`: local macro view on gold
+- `Dollar`: local macro view on dollar exposure
+
+## 4. How to read scores
+
+- `Growth Score`: higher means stronger growth
+- `Inflation Score`: higher means more inflation pressure
+- `Liquidity Score`: higher means easier financial conditions
+- `Valuation Score`: higher means cheaper / more supportive conditions
+
+These are transparent standardized scores, not black-box probabilities.
+
+## 5. How to read valuation
+
+### United States
+Closer to institutional valuation practice:
+- Buffett Indicator
+- PE
+- CAPE
+- PB
+- real yield
+- term spread
+- equity risk premium
+- credit spread
+
+### China
+Research-proxy framework:
+- HS300 PE
+- HS300 PB
+- China CAPE
+- real yield
+- term spread
+- equity risk compensation
+
+### Eurozone
+Research-proxy framework:
+- Europe PE
+- Europe CAPE
+- real yield
+- term spread
+- equity risk compensation
+
+Always read:
+- valuation regime
+- valuation score
+- valuation confidence
+
+## 6. How to read consensus deviation
+
+Consensus deviation compares:
+
+model view  
+versus  
+mainstream public narrative
+
+across:
+- growth
+- inflation
+- policy bias
+
+- positive growth deviation: model is more growth-positive than consensus
+- negative growth deviation: model is more growth-negative than consensus
+- positive inflation deviation: model sees less inflation risk than consensus
+- negative inflation deviation: model sees more inflation risk than consensus
+- positive policy deviation: model is more dovish than consensus
+- negative policy deviation: model is more hawkish than consensus
+
+## 7. How to read confidence
+
+### High
+- broad coverage
+- fresh enough data
+- stronger valuation coverage
+
+### Medium
+- core pipeline works
+- some valuation or enrichment inputs are incomplete or stale
+
+### Low
+- stale data
+- thin coverage
+- weaker valuation or enrichment coverage
+
+## 8. Why the reason field matters
+
+The `Reason` field explains whether the asset call is driven by:
+- macro regime
+- liquidity
+- valuation
+- or a trade-off between them
+
+So the best practice is to read:
+- preference
+- score
+- confidence
+- reason
+
+together.
+
+## 9. Two global modes
+
+### Latest available
+Each region uses its own latest valid observation.  
+Better for live monitoring, but dates may differ by region.
+
+### Last common date
+All regions align to the latest shared date.  
+Better for cross-region comparability, but less timely.
+
+## 10. System update date vs data-through date
+
+These are intentionally different:
+- system update date = when the monitor refreshed
+- data-through date = the latest valid date behind that module
+
+Official macro data is not daily, so a refreshed system can still have a lagged macro cutoff date.
+
+## 11. Practical usage
+
+The most useful reading order is:
+
+1. check whether the macro regime changed
+2. check whether scores crossed the neutral zone
+3. check whether valuation supports or offsets the macro view
+4. check whether asset preferences changed direction
+5. check whether the model materially diverges from consensus
+
+Use this system as:
+- a macro monitoring framework
+- a research discussion tool
+- an asset allocation support tool
+
+Do not treat it as a fully automated trading engine.
+""".strip()
+
+
 def localize_region(region: str, language: str | None = None) -> str:
     """Translate region labels for the page header."""
     if get_display_language(language) == "zh":
@@ -494,6 +895,9 @@ def translate_runtime_text(text: object, language: str | None = None) -> str:
         "Gold signals are mixed.": "黄金信号偏分化。",
         "The macro backdrop is mixed for the dollar.": "美元的宏观信号目前偏中性。",
         "The macro backdrop is mixed for global equities.": "全球权益资产的宏观信号目前偏中性。",
+        "The macro backdrop is mixed for global equities. Valuations look expensive.": "全球权益资产的宏观信号目前偏中性，估值大体高估。",
+        "The macro backdrop is mixed for global equities. Valuations look fair.": "全球权益资产的宏观信号目前偏中性，估值大体合理。",
+        "The macro backdrop is mixed for global equities. Valuations look cheap.": "全球权益资产的宏观信号目前偏中性，估值大体低估。",
         "No countries were usable in the selected mode.": "当前所选模式下没有可用地区可参与计算。",
         "Global summary is based on incomplete country coverage.": "全球汇总基于不完整的地区覆盖，解读时需谨慎。",
     }
@@ -529,6 +933,34 @@ def translate_runtime_text(text: object, language: str | None = None) -> str:
         result = (
             f"{translate_runtime_text(pattern.group('country'))}当前处于{translate_runtime_text(pattern.group('regime'))}阶段，"
             f"流动性环境{translate_runtime_text(pattern.group('liquidity'))}，对权益资产形成支撑，"
+            f"估值大体{translate_runtime_text(pattern.group('valuation'))}。"
+        )
+        tail = pattern.group("tail")
+        return result if not tail else result + " " + translate_runtime_text(tail)
+
+    pattern = re.match(
+        r"(?P<country>United States|China|Eurozone) is in (?P<regime>.+?) with (?P<liquidity>.+?) liquidity, but rich valuations keep the equity view from turning fully bullish\. Valuations look (?P<valuation>.+?)\.(?: (?P<tail>.+))?$",
+        raw,
+    )
+    if pattern:
+        result = (
+            f"{translate_runtime_text(pattern.group('country'))}当前处于{translate_runtime_text(pattern.group('regime'))}阶段，"
+            f"流动性环境{translate_runtime_text(pattern.group('liquidity'))}，"
+            "但偏贵的估值限制了权益资产进一步转向超配，"
+            f"估值大体{translate_runtime_text(pattern.group('valuation'))}。"
+        )
+        tail = pattern.group("tail")
+        return result if not tail else result + " " + translate_runtime_text(tail)
+
+    pattern = re.match(
+        r"(?P<country>United States|China|Eurozone) is in (?P<regime>.+?) with (?P<liquidity>.+?) liquidity, but cheaper valuations soften the macro headwind for equities\. Valuations look (?P<valuation>.+?)\.(?: (?P<tail>.+))?$",
+        raw,
+    )
+    if pattern:
+        result = (
+            f"{translate_runtime_text(pattern.group('country'))}当前处于{translate_runtime_text(pattern.group('regime'))}阶段，"
+            f"流动性环境{translate_runtime_text(pattern.group('liquidity'))}，"
+            "但较低的估值在一定程度上缓和了权益资产面临的宏观压力，"
             f"估值大体{translate_runtime_text(pattern.group('valuation'))}。"
         )
         tail = pattern.group("tail")
@@ -618,6 +1050,12 @@ def translate_runtime_text(text: object, language: str | None = None) -> str:
         return f"置信度因{issues}而下调。"
 
     return translated
+
+def render_user_manual_view() -> None:
+    """Render the standalone in-app user guide page."""
+    st.header(tr("User Guide"))
+    st.caption(tr("Detailed guide to the model, scoring system, confidence, consensus deviation, and asset mapping."))
+    st.markdown(build_user_manual_markdown())
 
 
 def humanize_label(value: object) -> str:
@@ -909,7 +1347,7 @@ def render_country_view(country: str) -> None:
     if "regime_note" in latest.index:
         st.caption(translate_runtime_text(latest.get("regime_note")))
 
-    valuation_left, valuation_mid = st.columns(2)
+    valuation_left, valuation_mid, valuation_right = st.columns(3)
     valuation_left.metric(
         tr("Valuation Regime"),
         humanize_label(latest_valuation.get("valuation_regime")),
@@ -918,6 +1356,33 @@ def render_country_view(country: str) -> None:
         tr("Valuation Score"),
         f"{latest_valuation.get('valuation_score', float('nan')):.2f}",
     )
+    valuation_right.metric(
+        tr("Valuation Confidence"),
+        humanize_label(latest_valuation.get("valuation_confidence")),
+    )
+    st.caption(
+        tr(
+            "Valuation inputs used: {items}",
+            items=", ".join(
+                humanize_label(item)
+                for item in str(latest_valuation.get("valuation_inputs_used", "")).split(",")
+                if item
+            )
+            or humanize_label("none"),
+        )
+    )
+    missing_valuation_inputs = [
+        humanize_label(item)
+        for item in str(latest_valuation.get("valuation_inputs_missing", "")).split(",")
+        if item
+    ]
+    if missing_valuation_inputs:
+        st.caption(
+            tr(
+                "Valuation inputs still missing: {items}",
+                items=", ".join(missing_valuation_inputs),
+            )
+        )
     if country == "china" and not valuation_data.empty:
         st.caption(
             tr(
@@ -1512,11 +1977,14 @@ def render_global_view() -> None:
 def main() -> None:
     """Render the Streamlit dashboard."""
     st.set_page_config(page_title="Global Macro Monitor", layout="wide")
+    if "_show_manual_page" not in st.session_state:
+        st.session_state["_show_manual_page"] = False
+    default_language = st.session_state.get("_display_language", ACTIVE_LANGUAGE)
     current_language = st.sidebar.selectbox(
-        tr("Language", language="en"),
+        tr("Language", language=default_language),
         options=list(LANGUAGE_OPTIONS.values()),
         format_func=lambda value: "中文" if value == "zh" else "English",
-        index=0 if get_display_language() == "zh" else 1,
+        index=0 if default_language == "zh" else 1,
     )
     set_display_language(current_language)
     options = ["global"] + get_supported_countries()
@@ -1526,8 +1994,20 @@ def main() -> None:
         format_func=lambda value: tr("Global") if value == "global" else humanize_label(value),
     )
 
+    st.sidebar.divider()
+    if st.session_state["_show_manual_page"]:
+        if st.sidebar.button(tr("Back to Dashboard"), use_container_width=True):
+            st.session_state["_show_manual_page"] = False
+            st.rerun()
+    else:
+        if st.sidebar.button(tr("Open User Guide"), use_container_width=True):
+            st.session_state["_show_manual_page"] = True
+            st.rerun()
+
     try:
-        if selection == "global":
+        if st.session_state["_show_manual_page"]:
+            render_user_manual_view()
+        elif selection == "global":
             render_global_view()
         else:
             render_country_view(selection)

@@ -10,6 +10,7 @@ import pandas as pd
 from app.data.sources.china_nbs_client import fetch_china_nbs_series
 from app.data.sources.china_rates_client import fetch_china_rates_series
 from app.data.sources.china_akshare_client import fetch_china_akshare_series
+from app.data.sources.international_market_client import fetch_international_market_series
 from app.data.sources.imf_client import fetch_imf_series
 from app.valuation.features import inspect_china_valuation_inputs
 from app.utils.config import get_country_indicators
@@ -20,7 +21,13 @@ logger = get_logger(__name__)
 CHINA_MINIMUM_REGIME_SERIES = ["cpi", "pmi", "policy_rate", "yield_10y"]
 CHINA_ENRICHMENT_SERIES = ["industrial_production", "m2", "core_cpi", "unrate"]
 CHINA_CANONICAL_MACRO_SERIES = CHINA_MINIMUM_REGIME_SERIES + CHINA_ENRICHMENT_SERIES
-CHINA_VALUATION_PROXY_SERIES = ["hs300_pe_proxy", "hs300_pb_proxy", "real_yield_proxy", "term_spread"]
+CHINA_VALUATION_PROXY_SERIES = [
+    "hs300_pe_proxy",
+    "hs300_pb_proxy",
+    "shiller_pe_proxy",
+    "real_yield_proxy",
+    "term_spread",
+]
 CHINA_SERIES_ID_ALIASES = {
     "cpi": "cpi",
     "consumer_price_index": "cpi",
@@ -44,12 +51,14 @@ CHINA_SERIES_ID_ALIASES = {
     "urban_unemployment": "unrate",
     "hs300_pe_proxy": "hs300_pe_proxy",
     "hs300_pb_proxy": "hs300_pb_proxy",
+    "shiller_pe_proxy": "shiller_pe_proxy",
 }
 CHINA_SOURCE_FETCHERS = {
     "china_akshare": (fetch_china_akshare_series, "akshare"),
     "china_nbs": (fetch_china_nbs_series, "nbs"),
     "china_rates": (fetch_china_rates_series, "rates"),
     "imf": (fetch_imf_series, "imf"),
+    "siblis_market": (fetch_international_market_series, "siblis"),
 }
 NORMALIZED_COLUMNS = [
     "date",

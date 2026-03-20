@@ -7,7 +7,10 @@ from pathlib import Path
 import pandas as pd
 
 from app.regime.classifier import classify_country_macro_regime
-from app.valuation.eurozone_models import compute_eurozone_valuation_score
+from app.valuation.eurozone_models import (
+    compute_eurozone_valuation_confidence,
+    compute_eurozone_valuation_score,
+)
 from app.valuation.features import (
     build_country_valuation_features_frame,
     inspect_eurozone_valuation_inputs,
@@ -80,7 +83,25 @@ def test_eurozone_valuation_feature_generation_from_normalized_data(tmp_path: Pa
     )
     assert "equity_pe_proxy" in valuation.columns
     assert "real_yield_proxy" in valuation.columns
+    assert "valuation_confidence" in valuation.columns
     assert pd.notna(compute_eurozone_valuation_score(valuation).iloc[-1])
+
+
+def test_eurozone_valuation_confidence_prefers_equity_anchor_plus_rates() -> None:
+    """Eurozone valuation confidence should improve when PE, CAPE, and rates are covered."""
+    frame = pd.DataFrame(
+        {
+            "equity_pe_proxy": [13.5, 13.5],
+            "shiller_pe_proxy": [None, 18.0],
+            "real_yield_proxy": [0.6, 0.6],
+            "term_spread": [0.2, 0.2],
+            "equity_risk_proxy": [None, 0.03],
+        }
+    )
+
+    confidence = compute_eurozone_valuation_confidence(frame)
+
+    assert confidence.tolist() == ["medium", "high"]
 
 
 def test_eurozone_minimum_regime_classification() -> None:

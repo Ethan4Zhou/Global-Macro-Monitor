@@ -119,10 +119,14 @@ def map_asset_preferences(
     if "valuation_regime" not in valuation.columns:
         valuation["valuation_regime"] = valuation["valuation_score"].apply(label_valuation_regime)
     valuation["valuation_regime"] = valuation["valuation_regime"].fillna("unknown")
+    if "valuation_confidence" not in valuation.columns:
+        valuation["valuation_confidence"] = valuation["valuation_regime"].apply(
+            lambda value: "medium" if str(value) != "unknown" else "low"
+        )
 
     merge_keys = ["date", "country"] if "country" in valuation.columns else ["date"]
     merged = regime_df.merge(
-        valuation.loc[:, merge_keys + ["valuation_score", "valuation_regime"]],
+        valuation.loc[:, merge_keys + ["valuation_score", "valuation_regime", "valuation_confidence"]],
         on=merge_keys,
         how="left",
     )
@@ -164,16 +168,26 @@ def map_asset_preferences(
     merged["duration"] = merged["duration_score"].apply(_tag_preference)
     merged["gold"] = merged["gold_score"].apply(_tag_preference)
     merged["dollar"] = merged["dollar_score"].apply(_tag_preference)
-    merged["allocation_confidence"] = merged["valuation_regime"].apply(
-        lambda value: "medium" if str(value) == "unknown" else "high"
-    )
-    merged["allocation_note"] = merged["valuation_regime"].apply(
-        lambda value: (
-            "Valuation is missing, so local allocation is still produced with reduced confidence."
-            if str(value) == "unknown"
-            else "Macro and valuation inputs are both available."
-        )
-    )
+    def _allocation_confidence(row: pd.Series) -> str:
+        valuation_regime = str(row.get("valuation_regime", "unknown"))
+        valuation_confidence = str(row.get("valuation_confidence", "unknown"))
+        if valuation_regime == "unknown":
+            return "medium"
+        if valuation_confidence == "high":
+            return "high"
+        return "medium"
+
+    def _allocation_note(row: pd.Series) -> str:
+        valuation_regime = str(row.get("valuation_regime", "unknown"))
+        valuation_confidence = str(row.get("valuation_confidence", "unknown"))
+        if valuation_regime == "unknown":
+            return "Valuation is missing, so local allocation is still produced with reduced confidence."
+        if valuation_confidence == "high":
+            return "Macro and valuation inputs are both available with strong coverage."
+        return "Macro and valuation inputs are available, but valuation coverage is still partial."
+
+    merged["allocation_confidence"] = merged.apply(_allocation_confidence, axis=1)
+    merged["allocation_note"] = merged.apply(_allocation_note, axis=1)
 
     output_columns = [
         "date",
@@ -182,6 +196,7 @@ def map_asset_preferences(
         "liquidity_regime",
         "valuation_score",
         "valuation_regime",
+        "valuation_confidence",
         "equities_score",
         "equities",
         "duration_score",

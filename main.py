@@ -58,6 +58,7 @@ from app.valuation.features import (
     build_us_valuation_features,
     inspect_eurozone_valuation_inputs,
     inspect_china_valuation_inputs,
+    inspect_us_valuation_inputs,
 )
 from app.valuation.models import compute_valuation_score, label_valuation_regime
 from app.valuation.china_models import compute_china_valuation_score, label_china_valuation_regime
@@ -237,6 +238,7 @@ def run_build_country_valuation(country: str) -> None:
         valuation["valuation_score"] = compute_eurozone_valuation_score(valuation)
         valuation["valuation_regime"] = valuation["valuation_score"].apply(label_eurozone_valuation_regime)
     else:
+        diagnostics = inspect_us_valuation_inputs()
         valuation["valuation_score"] = compute_valuation_score(valuation)
         valuation["valuation_regime"] = valuation["valuation_score"].apply(label_valuation_regime)
     valuation.to_csv(f"data/processed/{country}_valuation_features.csv", index=False)
@@ -251,7 +253,13 @@ def run_build_country_valuation(country: str) -> None:
     print(f"- latest_date: {_format_date(latest['date'])}")
     print(f"- latest_valuation_score: {latest['valuation_score']:.2f}")
     print(f"- latest_valuation_regime: {latest['valuation_regime']}")
-    if country in {"china", "eurozone"}:
+    if "valuation_confidence" in latest.index:
+        print(f"- latest_valuation_confidence: {latest['valuation_confidence']}")
+    if "valuation_inputs_used" in latest.index:
+        print(f"- valuation_inputs_used: {latest['valuation_inputs_used'] or 'none'}")
+    if "valuation_inputs_missing" in latest.index:
+        print(f"- valuation_inputs_missing: {latest['valuation_inputs_missing'] or 'none'}")
+    if country in {"us", "china", "eurozone"}:
         print(f"- loaded_data_path: {diagnostics['loaded_data_path']}")
         print(
             f"- normalized_files_found: "

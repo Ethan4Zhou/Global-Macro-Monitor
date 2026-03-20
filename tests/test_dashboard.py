@@ -5,6 +5,8 @@ from __future__ import annotations
 import pandas as pd
 
 from app.dashboard.app import (
+    ACTIVE_LANGUAGE,
+    build_user_manual_markdown,
     comparison_message,
     format_change_sentence,
     format_country_list,
@@ -22,6 +24,7 @@ from app.dashboard.app import (
 
 def test_format_display_value_shows_no_data_for_missing_values() -> None:
     """Dashboard formatting should make missing values explicit."""
+    set_display_language("en")
     assert format_display_value(None) == "No data"
     assert format_display_value(float("nan")) == "No data"
     assert format_display_value("") == "No data"
@@ -30,6 +33,7 @@ def test_format_display_value_shows_no_data_for_missing_values() -> None:
 
 def test_humanize_label_and_country_lists() -> None:
     """Display helpers should render internal labels nicely."""
+    set_display_language("en")
     assert humanize_label("partial_view") == "Partial view"
     assert humanize_label("goldilocks") == "Goldilocks"
     assert humanize_label("bullish") == "Bullish"
@@ -44,6 +48,7 @@ def test_humanize_label_and_country_lists() -> None:
 
 def test_change_sentence_and_reason_summary_helpers() -> None:
     """Change formatting helpers should stay readable and deduplicated."""
+    set_display_language("en")
     assert (
         format_change_sentence("global_equities", "confidence", "medium", "low")
         == "Global Equities confidence changed from Medium to Low."
@@ -56,6 +61,7 @@ def test_change_sentence_and_reason_summary_helpers() -> None:
 
 def test_prepare_what_changed_sections_uses_only_comparison_object() -> None:
     """Dashboard section prep should rely only on the provided comparison object."""
+    set_display_language("en")
     comparison = {
         "comparison_available": False,
         "comparison_reason": "No prior snapshot is available yet for this mode.",
@@ -79,11 +85,13 @@ def test_prepare_what_changed_sections_uses_only_comparison_object() -> None:
 
 def test_comparison_message_handles_missing_meta() -> None:
     """Comparison message helper should explain missing prior snapshots."""
+    set_display_language("en")
     assert comparison_message(None) == "No prior snapshot is available yet for this mode."
 
 
 def test_dashboard_labels_support_chinese_display() -> None:
     """Key dashboard labels should localize cleanly in Chinese mode."""
+    assert ACTIVE_LANGUAGE == "zh"
     set_display_language("zh")
     try:
         assert humanize_label("goldilocks") == "温和增长"
@@ -132,8 +140,38 @@ def test_runtime_reason_text_supports_chinese_display() -> None:
             )
             == "中国当前处于增长放缓阶段，流动性环境中性，对权益资产判断形成约束，估值大体低估。"
         )
+        assert (
+            translate_runtime_text(
+                "United States is in Goldilocks with neutral liquidity, but rich valuations keep the equity view from turning fully bullish. Valuations look expensive."
+            )
+            == "美国当前处于温和增长阶段，流动性环境中性，但偏贵的估值限制了权益资产进一步转向超配，估值大体高估。"
+        )
+        assert (
+            translate_runtime_text("The macro backdrop is mixed for global equities. Valuations look expensive.")
+            == "全球权益资产的宏观信号目前偏中性，估值大体高估。"
+        )
         assert "最新可用模式" in translate_runtime_text(
             "Latest available compares each region on its own latest valid date: United States 2026-02-01 (fresh), China 2026-03-01 (fresh). Coverage is 100%."
         )
     finally:
         set_display_language("en")
+
+
+def test_user_manual_supports_chinese_and_english() -> None:
+    """The in-app manual should render both Chinese and English versions."""
+    set_display_language("zh")
+    zh_manual = build_user_manual_markdown()
+    assert "四种宏观阶段先看这个" in zh_manual
+    assert "典型超配" in zh_manual
+    assert "温和增长" in zh_manual
+    assert "共识偏差" in zh_manual
+    assert "超配" in zh_manual
+    assert "美元久期" in zh_manual
+
+    set_display_language("en")
+    en_manual = build_user_manual_markdown()
+    assert "Start with the four macro states" in en_manual
+    assert "Typical overweight" in en_manual
+    assert "Goldilocks" in en_manual
+    assert "consensus deviation" in en_manual.lower()
+    assert "USD Duration" in en_manual

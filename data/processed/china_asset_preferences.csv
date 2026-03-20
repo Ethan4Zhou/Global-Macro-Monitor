@@ -1,434 +1,434 @@
-date,country,regime,liquidity_regime,valuation_score,valuation_regime,equities_score,equities,duration_score,duration,gold_score,gold,dollar_score,dollar,allocation_confidence,allocation_note
-1990-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1990-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1991-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1992-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1993-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1994-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1995-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1996-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-04-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-05-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-06-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-07-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-08-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-09-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-10-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-11-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1997-12-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-01-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-02-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-03-01,china,unknown,unknown,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-04-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-05-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-06-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-07-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-08-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-09-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-10-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-11-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1998-12-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-01-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-02-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-03-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-04-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-05-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-06-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-07-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-08-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-09-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-10-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-11-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-1999-12-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-01-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-02-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-03-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-04-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-05-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-06-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-07-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-08-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-09-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-10-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-11-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2000-12-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-01-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-02-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-03-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-04-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-05-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-06-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-07-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-08-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-09-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-10-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-11-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2001-12-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-01-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-02-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-03-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-04-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-05-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-06-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-07-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-08-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-09-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-10-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-11-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2002-12-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-01-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-02-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-03-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-04-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-05-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-06-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-07-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-08-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-09-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-10-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-11-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2003-12-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-01-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-02-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-03-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-04-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-05-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-06-01,china,unknown,easy,,unknown,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-07-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-08-01,china,unknown,neutral,,unknown,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-09-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-10-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-11-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2004-12-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2005-01-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2005-02-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2005-03-01,china,unknown,tight,,unknown,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
-2005-04-01,china,unknown,tight,0.0819633456729184,fair,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2005-05-01,china,unknown,tight,0.2769457889679084,fair,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2005-06-01,china,unknown,tight,0.2355842321923333,fair,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2005-07-01,china,unknown,neutral,0.1942226754167581,fair,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2005-08-01,china,unknown,neutral,0.1841179317283049,fair,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2005-09-01,china,unknown,easy,0.2160798137953827,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2005-10-01,china,unknown,easy,0.3524648507886083,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2005-11-01,china,unknown,easy,0.3523077537849811,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2005-12-01,china,unknown,easy,0.2509386527477301,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-01-01,china,unknown,easy,0.121838083523135,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-02-01,china,unknown,easy,0.0565041814290685,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-03-01,china,unknown,easy,0.0886998414652204,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-04-01,china,unknown,easy,-0.0791028406914872,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-05-01,china,unknown,easy,-0.3181904357164279,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-06-01,china,unknown,easy,-0.3436495999602778,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-07-01,china,unknown,easy,-0.3568925486485407,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-08-01,china,unknown,easy,-0.3680165553242036,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-09-01,china,unknown,easy,-0.4755741801774282,fair,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2006-10-01,china,unknown,neutral,-0.3748297320819528,fair,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2006-11-01,china,unknown,neutral,-0.9121540354826604,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2006-12-01,china,unknown,neutral,-1.8197012940345905,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-01-01,china,unknown,neutral,-2.322868092390173,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-02-01,china,unknown,neutral,-2.3704181729817217,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-03-01,china,unknown,easy,-2.5950097783621158,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-04-01,china,unknown,easy,-2.671533162879093,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-05-01,china,unknown,neutral,-3.17697226517817,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-06-01,china,unknown,neutral,-2.941800890025709,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-07-01,china,unknown,neutral,-3.7885551192978273,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2007-08-01,china,unknown,easy,-4.088332917128001,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-09-01,china,unknown,easy,-4.46866435104041,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-10-01,china,unknown,easy,-4.789455796629291,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-11-01,china,unknown,easy,-3.886529826929796,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2007-12-01,china,unknown,easy,-4.288166692171767,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2008-01-01,china,unknown,neutral,-3.189250221408272,expensive,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2008-02-01,china,unknown,easy,-3.0983000580667284,expensive,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2008-03-01,china,reflation,easy,-1.955274700500549,expensive,1.0,neutral,-1.0,cautious,1.5,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2008-04-01,china,reflation,neutral,-2.073170847011301,expensive,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2008-05-01,china,goldilocks,neutral,-1.7714929448466687,expensive,1.0,neutral,0.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2008-06-01,china,slowdown,easy,-1.0623805285967935,expensive,-1.0,cautious,2.0,bullish,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2008-07-01,china,slowdown,neutral,-1.0757768392159504,expensive,-2.0,cautious,2.5,bullish,0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2008-08-01,china,slowdown,neutral,-0.6019124790839827,expensive,-2.0,cautious,2.5,bullish,0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2008-09-01,china,slowdown,neutral,-0.4764943517627931,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2008-10-01,china,slowdown,tight,0.1647743454077146,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2008-11-01,china,slowdown,tight,0.0303474183507289,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2008-12-01,china,slowdown,tight,0.1114266159728937,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2009-01-01,china,slowdown,easy,-0.0660861998268326,fair,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2009-02-01,china,slowdown,easy,-0.1568792661647491,fair,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2009-03-01,china,goldilocks,easy,-0.466316662181626,fair,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,high,Macro and valuation inputs are both available.
-2009-04-01,china,goldilocks,easy,-0.6197075058046997,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-05-01,china,goldilocks,easy,-0.7855483429524345,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-06-01,china,goldilocks,easy,-1.261447493986089,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-07-01,china,goldilocks,easy,-1.7595179774056224,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-08-01,china,goldilocks,easy,-0.8111608691271786,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-09-01,china,goldilocks,easy,-0.968540878515446,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-10-01,china,goldilocks,easy,-1.0903569799714106,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-11-01,china,goldilocks,easy,-1.2418626595509583,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2009-12-01,china,goldilocks,easy,-1.3446418985481206,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2010-01-01,china,goldilocks,easy,-0.9993301356644196,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2010-02-01,china,goldilocks,easy,-1.0249463969118966,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2010-03-01,china,goldilocks,easy,-0.9742618463932708,expensive,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2010-04-01,china,goldilocks,easy,-0.4793987787935287,fair,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,high,Macro and valuation inputs are both available.
-2010-05-01,china,goldilocks,easy,-0.2628733911271683,fair,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,high,Macro and valuation inputs are both available.
-2010-06-01,china,goldilocks,easy,-0.126722132103017,fair,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,high,Macro and valuation inputs are both available.
-2010-07-01,china,stagflation,neutral,-0.3100325967460157,fair,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available.
-2010-08-01,china,stagflation,neutral,-0.1831239154267346,fair,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available.
-2010-09-01,china,stagflation,neutral,-0.1831239154267346,fair,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available.
-2010-10-01,china,reflation,neutral,-0.3813175096142486,fair,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2010-11-01,china,reflation,easy,-0.18680635733014,fair,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2010-12-01,china,reflation,easy,-0.1892357582772612,fair,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2011-01-01,china,reflation,easy,-0.2111695776213328,fair,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2011-02-01,china,reflation,neutral,-0.2694527899158432,fair,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2011-03-01,china,reflation,neutral,-0.224799666209564,fair,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2011-04-01,china,reflation,neutral,-0.1163798753727566,fair,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available.
-2011-05-01,china,reflation,tight,0.0028497281324593,fair,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2011-06-01,china,stagflation,tight,-0.041017910555684,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2011-07-01,china,stagflation,neutral,-0.004277642632544,fair,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available.
-2011-08-01,china,stagflation,tight,0.1656365113912975,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2011-09-01,china,stagflation,tight,0.2883914597962917,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2011-10-01,china,stagflation,tight,0.2724890672645664,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2011-11-01,china,stagflation,tight,0.3611669266626159,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2011-12-01,china,stagflation,tight,0.4214082488933661,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-01-01,china,stagflation,tight,0.3341405274552277,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-02-01,china,stagflation,tight,0.2585447846690809,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-03-01,china,stagflation,tight,0.3882700068354514,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-04-01,china,stagflation,tight,0.3291246285573582,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-05-01,china,stagflation,tight,0.3852926339120017,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-06-01,china,slowdown,tight,0.4543089779094738,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-07-01,china,slowdown,tight,0.4986479076084984,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2012-08-01,china,slowdown,tight,0.5917899588553561,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2012-09-01,china,slowdown,tight,0.5578699668520387,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2012-10-01,china,slowdown,tight,0.6068301854034985,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2012-11-01,china,slowdown,tight,0.6511691151025235,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2012-12-01,china,slowdown,tight,0.4577539067710717,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2013-01-01,china,slowdown,tight,0.3765176121452799,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2013-02-01,china,slowdown,neutral,0.4042490803326237,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2013-03-01,china,slowdown,tight,0.5282570696939021,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-04-01,china,slowdown,neutral,0.581604799128723,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2013-05-01,china,slowdown,neutral,0.5461175721618671,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2013-06-01,china,slowdown,neutral,0.7191661961127855,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2013-07-01,china,slowdown,tight,0.6991904867049535,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-08-01,china,slowdown,tight,0.7039688725610158,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-09-01,china,slowdown,tight,0.6665235356579203,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-10-01,china,slowdown,tight,0.7219864720326079,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-11-01,china,slowdown,tight,0.6900245899655303,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2013-12-01,china,slowdown,tight,0.7233966099925193,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-01-01,china,slowdown,tight,0.786458208143092,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-02-01,china,slowdown,tight,0.7871632771230477,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-03-01,china,slowdown,tight,0.811917372386942,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-04-01,china,slowdown,tight,0.8463853363665879,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-05-01,china,slowdown,tight,0.8373765366307917,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-06-01,china,slowdown,tight,0.804318710611057,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-07-01,china,slowdown,tight,0.7067891484808383,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-08-01,china,slowdown,tight,0.7640530977881389,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-09-01,china,slowdown,tight,0.7197141680891139,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-10-01,china,slowdown,tight,0.7305239807575228,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-11-01,china,slowdown,tight,0.5807426331451402,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2014-12-01,china,slowdown,tight,0.1748753540234348,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-01-01,china,slowdown,tight,0.2137308288864415,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-02-01,china,slowdown,tight,0.1747182570198075,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-03-01,china,slowdown,tight,-0.0180722983698684,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-04-01,china,slowdown,tight,-0.2678930250977708,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-05-01,china,slowdown,tight,-0.2366362120106487,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-06-01,china,slowdown,tight,-0.1965276961913577,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-07-01,china,slowdown,tight,0.0796143607639772,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-08-01,china,slowdown,tight,0.3731456291763958,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-09-01,china,slowdown,tight,0.4397325722267465,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-10-01,china,slowdown,tight,0.2963735263994119,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-11-01,china,slowdown,tight,0.3032671191953411,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2015-12-01,china,slowdown,tight,0.2227358935495048,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-01-01,china,slowdown,tight,0.5690669194204158,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2016-02-01,china,slowdown,tight,0.6029869114237332,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2016-03-01,china,slowdown,tight,0.462448141516221,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-04-01,china,slowdown,tight,0.5043576702681247,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2016-05-01,china,slowdown,tight,0.5015373943483022,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2016-06-01,china,slowdown,tight,0.491275553656222,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-07-01,china,slowdown,tight,0.4441163480373746,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-08-01,china,slowdown,tight,0.383246637792116,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-09-01,china,slowdown,tight,0.4242173195949896,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-10-01,china,slowdown,tight,0.4364372702233097,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-11-01,china,slowdown,tight,0.3509705617177839,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2016-12-01,china,slowdown,tight,0.4058855261161432,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-01-01,china,slowdown,tight,0.3536337406339793,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-02-01,china,slowdown,tight,0.3259022724466354,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-03-01,china,slowdown,tight,0.3439198719182276,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-04-01,china,slowdown,tight,0.3695361331657046,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-05-01,china,slowdown,tight,0.3486982577742899,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-06-01,china,slowdown,tight,0.2723974460081873,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-07-01,china,slowdown,tight,0.2114510547974817,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-08-01,china,slowdown,tight,0.2044003649979253,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-09-01,china,slowdown,tight,0.2079257098977035,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-10-01,china,slowdown,tight,0.2072206409177479,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-11-01,china,slowdown,tight,0.214114233713677,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2017-12-01,china,slowdown,tight,0.1876358064826172,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-01-01,china,slowdown,tight,0.0451389266388653,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-02-01,china,slowdown,tight,0.1779219377668656,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-03-01,china,slowdown,tight,0.2690291981120364,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-04-01,china,slowdown,tight,0.3468972448416772,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-05-01,china,slowdown,tight,0.3698503271729588,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-06-01,china,slowdown,tight,0.4506957468260494,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-07-01,china,slowdown,tight,0.4183429897862704,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-08-01,china,slowdown,tight,0.5253526426631665,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2018-09-01,china,slowdown,tight,0.4621339475089667,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2018-10-01,china,slowdown,tight,0.6076848812416153,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2018-11-01,china,slowdown,tight,0.6285227566330301,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2018-12-01,china,slowdown,tight,0.662756942643602,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2019-01-01,china,slowdown,tight,0.5834787579540497,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2019-02-01,china,slowdown,tight,0.4187338647589718,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-03-01,china,slowdown,tight,0.3685972862166747,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-04-01,china,slowdown,tight,0.4087058020359658,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-05-01,china,slowdown,tight,0.5074117241570213,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2019-06-01,china,slowdown,tight,0.4026743752236193,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-07-01,china,slowdown,tight,0.4083149270632644,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-08-01,china,slowdown,tight,0.4536731197494992,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-09-01,china,stagflation,tight,0.4522629817895878,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-10-01,china,stagflation,tight,0.4701234842575529,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-11-01,china,stagflation,tight,0.4944867045487457,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2019-12-01,china,stagflation,tight,0.3874770516718496,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-01-01,china,stagflation,tight,0.4353413262706526,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-02-01,china,stagflation,tight,0.4819525599131715,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-03-01,china,stagflation,tight,0.5757229991745377,cheap,-2.0,cautious,-2.5,cautious,1.0,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2020-04-01,china,stagflation,tight,0.4965214954504326,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-05-01,china,stagflation,tight,0.518064439821803,cheap,-2.0,cautious,-2.5,cautious,1.0,neutral,2.0,bullish,high,Macro and valuation inputs are both available.
-2020-06-01,china,stagflation,tight,0.4152852008246406,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-07-01,china,stagflation,tight,0.2383203570012427,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-08-01,china,stagflation,tight,0.1450978897162051,fair,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-09-01,china,slowdown,tight,0.2242189774021301,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-10-01,china,slowdown,tight,0.239807175926601,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-11-01,china,slowdown,tight,0.15065802551767,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2020-12-01,china,slowdown,tight,0.0263358421491374,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-01-01,china,slowdown,tight,-0.0084463158377627,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-02-01,china,slowdown,tight,0.0019726218579446,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-03-01,china,goldilocks,tight,0.1385951718929773,fair,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available.
-2021-04-01,china,goldilocks,tight,0.2441180058445149,fair,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available.
-2021-05-01,china,goldilocks,tight,0.1704803729946079,fair,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available.
-2021-06-01,china,slowdown,tight,0.1351502430313791,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-07-01,china,slowdown,tight,0.2675423791866781,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-08-01,china,slowdown,tight,0.3319374343317147,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-09-01,china,slowdown,tight,0.3035008971644154,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-10-01,china,slowdown,tight,0.308827254996806,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-11-01,china,slowdown,tight,0.3671104672913163,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2021-12-01,china,slowdown,tight,0.2212453395514135,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-01-01,china,slowdown,tight,0.3393789991039725,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-02-01,china,slowdown,tight,0.3302131023645492,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-03-01,china,slowdown,tight,0.4522629817895878,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-04-01,china,slowdown,tight,0.5216702007597611,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-05-01,china,slowdown,tight,0.5139144419802493,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-06-01,china,slowdown,tight,0.3772152109797694,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-07-01,china,slowdown,tight,0.476783299084408,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2022-08-01,china,slowdown,tight,0.5350665113789184,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-09-01,china,slowdown,tight,0.607294006268914,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-10-01,china,slowdown,tight,0.7300489546739084,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-11-01,china,slowdown,tight,0.6050217023254201,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2022-12-01,china,slowdown,tight,0.5940547926533841,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-01-01,china,slowdown,tight,0.5133664700039208,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-02-01,china,slowdown,neutral,0.529268862535646,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2023-03-01,china,slowdown,neutral,0.5222181727360897,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2023-04-01,china,slowdown,neutral,0.4985600214248524,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2023-05-01,china,slowdown,neutral,0.5796392190470172,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2023-06-01,china,slowdown,tight,0.5672621714150701,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-07-01,china,slowdown,tight,0.5015373943483022,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-08-01,china,slowdown,tight,0.5801871910233457,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-09-01,china,slowdown,tight,0.5934264046388757,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-10-01,china,slowdown,tight,0.6430916921702912,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-11-01,china,slowdown,tight,0.6639295675617058,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2023-12-01,china,slowdown,tight,0.6709802573612622,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-01-01,china,slowdown,tight,0.700826932488473,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-02-01,china,slowdown,tight,0.60494128628724,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-03-01,china,slowdown,tight,0.5885676027446332,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-04-01,china,slowdown,tight,0.5589547055864966,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-05-01,china,slowdown,tight,0.5679635053222928,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-06-01,china,slowdown,tight,0.5695307402858312,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-07-01,china,slowdown,tight,0.576033458109059,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-08-01,china,slowdown,tight,0.6228017887552051,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-09-01,china,slowdown,tight,0.4105834959340255,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2024-10-01,china,slowdown,tight,0.5288742524902117,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-11-01,china,slowdown,tight,0.517045176834593,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2024-12-01,china,slowdown,tight,0.4621302124362337,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2025-01-01,china,slowdown,tight,0.5129718599584864,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2025-02-01,china,slowdown,tight,0.502552922262779,cheap,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,high,Macro and valuation inputs are both available.
-2025-03-01,china,slowdown,tight,0.0923185111970377,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2025-04-01,china,slowdown,tight,-0.3763330363137434,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2025-05-01,china,slowdown,neutral,-0.1301701256852833,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2025-06-01,china,slowdown,neutral,-0.105750740762989,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2025-07-01,china,slowdown,neutral,0.0793776002752343,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2025-08-01,china,slowdown,tight,-0.118200871522474,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2025-09-01,china,slowdown,tight,0.0560901414466311,fair,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available.
-2025-10-01,china,slowdown,neutral,0.2737392576361283,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2025-11-01,china,slowdown,neutral,0.5160581424808357,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2025-12-01,china,slowdown,neutral,0.5317886350975711,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
-2026-01-01,china,slowdown,neutral,0.1466061454992439,fair,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available.
-2026-02-01,china,slowdown,easy,0.8746710913904069,cheap,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available.
-2026-03-01,china,slowdown,neutral,0.7819945281371221,cheap,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available.
+date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_confidence,equities_score,equities,duration_score,duration,gold_score,gold,dollar_score,dollar,allocation_confidence,allocation_note
+1990-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1990-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1991-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1992-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1993-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1994-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1995-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1996-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-04-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-05-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-06-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-07-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-08-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-09-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-10-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-11-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1997-12-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-01-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-02-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-03-01,china,unknown,unknown,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-04-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-05-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-06-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-07-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-08-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-09-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-10-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-11-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1998-12-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-01-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-02-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-03-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-04-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-05-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-06-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-07-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-08-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-09-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-10-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-11-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+1999-12-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-01-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-02-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-03-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-04-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-05-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-06-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-07-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-08-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-09-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-10-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-11-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2000-12-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-01-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-02-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-03-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-04-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-05-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-06-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-07-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-08-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-09-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-10-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-11-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2001-12-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-01-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-02-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-03-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-04-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-05-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-06-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-07-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-08-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-09-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-10-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-11-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2002-12-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-01-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-02-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-03-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-04-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-05-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-06-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-07-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-08-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-09-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-10-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-11-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2003-12-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-01-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-02-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-03-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-04-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-05-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-06-01,china,unknown,easy,,unknown,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-07-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-08-01,china,unknown,neutral,,unknown,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-09-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-10-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-11-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2004-12-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2005-01-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2005-02-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2005-03-01,china,unknown,tight,,unknown,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Valuation is missing, so local allocation is still produced with reduced confidence."
+2005-04-01,china,unknown,tight,0.0819633456729184,fair,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-05-01,china,unknown,tight,0.2769457889679084,fair,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-06-01,china,unknown,tight,0.2355842321923333,fair,low,-1.0,cautious,0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-07-01,china,unknown,neutral,0.1942226754167581,fair,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-08-01,china,unknown,neutral,0.1841179317283049,fair,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-09-01,china,unknown,easy,0.2160798137953827,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-10-01,china,unknown,easy,0.3524648507886083,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-11-01,china,unknown,easy,0.3523077537849811,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-12-01,china,unknown,easy,0.2509386527477301,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-01-01,china,unknown,easy,0.121838083523135,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-02-01,china,unknown,easy,0.0565041814290685,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-03-01,china,unknown,easy,0.0886998414652204,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-04-01,china,unknown,easy,-0.0791028406914872,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-05-01,china,unknown,easy,-0.3181904357164279,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-06-01,china,unknown,easy,-0.3436495999602778,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-07-01,china,unknown,easy,-0.3568925486485407,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-08-01,china,unknown,easy,-0.3680165553242036,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-09-01,china,unknown,easy,-0.4755741801774282,fair,low,1.0,neutral,-0.5,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-10-01,china,unknown,neutral,-0.3748297320819528,fair,low,0.0,neutral,0.0,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-11-01,china,unknown,neutral,-0.9121540354826604,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2006-12-01,china,unknown,neutral,-1.8197012940345905,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-01-01,china,unknown,neutral,-2.322868092390173,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-02-01,china,unknown,neutral,-2.3704181729817217,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-03-01,china,unknown,easy,-2.5950097783621153,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-04-01,china,unknown,easy,-2.6715331628790935,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-05-01,china,unknown,neutral,-3.17697226517817,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-06-01,china,unknown,neutral,-2.941800890025709,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-07-01,china,unknown,neutral,-3.7885551192978273,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-08-01,china,unknown,easy,-4.088332917128001,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-09-01,china,unknown,easy,-4.46866435104041,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-10-01,china,unknown,easy,-4.789455796629291,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-11-01,china,unknown,easy,-3.886529826929796,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2007-12-01,china,unknown,easy,-4.288166692171767,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-01-01,china,unknown,neutral,-3.189250221408272,expensive,low,-1.0,cautious,0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-02-01,china,unknown,easy,-3.0983000580667284,expensive,low,0.0,neutral,0.0,neutral,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-03-01,china,reflation,easy,-1.955274700500549,expensive,low,1.0,neutral,-1.0,cautious,1.5,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-04-01,china,reflation,neutral,-2.073170847011301,expensive,low,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-05-01,china,goldilocks,neutral,-1.7714929448466687,expensive,low,1.0,neutral,0.5,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-06-01,china,slowdown,easy,-1.0623805285967935,expensive,low,-1.0,cautious,2.0,bullish,1.0,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-07-01,china,slowdown,neutral,-1.0757768392159504,expensive,low,-2.0,cautious,2.5,bullish,0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-08-01,china,slowdown,neutral,-0.6019124790839827,expensive,low,-2.0,cautious,2.5,bullish,0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-09-01,china,slowdown,neutral,-0.4764943517627931,fair,low,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-10-01,china,slowdown,tight,0.1647743454077146,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-11-01,china,slowdown,tight,0.0303474183507289,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2008-12-01,china,slowdown,tight,0.1114266159728937,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-01-01,china,slowdown,easy,-0.0660861998268326,fair,low,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-02-01,china,slowdown,easy,-0.1568792661647491,fair,low,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-03-01,china,goldilocks,easy,-0.466316662181626,fair,low,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-04-01,china,goldilocks,easy,-0.6197075058046997,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-05-01,china,goldilocks,easy,-0.7855483429524345,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-06-01,china,goldilocks,easy,-1.261447493986089,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-07-01,china,goldilocks,easy,-1.7595179774056224,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-08-01,china,goldilocks,easy,-0.8111608691271786,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-09-01,china,goldilocks,easy,-0.968540878515446,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-10-01,china,goldilocks,easy,-1.0903569799714106,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-11-01,china,goldilocks,easy,-1.2418626595509583,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2009-12-01,china,goldilocks,easy,-1.3446418985481206,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-01-01,china,goldilocks,easy,-0.9993301356644196,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-02-01,china,goldilocks,easy,-1.0249463969118966,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-03-01,china,goldilocks,easy,-0.9742618463932708,expensive,low,2.0,bullish,0.0,neutral,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-04-01,china,goldilocks,easy,-0.4793987787935287,fair,low,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-05-01,china,goldilocks,easy,-0.2628733911271683,fair,low,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-06-01,china,goldilocks,easy,-0.126722132103017,fair,low,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-07-01,china,stagflation,neutral,-0.3100325967460157,fair,low,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-08-01,china,stagflation,neutral,-0.1831239154267346,fair,low,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-09-01,china,stagflation,neutral,-0.1831239154267346,fair,low,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-10-01,china,reflation,neutral,-0.3813175096142486,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-11-01,china,reflation,easy,-0.18680635733014,fair,low,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2010-12-01,china,reflation,easy,-0.1892357582772612,fair,low,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-01-01,china,reflation,easy,-0.2111695776213328,fair,low,2.0,bullish,-1.5,cautious,0.5,neutral,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-02-01,china,reflation,neutral,-0.2694527899158432,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-03-01,china,reflation,neutral,-0.224799666209564,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-04-01,china,reflation,neutral,-0.1163798753727566,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-05-01,china,reflation,tight,0.0028497281324593,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-06-01,china,stagflation,tight,-0.041017910555684,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-07-01,china,stagflation,neutral,-0.004277642632544,fair,low,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-08-01,china,stagflation,tight,0.1656365113912975,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-09-01,china,stagflation,tight,0.2883914597962917,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-10-01,china,stagflation,tight,0.2724890672645664,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-11-01,china,stagflation,tight,0.3611669266626159,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-12-01,china,stagflation,tight,0.4214082488933661,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-01-01,china,stagflation,tight,0.3341405274552277,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-02-01,china,stagflation,tight,0.2585447846690809,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-03-01,china,stagflation,tight,0.3882700068354514,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-04-01,china,stagflation,tight,0.3291246285573582,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-05-01,china,stagflation,tight,0.3852926339120017,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-06-01,china,slowdown,tight,0.4543089779094738,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-07-01,china,slowdown,tight,0.4986479076084984,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-08-01,china,slowdown,tight,0.5917899588553561,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-09-01,china,slowdown,tight,0.5578699668520387,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-10-01,china,slowdown,tight,0.6068301854034985,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-11-01,china,slowdown,tight,0.6511691151025235,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2012-12-01,china,slowdown,tight,0.4577539067710717,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-01-01,china,slowdown,tight,0.3765176121452799,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-02-01,china,slowdown,neutral,0.4042490803326237,fair,low,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-03-01,china,slowdown,tight,0.5282570696939021,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-04-01,china,slowdown,neutral,0.581604799128723,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-05-01,china,slowdown,neutral,0.5461175721618671,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-06-01,china,slowdown,neutral,0.7191661961127855,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-07-01,china,slowdown,tight,0.6991904867049535,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-08-01,china,slowdown,tight,0.7039688725610158,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-09-01,china,slowdown,tight,0.6665235356579203,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-10-01,china,slowdown,tight,0.7219864720326079,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-11-01,china,slowdown,tight,0.6900245899655303,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2013-12-01,china,slowdown,tight,0.7233966099925193,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-01-01,china,slowdown,tight,0.786458208143092,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-02-01,china,slowdown,tight,0.7871632771230477,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-03-01,china,slowdown,tight,0.811917372386942,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-04-01,china,slowdown,tight,0.8463853363665879,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-05-01,china,slowdown,tight,0.8373765366307917,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-06-01,china,slowdown,tight,0.804318710611057,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-07-01,china,slowdown,tight,0.7067891484808383,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-08-01,china,slowdown,tight,0.7640530977881389,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-09-01,china,slowdown,tight,0.7197141680891139,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-10-01,china,slowdown,tight,0.7305239807575228,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-11-01,china,slowdown,tight,0.5807426331451402,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2014-12-01,china,slowdown,tight,0.1748753540234348,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-01-01,china,slowdown,tight,0.2137308288864415,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-02-01,china,slowdown,tight,0.1747182570198075,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-03-01,china,slowdown,tight,-0.0180722983698684,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-04-01,china,slowdown,tight,-0.2678930250977708,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-05-01,china,slowdown,tight,-0.2366362120106487,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-06-01,china,slowdown,tight,-0.1965276961913577,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-07-01,china,slowdown,tight,0.0796143607639772,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-08-01,china,slowdown,tight,0.3731456291763958,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-09-01,china,slowdown,tight,0.4397325722267465,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-10-01,china,slowdown,tight,0.2963735263994119,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-11-01,china,slowdown,tight,0.3032671191953411,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2015-12-01,china,slowdown,tight,0.2227358935495048,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-01-01,china,slowdown,tight,0.5690669194204158,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-02-01,china,slowdown,tight,0.6029869114237332,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-03-01,china,slowdown,tight,0.462448141516221,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-04-01,china,slowdown,tight,0.5043576702681247,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-05-01,china,slowdown,tight,0.5015373943483022,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-06-01,china,slowdown,tight,0.491275553656222,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-07-01,china,slowdown,tight,0.4441163480373746,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-08-01,china,slowdown,tight,0.383246637792116,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-09-01,china,slowdown,tight,0.4242173195949896,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-10-01,china,slowdown,tight,0.4364372702233097,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-11-01,china,slowdown,tight,0.3509705617177839,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2016-12-01,china,slowdown,tight,0.4058855261161432,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-01-01,china,slowdown,tight,0.3536337406339793,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-02-01,china,slowdown,tight,0.3259022724466354,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-03-01,china,slowdown,tight,0.3439198719182276,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-04-01,china,slowdown,tight,0.3695361331657046,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-05-01,china,slowdown,tight,0.3486982577742899,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-06-01,china,slowdown,tight,0.2723974460081873,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-07-01,china,slowdown,tight,0.2114510547974817,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-08-01,china,slowdown,tight,0.2044003649979253,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-09-01,china,slowdown,tight,0.2079257098977035,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-10-01,china,slowdown,tight,0.2072206409177479,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-11-01,china,slowdown,tight,0.214114233713677,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2017-12-01,china,slowdown,tight,0.1876358064826172,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-01-01,china,slowdown,tight,0.0451389266388653,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-02-01,china,slowdown,tight,0.1779219377668656,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-03-01,china,slowdown,tight,0.2690291981120364,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-04-01,china,slowdown,tight,0.3468972448416772,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-05-01,china,slowdown,tight,0.3698503271729588,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-06-01,china,slowdown,tight,0.4506957468260494,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-07-01,china,slowdown,tight,0.4183429897862704,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-08-01,china,slowdown,tight,0.5253526426631665,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-09-01,china,slowdown,tight,0.4621339475089667,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-10-01,china,slowdown,tight,0.6076848812416153,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-11-01,china,slowdown,tight,0.6285227566330301,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2018-12-01,china,slowdown,tight,0.662756942643602,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-01-01,china,slowdown,tight,0.5834787579540497,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-02-01,china,slowdown,tight,0.4187338647589718,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-03-01,china,slowdown,tight,0.3685972862166747,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-04-01,china,slowdown,tight,0.4087058020359658,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-05-01,china,slowdown,tight,0.5074117241570213,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-06-01,china,slowdown,tight,0.4026743752236193,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-07-01,china,slowdown,tight,0.4083149270632644,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-08-01,china,slowdown,tight,0.4536731197494992,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-09-01,china,stagflation,tight,0.4522629817895878,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-10-01,china,stagflation,tight,0.4701234842575529,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-11-01,china,stagflation,tight,0.4944867045487457,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2019-12-01,china,stagflation,tight,0.3874770516718496,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-01-01,china,stagflation,tight,0.4353413262706526,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-02-01,china,stagflation,tight,0.4819525599131715,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-03-01,china,stagflation,tight,0.5757229991745377,cheap,low,-2.0,cautious,-2.5,cautious,1.0,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-04-01,china,stagflation,tight,0.4965214954504326,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-05-01,china,stagflation,tight,0.518064439821803,cheap,low,-2.0,cautious,-2.5,cautious,1.0,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-06-01,china,stagflation,tight,0.4152852008246406,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-07-01,china,stagflation,tight,0.2383203570012427,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-08-01,china,stagflation,tight,0.1450978897162051,fair,low,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-09-01,china,slowdown,tight,0.2242189774021301,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-10-01,china,slowdown,tight,0.239807175926601,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-11-01,china,slowdown,tight,0.15065802551767,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2020-12-01,china,slowdown,tight,0.0263358421491374,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-01-01,china,slowdown,tight,-0.0084463158377627,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-02-01,china,slowdown,tight,0.0019726218579446,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-03-01,china,goldilocks,tight,0.1385951718929773,fair,low,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-04-01,china,goldilocks,tight,0.2441180058445149,fair,low,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-05-01,china,goldilocks,tight,0.1704803729946079,fair,low,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-06-01,china,slowdown,tight,0.1351502430313791,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-07-01,china,slowdown,tight,0.2675423791866781,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-08-01,china,slowdown,tight,0.3319374343317147,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-09-01,china,slowdown,tight,0.3035008971644154,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-10-01,china,slowdown,tight,0.308827254996806,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-11-01,china,slowdown,tight,0.3671104672913163,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2021-12-01,china,slowdown,tight,-0.2832490438931685,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-01-01,china,slowdown,tight,-0.2044932708581291,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-02-01,china,slowdown,tight,-0.2106038686844113,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-03-01,china,slowdown,tight,-0.1292372824010522,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-04-01,china,slowdown,tight,-0.0829658030876033,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-05-01,china,slowdown,tight,-0.0881363089406113,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-06-01,china,slowdown,tight,0.1505527917816272,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-07-01,china,slowdown,tight,0.2169315171847196,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-08-01,china,slowdown,tight,0.2557869920477265,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-09-01,china,slowdown,tight,0.3039386553077236,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-10-01,china,slowdown,tight,0.3857752875777199,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-11-01,china,slowdown,tight,0.302423786012061,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2022-12-01,china,slowdown,tight,0.6588866909001925,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-01-01,china,slowdown,tight,0.6050944758005502,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-02-01,china,slowdown,neutral,0.6156960708217003,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-03-01,china,slowdown,neutral,0.6109956109553294,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-04-01,china,slowdown,neutral,0.5952235100811712,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-05-01,china,slowdown,neutral,0.6492763084959479,cheap,low,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-06-01,china,slowdown,tight,0.5124914005136527,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-07-01,china,slowdown,tight,0.4686748824691408,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-08-01,china,slowdown,tight,0.5211080802525032,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-09-01,china,slowdown,tight,0.5299342226628565,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-10-01,china,slowdown,tight,0.5630444143504668,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-11-01,china,slowdown,tight,0.5769363312780765,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2023-12-01,china,slowdown,tight,0.8435541993064795,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-01-01,china,slowdown,tight,0.86345198272462,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-02-01,china,slowdown,tight,0.7995282185904645,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-03-01,china,slowdown,tight,0.7886124295620601,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-04-01,china,slowdown,tight,0.7688704981233023,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-05-01,china,slowdown,tight,0.7748763646138331,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-06-01,china,slowdown,tight,0.7710708655494877,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-07-01,china,slowdown,tight,0.7754060107649731,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-08-01,china,slowdown,tight,0.8065848978624036,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-09-01,china,slowdown,tight,0.6651060359816173,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-10-01,china,slowdown,tight,0.7439665403524081,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-11-01,china,slowdown,tight,0.736080489915329,cheap,low,-1.0,cautious,1.5,neutral,-1.5,cautious,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2024-12-01,china,slowdown,tight,0.2677918224197404,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2025-01-01,china,slowdown,tight,0.3016862541012422,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2025-02-01,china,slowdown,tight,0.2947402956374373,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2025-03-01,china,slowdown,tight,0.2527863316537151,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2025-04-01,china,slowdown,tight,0.2425934925001101,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-05-01,china,slowdown,neutral,0.2428088666580574,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-06-01,china,slowdown,neutral,0.0803688912621406,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-07-01,china,slowdown,neutral,0.0764077530929301,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-08-01,china,slowdown,tight,-0.3451046339464553,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-09-01,china,slowdown,tight,-0.2896223964352127,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-10-01,china,slowdown,neutral,-0.0461679265660623,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-11-01,china,slowdown,neutral,0.1513840688885271,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-12-01,china,slowdown,neutral,-0.1775331023673114,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-01-01,china,slowdown,neutral,-0.4265865108112401,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-02-01,china,slowdown,easy,0.0933843691700415,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-03-01,china,slowdown,neutral,0.0043979882757086,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.

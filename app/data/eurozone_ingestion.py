@@ -9,17 +9,19 @@ import pandas as pd
 
 from app.data.sources.eurozone_ecb_client import fetch_eurozone_ecb_series
 from app.data.sources.eurozone_eurostat_client import fetch_eurozone_eurostat_series
+from app.data.sources.international_market_client import fetch_international_market_series
 from app.utils.config import get_country_indicators
 
 EUROZONE_MINIMUM_REGIME_SERIES = ["cpi", "growth_proxy", "policy_rate", "yield_10y"]
 EUROZONE_ENRICHMENT_SERIES = ["industrial_production", "m3", "unrate", "core_cpi"]
 EUROZONE_CANONICAL_SERIES = EUROZONE_MINIMUM_REGIME_SERIES + EUROZONE_ENRICHMENT_SERIES
-EUROZONE_VALUATION_OPTIONAL_SERIES = ["equity_pe_proxy", "equity_pb_proxy"]
+EUROZONE_VALUATION_OPTIONAL_SERIES = ["equity_pe_proxy", "shiller_pe_proxy", "equity_pb_proxy"]
 EUROZONE_SERIES_ID_ALIASES = {
     "pmi": "growth_proxy",
     "pmi_or_growth_proxy": "growth_proxy",
     "growth_proxy": "growth_proxy",
     "equity_pe_proxy": "equity_pe_proxy",
+    "shiller_pe_proxy": "shiller_pe_proxy",
     "equity_pb_proxy": "equity_pb_proxy",
     "cpi": "cpi",
     "core_cpi": "core_cpi",
@@ -32,6 +34,7 @@ EUROZONE_SERIES_ID_ALIASES = {
 EUROZONE_SOURCE_FETCHERS = {
     "eurozone_ecb": (fetch_eurozone_ecb_series, "ecb"),
     "eurozone_eurostat": (fetch_eurozone_eurostat_series, "eurostat"),
+    "siblis_market": (fetch_international_market_series, "siblis"),
 }
 NORMALIZED_COLUMNS = [
     "date",
@@ -85,6 +88,15 @@ def _save_frame(frame: pd.DataFrame, path: Path) -> Path:
     return path
 
 
+def _unique_indicators() -> list[dict[str, object]]:
+    """Return deduplicated Eurozone indicators across macro and valuation configs."""
+    merged = get_country_indicators("eurozone", "macro") + get_country_indicators("eurozone", "valuation")
+    deduped: dict[str, dict[str, object]] = {}
+    for indicator in merged:
+        deduped[str(indicator["key"])] = indicator
+    return list(deduped.values())
+
+
 def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.DataFrame, str]:
     """Fetch one Eurozone indicator using configured source and fallback."""
     source = str(indicator.get("source", ""))
@@ -124,7 +136,7 @@ def fetch_eurozone_api_bundle(base_dir: str = "data/raw/api/eurozone") -> pd.Dat
     root = Path(base_dir)
     normalized_dir = root / "normalized"
     summary_rows: list[dict[str, object]] = []
-    indicators = get_country_indicators("eurozone", "macro")
+    indicators = _unique_indicators()
     for indicator in indicators:
         key = canonicalize_eurozone_series_id(indicator["key"])
         source = str(indicator.get("source", ""))
@@ -171,7 +183,7 @@ def rebuild_eurozone_normalized_data(base_dir: str = "data/raw/api/eurozone") ->
     root = Path(base_dir)
     normalized_dir = root / "normalized"
     summary_rows: list[dict[str, object]] = []
-    indicators = get_country_indicators("eurozone", "macro")
+    indicators = _unique_indicators()
     for indicator in indicators:
         key = canonicalize_eurozone_series_id(indicator["key"])
         source_candidates = [str(indicator.get("source", "")), str(indicator.get("fallback_source") or "")]
@@ -290,10 +302,17 @@ def validate_eurozone_data(
         else "enhanced" if enrichment_used
         else "minimum"
     )
+    valuation_expected_series = ["cpi", "policy_rate", "yield_10y", "equity_pe_proxy", "shiller_pe_proxy", "equity_pb_proxy"]
     valuation_proxy_inputs_used = [series for series in ["cpi", "policy_rate", "yield_10y"] if series in available_series]
     if len(valuation_proxy_inputs_used) == 3:
         valuation_proxy_inputs_used.extend(["real_yield_proxy", "term_spread"])
-    valuation_proxy_inputs_missing = [series for series in ["cpi", "policy_rate", "yield_10y", "equity_pe_proxy", "equity_pb_proxy"] if series not in available_series]
+    if "equity_pe_proxy" in available_series:
+        valuation_proxy_inputs_used.append("equity_pe_proxy")
+    if "shiller_pe_proxy" in available_series:
+        valuation_proxy_inputs_used.append("shiller_pe_proxy")
+    if "equity_pb_proxy" in available_series:
+        valuation_proxy_inputs_used.append("equity_pb_proxy")
+    valuation_proxy_inputs_missing = [series for series in valuation_expected_series if series not in available_series]
     actual_sources_found = sorted(
         {
             part.strip()
@@ -325,11 +344,11 @@ def validate_eurozone_data(
         "regime_ready": not bool(missing_required),
         "valuation_loaded_data_path": str(normalized_dir),
         "valuation_normalized_files_found": normalized_files,
-        "valuation_canonical_series_ids_found": [series for series in ["cpi", "policy_rate", "yield_10y", "equity_pe_proxy", "equity_pb_proxy"] if series in available_series],
+        "valuation_canonical_series_ids_found": [series for series in valuation_expected_series if series in available_series],
         "valuation_actual_sources_found": actual_sources_found,
         "valuation_proxy_inputs_used": valuation_proxy_inputs_used,
         "valuation_proxy_inputs_missing": valuation_proxy_inputs_missing,
-        "valuation_proxy_series_found": [series for series in ["cpi", "policy_rate", "yield_10y", "equity_pe_proxy", "equity_pb_proxy"] if series in available_series],
+        "valuation_proxy_series_found": [series for series in valuation_expected_series if series in available_series],
         "valuation_proxy_readiness": all(series in available_series for series in ["cpi", "policy_rate", "yield_10y"]),
         "valuation_ready": all(series in available_series for series in ["cpi", "policy_rate", "yield_10y"]),
         "stale_warning": stale_warning,

@@ -52,9 +52,41 @@ countries:
     valuation:
       - key: buffett_indicator
         name: Buffett Indicator
-        source: manual
+        source: us_fred
         series_id: buffett_indicator
-        source_series_id: buffett_indicator
+        source_series_id: DDDM01USA156NWDB
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: equity_pe_proxy
+        name: S&P 500 PE Proxy
+        source: us_multpl
+        series_id: equity_pe_proxy
+        source_series_id: s-p-500-pe-ratio/table/by-month
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: shiller_pe_proxy
+        name: Shiller CAPE Proxy
+        source: us_multpl
+        series_id: shiller_pe_proxy
+        source_series_id: shiller-pe/table/by-month
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: equity_pb_proxy
+        name: S&P 500 PB Proxy
+        source: us_multpl
+        series_id: equity_pb_proxy
+        source_series_id: s-p-500-price-to-book/table/by-quarter
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: earnings_yield_proxy
+        name: S&P 500 Earnings Yield Proxy
+        source: us_multpl
+        series_id: earnings_yield_proxy
+        source_series_id: s-p-500-earnings-yield/table/by-month
         category: valuation
         frequency: monthly
         transform: level
@@ -72,17 +104,15 @@ countries:
         transform: level
       - key: equity_risk_proxy
         name: Equity Risk Proxy
-        source: manual
-        series_id: equity_risk_proxy
-        source_series_id: equity_risk_proxy
+        source: derived
         category: valuation
         frequency: monthly
         transform: level
       - key: credit_spread_proxy
-        name: Credit Spread Proxy
-        source: manual
+        name: Corporate OAS Proxy
+        source: us_fred
         series_id: credit_spread_proxy
-        source_series_id: credit_spread_proxy
+        source_series_id: BAMLC0A0CM
         category: valuation
         frequency: monthly
         transform: level
@@ -195,6 +225,14 @@ countries:
         frequency: monthly
         transform: level
         fallback_source: manual
+      - key: shiller_pe_proxy
+        name: China CAPE Proxy
+        source: siblis_market
+        series_id: shiller_pe_proxy
+        source_series_id: china_shiller_pe_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
       - key: real_yield
         name: China Real Yield Proxy
         source: derived
@@ -292,9 +330,17 @@ countries:
     valuation:
       - key: equity_pe_proxy
         name: Eurozone Equity PE Proxy
-        source: manual
+        source: siblis_market
         series_id: equity_pe_proxy
-        source_series_id: equity_pe_proxy
+        source_series_id: eurozone_equity_pe_proxy
+        category: valuation
+        frequency: monthly
+        transform: level
+      - key: shiller_pe_proxy
+        name: Eurozone CAPE Proxy
+        source: siblis_market
+        series_id: shiller_pe_proxy
+        source_series_id: eurozone_shiller_pe_proxy
         category: valuation
         frequency: monthly
         transform: level

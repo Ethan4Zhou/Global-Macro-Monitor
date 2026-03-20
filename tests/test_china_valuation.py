@@ -7,7 +7,11 @@ from pathlib import Path
 import pandas as pd
 
 from app.regime.classifier import classify_country_macro_regime
-from app.valuation.china_models import compute_china_valuation_score, label_china_valuation_regime
+from app.valuation.china_models import (
+    compute_china_valuation_confidence,
+    compute_china_valuation_score,
+    label_china_valuation_regime,
+)
 from app.valuation.features import build_country_valuation_features_frame, inspect_china_valuation_inputs
 
 
@@ -60,7 +64,9 @@ def test_build_china_valuation_features_frame_uses_proxy_columns(tmp_path: Path)
     assert "hs300_pe_proxy" in valuation.columns
     assert "hs300_pb_proxy" in valuation.columns
     assert "real_yield_proxy" in valuation.columns
-    assert valuation["valuation_method"].iloc[-1] == "proxy_based"
+    assert valuation["valuation_method"].iloc[-1] == "research_proxy_cn"
+    assert "valuation_confidence" in valuation.columns
+    assert "valuation_inputs_used" in valuation.columns
 
 
 def test_compute_china_valuation_score_returns_non_nan_when_proxies_exist() -> None:
@@ -76,6 +82,24 @@ def test_compute_china_valuation_score_returns_non_nan_when_proxies_exist() -> N
     score = compute_china_valuation_score(frame)
     assert pd.notna(score.iloc[-1])
     assert label_china_valuation_regime(score.iloc[-1]) in {"cheap", "fair", "expensive"}
+
+
+def test_compute_china_valuation_confidence_prefers_full_equity_block() -> None:
+    """China valuation confidence should improve when PE, PB, CAPE, and rates are covered."""
+    frame = pd.DataFrame(
+        {
+            "equity_pe_proxy": [12.5, 12.5],
+            "equity_pb_proxy": [None, 1.4],
+            "shiller_pe_proxy": [None, 16.0],
+            "real_yield_proxy": [0.5, 0.5],
+            "term_spread": [0.3, 0.3],
+            "equity_risk_proxy": [None, 0.04],
+        }
+    )
+
+    confidence = compute_china_valuation_confidence(frame)
+
+    assert confidence.tolist() == ["medium", "high"]
 
 
 def test_china_regime_still_works_when_valuation_is_missing() -> None:
@@ -168,7 +192,14 @@ def test_china_valuation_inspection_false_when_no_actual_proxy_inputs(tmp_path: 
 
     assert diagnostics["valuation_ready"] is False
     assert diagnostics["proxy_inputs_used"] == []
-    assert diagnostics["proxy_inputs_missing"] == ["cpi", "policy_rate", "yield_10y", "hs300_pe_proxy", "hs300_pb_proxy"]
+    assert diagnostics["proxy_inputs_missing"] == [
+        "cpi",
+        "policy_rate",
+        "yield_10y",
+        "hs300_pe_proxy",
+        "hs300_pb_proxy",
+        "shiller_pe_proxy",
+    ]
 
 
 def test_validate_china_data_series_status_uses_actual_loaded_sources(tmp_path: Path) -> None:

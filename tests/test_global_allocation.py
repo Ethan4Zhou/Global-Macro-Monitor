@@ -194,3 +194,22 @@ def test_global_duration_uses_us_local_duration_signal(tmp_path: Path) -> None:
     assert global_duration["score"] == 0.0
     assert global_duration["preference"] == "neutral"
     assert "dollar duration remains neutral" in global_duration["reason"]
+
+
+def test_us_equities_reason_mentions_expensive_valuation_offset(tmp_path: Path) -> None:
+    """US equities rationale should explain why supportive macro still results in neutral preference."""
+    processed = tmp_path / "processed"
+    processed.mkdir()
+
+    _write_country_files(processed, "us", "2025-01-01", "goldilocks", "neutral", 0.8, -0.3, 0.0, -1.2)
+    _write_country_files(processed, "china", "2025-01-01", "slowdown", "neutral", -0.2, -0.1, 0.0, 0.2)
+    _write_country_files(processed, "eurozone", "2025-01-01", "goldilocks", "neutral", 0.4, -0.2, 0.0, 0.0)
+
+    allocation = build_global_allocation_map(processed_dir=str(processed))
+
+    us_equities = allocation.loc[
+        (allocation["as_of_mode"] == "latest_available")
+        & (allocation["asset"] == "us_equities")
+    ].iloc[0]
+    assert us_equities["preference"] == "neutral"
+    assert "rich valuations keep the equity view from turning fully bullish" in us_equities["reason"]

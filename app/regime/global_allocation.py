@@ -409,15 +409,35 @@ def _country_equity_reason(
 
     regime_label = _display_label(regime)
     liquidity_label = _display_label(liquidity_regime)
+    valuation_regime = label_valuation_regime(valuation_score)
+
     if regime in {"goldilocks", "reflation"}:
-        base = f"{country_label} is in {regime_label} with {liquidity_label} liquidity, which supports equities."
+        if valuation_status == "ready" and valuation_regime == "expensive":
+            base = (
+                f"{country_label} is in {regime_label} with {liquidity_label} liquidity, "
+                "but rich valuations keep the equity view from turning fully bullish."
+            )
+        else:
+            base = (
+                f"{country_label} is in {regime_label} with {liquidity_label} liquidity, "
+                "which supports equities."
+            )
     elif regime in {"slowdown", "stagflation"}:
-        base = f"{country_label} is in {regime_label} with {liquidity_label} liquidity, which limits the equity view."
+        if valuation_status == "ready" and valuation_regime == "cheap":
+            base = (
+                f"{country_label} is in {regime_label} with {liquidity_label} liquidity, "
+                "but cheaper valuations soften the macro headwind for equities."
+            )
+        else:
+            base = (
+                f"{country_label} is in {regime_label} with {liquidity_label} liquidity, "
+                "which limits the equity view."
+            )
     else:
         base = f"{country_label} macro signals are mixed for equities."
 
     valuation_note = (
-        f" Valuations look {_display_label(label_valuation_regime(valuation_score))}."
+        f" Valuations look {_display_label(valuation_regime)}."
         if valuation_status == "ready" and not pd.isna(valuation_score)
         else " Valuation is missing, so this is a macro-only view."
     )
