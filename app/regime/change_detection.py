@@ -14,6 +14,7 @@ CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
 HISTORY_DIR = Path("data/runtime")
 SUMMARY_HISTORY_PATH = str(HISTORY_DIR / "global_summary_history.csv")
 ALLOCATION_HISTORY_PATH = str(HISTORY_DIR / "global_allocation_history.csv")
+REQUIRED_HISTORY_COLUMNS = {"as_of_mode", "run_timestamp"}
 
 
 def _load_csv(path: Path) -> pd.DataFrame:
@@ -25,6 +26,11 @@ def _load_csv(path: Path) -> pd.DataFrame:
         if column in frame.columns:
             frame[column] = pd.to_datetime(frame[column], errors="coerce")
     return frame
+
+
+def _has_required_history_columns(history: pd.DataFrame) -> bool:
+    """Return whether a history frame can support mode-specific comparisons."""
+    return not history.empty and REQUIRED_HISTORY_COLUMNS.issubset(history.columns)
 
 
 def _schema_version(columns: list[str]) -> str:
@@ -96,7 +102,7 @@ def _direction(change_type: str, old_value: object, new_value: object) -> str:
 
 def _history_for_mode(history: pd.DataFrame, mode: str) -> pd.DataFrame:
     """Return one mode's history sorted by timestamp."""
-    if history.empty:
+    if not _has_required_history_columns(history):
         return pd.DataFrame()
     matched = history.loc[history["as_of_mode"] == mode].copy()
     return matched.sort_values("run_timestamp").reset_index(drop=True)
@@ -104,7 +110,7 @@ def _history_for_mode(history: pd.DataFrame, mode: str) -> pd.DataFrame:
 
 def _latest_schema(history: pd.DataFrame) -> str | None:
     """Return the latest schema version present in a history frame."""
-    if history.empty or "schema_version" not in history.columns:
+    if not _has_required_history_columns(history) or "schema_version" not in history.columns:
         return None
     latest_timestamp = history["run_timestamp"].max()
     latest_rows = history.loc[history["run_timestamp"] == latest_timestamp]
@@ -119,6 +125,8 @@ def _common_run_timestamps(
     mode: str,
 ) -> tuple[list[pd.Timestamp], str]:
     """Find comparable common run timestamps for one mode."""
+    if not _has_required_history_columns(summary_history) or not _has_required_history_columns(allocation_history):
+        return [], "no_prior_snapshot"
     summary_mode = _history_for_mode(summary_history, mode)
     allocation_mode = _history_for_mode(allocation_history, mode)
     if summary_mode.empty or allocation_mode.empty:
@@ -157,6 +165,8 @@ def _common_run_timestamps(
 
 def _row_at_timestamp(history: pd.DataFrame, run_timestamp: pd.Timestamp) -> pd.Series | None:
     """Return a single summary row for a given run timestamp."""
+    if "run_timestamp" not in history.columns:
+        return None
     matched = history.loc[history["run_timestamp"] == run_timestamp]
     if matched.empty:
         return None
@@ -165,7 +175,7 @@ def _row_at_timestamp(history: pd.DataFrame, run_timestamp: pd.Timestamp) -> pd.
 
 def _snapshot_at_timestamp(history: pd.DataFrame, run_timestamp: pd.Timestamp) -> pd.DataFrame:
     """Return all allocation rows for a given run timestamp."""
-    if history.empty:
+    if history.empty or "run_timestamp" not in history.columns:
         return pd.DataFrame()
     return history.loc[history["run_timestamp"] == run_timestamp].copy()
 
@@ -178,7 +188,7 @@ def _country_regime_changes(
     """Build country regime changes using summary-level country regime columns when available."""
     rows: list[dict[str, object]] = []
     summary_history = _load_csv(Path(processed_dir) / Path(SUMMARY_HISTORY_PATH).name)
-    if summary_history.empty:
+    if not _has_required_history_columns(summary_history):
         return rows
     for mode in ["latest_available", "last_common_date"]:
         mode_history = _history_for_mode(summary_history, mode)
@@ -274,11 +284,15 @@ def build_mode_comparison(
     common_timestamps, status = _common_run_timestamps(summary_history, allocation_history, selected_mode)
 
     if not common_timestamps:
-        latest_available = sorted(
-            set(_history_for_mode(summary_history, selected_mode)["run_timestamp"].tolist()).intersection(
-                _history_for_mode(allocation_history, selected_mode)["run_timestamp"].tolist()
+        summary_mode = _history_for_mode(summary_history, selected_mode)
+        allocation_mode = _history_for_mode(allocation_history, selected_mode)
+        latest_available: list[pd.Timestamp] = []
+        if not summary_mode.empty and not allocation_mode.empty:
+            latest_available = sorted(
+                set(summary_mode["run_timestamp"].tolist()).intersection(
+                    allocation_mode["run_timestamp"].tolist()
+                )
             )
-        )
         current_snapshot_timestamp = latest_available[-1] if latest_available else pd.NaT
         result = {
             "selected_mode": selected_mode,
