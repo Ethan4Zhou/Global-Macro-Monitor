@@ -419,9 +419,9 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2004-10-01,eurozone,reflation,neutral,0.1465538082199703,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2004-11-01,eurozone,reflation,neutral,0.1307411632702906,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2004-12-01,eurozone,reflation,neutral,0.1051309850891691,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
-2005-01-01,eurozone,reflation,neutral,0.0971702663870724,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-01-01,eurozone,reflation,neutral,0.0971702663870725,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2005-02-01,eurozone,reflation,neutral,0.0945540441604758,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
-2005-03-01,eurozone,reflation,neutral,0.11557128635027,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2005-03-01,eurozone,reflation,neutral,0.1155712863502701,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2005-04-01,eurozone,reflation,neutral,0.0882225590451208,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2005-05-01,eurozone,reflation,neutral,0.0648729137531998,fair,low,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2005-06-01,eurozone,goldilocks,easy,0.0429789580529105,fair,low,3.0,bullish,-0.5,neutral,-0.5,neutral,-2.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
@@ -491,7 +491,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2010-10-01,eurozone,goldilocks,neutral,0.1608205284658695,fair,low,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2010-11-01,eurozone,reflation,tight,0.2163605063349222,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2010-12-01,eurozone,reflation,tight,0.2642340665545084,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
-2011-01-01,eurozone,reflation,tight,0.24697369319287,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2011-01-01,eurozone,reflation,tight,0.2469736931928701,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2011-02-01,eurozone,reflation,tight,0.3243948277687236,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2011-03-01,eurozone,reflation,tight,0.3262722398588424,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2011-04-01,eurozone,reflation,tight,0.3152017790035911,fair,low,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
@@ -641,8 +641,8 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2023-04-01,eurozone,reflation,tight,0.2413239818215031,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2023-05-01,eurozone,reflation,tight,0.2090863802890704,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2023-06-01,eurozone,reflation,tight,-0.043744560260276,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2023-07-01,eurozone,reflation,tight,-0.0446668931684774,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2023-08-01,eurozone,reflation,tight,-0.0774452808835211,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2023-07-01,eurozone,reflation,tight,-0.0446668931684775,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2023-08-01,eurozone,reflation,tight,-0.077445280883521,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2023-09-01,eurozone,reflation,tight,-0.1110019163500025,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2023-10-01,eurozone,reflation,tight,-0.1129205280250358,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2023-11-01,eurozone,goldilocks,tight,-0.1102475122794808,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -650,7 +650,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2024-01-01,eurozone,goldilocks,tight,-0.1393633239863059,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-02-01,eurozone,goldilocks,tight,-0.1404291510558287,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-03-01,eurozone,goldilocks,tight,-0.1397940075127181,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2024-04-01,eurozone,goldilocks,tight,-0.1408536190949699,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2024-04-01,eurozone,goldilocks,tight,-0.1408536190949701,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-05-01,eurozone,goldilocks,tight,-0.1412759285057392,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-06-01,eurozone,goldilocks,tight,-0.3555200303930693,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-07-01,eurozone,goldilocks,tight,-0.3550616587250794,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
