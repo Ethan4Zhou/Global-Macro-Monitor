@@ -33,8 +33,10 @@ from app.data.eurozone_ingestion import (
     validate_eurozone_data,
 )
 from app.data.manual_loader import MINIMUM_MANUAL_SERIES, assess_manual_country_readiness
+from app.data.market_overlay_ingestion import fetch_market_overlay_bundle, save_market_overlay_series
 from app.factors.features import build_country_macro_features, build_us_macro_features
 from app.regime.allocation import map_asset_preferences, save_country_asset_preferences, save_us_asset_preferences
+from app.regime.alerts import build_monitor_alerts
 from app.regime.classifier import (
     classify_country_macro_regime,
     classify_us_macro_regime,
@@ -44,6 +46,7 @@ from app.regime.classifier import (
 from app.regime.change_detection import build_global_change_log
 from app.regime.change_detection import (
     ALLOCATION_HISTORY_PATH,
+    HISTORY_DIR,
     SUMMARY_HISTORY_PATH,
     append_global_allocation_history,
     append_global_summary_history,
@@ -67,6 +70,56 @@ from app.valuation.eurozone_models import compute_eurozone_valuation_score, labe
 logger = get_logger(__name__)
 
 
+def _load_dotenv(path: str = ".env") -> None:
+    """Load simple KEY=VALUE pairs from a local .env file into os.environ."""
+    dotenv_path = Path(path)
+    if not dotenv_path.exists():
+        return
+    for raw_line in dotenv_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+def _is_likely_network_error(message: str) -> bool:
+    """Heuristically detect transient network/DNS failures from exception text."""
+    normalized = message.lower()
+    patterns = [
+        "name resolution",
+        "failed to resolve",
+        "temporary failure in name resolution",
+        "max retries exceeded",
+        "connection refused",
+        "connection aborted",
+        "connection reset",
+        "timed out",
+    ]
+    return any(pattern in normalized for pattern in patterns)
+
+
+def _csv_has_rows(path: Path) -> bool:
+    """Return True when a CSV exists and has at least one data row."""
+    if not path.exists():
+        return False
+    try:
+        frame = pd.read_csv(path, nrows=1)
+    except Exception:
+        return False
+    return not frame.empty
+
+
+def _us_fred_cache_available() -> bool:
+    """Return whether the local raw US FRED cache is usable."""
+    required = ["CPIAUCSL", "CPILFESL", "UNRATE", "FEDFUNDS", "GS10", "M2SL"]
+    root = Path("data/raw/fred")
+    return all(_csv_has_rows(root / f"{series_id}.csv") for series_id in required)
+
+
 def build_parser() -> argparse.ArgumentParser:
     """Create the command line parser."""
     parser = argparse.ArgumentParser(description="Global macro monitor CLI.")
@@ -88,9 +141,11 @@ def build_parser() -> argparse.ArgumentParser:
             "validate-manual-data",
             "validate-country-data",
             "fetch-country-api-data",
+            "fetch-market-overlay-data",
             "rebuild-country-normalized-data",
             "build-global-summary",
             "build-global-allocation",
+            "build-alerts",
             "ingest-consensus-notes",
             "fetch-consensus-sources",
             "build-consensus-snapshots",
@@ -152,6 +207,7 @@ def _load_csv(path: str) -> pd.DataFrame:
 
 def run_fetch_us() -> None:
     """Fetch and save the V1 US raw FRED macro bundle."""
+    _load_dotenv()
     api_key = os.getenv("FRED_API_KEY")
     if not api_key:
         raise SystemExit(
@@ -165,6 +221,25 @@ def run_fetch_us() -> None:
         date_min = _format_date(frame["date"].min()) if not frame.empty else "n/a"
         date_max = _format_date(frame["date"].max()) if not frame.empty else "n/a"
         print(f"- {series_id}: {len(frame)} rows ({date_min} -> {date_max})")
+
+
+def run_fetch_market_overlay_data() -> None:
+    """Fetch shared high-frequency market-overlay inputs."""
+    _load_dotenv()
+    api_key = os.getenv("FRED_API_KEY")
+    if not api_key:
+        raise SystemExit(
+            "FRED_API_KEY is not set. Add it to your environment before running fetch-market-overlay-data."
+        )
+
+    bundle = fetch_market_overlay_bundle(api_key=api_key)
+    print("Fetched shared market overlay bundle:")
+    for series_id, frame in bundle.items():
+        save_market_overlay_series(frame, series_id=series_id)
+        date_min = _format_date(frame["date"].min()) if not frame.empty else "n/a"
+        date_max = _format_date(frame["date"].max()) if not frame.empty else "n/a"
+        country = frame["country"].iloc[-1] if not frame.empty else "n/a"
+        print(f"- {series_id} ({country}): {len(frame)} rows ({date_min} -> {date_max})")
 
 
 def run_build_country_features(country: str) -> None:
@@ -670,7 +745,7 @@ def run_build_global_summary() -> None:
         print(f"  global_regime: {latest['global_regime']}")
         print(f"  investment_clock: {latest['investment_clock']}")
     print("Saved -> data/processed/global_macro_summary.csv")
-    print("Saved -> data/processed/global_summary_history.csv")
+    print(f"Saved -> {SUMMARY_HISTORY_PATH}")
 
 
 def run_build_global_allocation() -> None:
@@ -681,7 +756,7 @@ def run_build_global_allocation() -> None:
     append_global_summary_history(summary, run_timestamp=run_timestamp)
     append_global_allocation_history(allocation, run_timestamp=run_timestamp)
     changes = build_global_change_log()
-    evaluation_outputs = build_regime_evaluation_outputs()
+    evaluation_outputs = build_regime_evaluation_outputs(history_dir=str(HISTORY_DIR))
     if allocation.empty:
         print("Built empty global allocation map -> data/processed/global_allocation_map.csv")
         return
@@ -699,8 +774,8 @@ def run_build_global_allocation() -> None:
                 f"(score={float(row['score']):.1f}, confidence={row['confidence']})"
             )
     print("Saved -> data/processed/global_allocation_map.csv")
-    print("Saved -> data/processed/global_summary_history.csv")
-    print("Saved -> data/processed/global_allocation_history.csv")
+    print(f"Saved -> {SUMMARY_HISTORY_PATH}")
+    print(f"Saved -> {ALLOCATION_HISTORY_PATH}")
     print(f"Saved -> data/processed/global_change_log.csv ({len(changes)} rows)")
     print(
         "Saved evaluation files -> "
@@ -710,9 +785,25 @@ def run_build_global_allocation() -> None:
     )
 
 
+def run_build_alerts() -> None:
+    """Build the monitor alert table."""
+    alerts = build_monitor_alerts()
+    if alerts.empty:
+        print("Built empty monitor alerts -> data/processed/monitor_alerts.csv")
+        return
+    print("Latest monitor alerts:")
+    for _, row in alerts.head(10).iterrows():
+        date_text = _format_date(row["date"])
+        print(
+            f"- [{row['severity']}] {row['selected_mode']} {row['region']} {row['alert_type']}: "
+            f"{row['entity_name']} ({date_text})"
+        )
+    print("Saved -> data/processed/monitor_alerts.csv")
+
+
 def run_evaluate_regimes() -> None:
     """Build descriptive regime evaluation summaries."""
-    outputs = build_regime_evaluation_outputs()
+    outputs = build_regime_evaluation_outputs(history_dir=str(HISTORY_DIR))
     print("Built regime evaluation outputs:")
     print(f"- regime_frequency_summary.csv: {len(outputs['regime_frequency_summary.csv'])} rows")
     print(f"- regime_transition_matrix.csv: {len(outputs['regime_transition_matrix.csv'])} rows")
@@ -721,17 +812,22 @@ def run_evaluate_regimes() -> None:
 
 def run_evaluate_confidence() -> None:
     """Build descriptive confidence-bucket evaluation summaries."""
-    outputs = build_regime_evaluation_outputs()
+    outputs = build_regime_evaluation_outputs(history_dir=str(HISTORY_DIR))
     print("Built confidence evaluation outputs:")
     print(f"- confidence_bucket_summary.csv: {len(outputs['confidence_bucket_summary.csv'])} rows")
 
 
 def run_refresh_monitor() -> None:
     """Refresh the full monitoring stack with best-effort data fetching."""
+    _load_dotenv()
     print("Refreshing global macro monitor:")
 
     fetch_errors: list[str] = []
+    offline_mode = False
     for country in ["us", "china", "eurozone"]:
+        if offline_mode:
+            print(f"- fetch_{country}: skipped (network unavailable, using cached data)")
+            continue
         try:
             if country == "us":
                 run_fetch_us()
@@ -739,16 +835,44 @@ def run_refresh_monitor() -> None:
                 run_fetch_country_api_data(country)
         except SystemExit as exc:
             message = str(exc)
-            fetch_errors.append(f"{country}: {message}")
-            print(f"- fetch_{country}: failed ({message})")
+            if country == "us" and _us_fred_cache_available():
+                print(f"- fetch_{country}: degraded ({message}); using cached local FRED data")
+            else:
+                fetch_errors.append(f"{country}: {message}")
+                print(f"- fetch_{country}: failed ({message})")
+            if _is_likely_network_error(message):
+                offline_mode = True
+                print("- remote_fetch_mode: network appears unavailable; remaining remote fetches will be skipped")
         except Exception as exc:
-            fetch_errors.append(f"{country}: {exc}")
-            print(f"- fetch_{country}: failed ({exc})")
+            message = str(exc)
+            if country == "us" and _us_fred_cache_available() and _is_likely_network_error(message):
+                print(f"- fetch_{country}: degraded ({message}); using cached local FRED data")
+            else:
+                fetch_errors.append(f"{country}: {message}")
+                print(f"- fetch_{country}: failed ({message})")
+            if _is_likely_network_error(message):
+                offline_mode = True
+                print("- remote_fetch_mode: network appears unavailable; remaining remote fetches will be skipped")
+
+    if not offline_mode:
+        try:
+            run_fetch_market_overlay_data()
+        except SystemExit as exc:
+            message = str(exc)
+            fetch_errors.append(f"market_overlay: {message}")
+            print(f"- market_overlay: failed ({message})")
+        except Exception as exc:
+            message = str(exc)
+            fetch_errors.append(f"market_overlay: {message}")
+            print(f"- market_overlay: failed ({message})")
 
     run_global_monitor()
 
     consensus_errors: list[str] = []
     for region in ["us", "eurozone", "china"]:
+        if offline_mode:
+            print(f"- consensus_{region}: skipped (network unavailable, reusing existing notes)")
+            continue
         try:
             run_fetch_consensus_sources(region)
         except SystemExit as exc:
@@ -763,6 +887,7 @@ def run_refresh_monitor() -> None:
     run_build_consensus_deviation()
     run_evaluate_regimes()
     run_evaluate_confidence()
+    run_build_alerts()
 
     if fetch_errors:
         print("- data_fetch_warnings:")
@@ -785,10 +910,12 @@ def run_global_monitor() -> None:
         run_map_country_assets(country)
     run_build_global_summary()
     run_build_global_allocation()
+    run_build_alerts()
 
 
 def main() -> None:
     """Run the requested CLI command."""
+    _load_dotenv()
     args = build_parser().parse_args()
     if args.command == "fetch-us":
         run_fetch_us()
@@ -814,6 +941,9 @@ def main() -> None:
     if args.command == "fetch-country-api-data":
         run_fetch_country_api_data(args.country)
         return
+    if args.command == "fetch-market-overlay-data":
+        run_fetch_market_overlay_data()
+        return
     if args.command == "rebuild-country-normalized-data":
         run_rebuild_country_normalized_data(args.country)
         return
@@ -822,6 +952,9 @@ def main() -> None:
         return
     if args.command == "build-global-allocation":
         run_build_global_allocation()
+        return
+    if args.command == "build-alerts":
+        run_build_alerts()
         return
     if args.command == "ingest-consensus-notes":
         run_ingest_consensus(args.region, args.path)

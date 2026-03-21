@@ -8,6 +8,7 @@ import sys
 
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 from pandas.errors import EmptyDataError
 
@@ -20,6 +21,7 @@ if "app" in sys.modules and not hasattr(sys.modules["app"], "__path__"):
     del sys.modules["app"]
 
 from app.regime.change_detection import build_mode_comparison
+from app.regime.change_detection import HISTORY_DIR as CHANGE_HISTORY_DIR
 from app.regime.global_monitor import build_country_status
 from app.regime.nowcast import build_country_nowcast_overlay, build_global_nowcast_overlay
 from app.utils.config import get_country_config, get_supported_countries
@@ -100,6 +102,36 @@ LABEL_MAP_EN = {
     "dollar": "Dollar",
     "policy_rate": "Policy Rate",
     "yield_10y": "Yield 10Y",
+    "dxy_proxy": "Dollar Index Proxy",
+    "vix_proxy": "VIX Proxy",
+    "gold_proxy": "Gold Proxy",
+    "oil_proxy": "Oil Proxy",
+    "copper_proxy": "Copper Proxy",
+    "sp500_proxy": "S&P 500 Proxy",
+    "eurostoxx50_proxy": "Euro Stoxx 50 Proxy",
+    "china_equity_proxy": "China Equity Proxy",
+    "risk_on": "Risk-on",
+    "defensive": "Defensive",
+    "stable": "Stable",
+    "easing": "Easing",
+    "tightening": "Tightening",
+    "cheaper": "Cheaper",
+    "richer": "Richer",
+    "cooling": "Cooling",
+    "reheating": "Reheating",
+    "weaker_dollar": "Weaker dollar",
+    "stronger_dollar": "Stronger dollar",
+    "tighter_spreads": "Tighter spreads",
+    "wider_spreads": "Wider spreads",
+    "lower_volatility": "Lower volatility",
+    "higher_volatility": "Higher volatility",
+    "stronger": "Stronger",
+    "weaker": "Weaker",
+    "risk": "Risk",
+    "rates": "Rates",
+    "Risk Overlay": "Risk Overlay",
+    "Rates Overlay": "Rates Overlay",
+    "Inflation Overlay": "Inflation Overlay",
     "cpi": "CPI",
     "pmi": "PMI",
     "industrial_production": "Industrial Production",
@@ -196,6 +228,38 @@ LABEL_MAP_ZH = {
     "commodities": "大宗商品",
     "policy_rate": "政策利率",
     "yield_10y": "10年期收益率",
+    "dxy_proxy": "美元指数代理",
+    "vix_proxy": "波动率代理",
+    "gold_proxy": "黄金价格代理",
+    "oil_proxy": "原油价格代理",
+    "copper_proxy": "铜价代理",
+    "sp500_proxy": "标普500代理",
+    "eurostoxx50_proxy": "欧元区蓝筹股代理",
+    "china_equity_proxy": "中国权益资产代理",
+    "risk_on": "偏风险偏好",
+    "Risk-on": "偏风险偏好",
+    "defensive": "偏防御",
+    "Defensive": "偏防御",
+    "stable": "稳定",
+    "easing": "边际宽松",
+    "tightening": "边际收紧",
+    "cheaper": "估值走低",
+    "richer": "估值走高",
+    "cooling": "通胀降温",
+    "reheating": "通胀再升温",
+    "weaker_dollar": "美元走弱",
+    "stronger_dollar": "美元走强",
+    "tighter_spreads": "信用利差收窄",
+    "wider_spreads": "信用利差走阔",
+    "lower_volatility": "波动率回落",
+    "higher_volatility": "波动率上升",
+    "stronger": "走强",
+    "weaker": "走弱",
+    "risk": "风险偏好",
+    "rates": "利率",
+    "Risk Overlay": "风险偏好偏移",
+    "Rates Overlay": "利率偏移",
+    "Inflation Overlay": "通胀偏移",
     "cpi": "CPI",
     "pmi": "PMI",
     "industrial_production": "工业增加值",
@@ -213,6 +277,7 @@ LABEL_MAP_ZH = {
     "china_nbs": "国家统计局",
     "china_rates": "中国货币网/债券数据",
     "normalized_api": "标准化API数据",
+    "global_markets": "全球市场数据",
     "siblis": "Siblis",
     "No loaded data": "未加载数据",
 }
@@ -224,6 +289,16 @@ TEXT_MAP_ZH = {
     "User Guide": "用户手册",
     "Open User Guide": "用户手册",
     "Back to Dashboard": "返回监控页面",
+    "Global Snapshot": "全球快照",
+    "Primary Signals": "核心信号",
+    "Asset Tilt Board": "资产偏好总览",
+    "Regional Quick Read": "地区速览",
+    "Detailed Tables": "详细表格",
+    "Macro regime and market overlay are aligned.": "宏观主状态与实时市场偏移方向大体一致。",
+    "Macro regime and market overlay are diverging.": "宏观主状态与实时市场偏移方向出现分化，值得重点跟踪。",
+    "Current core view": "当前核心判断",
+    "Current Core View": "当前核心判断",
+    "Current Global Macro Regime": "当前全球宏观阶段",
     "Open to understand how to read the model, scores, confidence, and allocation views.": "展开后可查看模型、评分、置信度与资产偏好的阅读方法。",
     "Detailed guide to the model, scoring system, confidence, consensus deviation, and asset mapping.": "这是一份关于模型、评分体系、置信度、共识偏差和资产映射逻辑的详细说明。",
     "Global": "全球",
@@ -238,6 +313,9 @@ TEXT_MAP_ZH = {
     "Data Through Date": "数据截至日期",
     "Latest Market-sensitive Input": "最新市场敏感输入",
     "Nowcast Overlay": "实时偏移层",
+    "Nowcast Score": "实时偏移评分",
+    "Nowcast Direction": "实时偏移方向",
+    "Driver Summary": "主要驱动",
     "Growth Score": "增长评分",
     "Inflation Score": "通胀评分",
     "Liquidity Score": "流动性评分",
@@ -297,6 +375,76 @@ TEXT_MAP_ZH = {
     "No normalized {country} API files are available yet. The current regime is coming from manual fallback data.": "尚未发现 {country} 的标准化 API 文件，当前阶段结果来自手工兜底数据。",
     "{country} can only join the latest global view after fresh API or fallback data exists for its minimum regime inputs.": "{country}只有在最低阶段输入具备更新的API或兜底数据后，才能进入最新全球视图。",
     "Consensus Deviation": "共识偏差",
+    "Monitor Alerts": "重点提醒",
+    "Severity": "级别",
+    "Headline": "提醒",
+    "Detail": "说明",
+    "No active alerts were generated for the selected mode.": "当前所选模式下暂未生成需要重点关注的提醒。",
+    "No active alerts were generated for this region.": "该地区当前暂无需要重点关注的提醒。",
+    "Short reason": "简要理由",
+    "Full rationale by asset": "分资产查看完整理由",
+    "No detailed rationale is available.": "当前没有可展示的完整理由。",
+    "State Type": "阶段类型",
+    "State": "阶段值",
+    "Share": "占比",
+    "Read This First": "先看这个",
+    "Four Macro States": "四种宏观阶段",
+    "Core Meaning": "核心含义",
+    "Typical Overweight": "典型超配",
+    "Typical Neutral": "典型中性",
+    "Typical Underweight": "典型低配",
+    "How to Read Asset Preferences": "如何理解资产偏好",
+    "How to Read Scores": "如何理解评分",
+    "How to Read Confidence": "如何理解置信度",
+    "How to Read Consensus Deviation": "如何理解共识偏差",
+    "How to Read the Nowcast Overlay": "如何理解实时偏移层",
+    "Practical Reading Order": "建议阅读顺序",
+    "Core Scores": "核心评分",
+    "Valuation": "估值概览",
+    "Growth Momentum": "增长动能",
+    "Inflation Pressure": "通胀压力",
+    "Higher": "更高",
+    "Lower": "更低",
+    "This system is a macro monitoring and allocation support framework. It first answers where the cycle is, then asks which assets are more suitable to overweight, hold neutral, or underweight.": "这套系统是一个宏观监控与资产配置支持框架。它先回答当前周期大致处于什么位置，再回答哪些资产更适合超配、维持中性或低配。",
+    "Growth is stable, inflation is soft, and liquidity is not obviously tightening.": "增长平稳，通胀温和，流动性未明显收紧。",
+    "Global equities, US equities, Eurozone equities": "全球权益资产、美国权益资产、欧元区权益资产",
+    "USD duration, commodities": "美元久期、大宗商品",
+    "Gold, dollar": "黄金、美元",
+    "Growth improves, inflation rises, and nominal activity re-accelerates.": "增长改善、通胀回升、名义增长抬升。",
+    "Equities, commodities": "权益资产、大宗商品",
+    "Dollar, gold": "美元、黄金",
+    "USD duration": "美元久期",
+    "Growth weakens, inflation softens, and risk appetite fades.": "增长回落、通胀回落、风险偏好下降。",
+    "Equities, commodities": "权益资产、大宗商品",
+    "Growth is weak while inflation remains firm; it is one of the least friendly combinations.": "增长走弱但通胀偏高，是最不友好的组合之一。",
+    "Gold, some commodities": "黄金、部分大宗商品",
+    "The macro-plus-valuation mix supports overweight positioning.": "宏观与估值组合支持超配判断。",
+    "Signals are mixed, or macro and valuation offset each other.": "信号偏分化，或宏观与估值相互抵消。",
+    "The macro-plus-valuation mix argues for underweight positioning.": "宏观与估值组合更支持低配判断。",
+    "Higher means stronger growth.": "数值越高，代表增长越强。",
+    "Higher means more inflation pressure.": "数值越高，代表通胀压力越大。",
+    "Higher means easier financial conditions.": "数值越高，代表金融条件越宽松。",
+    "Higher means cheaper and more supportive conditions.": "数值越高，代表估值越便宜、环境越支持风险资产。",
+    "These are transparent standardized scores, not black-box probabilities.": "这些都是透明的标准化评分，不是黑箱概率。",
+    "Broad coverage, fresh data, and stronger valuation support.": "覆盖较广、数据较新、估值支持更充分。",
+    "Core pipeline works, but some valuation or enrichment inputs are incomplete or stale.": "主链路可用，但部分估值或增强输入仍不完整或偏滞后。",
+    "Stale data, thin coverage, or weaker valuation and enrichment coverage.": "数据滞后、覆盖偏薄，或估值与增强输入覆盖较弱。",
+    "Consensus deviation compares the model view versus mainstream public narrative across growth, inflation, and policy bias. A positive growth deviation means the model is more growth-positive than consensus; a negative one means the model is more growth-negative.": "共识偏差比较的是模型判断与主流公开叙事在增长、通胀和政策倾向三个维度上的差异。增长偏离为正，代表模型比共识更偏增长乐观；为负则代表模型更偏增长悲观。",
+    "A positive inflation deviation means the model sees less inflation risk than consensus. A positive policy deviation means the model is more dovish than consensus.": "通胀偏离为正，代表模型认为通胀风险低于当前共识；政策偏离为正，则代表模型比当前共识更偏鸽派。",
+    "Tracks risk-sensitive inputs such as equities, volatility, and the dollar.": "跟踪权益、波动率、美元等风险敏感输入。",
+    "Tracks policy rates and longer-term yields.": "跟踪政策利率和长期收益率变化。",
+    "Tracks inflation-sensitive inputs such as CPI-style data, gold, and oil.": "跟踪 CPI 类数据、黄金、原油等通胀敏感输入。",
+    "The nowcast overlay does not replace the macro model. It is a higher-frequency layer that shows whether market-sensitive inputs are already moving ahead of the monthly macro regime.": "实时偏移层不会替代主宏观模型。它是一层更高频的补充，用来判断市场敏感输入是否已经先于月频宏观状态发生变化。",
+    "The chart above is the base framework rather than a mechanical rule. Final preferences still depend on liquidity, valuation, and confidence.": "上图展示的是基础框架，不是机械指令。最终资产偏好仍会受到流动性环境、估值状态和数据置信度影响。",
+    "Positive score: higher-frequency inputs are leaning more risk-on / easier than the monthly macro regime.": "正值：代表更高频的市场输入比月频宏观状态更偏向风险偏好或更偏宽松。",
+    "Negative score: higher-frequency inputs are leaning more defensive / tighter than the monthly macro regime.": "负值：代表更高频的市场输入比月频宏观状态更偏向防御或更偏收紧。",
+    "Near zero: signals are mixed and do not yet point to a clear short-term tilt.": "接近 0：代表高频信号仍偏分化，尚未指向明确的短期偏移方向。",
+    "Check whether the macro regime changed.": "先看宏观阶段有没有变化。",
+    "Check whether scores crossed the neutral zone.": "再看评分是否跨过中性区间。",
+    "Check whether the nowcast overlay shows a higher-frequency shift.": "然后看实时偏移层是否已经先给出更高频的变化信号。",
+    "Check whether valuation supports or offsets the macro view.": "再确认估值是在支持还是抵消宏观判断。",
+    "Check whether asset preferences changed direction.": "再看资产偏好有没有改变方向。",
+    "Check whether the model materially diverges from consensus.": "最后看模型判断是否与市场共识出现明显偏离。",
     "No consensus deviation snapshot is available for this region yet.": "该地区暂时没有可用的共识偏差快照。",
     "Source Count": "来源数量",
     "Consensus Date": "共识日期",
@@ -372,6 +520,9 @@ TEXT_MAP_ZH = {
     "No fresher market-sensitive inputs were found beyond the current macro snapshot.": "当前没有比主模型更晚的市场敏感输入。",
     "Global macro state is based on data through {data_date}, while fresher market-sensitive inputs are available through {market_date} ({details}).": "全球宏观主状态截至 {data_date}，但更高频的市场敏感输入已更新到 {market_date}（{details}）。",
     "Global macro state and the latest market-sensitive inputs are aligned at the same date.": "全球宏观主状态与最新市场敏感输入日期一致。",
+    "Nowcast overlay is neutral.": "实时偏移层目前保持中性。",
+    "Nowcast overlay tilts risk-on.": "实时偏移层目前偏向风险偏好。",
+    "Nowcast overlay tilts defensive.": "实时偏移层目前偏向防御。",
 }
 REGION_MAP_ZH = {"North America": "北美", "Europe": "欧洲", "Asia": "亚洲"}
 FREE_TEXT_LABEL_MAP_ZH = {
@@ -379,6 +530,8 @@ FREE_TEXT_LABEL_MAP_ZH = {
     "Reflation": "再通胀",
     "Stagflation": "滞胀",
     "Slowdown": "增长放缓",
+    "Risk-on": "偏风险偏好",
+    "Defensive": "偏防御",
     "Partial view": "局部视角",
     "Unknown": "未知",
     "Easy": "宽松",
@@ -455,6 +608,107 @@ def tr(text: str, language: str | None = None, **kwargs: object) -> str:
     lang = get_display_language(language)
     template = text if lang == "en" else TEXT_MAP_ZH.get(text, text)
     return template.format(**kwargs)
+
+
+def inject_dashboard_styles() -> None:
+    """Inject lightweight dashboard styles for card-based sections."""
+    st.markdown(
+        """
+        <style>
+        :root {
+            --terminal-bg: #0b0d12;
+            --terminal-panel: #12161d;
+            --terminal-panel-2: #171c24;
+            --terminal-border: rgba(214, 154, 46, 0.28);
+            --terminal-border-soft: rgba(255, 255, 255, 0.08);
+            --terminal-accent: #f0b90b;
+            --terminal-accent-soft: rgba(240, 185, 11, 0.16);
+            --terminal-text: #eef2f7;
+            --terminal-muted: #9aa5b5;
+            --terminal-negative: #d3725f;
+            --terminal-positive: #8dbb6a;
+        }
+        .stApp {
+            background:
+                linear-gradient(180deg, rgba(240,185,11,0.06), transparent 16%),
+                linear-gradient(180deg, #0b0d12 0%, #0f1319 100%);
+        }
+        section[data-testid="stSidebar"] {
+            background:
+                linear-gradient(180deg, rgba(240,185,11,0.07), transparent 10%),
+                linear-gradient(180deg, #11151b 0%, #0c1016 100%);
+            border-right: 1px solid rgba(240,185,11,0.10);
+        }
+        section[data-testid="stSidebar"] [data-baseweb="select"] > div {
+            background: #0e1218 !important;
+            border: 1px solid rgba(240,185,11,0.22) !important;
+            border-radius: 14px !important;
+        }
+        h1, h2, h3 {
+            color: var(--terminal-text);
+            letter-spacing: 0.01em;
+        }
+        h2, h3 {
+            padding-top: 0.2rem;
+            border-top: 1px solid rgba(240,185,11,0.14);
+        }
+        [data-testid="stMetric"] {
+            background: linear-gradient(180deg, rgba(20,24,31,0.98), rgba(13,16,22,0.98));
+            border: 1px solid var(--terminal-border-soft);
+            border-top: 2px solid rgba(240,185,11,0.50);
+            border-radius: 14px;
+            padding: 0.95rem 1rem 0.8rem 1rem;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+        }
+        [data-testid="stMetricLabel"] {
+            color: var(--terminal-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.72rem;
+            font-weight: 600;
+        }
+        [data-testid="stMetricValue"] {
+            color: var(--terminal-text);
+            font-family: "SFMono-Regular", "Menlo", "Monaco", monospace;
+            letter-spacing: -0.02em;
+        }
+        [data-testid="stVerticalBlockBorderWrapper"] {
+            background: linear-gradient(180deg, rgba(21,25,32,0.96), rgba(12,15,21,0.96));
+            border: 1px solid var(--terminal-border-soft);
+            border-radius: 16px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+        }
+        [data-testid="stVerticalBlockBorderWrapper"] > div {
+            padding-top: 0.1rem;
+        }
+        div[data-testid="stCaptionContainer"] p {
+            color: var(--terminal-muted);
+        }
+        div[data-testid="stMarkdownContainer"] p {
+            line-height: 1.55;
+        }
+        [data-testid="stDataFrame"] {
+            border: 1px solid var(--terminal-border-soft);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+        [data-testid="stDataFrame"] [role="grid"] {
+            background: #0f1319;
+        }
+        [data-testid="stAlert"] {
+            border-radius: 14px;
+            border: 1px solid rgba(240,185,11,0.18);
+        }
+        .stButton > button {
+            background: linear-gradient(180deg, #13171e, #0f1319);
+            color: var(--terminal-text);
+            border: 1px solid rgba(240,185,11,0.28);
+            border-radius: 12px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def build_user_manual_markdown(language: str | None = None) -> str:
@@ -545,7 +799,52 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 这些分数是规则驱动的标准化结果。  
 它们是为了把不同国家的宏观与估值信号映射到同一套阅读框架里，而不是黑盒概率模型。
 
-## 六、估值层怎么理解
+## 六、实时偏移层怎么理解
+
+实时偏移层不是替代主模型。  
+它的作用是回答一个更高频的问题：
+
+- 月频宏观主状态还没切换
+- 但利率、收益率、估值等市场敏感输入是否已经开始提前变化
+
+因此它更像一个日频或高频的补充观察层，用来提示主模型可能正在面临的边际变化。
+
+### 实时偏移评分
+- 分数为正：更偏风险偏好
+- 分数为负：更偏防御
+- 越接近 0：说明高频市场信号分化，暂时没有形成明确方向
+
+### 实时偏移方向
+- `偏风险偏好`：高频市场信号整体更支持风险资产
+- `中性`：高频信号尚未形成明确共振
+- `偏防御`：高频市场信号更偏向防御或收紧交易
+
+### 三条子评分怎么读
+
+#### 风险偏好偏移
+主要看估值类或风险资产敏感变量的边际变化。  
+如果估值代理回落、风险补偿改善，通常会把这条评分推向正值。
+
+#### 利率偏移
+主要看政策利率、长端收益率等变量的最新变化。  
+如果利率下行、市场开始交易更宽松的环境，这条评分通常会上升。  
+如果利率继续上行、市场交易更紧的金融条件，这条评分通常会下降。
+
+#### 通胀偏移
+主要看 CPI 或核心通胀这类高频可更新通胀输入的边际变化。  
+如果通胀读数回落，通常更有利于风险资产和宽松预期；  
+如果通胀重新抬头，则通常对市场形成约束。
+
+### 怎么把实时偏移层和主模型一起看
+
+最实用的方法不是只看一个分数，而是把它当成“边际变化提示”：
+
+- 主模型稳定，但实时偏移层明显转强：说明市场可能已经在提前交易改善
+- 主模型稳定，但实时偏移层明显转弱：说明市场可能已经开始提前交易压力
+- 主模型与实时偏移层同向：说明当前主线更一致，解读可信度通常更高
+- 主模型与实时偏移层反向：说明当前处在过渡阶段，更需要谨慎
+
+## 七、估值层怎么理解
 
 ### 美国
 更接近正式投研口径，综合使用 Buffett 指标、PE、CAPE、PB、实际利率、期限利差、股权风险补偿与信用利差。
@@ -563,7 +862,7 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 - `估值置信度`
 - `估值已用输入`
 
-## 七、共识偏差怎么看
+## 八、共识偏差怎么看
 
 共识偏差不是拿新闻预测市场。  
 它是在比较：模型现在的判断，与主流公开叙事是否一致。
@@ -591,7 +890,7 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 
 如果共识偏差很大，说明模型和市场主流叙事站在不同一边，值得重点复核。
 
-## 八、置信度怎么读
+## 九、置信度怎么读
 
 ### 高
 数据覆盖较完整，数据较新，估值输入较充分，结论相对更稳。
@@ -604,7 +903,7 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 
 置信度不是方向判断，它是在告诉你：这条结论有多扎实。
 
-## 九、为什么理由一定要看
+## 十、为什么理由一定要看
 
 理由是在解释：  
 当前这条资产偏好，究竟是由宏观阶段驱动，还是由流动性条件驱动，还是被估值明显抵消。
@@ -617,7 +916,7 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 
 如果只看“超配 / 中性 / 低配”，很容易误读。
 
-## 十、两种全球口径的区别
+## 十一、两种全球口径的区别
 
 ### 最新可得口径
 每个地区使用各自最近一期有效数据。  
@@ -629,7 +928,7 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 优点是横向比较更整齐。  
 缺点是会牺牲一部分时效性。
 
-## 十一、系统更新日期和数据截至日期为什么不同
+## 十二、系统更新日期和数据截至日期为什么不同
 
 这两个日期不同是正常的：
 
@@ -638,15 +937,16 @@ def build_user_manual_markdown(language: str | None = None) -> str:
 
 很多官方宏观数据本来就不是日更，所以不能把“今天刷新了”理解成“所有宏观数据都更新到今天”。
 
-## 十二、最实用的阅读顺序
+## 十三、最实用的阅读顺序
 
 建议你每次都按这个顺序：
 
 1. 先看宏观阶段有没有切换
 2. 再看增长、通胀、流动性评分是否靠近或越过中性区
-3. 再看估值是在支持还是抵消宏观结论
-4. 再看资产偏好是否发生方向变化
-5. 最后看共识偏差，判断模型是否和市场主流叙事站在不同一边
+3. 再看实时偏移层是否已经出现更高频的边际变化
+4. 再看估值是在支持还是抵消宏观结论
+5. 再看资产偏好是否发生方向变化
+6. 最后看共识偏差，判断模型是否和市场主流叙事站在不同一边
 
 这套系统最适合用作：
 - 宏观监控框架
@@ -710,7 +1010,40 @@ Asset preferences are directional allocation tilts, not price guarantees.
 
 These are transparent standardized scores, not black-box probabilities.
 
-## 5. How to read valuation
+## 5. How to read the nowcast overlay
+
+The nowcast overlay does not replace the main macro model.  
+It answers a higher-frequency question:
+
+- the monthly macro regime may not have changed yet
+- but are market-sensitive inputs already moving ahead of it
+
+### Nowcast score
+- positive: the high-frequency backdrop is leaning more risk-on
+- negative: the high-frequency backdrop is leaning more defensive
+- near zero: signals are mixed and do not yet point to a clear tilt
+
+### Three sub-scores
+
+#### Risk overlay
+Tracks valuation-sensitive and risk-sensitive inputs.  
+If valuation proxies cheapen or risk compensation improves, this sub-score usually rises.
+
+#### Rates overlay
+Tracks policy rates and longer-term yields.  
+Falling rates tend to support this score; rising rates tend to weaken it.
+
+#### Inflation overlay
+Tracks the latest movement in CPI-style inflation inputs.  
+Cooling inflation usually supports risk assets and easier policy expectations, while reheating inflation tends to work the other way.
+
+### How to use it
+- if the macro regime is stable but the overlay turns stronger, markets may be front-running improvement
+- if the macro regime is stable but the overlay turns weaker, markets may be front-running deterioration
+- if macro and overlay point in the same direction, the current narrative is more coherent
+- if they diverge, the system is likely in a transition phase
+
+## 6. How to read valuation
 
 ### United States
 Closer to institutional valuation practice:
@@ -745,7 +1078,7 @@ Always read:
 - valuation score
 - valuation confidence
 
-## 6. How to read consensus deviation
+## 7. How to read consensus deviation
 
 Consensus deviation compares:
 
@@ -765,7 +1098,7 @@ across:
 - positive policy deviation: model is more dovish than consensus
 - negative policy deviation: model is more hawkish than consensus
 
-## 7. How to read confidence
+## 8. How to read confidence
 
 ### High
 - broad coverage
@@ -781,7 +1114,7 @@ across:
 - thin coverage
 - weaker valuation or enrichment coverage
 
-## 8. Why the reason field matters
+## 9. Why the reason field matters
 
 The `Reason` field explains whether the asset call is driven by:
 - macro regime
@@ -797,7 +1130,7 @@ So the best practice is to read:
 
 together.
 
-## 9. Two global modes
+## 10. Two global modes
 
 ### Latest available
 Each region uses its own latest valid observation.  
@@ -807,7 +1140,7 @@ Better for live monitoring, but dates may differ by region.
 All regions align to the latest shared date.  
 Better for cross-region comparability, but less timely.
 
-## 10. System update date vs data-through date
+## 11. System update date vs data-through date
 
 These are intentionally different:
 - system update date = when the monitor refreshed
@@ -815,15 +1148,16 @@ These are intentionally different:
 
 Official macro data is not daily, so a refreshed system can still have a lagged macro cutoff date.
 
-## 11. Practical usage
+## 12. Practical usage
 
 The most useful reading order is:
 
 1. check whether the macro regime changed
 2. check whether scores crossed the neutral zone
-3. check whether valuation supports or offsets the macro view
-4. check whether asset preferences changed direction
-5. check whether the model materially diverges from consensus
+3. check whether the nowcast overlay is already showing a higher-frequency shift
+4. check whether valuation supports or offsets the macro view
+5. check whether asset preferences changed direction
+6. check whether the model materially diverges from consensus
 
 Use this system as:
 - a macro monitoring framework
@@ -843,9 +1177,17 @@ def localize_region(region: str, language: str | None = None) -> str:
 
 def translate_runtime_text(text: object, language: str | None = None) -> str:
     """Translate runtime-generated English rationale text into Chinese when needed."""
-    raw = format_display_value(text)
+    raw = format_display_value(text).strip()
     if get_display_language(language) != "zh" or raw == "No data":
         return raw
+    if raw in LABEL_MAP_ZH:
+        return LABEL_MAP_ZH[raw]
+    if re.fullmatch(r"[A-Za-z0-9_/-]+", raw):
+        direct_label = humanize_label(raw)
+    else:
+        direct_label = raw
+    if direct_label != raw:
+        return direct_label
     if raw in CONSENSUS_TEXT_MAP_ZH:
         return CONSENSUS_TEXT_MAP_ZH[raw]
 
@@ -898,6 +1240,12 @@ def translate_runtime_text(text: object, language: str | None = None) -> str:
         "The macro backdrop is mixed for global equities. Valuations look expensive.": "全球权益资产的宏观信号目前偏中性，估值大体高估。",
         "The macro backdrop is mixed for global equities. Valuations look fair.": "全球权益资产的宏观信号目前偏中性，估值大体合理。",
         "The macro backdrop is mixed for global equities. Valuations look cheap.": "全球权益资产的宏观信号目前偏中性，估值大体低估。",
+        "United States is in Goldilocks with neutral liquidity, so dollar duration remains neutral. Valuations look expensive.": "美国当前处于温和增长阶段，流动性环境中性，因此美元久期维持中性，估值大体高估。",
+        "Neutral liquidity reduces support for the dollar.": "中性流动性环境对美元的支撑有所减弱。",
+        "United States is in Goldilocks with neutral liquidity, but rich valuations keep the equity view from turning fully bullish. Valuations look expensive.": "美国当前处于温和增长阶段，流动性环境中性，但偏贵的估值限制了权益资产进一步转向超配，估值大体高估。",
+        "China is in Slowdown with neutral liquidity, which limits the equity view. Valuations look fair.": "中国当前处于增长放缓阶段，流动性环境中性，对权益资产判断形成约束，估值大体合理。",
+        "China is in Slowdown with easy liquidity, which limits the equity view. Valuations look fair.": "中国当前处于增长放缓阶段，流动性环境宽松，对权益资产判断形成约束，估值大体合理。",
+        "Eurozone is in Goldilocks with neutral liquidity, but rich valuations keep the equity view from turning fully bullish. Valuations look expensive.": "欧元区当前处于温和增长阶段，流动性环境中性，但偏贵的估值限制了权益资产进一步转向超配，估值大体高估。",
         "No countries were usable in the selected mode.": "当前所选模式下没有可用地区可参与计算。",
         "Global summary is based on incomplete country coverage.": "全球汇总基于不完整的地区覆盖，解读时需谨慎。",
     }
@@ -1055,7 +1403,101 @@ def render_user_manual_view() -> None:
     """Render the standalone in-app user guide page."""
     st.header(tr("User Guide"))
     st.caption(tr("Detailed guide to the model, scoring system, confidence, consensus deviation, and asset mapping."))
-    st.markdown(build_user_manual_markdown())
+
+    with st.container(border=True):
+        st.caption(tr("Current core view"))
+        st.markdown(f"### {tr('Read This First')}")
+        st.write(
+            tr(
+                "This system is a macro monitoring and allocation support framework. It first answers where the cycle is, then asks which assets are more suitable to overweight, hold neutral, or underweight."
+            )
+        )
+
+    st.subheader(tr("Four Macro States"))
+    st.plotly_chart(build_macro_cycle_guide_chart(), use_container_width=True)
+    st.caption(tr("The chart above is the base framework rather than a mechanical rule. Final preferences still depend on liquidity, valuation, and confidence."))
+
+    st.subheader(tr("How to Read Asset Preferences"))
+    pref_left, pref_mid, pref_right = st.columns(3)
+    with pref_left:
+        render_html_card(tr("Preference"), humanize_label("bullish"), note=tr("The macro-plus-valuation mix supports overweight positioning."))
+    with pref_mid:
+        render_html_card(tr("Preference"), humanize_label("neutral"), note=tr("Signals are mixed, or macro and valuation offset each other."))
+    with pref_right:
+        render_html_card(tr("Preference"), humanize_label("cautious"), note=tr("The macro-plus-valuation mix argues for underweight positioning."))
+
+    st.subheader(tr("How to Read Scores"))
+    score_cols = st.columns(4)
+    score_cards = [
+        (tr("Growth Score"), tr("Higher means stronger growth.")),
+        (tr("Inflation Score"), tr("Higher means more inflation pressure.")),
+        (tr("Liquidity Score"), tr("Higher means easier financial conditions.")),
+        (tr("Valuation Score"), tr("Higher means cheaper and more supportive conditions.")),
+    ]
+    for idx, (label, note) in enumerate(score_cards):
+        with score_cols[idx]:
+            render_html_card(label, "0.00", note=note)
+    st.caption(tr("These are transparent standardized scores, not black-box probabilities."))
+
+    st.subheader(tr("How to Read Confidence"))
+    confidence_cols = st.columns(3)
+    confidence_cards = [
+        (humanize_label("high"), tr("Broad coverage, fresh data, and stronger valuation support.")),
+        (humanize_label("medium"), tr("Core pipeline works, but some valuation or enrichment inputs are incomplete or stale.")),
+        (humanize_label("low"), tr("Stale data, thin coverage, or weaker valuation and enrichment coverage.")),
+    ]
+    for idx, (label, note) in enumerate(confidence_cards):
+        with confidence_cols[idx]:
+            render_html_card(tr("Confidence"), label, note=note)
+
+    st.subheader(tr("How to Read Consensus Deviation"))
+    st.write(
+        tr(
+            "Consensus deviation compares the model view versus mainstream public narrative across growth, inflation, and policy bias. A positive growth deviation means the model is more growth-positive than consensus; a negative one means the model is more growth-negative."
+        )
+    )
+    st.write(
+        tr(
+            "A positive inflation deviation means the model sees less inflation risk than consensus. A positive policy deviation means the model is more dovish than consensus."
+        )
+    )
+
+    st.subheader(tr("How to Read the Nowcast Overlay"))
+    overlay_cols = st.columns(3)
+    overlay_cards = [
+        (overlay_metric_label("risk"), tr("Tracks risk-sensitive inputs such as equities, volatility, and the dollar.")),
+        (overlay_metric_label("rates"), tr("Tracks policy rates and longer-term yields.")),
+        (overlay_metric_label("inflation"), tr("Tracks inflation-sensitive inputs such as CPI-style data, gold, and oil.")),
+    ]
+    for idx, (label, note) in enumerate(overlay_cards):
+        with overlay_cols[idx]:
+            render_html_card(label, "0.00", note=note)
+    explain_left, explain_mid, explain_right = st.columns(3)
+    with explain_left:
+        st.caption(tr("Positive score: higher-frequency inputs are leaning more risk-on / easier than the monthly macro regime."))
+    with explain_mid:
+        st.caption(tr("Negative score: higher-frequency inputs are leaning more defensive / tighter than the monthly macro regime."))
+    with explain_right:
+        st.caption(tr("Near zero: signals are mixed and do not yet point to a clear short-term tilt."))
+    st.caption(
+        tr(
+            "The nowcast overlay does not replace the macro model. It is a higher-frequency layer that shows whether market-sensitive inputs are already moving ahead of the monthly macro regime."
+        )
+    )
+
+    st.subheader(tr("Practical Reading Order"))
+    st.markdown(
+        "\n".join(
+            [
+                f"1. {tr('Check whether the macro regime changed.')}",
+                f"2. {tr('Check whether scores crossed the neutral zone.')}",
+                f"3. {tr('Check whether the nowcast overlay shows a higher-frequency shift.')}",
+                f"4. {tr('Check whether valuation supports or offsets the macro view.')}",
+                f"5. {tr('Check whether asset preferences changed direction.')}",
+                f"6. {tr('Check whether the model materially diverges from consensus.')}",
+            ]
+        )
+    )
 
 
 def humanize_label(value: object) -> str:
@@ -1098,6 +1540,122 @@ def format_weight_map(value: object) -> str:
     return ", ".join(formatted) if formatted else "No data"
 
 
+def format_nowcast_driver(driver: dict[str, object], country: str | None = None) -> str:
+    """Format a compact nowcast driver explanation for dashboard display."""
+    series_label = humanize_label(driver.get("series_id"))
+    driver_label = humanize_label(driver.get("driver"))
+    if country is not None:
+        return f"{humanize_label(country)}：{series_label} {driver_label}"
+    return f"{series_label} {driver_label}"
+
+
+def format_alert_headline(row: pd.Series) -> str:
+    """Render one alert headline in the active display language."""
+    alert_type = str(row.get("alert_type", ""))
+    region = humanize_label(row.get("region"))
+    entity = humanize_label(row.get("entity_name"))
+    old_value = humanize_label(row.get("old_value"))
+    new_value = humanize_label(row.get("new_value"))
+    metric = row.get("metric_value")
+    if get_display_language() == "zh":
+        if alert_type == "partial_coverage":
+            coverage = f"{float(metric):.0%}" if pd.notna(metric) else tr("No data")
+            return f"全球覆盖不足，当前覆盖率为 {coverage}。"
+        if alert_type == "global_regime":
+            return f"全球宏观阶段由 {old_value} 变为 {new_value}。"
+        if alert_type == "investment_clock":
+            return f"全球投资时钟由 {old_value} 变为 {new_value}。"
+        if alert_type == "confidence_downgrade":
+            return f"{entity} 的置信度由 {old_value} 下调至 {new_value}。"
+        if alert_type == "very_stale_country":
+            days = int(metric) if pd.notna(metric) else 0
+            return f"{region} 数据已严重滞后，当前滞后 {days} 天。"
+        if alert_type == "country_not_usable":
+            return f"{region} 虽然本地已就绪，但未纳入当前全球口径。"
+        if alert_type == "consensus_gap":
+            return f"{region} 的模型判断与市场共识偏离较大。"
+        if alert_type == "nowcast_shift":
+            return f"实时偏移层目前转向 {entity}。"
+        return f"{region} 出现新的监控提醒。"
+    if alert_type == "partial_coverage":
+        coverage = f"{float(metric):.0%}" if pd.notna(metric) else tr("No data")
+        return f"Global coverage is thin at {coverage}."
+    if alert_type == "global_regime":
+        return f"Global regime changed from {old_value} to {new_value}."
+    if alert_type == "investment_clock":
+        return f"Investment clock changed from {old_value} to {new_value}."
+    if alert_type == "confidence_downgrade":
+        return f"{entity} confidence was downgraded from {old_value} to {new_value}."
+    if alert_type == "very_stale_country":
+        days = int(metric) if pd.notna(metric) else 0
+        return f"{region} data is very stale at {days} days."
+    if alert_type == "country_not_usable":
+        return f"{region} is ready locally but excluded from the selected global mode."
+    if alert_type == "consensus_gap":
+        return f"{region} shows a large model-versus-consensus gap."
+    if alert_type == "nowcast_shift":
+        return f"The nowcast overlay has shifted {entity}."
+    return f"{region} has a new monitor alert."
+
+
+def format_alert_detail(row: pd.Series) -> str:
+    """Render one alert detail line in the active display language."""
+    alert_type = str(row.get("alert_type", ""))
+    reason = translate_runtime_text(row.get("reason"))
+    metric = row.get("metric_value")
+    if get_display_language() == "zh":
+        if alert_type == "partial_coverage":
+            return reason or "当前全球汇总可靠性下降，解读时应更谨慎。"
+        if alert_type == "consensus_gap" and pd.notna(metric):
+            return f"当前总偏离评分为 {float(metric):.2f}。{reason}"
+        if alert_type == "nowcast_shift" and pd.notna(metric):
+            return f"当前实时偏移评分为 {float(metric):.2f}。{reason}"
+        return reason or "该提醒来自最新监控结果。"
+    if alert_type == "consensus_gap" and pd.notna(metric):
+        return f"Current total deviation score is {float(metric):.2f}. {reason}"
+    if alert_type == "nowcast_shift" and pd.notna(metric):
+        return f"Current nowcast overlay score is {float(metric):.2f}. {reason}"
+    return reason or "This alert was generated from the latest monitor state."
+
+
+def _pill_class(preference: object) -> str:
+    """Map a preference label to a visual pill style."""
+    normalized = str(preference).lower()
+    if normalized in {"bullish", "超配"}:
+        return "pill-positive"
+    if normalized in {"cautious", "低配"}:
+        return "pill-negative"
+    return "pill-neutral"
+
+
+def render_html_card(label: str, value: str, note: str = "", pill: str | None = None, pill_class: str = "pill-neutral") -> None:
+    """Render a compact dashboard card."""
+    del pill_class
+    with st.container(border=True):
+        if pill:
+            st.caption(pill)
+        st.markdown(f"**{label}**")
+        st.markdown(f"### {value}")
+        if note:
+            st.caption(note)
+
+
+def render_alert_banner(title: str, body: str) -> None:
+    """Render the top hero banner for the global page."""
+    with st.container(border=True):
+        st.caption(tr("Global Snapshot"))
+        st.markdown(f"### {title}")
+        st.write(body)
+
+
+def render_alert_box(severity: str, headline: str, detail: str) -> None:
+    """Render one alert callout box."""
+    with st.container(border=True):
+        st.caption(severity)
+        st.markdown(f"**{headline}**")
+        st.write(detail)
+
+
 def format_display_value(value: object, missing_label: str = "No data") -> str:
     """Format dashboard values while keeping missing data explicit."""
     missing_value = tr("No data") if missing_label == "No data" else missing_label
@@ -1133,6 +1691,163 @@ def humanize_country_asset_label(country: str, asset: object) -> str:
     """Format country-view asset labels with local-currency wording."""
     del country
     return humanize_label(asset)
+
+
+def manual_asset_list(items: list[str]) -> str:
+    """Format an asset list for the manual chart using stable display labels."""
+    formatted: list[str] = []
+    for item in items:
+        if item in {"global_equities", "us_equities", "china_equities", "eurozone_equities", "duration"}:
+            formatted.append(humanize_global_asset_label(item))
+        else:
+            formatted.append(humanize_label(item))
+    return "、".join(formatted)
+
+
+def manual_asset_block(items: list[str]) -> str:
+    """Format an asset list for quadrant annotations using wrapped lines."""
+    formatted: list[str] = []
+    for item in items:
+        if item in {"global_equities", "us_equities", "china_equities", "eurozone_equities", "duration"}:
+            formatted.append(humanize_global_asset_label(item))
+        else:
+            formatted.append(humanize_label(item))
+    return "<br>".join(formatted)
+
+
+def summarize_reason_text(text: object, max_chars: int = 42) -> str:
+    """Shorten long rationale text for compact table display."""
+    value = format_display_value(text)
+    if value == tr("No data"):
+        return value
+    first_sentence = re.split(r"[。.!?]", value, maxsplit=1)[0].strip()
+    candidate = first_sentence or value
+    if len(candidate) <= max_chars:
+        return candidate
+    return candidate[: max_chars - 1].rstrip() + "…"
+
+
+def build_macro_cycle_guide_chart() -> go.Figure:
+    """Render a Merrill-style four-quadrant macro guide for the manual page."""
+    figure = go.Figure()
+    language = get_display_language()
+
+    quadrant_styles = [
+        {"x0": 0, "x1": 1, "y0": 1, "y1": 2, "fill": "rgba(190, 95, 80, 0.14)"},
+        {"x0": 1, "x1": 2, "y0": 1, "y1": 2, "fill": "rgba(240, 185, 11, 0.12)"},
+        {"x0": 0, "x1": 1, "y0": 0, "y1": 1, "fill": "rgba(90, 120, 180, 0.16)"},
+        {"x0": 1, "x1": 2, "y0": 0, "y1": 1, "fill": "rgba(132, 187, 90, 0.14)"},
+    ]
+    for style in quadrant_styles:
+        figure.add_shape(
+            type="rect",
+            x0=style["x0"],
+            x1=style["x1"],
+            y0=style["y0"],
+            y1=style["y1"],
+            line={"color": "rgba(255,255,255,0.08)", "width": 1},
+            fillcolor=style["fill"],
+        )
+
+    manual_points = [
+        {
+            "x": 0.08,
+            "y": 1.92,
+            "title": humanize_label("stagflation"),
+            "meaning": tr("Growth is weak while inflation remains firm; it is one of the least friendly combinations."),
+            "overweight": manual_asset_block(["gold", "commodities"]),
+            "neutral": manual_asset_block(["dollar"]),
+            "underweight": manual_asset_block(["global_equities", "duration"]),
+        },
+        {
+            "x": 1.08,
+            "y": 1.92,
+            "title": humanize_label("reflation"),
+            "meaning": tr("Growth improves, inflation rises, and nominal activity re-accelerates."),
+            "overweight": manual_asset_block(["global_equities", "commodities"]),
+            "neutral": manual_asset_block(["dollar", "gold"]),
+            "underweight": manual_asset_block(["duration"]),
+        },
+        {
+            "x": 0.08,
+            "y": 0.92,
+            "title": humanize_label("slowdown"),
+            "meaning": tr("Growth weakens, inflation softens, and risk appetite fades."),
+            "overweight": manual_asset_block(["duration"]),
+            "neutral": manual_asset_block(["gold", "dollar"]),
+            "underweight": manual_asset_block(["global_equities", "commodities"]),
+        },
+        {
+            "x": 1.08,
+            "y": 0.92,
+            "title": humanize_label("goldilocks"),
+            "meaning": tr("Growth is stable, inflation is soft, and liquidity is not obviously tightening."),
+            "overweight": manual_asset_block(["global_equities", "us_equities", "eurozone_equities"]),
+            "neutral": manual_asset_block(["duration", "commodities"]),
+            "underweight": manual_asset_block(["gold", "dollar"]),
+        },
+    ]
+
+    for point in manual_points:
+        text = (
+            f"<b>{point['title']}</b><br>"
+            f"{point['meaning']}<br><br>"
+            f"<b>{tr('Typical Overweight')}</b>：{point['overweight']}<br>"
+            f"<b>{tr('Typical Neutral')}</b>：{point['neutral']}<br>"
+            f"<b>{tr('Typical Underweight')}</b>：{point['underweight']}"
+        )
+        figure.add_annotation(
+            x=point["x"],
+            y=point["y"],
+            text=text,
+            showarrow=False,
+            align="left",
+            font={"size": 13 if language == "zh" else 12, "color": "#eef2f7"},
+            bgcolor="rgba(10, 13, 18, 0.78)",
+            bordercolor="rgba(240,185,11,0.22)",
+            borderpad=8,
+            xanchor="left",
+            yanchor="top",
+        )
+
+    figure.update_xaxes(
+        range=[0, 2],
+        tickvals=[0.5, 1.5],
+        ticktext=[tr("Lower"), tr("Higher")],
+        title=tr("Growth Momentum"),
+        showgrid=False,
+        zeroline=False,
+        color="#9aa5b5",
+    )
+    figure.update_yaxes(
+        range=[0, 2],
+        tickvals=[0.5, 1.5],
+        ticktext=[tr("Lower"), tr("Higher")],
+        title=tr("Inflation Pressure"),
+        showgrid=False,
+        zeroline=False,
+        color="#9aa5b5",
+    )
+    figure.update_layout(
+        margin={"l": 30, "r": 30, "t": 20, "b": 20},
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        showlegend=False,
+        height=640,
+    )
+    return figure
+
+
+def overlay_metric_label(dimension: str) -> str:
+    """Return a stable localized label for nowcast overlay sub-scores."""
+    labels = {
+        "risk": {"zh": "风险偏好偏移", "en": "Risk Overlay"},
+        "rates": {"zh": "利率偏移", "en": "Rates Overlay"},
+        "inflation": {"zh": "通胀偏移", "en": "Inflation Overlay"},
+    }
+    language = get_display_language()
+    entry = labels.get(str(dimension), {"zh": str(dimension), "en": str(dimension)})
+    return entry["zh"] if language == "zh" else entry["en"]
 
 
 def format_change_sentence(
@@ -1269,6 +1984,7 @@ def render_country_view(country: str) -> None:
         f"python main.py map-country-assets --country {country}",
     )
     consensus_deviation = load_optional_csv(Path("data/processed/consensus_deviation.csv"))
+    monitor_alerts = load_optional_csv(Path("data/processed/monitor_alerts.csv"))
 
     country_label = humanize_label(country)
     st.title(tr("{country} Macro Monitor", country=country_label))
@@ -1301,20 +2017,39 @@ def render_country_view(country: str) -> None:
             )
         )
 
+    hero_title = tr("Current Core View")
+    hero_body = (
+        f"{tr('Latest Regime')}：{humanize_label(latest.get('regime'))}；"
+        f"{tr('Liquidity Overlay')}：{humanize_label(latest.get('liquidity_regime'))}。"
+    )
+    render_alert_banner(hero_title, hero_body)
+    st.caption(
+        " · ".join(
+            [
+                f"{tr('System Update Date')}：{system_update_date}",
+                f"{tr('Data Through Date')}：{pd.Timestamp(latest['date']).date().isoformat()}",
+                f"{tr('Latest Market-sensitive Input')}：{market_input_date}",
+            ]
+        )
+    )
+
+    st.subheader(tr("Primary Signals"))
     top_left, top_mid, top_right, top_far_right = st.columns(4)
     top_left.metric(tr("Latest Regime"), humanize_label(latest.get("regime")))
     top_mid.metric(tr("Liquidity Overlay"), humanize_label(latest.get("liquidity_regime")))
-    top_right.metric(tr("System Update Date"), system_update_date)
-    top_far_right.metric(tr("Data Through Date"), pd.Timestamp(latest["date"]).date().isoformat())
+    top_right.metric(tr("Regime Confidence"), humanize_label(latest.get("regime_confidence")))
+    top_far_right.metric(tr("Valuation Regime"), humanize_label(latest_valuation.get("valuation_regime")))
 
     st.subheader(tr("Nowcast Overlay"))
-    overlay_left, overlay_mid = st.columns(2)
+    overlay_left, overlay_mid, overlay_right = st.columns(3)
     overlay_left.metric(tr("Latest Market-sensitive Input"), market_input_date)
-    overlay_mid.metric(
-        tr("Source"),
+    overlay_mid.metric(tr("Nowcast Score"), f"{float(nowcast_overlay['overlay_score']):.2f}")
+    overlay_right.metric(tr("Nowcast Direction"), humanize_label(nowcast_overlay["overlay_direction"]))
+    st.caption(
+        f"{tr('Source')}："
         ", ".join(humanize_label(item) for item in nowcast_overlay["freshest_market_series"])
         if nowcast_overlay["freshest_market_series"]
-        else tr("No data"),
+        else tr("No data")
     )
     if nowcast_overlay["has_newer_market_input"]:
         st.info(
@@ -1335,7 +2070,32 @@ def render_country_view(country: str) -> None:
             )
         )
         st.caption(tr("No fresher market-sensitive inputs were found beyond the current macro snapshot."))
+    st.caption(f"{tr('Confidence')}：{humanize_label(nowcast_overlay['overlay_confidence'])}")
+    if nowcast_overlay["signal_drivers"]:
+        st.caption(
+            f"{tr('Driver Summary')}："
+            + "；".join(format_nowcast_driver(driver) for driver in nowcast_overlay["signal_drivers"][:4])
+        )
+    else:
+        neutral_message = {
+            "risk_on": tr("Nowcast overlay tilts risk-on."),
+            "defensive": tr("Nowcast overlay tilts defensive."),
+            "neutral": tr("Nowcast overlay is neutral."),
+        }.get(str(nowcast_overlay["overlay_direction"]), tr("Nowcast overlay is neutral."))
+        st.caption(neutral_message)
+    if nowcast_overlay["ignored_drivers"]:
+        st.caption(
+            tr(
+                "Available but ignored due to staleness: {items}",
+                items=", ".join(humanize_label(item["series_id"]) for item in nowcast_overlay["ignored_drivers"][:4]),
+            )
+        )
+    dim_left, dim_mid, dim_right = st.columns(3)
+    dim_left.metric(overlay_metric_label("risk"), f"{float(nowcast_overlay['dimension_scores']['risk']):.2f}")
+    dim_mid.metric(overlay_metric_label("rates"), f"{float(nowcast_overlay['dimension_scores']['rates']):.2f}")
+    dim_right.metric(overlay_metric_label("inflation"), f"{float(nowcast_overlay['dimension_scores']['inflation']):.2f}")
 
+    st.subheader(tr("Core Scores"))
     score_left, score_mid, score_right = st.columns(3)
     score_left.metric(tr("Growth Score"), f"{latest.get('growth_score', float('nan')):.2f}")
     score_mid.metric(tr("Inflation Score"), f"{latest.get('inflation_score', float('nan')):.2f}")
@@ -1347,6 +2107,7 @@ def render_country_view(country: str) -> None:
     if "regime_note" in latest.index:
         st.caption(translate_runtime_text(latest.get("regime_note")))
 
+    st.subheader(tr("Valuation"))
     valuation_left, valuation_mid, valuation_right = st.columns(3)
     valuation_left.metric(
         tr("Valuation Regime"),
@@ -1592,16 +2353,35 @@ def render_country_view(country: str) -> None:
         )
         st.dataframe(comparison_table, use_container_width=True, hide_index=True)
 
+    st.subheader(tr("Monitor Alerts"))
+    region_alerts = monitor_alerts.loc[monitor_alerts["region"] == country].copy() if not monitor_alerts.empty else pd.DataFrame()
+    if region_alerts.empty:
+        st.caption(tr("No active alerts were generated for this region."))
+    else:
+        region_alerts["severity"] = region_alerts["severity"].apply(humanize_label)
+        region_alerts[tr("Headline")] = region_alerts.apply(format_alert_headline, axis=1)
+        region_alerts[tr("Detail")] = region_alerts.apply(format_alert_detail, axis=1)
+        region_alerts = region_alerts.rename(columns={"severity": tr("Severity")})
+        for _, row in region_alerts.head(4).iterrows():
+            render_alert_box(row[tr("Severity")], row[tr("Headline")], row[tr("Detail")])
+
     st.subheader(tr("Latest Asset Preferences"))
-    asset_snapshot = pd.DataFrame(
-        [
-            {tr("Asset"): humanize_country_asset_label(country, "equities"), tr("Preference"): humanize_label(latest_assets.get("equities")), tr("Score"): latest_assets.get("equities_score", float("nan"))},
-            {tr("Asset"): humanize_country_asset_label(country, "duration"), tr("Preference"): humanize_label(latest_assets.get("duration")), tr("Score"): latest_assets.get("duration_score", float("nan"))},
-            {tr("Asset"): humanize_country_asset_label(country, "gold"), tr("Preference"): humanize_label(latest_assets.get("gold")), tr("Score"): latest_assets.get("gold_score", float("nan"))},
-            {tr("Asset"): humanize_country_asset_label(country, "dollar"), tr("Preference"): humanize_label(latest_assets.get("dollar")), tr("Score"): latest_assets.get("dollar_score", float("nan"))},
-        ]
-    )
-    st.dataframe(asset_snapshot, use_container_width=True, hide_index=True)
+    asset_cards = [
+        ("equities", latest_assets.get("equities"), latest_assets.get("equities_score", float("nan"))),
+        ("duration", latest_assets.get("duration"), latest_assets.get("duration_score", float("nan"))),
+        ("gold", latest_assets.get("gold"), latest_assets.get("gold_score", float("nan"))),
+        ("dollar", latest_assets.get("dollar"), latest_assets.get("dollar_score", float("nan"))),
+    ]
+    asset_cols = st.columns(4)
+    for index, (asset_name, preference, score) in enumerate(asset_cards):
+        with asset_cols[index]:
+            render_html_card(
+                humanize_country_asset_label(country, asset_name),
+                humanize_label(preference),
+                note=f"{tr('Score')}：{float(score):.1f}" if pd.notna(score) else f"{tr('Score')}：{tr('No data')}",
+                pill=tr("Latest Asset Preferences"),
+                pill_class=_pill_class(humanize_label(preference)),
+            )
     if "allocation_confidence" in latest_assets.index:
         st.caption(
             tr(
@@ -1626,7 +2406,53 @@ def render_country_view(country: str) -> None:
         )
 
     st.subheader(tr("Recent Asset Preference History"))
-    st.dataframe(asset_data.tail(12), use_container_width=True)
+    history_frame = asset_data.tail(12).copy()
+    if "date" in history_frame.columns:
+        history_frame["date"] = history_frame["date"].apply(
+            lambda value: format_display_value(
+                pd.Timestamp(value).date().isoformat() if pd.notna(value) else None
+            )
+        )
+    translation_columns = [
+        "equities",
+        "duration",
+        "gold",
+        "dollar",
+        "allocation_confidence",
+    ]
+    for column in translation_columns:
+        if column in history_frame.columns:
+            history_frame[column] = history_frame[column].apply(humanize_label)
+    rename_map = {
+        "date": tr("Date"),
+        "equities": humanize_country_asset_label(country, "equities"),
+        "equities_score": f"{humanize_country_asset_label(country, 'equities')} {tr('Score')}",
+        "duration": humanize_country_asset_label(country, "duration"),
+        "duration_score": f"{humanize_country_asset_label(country, 'duration')} {tr('Score')}",
+        "gold": humanize_country_asset_label(country, "gold"),
+        "gold_score": f"{humanize_country_asset_label(country, 'gold')} {tr('Score')}",
+        "dollar": humanize_country_asset_label(country, "dollar"),
+        "dollar_score": f"{humanize_country_asset_label(country, 'dollar')} {tr('Score')}",
+        "allocation_confidence": tr("Confidence"),
+    }
+    history_frame = history_frame.rename(columns=rename_map)
+    display_columns = [
+        column
+        for column in [
+            tr("Date"),
+            humanize_country_asset_label(country, "equities"),
+            f"{humanize_country_asset_label(country, 'equities')} {tr('Score')}",
+            humanize_country_asset_label(country, "duration"),
+            f"{humanize_country_asset_label(country, 'duration')} {tr('Score')}",
+            humanize_country_asset_label(country, "gold"),
+            f"{humanize_country_asset_label(country, 'gold')} {tr('Score')}",
+            humanize_country_asset_label(country, "dollar"),
+            f"{humanize_country_asset_label(country, 'dollar')} {tr('Score')}",
+            tr("Confidence"),
+        ]
+        if column in history_frame.columns
+    ]
+    st.dataframe(history_frame.loc[:, display_columns], use_container_width=True, hide_index=True)
 
 
 def render_global_view() -> None:
@@ -1656,6 +2482,7 @@ def render_global_view() -> None:
         "python main.py evaluate-confidence",
     )
     consensus_deviation = load_optional_csv(Path("data/processed/consensus_deviation.csv"))
+    monitor_alerts = load_optional_csv(Path("data/processed/monitor_alerts.csv"))
     st.title(tr("Global Macro Monitor"))
     st.caption(tr("Weighted summary across US, China, and Eurozone."))
 
@@ -1680,27 +2507,52 @@ def render_global_view() -> None:
     global_overlay = build_global_nowcast_overlay(latest.get("summary_date"), country_regime_dates)
     system_update_date = _format_optional_date(global_overlay["system_update_timestamp"])
     market_input_date = _format_optional_date(global_overlay["freshest_market_date"])
+    overlay_alignment_text = (
+        tr("Macro regime and market overlay are aligned.")
+        if global_overlay["overlay_direction"] == "neutral" or humanize_label(latest.get("global_regime")) == humanize_label(global_overlay["overlay_direction"])
+        else tr("Macro regime and market overlay are diverging.")
+    )
+    hero_title = tr("Current Core View")
+    hero_body = (
+        f"{tr('Current Global Macro Regime')}：{humanize_label(latest.get('global_regime'))}；"
+        f"{tr('Investment Clock')}：{humanize_label(latest.get('investment_clock', latest.get('global_investment_clock')))}。"
+        f"{overlay_alignment_text}"
+    )
+    render_alert_banner(hero_title, hero_body)
+    st.caption(
+        " · ".join(
+            [
+                f"{tr('System Update Date')}：{system_update_date}",
+                f"{tr('Data Through Date')}：{_format_optional_date(latest.get('summary_date'))}",
+                f"{tr('Latest Market-sensitive Input')}：{market_input_date}",
+                f"{tr('Coverage Ratio')}：{float(latest.get('coverage_ratio', 0.0)):.0%}",
+            ]
+        )
+    )
 
     if latest.get("global_regime") == "partial_view":
         st.warning(translate_runtime_text(latest.get("coverage_warning")))
-    top_left, top_mid, top_right, top_far_right = st.columns(4)
-    top_left.metric(tr("Selected Mode"), humanize_label(mode))
-    top_mid.metric(tr("System Update Date"), system_update_date)
-    top_right.metric(tr("Data Through Date"), format_display_value(
-        pd.Timestamp(latest["summary_date"]).date().isoformat()
-        if pd.notna(latest.get("summary_date"))
-        else None
-    ))
-    top_far_right.metric(tr("Latest Global Regime"), humanize_label(latest.get("global_regime")))
-    metric_left, metric_mid, metric_right = st.columns(3)
-    metric_left.metric(
-        tr("Investment Clock"),
-        humanize_label(latest.get("investment_clock", latest.get("global_investment_clock"))),
-    )
-    metric_mid.metric(tr("Coverage Ratio"), f"{float(latest.get('coverage_ratio', 0.0)):.2f}")
-    metric_right.metric(tr("Latest Market-sensitive Input"), market_input_date)
+
+    st.subheader(tr("Primary Signals"))
+    top_left, top_mid = st.columns(2)
+    with top_left:
+        render_html_card(
+            tr("Latest Global Regime"),
+            humanize_label(latest.get("global_regime")),
+            note=f"{tr('Selected Mode')}：{humanize_label(mode)}",
+        )
+    with top_mid:
+        render_html_card(
+            tr("Investment Clock"),
+            humanize_label(latest.get("investment_clock", latest.get("global_investment_clock"))),
+            note=f"{tr('Coverage Ratio')}：{float(latest.get('coverage_ratio', 0.0)):.0%}",
+        )
 
     st.subheader(tr("Nowcast Overlay"))
+    overlay_left, overlay_mid, overlay_right = st.columns(3)
+    overlay_left.metric(tr("Nowcast Score"), f"{float(global_overlay['overlay_score']):.2f}")
+    overlay_mid.metric(tr("Nowcast Direction"), humanize_label(global_overlay["overlay_direction"]))
+    overlay_right.metric(tr("Confidence"), humanize_label(global_overlay["overlay_confidence"]))
     if global_overlay["countries_with_newer_inputs"]:
         st.info(
             tr(
@@ -1722,6 +2574,18 @@ def render_global_view() -> None:
             )
         )
         st.caption(tr("Global macro state and the latest market-sensitive inputs are aligned at the same date."))
+    if global_overlay["overlay_drivers"]:
+        formatted_drivers = []
+        for item in global_overlay["overlay_drivers"][:5]:
+            country, series_id, driver, _dimension = item.split(":", 3)
+            formatted_drivers.append(
+                format_nowcast_driver({"series_id": series_id, "driver": driver}, country=country)
+            )
+        st.caption(f"{tr('Driver Summary')}：" + "；".join(formatted_drivers))
+    dim_left, dim_mid, dim_right = st.columns(3)
+    dim_left.metric(overlay_metric_label("risk"), f"{float(global_overlay['dimension_scores']['risk']):.2f}")
+    dim_mid.metric(overlay_metric_label("rates"), f"{float(global_overlay['dimension_scores']['rates']):.2f}")
+    dim_right.metric(overlay_metric_label("inflation"), f"{float(global_overlay['dimension_scores']['inflation']):.2f}")
 
     coverage_left, coverage_mid = st.columns(2)
     coverage_left.metric(tr("Available Countries"), format_country_list(latest.get("countries_available")))
@@ -1729,14 +2593,57 @@ def render_global_view() -> None:
 
     st.caption(tr("A country can be Ready locally but still not usable in the selected global view if it has no valid data on that mode's evaluation date."))
 
-    st.subheader(tr("Weighting"))
-    st.markdown(tr("Configured weights: {weights}", weights=format_weight_map(latest.get("configured_weights"))))
-    st.markdown(tr("Effective weights: {weights}", weights=format_weight_map(latest.get("effective_weights"))))
+    st.subheader(tr("Monitor Alerts"))
+    mode_alerts = monitor_alerts.loc[monitor_alerts["selected_mode"] == mode].copy() if not monitor_alerts.empty else pd.DataFrame()
+    if mode_alerts.empty:
+        st.caption(tr("No active alerts were generated for the selected mode."))
+    else:
+        mode_alerts["severity"] = mode_alerts["severity"].apply(humanize_label)
+        mode_alerts[tr("Headline")] = mode_alerts.apply(format_alert_headline, axis=1)
+        mode_alerts[tr("Detail")] = mode_alerts.apply(format_alert_detail, axis=1)
+        mode_alerts = mode_alerts.rename(columns={"severity": tr("Severity")})
+        for _, row in mode_alerts.head(4).iterrows():
+            render_alert_box(row[tr("Severity")], row[tr("Headline")], row[tr("Detail")])
+
+    st.caption(
+        " · ".join(
+            [
+                tr("Configured weights: {weights}", weights=format_weight_map(latest.get("configured_weights"))),
+                tr("Effective weights: {weights}", weights=format_weight_map(latest.get("effective_weights"))),
+            ]
+        )
+    )
     available_countries = [item for item in str(latest.get("countries_available", "")).split(",") if item]
     if len(available_countries) == 1:
         st.info(tr("Only one country is available in the selected mode, so the effective global view is entirely driven by that market."))
 
-    st.subheader(tr("Country Status"))
+    st.subheader(tr("Regional Quick Read"))
+    quick_cols = st.columns(3)
+    for index, country in enumerate(get_supported_countries()):
+        regime_path = Path(f"data/processed/{country}_macro_regimes.csv")
+        valuation_path = Path(f"data/processed/{country}_valuation_features.csv")
+        regime_frame = load_optional_csv(regime_path)
+        valuation_frame = load_optional_csv(valuation_path)
+        latest_regime = regime_frame.iloc[-1] if not regime_frame.empty else pd.Series(dtype=object)
+        latest_valuation = valuation_frame.iloc[-1] if not valuation_frame.empty else pd.Series(dtype=object)
+        status_row = status_table.loc[status_table["country"] == country].iloc[0] if not status_table.empty and country in status_table["country"].values else pd.Series(dtype=object)
+        quick_note = " / ".join(
+            [
+                f"{tr('Latest Date')}：{_format_optional_date(status_row.get('latest_date'))}",
+                f"{tr('Confidence')}：{humanize_label(latest_regime.get('regime_confidence'))}",
+                f"{tr('Valuation Status')}：{humanize_label(latest_valuation.get('valuation_regime', status_row.get('valuation_status')))}",
+            ]
+        )
+        with quick_cols[index]:
+            render_html_card(
+                humanize_label(country),
+                humanize_label(status_row.get("regime", latest_regime.get("regime"))),
+                note=quick_note,
+                pill=humanize_label(status_row.get("staleness_status")),
+                pill_class="pill-negative" if status_row.get("staleness_status") == "very_stale" else "pill-neutral",
+            )
+
+    st.subheader(tr("Asset Tilt Board"))
     display_status = status_table.copy()
     if not display_status.empty:
         drop_columns = [column for column in ["summary_date"] if column in display_status.columns]
@@ -1765,6 +2672,28 @@ def render_global_view() -> None:
                 "valuation_status": tr("Valuation Status"),
             }
         )
+    allocation_cards = st.columns(4)
+    top_assets = latest_allocation = allocation.loc[allocation["as_of_mode"] == mode].copy()
+    latest_allocation_date = top_assets["date"].max()
+    latest_allocation = top_assets.loc[top_assets["date"] == latest_allocation_date].copy()
+    lead_assets = ["global_equities", "duration", "gold", "dollar"]
+    card_rows = latest_allocation.loc[latest_allocation["asset"].isin(lead_assets)].copy()
+    for idx, asset in enumerate(lead_assets):
+        row = card_rows.loc[card_rows["asset"] == asset]
+        if row.empty:
+            continue
+        latest_row = row.iloc[0]
+        with allocation_cards[idx]:
+            render_html_card(
+                humanize_global_asset_label(asset),
+                humanize_label(latest_row["preference"]),
+                note=translate_runtime_text(latest_row["reason"]),
+                pill=f"{tr('Score')} {float(latest_row['score']):.1f} / {tr('Confidence')} {humanize_label(latest_row['confidence'])}",
+                pill_class=_pill_class(humanize_label(latest_row["preference"])),
+            )
+
+    st.subheader(tr("Detailed Tables"))
+    st.subheader(tr("Country Status"))
     st.dataframe(display_status, use_container_width=True, hide_index=True)
 
     stale_countries = display_status.loc[
@@ -1793,20 +2722,28 @@ def render_global_view() -> None:
     latest_allocation["confidence"] = latest_allocation["confidence"].apply(humanize_label)
     latest_allocation["score"] = latest_allocation["score"].map(lambda value: f"{float(value):.1f}")
     latest_allocation["reason"] = latest_allocation["reason"].apply(translate_runtime_text)
+    latest_allocation["short_reason"] = latest_allocation["reason"].apply(summarize_reason_text)
     latest_allocation = latest_allocation.rename(
         columns={
             "asset": tr("Asset"),
             "preference": tr("Preference"),
             "score": tr("Score"),
             "confidence": tr("Confidence"),
-            "reason": tr("Reason"),
         }
     )
     st.dataframe(
-        latest_allocation.loc[:, [tr("Asset"), tr("Preference"), tr("Score"), tr("Confidence"), tr("Reason")]],
+        latest_allocation.loc[:, [tr("Asset"), tr("Preference"), tr("Score"), tr("Confidence")]],
         use_container_width=True,
         hide_index=True,
     )
+    with st.expander(tr("Full rationale by asset")):
+        detailed_reasons = latest_allocation.loc[:, [tr("Asset"), "reason"]].rename(columns={"reason": tr("Reason")})
+        if detailed_reasons.empty:
+            st.caption(tr("No detailed rationale is available."))
+        else:
+            for _, row in detailed_reasons.iterrows():
+                st.markdown(f"**{row[tr('Asset')]}**")
+                st.write(row[tr("Reason")])
     st.caption(
         tr(
             "Reason explains the asset view itself. Confidence falls when country coverage is thin, country data is stale, or valuation inputs are missing."
@@ -1849,7 +2786,7 @@ def render_global_view() -> None:
         )
 
     st.subheader(tr("What Changed"))
-    comparison = build_mode_comparison(selected_mode=mode)
+    comparison = build_mode_comparison(selected_mode=mode, history_dir=str(CHANGE_HISTORY_DIR))
     prepared = prepare_what_changed_sections(comparison)
     current_snapshot_time = (
         pd.Timestamp(prepared["current_snapshot_timestamp"]).strftime("%Y-%m-%d %H:%M:%S")
@@ -1918,10 +2855,22 @@ def render_global_view() -> None:
     if mode_frequency.empty:
         st.write(tr("No regime frequency summary"))
     else:
+        if "selected_mode" in mode_frequency.columns:
+            mode_frequency["selected_mode"] = mode_frequency["selected_mode"].apply(humanize_label)
+        if "state_type" in mode_frequency.columns:
+            mode_frequency["state_type"] = mode_frequency["state_type"].apply(humanize_label)
+        if "state" in mode_frequency.columns:
+            mode_frequency["state"] = mode_frequency["state"].apply(humanize_label)
+        if "share" in mode_frequency.columns:
+            mode_frequency["share"] = mode_frequency["share"].map(
+                lambda value: f"{float(value):.0%}" if pd.notna(value) else tr("No data")
+            )
         mode_frequency = mode_frequency.rename(
             columns={
-                "regime": tr("Regime"),
+                "state_type": tr("State Type"),
+                "state": tr("State"),
                 "count": tr("Count"),
+                "share": tr("Share"),
                 "selected_mode": tr("Selected Mode"),
             }
         )
@@ -1987,6 +2936,7 @@ def main() -> None:
         index=0 if default_language == "zh" else 1,
     )
     set_display_language(current_language)
+    inject_dashboard_styles()
     options = ["global"] + get_supported_countries()
     selection = st.sidebar.selectbox(
         tr("View"),

@@ -1,5 +1,5 @@
 selected_mode,state_type,state,count,share
-last_common_date,global_regime,goldilocks,2,1.0
-last_common_date,investment_clock,disinflationary_growth,2,1.0
-latest_available,global_regime,goldilocks,2,1.0
-latest_available,investment_clock,disinflationary_growth,2,1.0
+last_common_date,global_regime,goldilocks,1,1.0
+last_common_date,investment_clock,disinflationary_growth,1,1.0
+latest_available,global_regime,goldilocks,1,1.0
+latest_available,investment_clock,disinflationary_growth,1,1.0

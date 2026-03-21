@@ -247,6 +247,14 @@ Generated outputs include:
 - `data/processed/global_macro_summary.csv`
 - `data/processed/global_allocation_map.csv`
 
+Persistent history snapshots now write to `data/runtime/` instead of `data/processed/`.
+This keeps Git history cleaner and avoids frequent merge conflicts from append-only history files such as:
+
+- `data/runtime/global_summary_history.csv`
+- `data/runtime/global_allocation_history.csv`
+
+The dashboard and evaluation layer still read those local history files automatically.
+
 ## Global Allocation Map
 
 The global macro monitor now adds a simple cross-asset interpretation layer on top of the global summary.

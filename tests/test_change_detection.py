@@ -196,3 +196,59 @@ def test_schema_mismatch_means_no_comparison(tmp_path: Path) -> None:
     comparison = build_mode_comparison("latest_available", processed_dir=str(tmp_path))
     assert comparison["comparison_available"] is False
     assert comparison["comparison_reason"] == "Change history for this mode starts from the latest schema version."
+
+
+def test_history_dir_overrides_processed_dir(tmp_path: Path) -> None:
+    """Comparison should be able to read history from a dedicated runtime directory."""
+    runtime_dir = tmp_path / "runtime"
+    runtime_dir.mkdir()
+    _write_histories(
+        runtime_dir,
+        summary_rows=[
+            {
+                "summary_date": pd.Timestamp("2025-01-01"),
+                "global_regime": "slowdown",
+                "investment_clock": "slowdown",
+                "us_regime": "slowdown",
+                "china_regime": "goldilocks",
+                "eurozone_regime": "slowdown",
+            },
+            {
+                "summary_date": pd.Timestamp("2025-02-01"),
+                "global_regime": "goldilocks",
+                "investment_clock": "disinflationary_growth",
+                "us_regime": "goldilocks",
+                "china_regime": "goldilocks",
+                "eurozone_regime": "slowdown",
+            },
+        ],
+        allocation_rows=[
+            pd.DataFrame(
+                {
+                    "date": pd.to_datetime(["2025-01-01"]),
+                    "summary_date": pd.to_datetime(["2025-01-01"]),
+                    "asset": ["global_equities"],
+                    "preference": ["neutral"],
+                    "confidence": ["high"],
+                }
+            ),
+            pd.DataFrame(
+                {
+                    "date": pd.to_datetime(["2025-02-01"]),
+                    "summary_date": pd.to_datetime(["2025-02-01"]),
+                    "asset": ["global_equities"],
+                    "preference": ["bullish"],
+                    "confidence": ["medium"],
+                }
+            ),
+        ],
+        timestamps=["2025-01-15 10:00:00", "2025-02-15 10:00:00"],
+    )
+
+    comparison = build_mode_comparison(
+        "latest_available",
+        processed_dir=str(tmp_path / "processed"),
+        history_dir=str(runtime_dir),
+    )
+    assert comparison["comparison_available"] is True
+    assert comparison["preference_change_count"] > 0

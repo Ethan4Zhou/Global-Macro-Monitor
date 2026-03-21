@@ -15,6 +15,7 @@ from app.dashboard.app import (
     humanize_country_asset_label,
     humanize_global_asset_label,
     humanize_label,
+    overlay_metric_label,
     prepare_what_changed_sections,
     set_display_language,
     summarize_change_reasons,
@@ -44,6 +45,35 @@ def test_humanize_label_and_country_lists() -> None:
     assert format_entity_name("us_equities") == "US Equities"
     assert format_country_list("china,eurozone") == "China, Eurozone"
     assert humanize_label("very_stale") == "Very stale"
+
+
+def test_overlay_metric_label_uses_explicit_localization() -> None:
+    """Nowcast overlay metric labels should localize without relying on free-text mapping."""
+    set_display_language("zh")
+    try:
+        assert overlay_metric_label("risk") == "风险偏好偏移"
+        assert overlay_metric_label("rates") == "利率偏移"
+        assert overlay_metric_label("inflation") == "通胀偏移"
+    finally:
+        set_display_language("en")
+
+
+def test_market_overlay_labels_localize_cleanly() -> None:
+    """New market overlay series and drivers should localize in Chinese mode."""
+    set_display_language("zh")
+    try:
+        assert humanize_label("dxy_proxy") == "美元指数代理"
+        assert humanize_label("credit_spread_proxy") == "公司债OAS代理"
+        assert humanize_label("vix_proxy") == "波动率代理"
+        assert humanize_label("sp500_proxy") == "标普500代理"
+        assert humanize_label("global_markets") == "全球市场数据"
+        assert humanize_label("weaker_dollar") == "美元走弱"
+        assert humanize_label("tighter_spreads") == "信用利差收窄"
+        assert humanize_label("lower_volatility") == "波动率回落"
+        assert humanize_label("stronger") == "走强"
+        assert humanize_label("weaker") == "走弱"
+    finally:
+        set_display_language("en")
 
 
 def test_change_sentence_and_reason_summary_helpers() -> None:
@@ -153,6 +183,7 @@ def test_runtime_reason_text_supports_chinese_display() -> None:
         assert "最新可用模式" in translate_runtime_text(
             "Latest available compares each region on its own latest valid date: United States 2026-02-01 (fresh), China 2026-03-01 (fresh). Coverage is 100%."
         )
+        assert translate_runtime_text("Risk-on") == "偏风险偏好"
     finally:
         set_display_language("en")
 

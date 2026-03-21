@@ -35,6 +35,9 @@ def test_refresh_monitor_continues_when_some_fetches_fail(monkeypatch) -> None:
     def fake_evaluate_confidence() -> None:
         calls.append("evaluate_confidence")
 
+    def fake_build_alerts() -> None:
+        calls.append("build_alerts")
+
     monkeypatch.setattr(cli_main, "run_fetch_us", fake_fetch_us)
     monkeypatch.setattr(cli_main, "run_fetch_country_api_data", fake_fetch_country_api_data)
     monkeypatch.setattr(cli_main, "run_global_monitor", fake_run_global_monitor)
@@ -43,6 +46,7 @@ def test_refresh_monitor_continues_when_some_fetches_fail(monkeypatch) -> None:
     monkeypatch.setattr(cli_main, "run_build_consensus_deviation", fake_build_consensus_deviation)
     monkeypatch.setattr(cli_main, "run_evaluate_regimes", fake_evaluate_regimes)
     monkeypatch.setattr(cli_main, "run_evaluate_confidence", fake_evaluate_confidence)
+    monkeypatch.setattr(cli_main, "run_build_alerts", fake_build_alerts)
 
     cli_main.run_refresh_monitor()
 
@@ -51,4 +55,4 @@ def test_refresh_monitor_continues_when_some_fetches_fail(monkeypatch) -> None:
     assert "run_global_monitor" in calls
     assert "consensus_us" in calls
     assert "consensus_china" in calls
-    assert calls[-1] == "evaluate_confidence"
+    assert calls[-1] == "build_alerts"

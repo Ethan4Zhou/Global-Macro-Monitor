@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from app.regime.change_detection import ALLOCATION_HISTORY_PATH, SUMMARY_HISTORY_PATH
+from app.regime.change_detection import ALLOCATION_HISTORY_PATH, HISTORY_DIR, SUMMARY_HISTORY_PATH
 
 FORWARD_WINDOWS = [1, 3, 6]
 REGIME_FREQUENCY_COLUMNS = ["selected_mode", "state_type", "state", "count", "share"]
@@ -272,11 +272,13 @@ def compute_confidence_bucket_summary(
 def build_regime_evaluation_outputs(
     processed_dir: str = "data/processed",
     manual_returns_dir: str = "data/raw/manual/returns",
+    history_dir: str | None = None,
 ) -> dict[str, pd.DataFrame]:
     """Build all descriptive evaluation outputs and save them to CSV files."""
     processed = Path(processed_dir)
-    summary_history = _load_csv(processed / Path(SUMMARY_HISTORY_PATH).name)
-    allocation_history = _load_csv(processed / Path(ALLOCATION_HISTORY_PATH).name)
+    history_root = Path(history_dir) if history_dir is not None else processed
+    summary_history = _load_csv(history_root / Path(SUMMARY_HISTORY_PATH).name)
+    allocation_history = _load_csv(history_root / Path(ALLOCATION_HISTORY_PATH).name)
     return_proxies = _load_return_proxies(
         processed_dir=processed_dir,
         manual_dir=manual_returns_dir,

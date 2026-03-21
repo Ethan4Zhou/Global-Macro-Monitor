@@ -11,8 +11,9 @@ from app.regime.global_monitor import COUNTRY_WEIGHTS
 
 PREFERENCE_ORDER = {"cautious": 0, "neutral": 1, "bullish": 2}
 CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
-SUMMARY_HISTORY_PATH = "data/processed/global_summary_history.csv"
-ALLOCATION_HISTORY_PATH = "data/processed/global_allocation_history.csv"
+HISTORY_DIR = Path("data/runtime")
+SUMMARY_HISTORY_PATH = str(HISTORY_DIR / "global_summary_history.csv")
+ALLOCATION_HISTORY_PATH = str(HISTORY_DIR / "global_allocation_history.csv")
 
 
 def _load_csv(path: Path) -> pd.DataFrame:
@@ -264,10 +265,12 @@ def _validate_comparison_result(result: dict[str, Any]) -> None:
 def build_mode_comparison(
     selected_mode: str,
     processed_dir: str = "data/processed",
+    history_dir: str | None = None,
 ) -> dict[str, Any]:
     """Build one explicit comparison object for a selected mode from persistent histories."""
-    summary_history = _load_csv(Path(processed_dir) / Path(SUMMARY_HISTORY_PATH).name)
-    allocation_history = _load_csv(Path(processed_dir) / Path(ALLOCATION_HISTORY_PATH).name)
+    history_root = Path(history_dir) if history_dir is not None else Path(processed_dir)
+    summary_history = _load_csv(history_root / Path(SUMMARY_HISTORY_PATH).name)
+    allocation_history = _load_csv(history_root / Path(ALLOCATION_HISTORY_PATH).name)
     common_timestamps, status = _common_run_timestamps(summary_history, allocation_history, selected_mode)
 
     if not common_timestamps:
@@ -438,7 +441,11 @@ def build_global_change_log(processed_dir: str = "data/processed") -> pd.DataFra
     """Build and save a combined structured change log from comparison objects."""
     rows: list[dict[str, object]] = []
     for mode in ["latest_available", "last_common_date"]:
-        comparison = build_mode_comparison(selected_mode=mode, processed_dir=processed_dir)
+        comparison = build_mode_comparison(
+            selected_mode=mode,
+            processed_dir=processed_dir,
+            history_dir=str(HISTORY_DIR),
+        )
         rows.append(
             {
                 "selected_mode": comparison["selected_mode"],

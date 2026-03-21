@@ -352,7 +352,12 @@ def fetch_and_ingest_consensus_sources(
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Fetch automatic consensus sources for one region and ingest them into normalized storage."""
     payloads, errors = fetch_consensus_source_records(region=region)
-    write_consensus_source_payloads(region=region, payloads=payloads, raw_dir=raw_dir)
+    payloads_to_write = {
+        source_key: records
+        for source_key, records in payloads.items()
+        if records or source_key not in errors
+    }
+    write_consensus_source_payloads(region=region, payloads=payloads_to_write, raw_dir=raw_dir)
     auto_dir = Path(raw_dir) / region / AUTO_CONSENSUS_SUBDIR
     notes = ingest_consensus_notes(region=region, path=str(auto_dir), output_path=output_path)
     summary = _summary_rows(region=region, payloads=payloads, errors=errors)
