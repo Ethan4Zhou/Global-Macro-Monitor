@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 from pathlib import Path
 import re
 import sys
@@ -1414,7 +1415,7 @@ def render_user_manual_view() -> None:
         )
 
     st.subheader(tr("Four Macro States"))
-    render_macro_cycle_guide()
+    st.plotly_chart(build_macro_cycle_guide_chart(), use_container_width=True)
     st.caption(tr("The chart above is the base framework rather than a mechanical rule. Final preferences still depend on liquidity, valuation, and confidence."))
 
     st.subheader(tr("How to Read Asset Preferences"))
@@ -1727,118 +1728,237 @@ def summarize_reason_text(text: object, max_chars: int = 42) -> str:
     return candidate[: max_chars - 1].rstrip() + "…"
 
 
-def render_macro_cycle_guide() -> None:
-    """Render a mobile-friendly Merrill-style macro-cycle guide."""
-    cards = [
+def build_macro_cycle_guide_chart() -> go.Figure:
+    """Render a Merrill-style four-quadrant macro guide for the manual page."""
+    figure = go.Figure()
+    language = get_display_language()
+
+    quadrant_styles = [
+        {"x0": 0, "x1": 1, "y0": 1, "y1": 2, "fill": "rgba(190, 95, 80, 0.14)"},
+        {"x0": 1, "x1": 2, "y0": 1, "y1": 2, "fill": "rgba(240, 185, 11, 0.12)"},
+        {"x0": 0, "x1": 1, "y0": 0, "y1": 1, "fill": "rgba(90, 120, 180, 0.16)"},
+        {"x0": 1, "x1": 2, "y0": 0, "y1": 1, "fill": "rgba(132, 187, 90, 0.14)"},
+    ]
+    for style in quadrant_styles:
+        figure.add_shape(
+            type="rect",
+            x0=style["x0"],
+            x1=style["x1"],
+            y0=style["y0"],
+            y1=style["y1"],
+            line={"color": "rgba(255,255,255,0.08)", "width": 1},
+            fillcolor=style["fill"],
+        )
+
+    manual_points = [
         {
+            "x": 0.08,
+            "y": 1.92,
             "title": humanize_label("stagflation"),
             "meaning": tr("Growth is weak while inflation remains firm; it is one of the least friendly combinations."),
             "overweight": manual_asset_block(["gold", "commodities"]),
             "neutral": manual_asset_block(["dollar"]),
             "underweight": manual_asset_block(["global_equities", "duration"]),
-            "tone": "macro-cycle-stagflation",
         },
         {
+            "x": 1.08,
+            "y": 1.92,
             "title": humanize_label("reflation"),
             "meaning": tr("Growth improves, inflation rises, and nominal activity re-accelerates."),
             "overweight": manual_asset_block(["global_equities", "commodities"]),
             "neutral": manual_asset_block(["dollar", "gold"]),
             "underweight": manual_asset_block(["duration"]),
-            "tone": "macro-cycle-reflation",
         },
         {
+            "x": 0.08,
+            "y": 0.92,
             "title": humanize_label("slowdown"),
             "meaning": tr("Growth weakens, inflation softens, and risk appetite fades."),
             "overweight": manual_asset_block(["duration"]),
             "neutral": manual_asset_block(["gold", "dollar"]),
             "underweight": manual_asset_block(["global_equities", "commodities"]),
-            "tone": "macro-cycle-slowdown",
         },
         {
+            "x": 1.08,
+            "y": 0.92,
             "title": humanize_label("goldilocks"),
             "meaning": tr("Growth is stable, inflation is soft, and liquidity is not obviously tightening."),
             "overweight": manual_asset_block(["global_equities", "us_equities", "eurozone_equities"]),
             "neutral": manual_asset_block(["duration", "commodities"]),
             "underweight": manual_asset_block(["gold", "dollar"]),
-            "tone": "macro-cycle-goldilocks",
         },
     ]
 
-    st.caption(
-        f"{tr('Growth Momentum')}：{tr('Lower')} → {tr('Higher')}；"
-        f"{tr('Inflation Pressure')}：{tr('Lower')} → {tr('Higher')}"
-    )
-    st.markdown(
-        """
-        <style>
-        .macro-cycle-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 16px;
-            margin-top: 8px;
-        }
-        .macro-cycle-card {
-            background: rgba(10, 13, 18, 0.78);
-            border: 1px solid rgba(240, 185, 11, 0.18);
-            border-radius: 16px;
-            padding: 18px 18px 16px 18px;
-            min-height: 250px;
-            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
-        }
-        .macro-cycle-card h4 {
-            margin: 0 0 10px 0;
-            color: #f5f7fb;
-            font-size: 1.35rem;
-            line-height: 1.2;
-        }
-        .macro-cycle-card p {
-            margin: 0 0 12px 0;
-            color: #d7dde7;
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-        .macro-cycle-card .macro-cycle-list {
-            color: #eef2f7;
-            font-size: 0.98rem;
-            line-height: 1.7;
-        }
-        .macro-cycle-card .macro-cycle-list b {
-            color: #ffffff;
-        }
-        .macro-cycle-stagflation { background: linear-gradient(180deg, rgba(110,52,52,0.30), rgba(10,13,18,0.84)); }
-        .macro-cycle-reflation { background: linear-gradient(180deg, rgba(109,94,33,0.28), rgba(10,13,18,0.84)); }
-        .macro-cycle-slowdown { background: linear-gradient(180deg, rgba(46,68,109,0.30), rgba(10,13,18,0.84)); }
-        .macro-cycle-goldilocks { background: linear-gradient(180deg, rgba(46,92,54,0.28), rgba(10,13,18,0.84)); }
-        @media (max-width: 860px) {
-            .macro-cycle-grid {
-                grid-template-columns: 1fr;
-            }
-            .macro-cycle-card {
-                min-height: auto;
-            }
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    card_html = []
-    for card in cards:
-        card_html.append(
-            f"""
-            <div class="macro-cycle-card {card['tone']}">
-                <h4>{card['title']}</h4>
-                <p>{card['meaning']}</p>
-                <div class="macro-cycle-list">
-                    <b>{tr('Typical Overweight')}</b>：{card['overweight']}<br>
-                    <b>{tr('Typical Neutral')}</b>：{card['neutral']}<br>
-                    <b>{tr('Typical Underweight')}</b>：{card['underweight']}
-                </div>
-            </div>
-            """
+    for point in manual_points:
+        text = (
+            f"<b>{point['title']}</b><br>"
+            f"{point['meaning']}<br><br>"
+            f"<b>{tr('Typical Overweight')}</b>：{point['overweight']}<br>"
+            f"<b>{tr('Typical Neutral')}</b>：{point['neutral']}<br>"
+            f"<b>{tr('Typical Underweight')}</b>：{point['underweight']}"
+        )
+        figure.add_annotation(
+            x=point["x"],
+            y=point["y"],
+            text=text,
+            showarrow=False,
+            align="left",
+            font={"size": 13 if language == "zh" else 12, "color": "#eef2f7"},
+            bgcolor="rgba(10, 13, 18, 0.78)",
+            bordercolor="rgba(240,185,11,0.22)",
+            borderpad=8,
+            xanchor="left",
+            yanchor="top",
         )
 
-    st.markdown(f"<div class='macro-cycle-grid'>{''.join(card_html)}</div>", unsafe_allow_html=True)
+    figure.update_xaxes(
+        range=[0, 2],
+        tickvals=[0.5, 1.5],
+        ticktext=[tr("Lower"), tr("Higher")],
+        title=tr("Growth Momentum"),
+        showgrid=False,
+        zeroline=False,
+        color="#9aa5b5",
+    )
+    figure.update_yaxes(
+        range=[0, 2],
+        tickvals=[0.5, 1.5],
+        ticktext=[tr("Lower"), tr("Higher")],
+        title=tr("Inflation Pressure"),
+        showgrid=False,
+        zeroline=False,
+        color="#9aa5b5",
+    )
+    figure.update_layout(
+        margin={"l": 30, "r": 30, "t": 20, "b": 20},
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        showlegend=False,
+        height=640,
+    )
+    return figure
+
+
+def _wrap_svg_text(text: str, max_chars: int) -> list[str]:
+    """Wrap text for SVG rendering with simple CJK-friendly width limits."""
+    normalized = text.replace("\n", " ").strip()
+    if not normalized:
+        return []
+    if " " not in normalized:
+        return [normalized[i : i + max_chars] for i in range(0, len(normalized), max_chars)]
+
+    words = normalized.split()
+    lines: list[str] = []
+    current = ""
+    for word in words:
+        candidate = f"{current} {word}".strip()
+        if len(candidate) <= max_chars:
+            current = candidate
+            continue
+        if current:
+            lines.append(current)
+            current = word
+        else:
+            lines.append(word[:max_chars])
+            current = word[max_chars:]
+    if current:
+        lines.append(current)
+    return lines
+
+
+def _svg_text_block(x: int, y: int, lines: list[str], font_size: int, *, color: str = "#eef2f7", weight: str = "400", line_height: float = 1.45) -> str:
+    """Build one SVG text block with tspans for wrapped lines."""
+    if not lines:
+        return ""
+    dy = int(font_size * line_height)
+    spans = [f'<tspan x="{x}" y="{y + index * dy}">{html.escape(line)}</tspan>' for index, line in enumerate(lines)]
+    return f'<text font-size="{font_size}" font-weight="{weight}" fill="{color}" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{"".join(spans)}</text>'
+
+
+def build_macro_cycle_guide_svg() -> str:
+    """Build a high-resolution SVG version of the four-state macro guide."""
+    width = 1280
+    height = 980
+    left = 135
+    top = 78
+    quadrant_w = 500
+    quadrant_h = 350
+    axis_summary = f"{tr('Growth Momentum')}：{tr('Lower')} → {tr('Higher')}；{tr('Inflation Pressure')}：{tr('Lower')} → {tr('Higher')}"
+
+    cards = [
+        {
+            "title": humanize_label("stagflation"),
+            "meaning": tr("Growth is weak while inflation remains firm; it is one of the least friendly combinations."),
+            "overweight": "、".join(manual_asset_block(["gold", "commodities"]).split("<br>")),
+            "neutral": "、".join(manual_asset_block(["dollar"]).split("<br>")),
+            "underweight": "、".join(manual_asset_block(["global_equities", "duration"]).split("<br>")),
+            "fill": "rgba(190, 95, 80, 0.14)",
+            "x": left,
+            "y": top,
+        },
+        {
+            "title": humanize_label("reflation"),
+            "meaning": tr("Growth improves, inflation rises, and nominal activity re-accelerates."),
+            "overweight": "、".join(manual_asset_block(["global_equities", "commodities"]).split("<br>")),
+            "neutral": "、".join(manual_asset_block(["dollar", "gold"]).split("<br>")),
+            "underweight": "、".join(manual_asset_block(["duration"]).split("<br>")),
+            "fill": "rgba(240, 185, 11, 0.12)",
+            "x": left + quadrant_w,
+            "y": top,
+        },
+        {
+            "title": humanize_label("slowdown"),
+            "meaning": tr("Growth weakens, inflation softens, and risk appetite fades."),
+            "overweight": "、".join(manual_asset_block(["duration"]).split("<br>")),
+            "neutral": "、".join(manual_asset_block(["gold", "dollar"]).split("<br>")),
+            "underweight": "、".join(manual_asset_block(["global_equities", "commodities"]).split("<br>")),
+            "fill": "rgba(90, 120, 180, 0.16)",
+            "x": left,
+            "y": top + quadrant_h,
+        },
+        {
+            "title": humanize_label("goldilocks"),
+            "meaning": tr("Growth is stable, inflation is soft, and liquidity is not obviously tightening."),
+            "overweight": "、".join(manual_asset_block(["global_equities", "us_equities", "eurozone_equities"]).split("<br>")),
+            "neutral": "、".join(manual_asset_block(["duration", "commodities"]).split("<br>")),
+            "underweight": "、".join(manual_asset_block(["gold", "dollar"]).split("<br>")),
+            "fill": "rgba(132, 187, 90, 0.14)",
+            "x": left + quadrant_w,
+            "y": top + quadrant_h,
+        },
+    ]
+
+    svg_parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="#0b0e14"/>',
+        f'<text x="{left}" y="36" font-size="20" font-weight="600" fill="#9aa5b5" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(axis_summary)}</text>',
+        f'<text x="52" y="{top + quadrant_h + 18}" transform="rotate(-90 52 {top + quadrant_h + 18})" font-size="20" font-weight="600" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Inflation Pressure"))}</text>',
+        f'<text x="{left + 180}" y="{height - 30}" font-size="20" font-weight="600" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Growth Momentum"))}</text>',
+        f'<text x="{left - 62}" y="{top + 96}" font-size="18" font-weight="500" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Higher"))}</text>',
+        f'<text x="{left - 62}" y="{top + quadrant_h + 96}" font-size="18" font-weight="500" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Lower"))}</text>',
+        f'<text x="{left + 190}" y="{height - 68}" font-size="18" font-weight="500" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Lower"))}</text>',
+        f'<text x="{left + quadrant_w + 190}" y="{height - 68}" font-size="18" font-weight="500" fill="#eef2f7" font-family="Inter, PingFang SC, Noto Sans SC, sans-serif">{html.escape(tr("Higher"))}</text>',
+    ]
+
+    for card in cards:
+        x = card["x"]
+        y = card["y"]
+        svg_parts.append(
+            f'<rect x="{x}" y="{y}" width="{quadrant_w}" height="{quadrant_h}" fill="{card["fill"]}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>'
+        )
+        inner_x = x + 28
+        inner_y = y + 44
+        svg_parts.append(
+            f'<rect x="{inner_x - 12}" y="{inner_y - 20}" width="{quadrant_w - 56}" height="{quadrant_h - 56}" rx="16" ry="16" fill="rgba(10,13,18,0.78)" stroke="rgba(240,185,11,0.22)" stroke-width="1.1"/>'
+        )
+        svg_parts.append(_svg_text_block(inner_x, inner_y, [card["title"]], 26, weight="700"))
+        svg_parts.append(_svg_text_block(inner_x, inner_y + 52, _wrap_svg_text(str(card["meaning"]), 21), 15, color="#d7dde7"))
+        svg_parts.append(_svg_text_block(inner_x, inner_y + 126, _wrap_svg_text(f"{tr('Typical Overweight')}：{card['overweight']}", 21), 15))
+        svg_parts.append(_svg_text_block(inner_x, inner_y + 192, _wrap_svg_text(f"{tr('Typical Neutral')}：{card['neutral']}", 21), 15))
+        svg_parts.append(_svg_text_block(inner_x, inner_y + 258, _wrap_svg_text(f"{tr('Typical Underweight')}：{card['underweight']}", 21), 15))
+
+    svg_parts.append("</svg>")
+    return "".join(svg_parts)
 
 
 def overlay_metric_label(dimension: str) -> str:
