@@ -419,16 +419,16 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2024-12-01,china,slowdown,tight,0.2677918224197404,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2025-01-01,china,slowdown,tight,0.3016862541012422,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
 2025-02-01,china,slowdown,tight,0.2947402956374373,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
-2025-03-01,china,slowdown,tight,0.2527863316537151,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
-2025-04-01,china,slowdown,tight,0.2451985016994592,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2025-05-01,china,slowdown,neutral,0.218147925773243,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2025-06-01,china,slowdown,neutral,0.0963659147516021,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2025-07-01,china,slowdown,neutral,0.0719208567916317,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2025-08-01,china,slowdown,tight,-0.2954724772337629,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2025-09-01,china,slowdown,tight,-0.3010263804387823,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2025-10-01,china,slowdown,neutral,-0.0507731446699204,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2025-11-01,china,slowdown,neutral,0.1467620085821425,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2025-12-01,china,slowdown,neutral,-0.1889230156700361,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2026-01-01,china,slowdown,neutral,-0.4243512838939444,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2026-02-01,china,slowdown,easy,0.0887152999312887,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2026-03-01,china,slowdown,neutral,-0.0002333459016873,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-03-01,china,slowdown,tight,0.2527598734988532,fair,low,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,medium,"Macro and valuation inputs are available, but valuation coverage is still partial."
+2025-04-01,china,slowdown,tight,0.2859807098028235,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-05-01,china,slowdown,neutral,0.2846406682554164,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-06-01,china,slowdown,tight,0.013017460198262,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-07-01,china,slowdown,neutral,0.0604797971842305,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-08-01,china,slowdown,tight,-0.277172925738441,fair,high,-2.0,cautious,2.5,bullish,-1.0,cautious,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2025-09-01,china,slowdown,neutral,-0.3175328599203441,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-10-01,china,slowdown,neutral,-0.028718546216156,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-11-01,china,slowdown,neutral,0.130290992752129,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2025-12-01,china,slowdown,neutral,-0.1516354702676631,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-01-01,china,slowdown,neutral,-0.393480220058774,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-02-01,china,slowdown,neutral,-0.0171549626790754,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2026-03-01,china,slowdown,neutral,0.0176400287482012,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.

@@ -2,6 +2,34 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-03-23",
+    "title": "Philip R. Lane: AI and the euro area economy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260323_1~1e06784a89.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-03-23",
+    "title": "Piero Cipollone: Building the rails for Europe’s tokenised financial markets",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260323~a88f20c049.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-03-23",
+    "title": "New data release: ECB wage tracker continues to suggest negotiated wage pressures easing in 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260323~ba4ddfe349.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-03-23",
+    "title": "Luis de Guindos: Interview with El Mundo",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260323~b893c61107.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-03-21",
     "title": "Piero Cipollone: Digital euro - why?",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260321~bf2186fc07.en.pdf"
@@ -54,33 +82,5 @@
     "date": "2026-03-08",
     "title": "Christine Lagarde: Interview with ELLE Magazine",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260308~1c03ad3ece.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-06",
-    "title": "Isabel Schnabel: Navigating inflation and employment in an era of supply shocks and AI",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260306_1~a4943607d7.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-06",
-    "title": "Piero Cipollone: Digital euro",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260306~d0237cda20.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-05",
-    "title": "Christine Lagarde: Technology, fragmentation and the new uncertainty",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260305~b091c4a651.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-05",
-    "title": "Meeting of 4-5 February 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260305~4a9b7afe1c.en.html"
   }
 ]
