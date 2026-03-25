@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-03-24",
+    "title": "Barr, Developing Communities through Public-private Partnerships",
+    "body": "Speech At the 2026 National Community Investment Conference, Phoenix, Arizona\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260324a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-03-21",
     "title": "Powell, Acceptance Remarks",
     "body": "Speech At the American Society for Public Administration Annual Conference: Paul A. Volcker Public Integrity Award Ceremony (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/powell20260321a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-02-04",
     "title": "Cook, Economic Outlook",
     "body": "Speech At the Economic Club of Miami, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260204a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-01-30",
-    "title": "Bowman, Outlook for the Economy and Monetary Policy",
-    "body": "Speech At the SW Graduate School of Banking at SMU Cox: 161st Assembly for Bank Directors, Oahu, Hawaii\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260130a.htm"
   }
 ]
