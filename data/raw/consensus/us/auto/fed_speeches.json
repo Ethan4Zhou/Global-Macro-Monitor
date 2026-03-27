@@ -2,6 +2,34 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-03-26",
+    "title": "Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+    "body": "Speech At the Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-03-26",
+    "title": "Jefferson, Economic Outlook and Energy Effects",
+    "body": "Speech At the Global Perspectives Speaker Series, Federal Reserve Bank of Dallas, Dallas, Texas\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260326a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-03-26",
+    "title": "Miran, Prospects for Shrinking the Fedâs Balance Sheet",
+    "body": "Speech At the Economic Club of Miami, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/miran20260326a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-03-26",
+    "title": "Cook, Reflections on Financial Stability",
+    "body": "Speech At Yale Program on Financial Stability, School of Management, Yale University, New Haven, Connecticut\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260326a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-03-24",
     "title": "Barr, Developing Communities through Public-private Partnerships",
     "body": "Speech At the 2026 National Community Investment Conference, Phoenix, Arizona\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260324a.htm"
@@ -54,33 +82,5 @@
     "date": "2026-02-19",
     "title": "Bowman, Opening Remarks",
     "body": "Speech At the Federal Reserve Bank of Atlanta 2026 Banking Outlook Conference: The Next Horizon in Banking, Atlanta, Georgia (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260219a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-17",
-    "title": "Barr, What Will Artificial Intelligence Mean for the Labor Market and the Economy?",
-    "body": "Speech At the New York Association for Business Economics, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260217a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-16",
-    "title": "Bowman, Revitalizing Bank Mortgage Lending, One Step with Basel",
-    "body": "Speech At The American Bankers Association 2026 Conference for Community Bankers, Orlando, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260216a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-06",
-    "title": "Jefferson, Economic Outlook and Supply-Side (Dis)Inflation Dynamics",
-    "body": "Speech At the Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260206a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-04",
-    "title": "Cook, Economic Outlook",
-    "body": "Speech At the Economic Club of Miami, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260204a.htm"
   }
 ]
