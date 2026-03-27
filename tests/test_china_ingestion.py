@@ -109,7 +109,7 @@ def test_imf_adapter_normalizes_payload(mock_get: Mock) -> None:
 
 def test_fetch_china_api_bundle_deduplicates_and_saves(monkeypatch, tmp_path: Path) -> None:  # type: ignore[no-untyped-def]
     """China ingestion should deduplicate rows and save normalized outputs."""
-    def _fake_akshare(*args, **kwargs):  # type: ignore[no-untyped-def]
+    def _fake_tushare(*args, **kwargs):  # type: ignore[no-untyped-def]
         series_id = kwargs["source_series_id"]
         return pd.DataFrame(
             {
@@ -117,7 +117,7 @@ def test_fetch_china_api_bundle_deduplicates_and_saves(monkeypatch, tmp_path: Pa
                 "value": [0.2, 0.2, 0.4],
                 "series_id": [series_id, series_id, series_id],
                 "country": ["china"] * 3,
-                "source": ["china_akshare"] * 3,
+                "source": ["tushare"] * 3,
                 "frequency": ["monthly"] * 3,
                 "release_date": pd.to_datetime(["2024-01-15", "2024-01-15", "2024-02-20"]),
                 "ingested_at": pd.to_datetime(["2024-03-01"] * 3),
@@ -153,14 +153,13 @@ def test_fetch_china_api_bundle_deduplicates_and_saves(monkeypatch, tmp_path: Pa
             }
         )
 
-    monkeypatch.setattr("app.data.china_ingestion.fetch_china_akshare_series", _fake_akshare)
     monkeypatch.setattr("app.data.china_ingestion.fetch_china_nbs_series", _fake_nbs)
     monkeypatch.setattr("app.data.china_ingestion.fetch_china_rates_series", _fake_rates)
     monkeypatch.setattr("app.data.china_ingestion.fetch_imf_series", _fake_nbs)
     monkeypatch.setattr(
         "app.data.china_ingestion.CHINA_SOURCE_FETCHERS",
         {
-            "china_akshare": (_fake_akshare, "akshare"),
+            "tushare": (_fake_tushare, "tushare"),
             "china_nbs": (_fake_nbs, "nbs"),
             "china_rates": (_fake_rates, "rates"),
             "imf": (_fake_nbs, "imf"),
@@ -170,10 +169,10 @@ def test_fetch_china_api_bundle_deduplicates_and_saves(monkeypatch, tmp_path: Pa
     summary = fetch_china_api_bundle(base_dir=str(tmp_path / "china"))
     assert not summary.empty
     assert (tmp_path / "china" / "normalized" / "cpi.csv").exists()
-    assert (tmp_path / "china" / "akshare" / "cpi.csv").exists()
+    assert (tmp_path / "china" / "tushare" / "cpi.csv").exists()
     cpi = pd.read_csv(tmp_path / "china" / "normalized" / "cpi.csv")
     assert len(cpi) == 2
-    assert summary.loc[summary["series_id"] == "cpi", "source_used"].iloc[0] == "china_akshare"
+    assert summary.loc[summary["series_id"] == "cpi", "source_used"].iloc[0] == "tushare"
 
 
 def test_validate_china_data_reports_missing_required_series(tmp_path: Path) -> None:
@@ -285,7 +284,7 @@ def test_rebuild_china_normalized_data_maps_source_files(tmp_path: Path) -> None
 
 def test_fetch_china_api_bundle_tolerates_fallback_failure(monkeypatch, tmp_path: Path) -> None:  # type: ignore[no-untyped-def]
     """Optional China fallbacks should not crash the whole ingestion run."""
-    def _fake_akshare(*args, **kwargs):  # type: ignore[no-untyped-def]
+    def _fake_tushare(*args, **kwargs):  # type: ignore[no-untyped-def]
         series_id = kwargs["source_series_id"]
         if series_id == "industrial_production":
             raise RuntimeError("primary failed")
@@ -295,7 +294,7 @@ def test_fetch_china_api_bundle_tolerates_fallback_failure(monkeypatch, tmp_path
                 "value": [1.0],
                 "series_id": [series_id],
                 "country": ["china"],
-                "source": ["china_akshare"],
+                "source": ["tushare"],
                 "frequency": ["monthly"],
                 "release_date": pd.to_datetime(["2024-01-15"]),
                 "ingested_at": pd.to_datetime(["2024-03-01"]),
@@ -308,9 +307,10 @@ def test_fetch_china_api_bundle_tolerates_fallback_failure(monkeypatch, tmp_path
     monkeypatch.setattr(
         "app.data.china_ingestion.CHINA_SOURCE_FETCHERS",
         {
-            "china_akshare": (_fake_akshare, "akshare"),
+            "tushare": (_fake_tushare, "tushare"),
+            "china_akshare": (_fake_tushare, "akshare"),
             "china_nbs": (_raise_fallback, "nbs"),
-            "china_rates": (_fake_akshare, "rates"),
+            "china_rates": (_fake_tushare, "rates"),
             "imf": (_raise_fallback, "imf"),
         },
     )
@@ -319,3 +319,120 @@ def test_fetch_china_api_bundle_tolerates_fallback_failure(monkeypatch, tmp_path
     assert not summary.empty
     industrial_row = summary.loc[summary["series_id"] == "industrial_production"].iloc[0]
     assert industrial_row["status"] == "missing"
+
+
+def test_fetch_china_api_bundle_uses_public_site_fallback_series_id(monkeypatch, tmp_path: Path) -> None:
+    """China ingestion should honor fallback_source_series_id for public-site fallbacks."""
+
+    def _raise_primary(*args, **kwargs):  # type: ignore[no-untyped-def]
+        raise RuntimeError("primary failed")
+
+    def _public_fetch(*args, **kwargs):  # type: ignore[no-untyped-def]
+        assert kwargs["source_series_id"] == "china_core_cpi_public"
+        return pd.DataFrame(
+            {
+                "date": ["2026-02-01"],
+                "value": [0.6],
+                "series_id": ["core_cpi"],
+                "country": ["china"],
+                "source": ["tradingeconomics"],
+                "frequency": ["monthly"],
+                "release_date": ["2026-02-01"],
+                "ingested_at": ["2026-03-22T00:00:00+00:00"],
+            }
+        )
+
+    monkeypatch.setattr(
+        "app.data.china_ingestion.get_country_indicators",
+        lambda country, group: (
+            [
+                {
+                    "key": "core_cpi",
+                    "source": "china_nbs",
+                    "source_series_id": "core_cpi",
+                    "fallback_source": "public_site",
+                    "fallback_source_series_id": "china_core_cpi_public",
+                    "frequency": "monthly",
+                    "required_for_minimum_regime": False,
+                }
+            ]
+            if group == "macro"
+            else []
+        ),
+    )
+    monkeypatch.setattr(
+        "app.data.china_ingestion.CHINA_SOURCE_FETCHERS",
+        {
+            "china_nbs": (_raise_primary, "nbs"),
+            "public_site": (_public_fetch, "public"),
+        },
+    )
+
+    summary = fetch_china_api_bundle(base_dir=str(tmp_path / "china"))
+    row = summary.loc[summary["series_id"] == "core_cpi"].iloc[0]
+    assert row["source_used"] == "public_site"
+    assert row["status"] == "ready"
+    assert (tmp_path / "china" / "normalized" / "core_cpi.csv").exists()
+
+
+def test_fetch_china_api_bundle_prefers_newer_public_site_series(monkeypatch, tmp_path: Path) -> None:
+    """China ingestion should switch to a newer public-site series when the primary source is stale."""
+
+    def _stale_primary(*args, **kwargs):  # type: ignore[no-untyped-def]
+        return pd.DataFrame(
+            {
+                "date": ["2025-08-01"],
+                "value": [5.2],
+                "series_id": ["industrial_production"],
+                "country": ["china"],
+                "source": ["tushare"],
+                "frequency": ["monthly"],
+                "release_date": ["2025-08-01"],
+                "ingested_at": ["2026-03-22T00:00:00+00:00"],
+            }
+        )
+
+    def _newer_public(*args, **kwargs):  # type: ignore[no-untyped-def]
+        return pd.DataFrame(
+            {
+                "date": ["2026-02-01"],
+                "value": [5.8],
+                "series_id": ["industrial_production"],
+                "country": ["china"],
+                "source": ["tradingeconomics"],
+                "frequency": ["monthly"],
+                "release_date": ["2026-02-01"],
+                "ingested_at": ["2026-03-22T00:00:00+00:00"],
+            }
+        )
+
+    monkeypatch.setattr(
+        "app.data.china_ingestion.get_country_indicators",
+        lambda country, group: (
+            [
+                {
+                    "key": "industrial_production",
+                    "source": "tushare",
+                    "source_series_id": "industrial_production",
+                    "fallback_source": "public_site",
+                    "fallback_source_series_id": "china_industrial_production_public",
+                    "frequency": "monthly",
+                    "required_for_minimum_regime": False,
+                }
+            ]
+            if group == "macro"
+            else []
+        ),
+    )
+    monkeypatch.setattr(
+        "app.data.china_ingestion.CHINA_SOURCE_FETCHERS",
+        {
+            "tushare": (_stale_primary, "tushare"),
+            "public_site": (_newer_public, "public"),
+        },
+    )
+
+    summary = fetch_china_api_bundle(base_dir=str(tmp_path / "china"))
+    row = summary.loc[summary["series_id"] == "industrial_production"].iloc[0]
+    assert row["source_used"] == "public_site"
+    assert row["latest_date"] == pd.Timestamp("2026-02-01")

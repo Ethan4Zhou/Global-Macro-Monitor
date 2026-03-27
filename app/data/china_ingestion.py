@@ -12,6 +12,8 @@ from app.data.sources.china_rates_client import fetch_china_rates_series
 from app.data.sources.china_akshare_client import fetch_china_akshare_series
 from app.data.sources.international_market_client import fetch_international_market_series
 from app.data.sources.imf_client import fetch_imf_series
+from app.data.sources.public_site_client import fetch_public_site_series
+from app.data.sources.tushare_client import fetch_tushare_series
 from app.valuation.features import inspect_china_valuation_inputs
 from app.utils.config import get_country_indicators
 from app.utils.logging import get_logger
@@ -35,10 +37,12 @@ CHINA_SERIES_ID_ALIASES = {
     "pmi": "pmi",
     "manufacturing_pmi": "pmi",
     "cn_pmi": "pmi",
+    "shibor_lpr": "policy_rate",
     "policy_rate": "policy_rate",
     "policy_rate_proxy": "policy_rate",
     "short_rate_proxy": "policy_rate",
     "dr007_or_repo_proxy": "policy_rate",
+    "yc_cb_10y": "yield_10y",
     "yield_10y": "yield_10y",
     "cgb_10y_proxy": "yield_10y",
     "m2": "m2",
@@ -54,11 +58,13 @@ CHINA_SERIES_ID_ALIASES = {
     "shiller_pe_proxy": "shiller_pe_proxy",
 }
 CHINA_SOURCE_FETCHERS = {
+    "tushare": (fetch_tushare_series, "tushare"),
     "china_akshare": (fetch_china_akshare_series, "akshare"),
     "china_nbs": (fetch_china_nbs_series, "nbs"),
     "china_rates": (fetch_china_rates_series, "rates"),
     "imf": (fetch_imf_series, "imf"),
     "siblis_market": (fetch_international_market_series, "siblis"),
+    "public_site": (fetch_public_site_series, "public"),
 }
 NORMALIZED_COLUMNS = [
     "date",
@@ -115,6 +121,13 @@ def _save_frame(frame: pd.DataFrame, path: Path) -> Path:
     return path
 
 
+def _latest_date(frame: pd.DataFrame) -> pd.Timestamp:
+    """Return the latest normalized observation date for one frame."""
+    if frame.empty or "date" not in frame.columns:
+        return pd.NaT
+    return pd.to_datetime(frame["date"], errors="coerce").max()
+
+
 def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.DataFrame, str]:
     """Fetch one China indicator using its configured source and fallback."""
     source = str(indicator.get("source", ""))
@@ -125,17 +138,20 @@ def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.Dat
         return _empty_normalized_frame(), source
 
     fetcher, _subdir = fetcher_entry
+    primary_frame = _empty_normalized_frame()
     try:
-        frame = fetcher(
+        primary_frame = fetcher(
             source_series_id=source_series_id,
             country=country,
             frequency=str(indicator.get("frequency", "monthly")),
             source_hint=source_hint,
         )
-        return _clean_normalized_frame(frame, str(indicator["key"])), source
+        primary_frame = _clean_normalized_frame(primary_frame, str(indicator["key"]))
     except Exception as exc:
         fallback_source = str(indicator.get("fallback_source") or "")
         if fallback_source in CHINA_SOURCE_FETCHERS:
+            fallback_series_id = str(indicator.get("fallback_source_series_id") or source_series_id)
+            fallback_source_hint = str(indicator.get("fallback_source_hint") or source_hint)
             logger.warning(
                 "Primary China source failed for %s/%s, trying fallback source %s.",
                 country,
@@ -145,10 +161,10 @@ def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.Dat
             fallback_fetcher, _subdir = CHINA_SOURCE_FETCHERS[fallback_source]
             try:
                 frame = fallback_fetcher(
-                    source_series_id=source_series_id,
+                    source_series_id=fallback_series_id,
                     country=country,
                     frequency=str(indicator.get("frequency", "monthly")),
-                    source_hint=source_hint,
+                    source_hint=fallback_source_hint,
                 )
                 return _clean_normalized_frame(frame, str(indicator["key"])), fallback_source
             except Exception as fallback_exc:
@@ -161,6 +177,32 @@ def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.Dat
                 return _empty_normalized_frame(), fallback_source
         logger.warning("China source failed for %s/%s: %s", country, indicator.get("key"), exc)
         return _empty_normalized_frame(), source
+
+    fallback_source = str(indicator.get("fallback_source") or "")
+    if fallback_source not in CHINA_SOURCE_FETCHERS:
+        return primary_frame, source
+
+    fallback_series_id = str(indicator.get("fallback_source_series_id") or source_series_id)
+    fallback_source_hint = str(indicator.get("fallback_source_hint") or source_hint)
+    fallback_fetcher, _subdir = CHINA_SOURCE_FETCHERS[fallback_source]
+    try:
+        fallback_frame = fallback_fetcher(
+            source_series_id=fallback_series_id,
+            country=country,
+            frequency=str(indicator.get("frequency", "monthly")),
+            source_hint=fallback_source_hint,
+        )
+        fallback_frame = _clean_normalized_frame(fallback_frame, str(indicator["key"]))
+    except Exception:
+        return primary_frame, source
+
+    if primary_frame.empty and not fallback_frame.empty:
+        return fallback_frame, fallback_source
+    if fallback_frame.empty:
+        return primary_frame, source
+    if _latest_date(fallback_frame) > _latest_date(primary_frame):
+        return fallback_frame, fallback_source
+    return primary_frame, source
 
 
 def fetch_china_api_bundle(base_dir: str = "data/raw/api/china") -> pd.DataFrame:

@@ -120,7 +120,7 @@ countries:
     macro:
       - key: cpi
         name: China CPI
-        source: china_akshare
+        source: tushare
         series_id: cpi
         source_series_id: cpi
         source_hint: consumer_price_index
@@ -131,7 +131,7 @@ countries:
         required_for_minimum_regime: true
       - key: pmi
         name: China PMI
-        source: china_akshare
+        source: tushare
         series_id: pmi
         source_series_id: pmi
         source_hint: manufacturing_pmi
@@ -149,11 +149,12 @@ countries:
         category: growth
         frequency: monthly
         transform: yoy
-        fallback_source: china_nbs
+        fallback_source: public_site
+        fallback_source_series_id: china_industrial_production_public
         required_for_minimum_regime: false
       - key: policy_rate
         name: China Short-Rate Proxy
-        source: china_akshare
+        source: tushare
         series_id: policy_rate
         source_series_id: policy_rate
         source_hint: fr007_proxy
@@ -164,7 +165,7 @@ countries:
         required_for_minimum_regime: true
       - key: yield_10y
         name: China 10Y Yield Proxy
-        source: china_akshare
+        source: tushare
         series_id: yield_10y
         source_series_id: yield_10y
         source_hint: cgb_10y_proxy
@@ -175,14 +176,15 @@ countries:
         required_for_minimum_regime: true
       - key: m2
         name: China M2
-        source: china_akshare
+        source: tushare
         series_id: m2
         source_series_id: m2
         source_hint: money_supply_m2
         category: liquidity
         frequency: monthly
         transform: yoy
-        fallback_source: china_nbs
+        fallback_source: public_site
+        fallback_source_series_id: china_m2_pbc_public
         required_for_minimum_regime: false
       - key: core_cpi
         name: China Core CPI
@@ -193,23 +195,23 @@ countries:
         category: inflation
         frequency: monthly
         transform: yoy
-        fallback_source: manual
+        fallback_source: public_site
+        fallback_source_series_id: china_core_cpi_public
         required_for_minimum_regime: false
       - key: unrate
         name: China Unemployment Rate
-        source: china_akshare
+        source: public_site
         series_id: unrate
-        source_series_id: unrate
+        source_series_id: china_unrate_public
         source_hint: urban_unemployment
         category: growth
         frequency: monthly
         transform: level
-        fallback_source: imf
         required_for_minimum_regime: false
     valuation:
       - key: hs300_pe_proxy
         name: HS300 PE Proxy
-        source: china_akshare
+        source: tushare
         series_id: hs300_pe_proxy
         source_series_id: hs300_pe_proxy
         category: valuation
@@ -218,7 +220,7 @@ countries:
         fallback_source: manual
       - key: hs300_pb_proxy
         name: HS300 PB Proxy
-        source: china_akshare
+        source: tushare
         series_id: hs300_pb_proxy
         source_series_id: hs300_pb_proxy
         category: valuation
@@ -346,12 +348,13 @@ countries:
         transform: level
       - key: equity_pb_proxy
         name: Eurozone Equity PB Proxy
-        source: manual
+        source: public_site
         series_id: equity_pb_proxy
-        source_series_id: equity_pb_proxy
+        source_series_id: eurozone_equity_pb_proxy_public
         category: valuation
         frequency: monthly
         transform: level
+        fallback_source: manual
       - key: real_yield
         name: Eurozone Real Yield
         source: derived

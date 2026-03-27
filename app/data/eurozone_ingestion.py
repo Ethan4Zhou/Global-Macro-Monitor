@@ -10,6 +10,7 @@ import pandas as pd
 from app.data.sources.eurozone_ecb_client import fetch_eurozone_ecb_series
 from app.data.sources.eurozone_eurostat_client import fetch_eurozone_eurostat_series
 from app.data.sources.international_market_client import fetch_international_market_series
+from app.data.sources.public_site_client import fetch_public_site_series
 from app.utils.config import get_country_indicators
 
 EUROZONE_MINIMUM_REGIME_SERIES = ["cpi", "growth_proxy", "policy_rate", "yield_10y"]
@@ -35,6 +36,7 @@ EUROZONE_SOURCE_FETCHERS = {
     "eurozone_ecb": (fetch_eurozone_ecb_series, "ecb"),
     "eurozone_eurostat": (fetch_eurozone_eurostat_series, "eurostat"),
     "siblis_market": (fetch_international_market_series, "siblis"),
+    "public_site": (fetch_public_site_series, "public"),
 }
 NORMALIZED_COLUMNS = [
     "date",
@@ -88,6 +90,13 @@ def _save_frame(frame: pd.DataFrame, path: Path) -> Path:
     return path
 
 
+def _latest_date(frame: pd.DataFrame) -> pd.Timestamp:
+    """Return the latest normalized observation date for one frame."""
+    if frame.empty or "date" not in frame.columns:
+        return pd.NaT
+    return pd.to_datetime(frame["date"], errors="coerce").max()
+
+
 def _unique_indicators() -> list[dict[str, object]]:
     """Return deduplicated Eurozone indicators across macro and valuation configs."""
     merged = get_country_indicators("eurozone", "macro") + get_country_indicators("eurozone", "valuation")
@@ -106,29 +115,58 @@ def _fetch_indicator(indicator: dict[str, object], country: str) -> tuple[pd.Dat
     if fetcher_entry is None:
         return _empty_frame(), source
     fetcher, _subdir = fetcher_entry
+    primary_frame = _empty_frame()
     try:
-        frame = fetcher(
+        primary_frame = fetcher(
             source_series_id=source_series_id,
             country=country,
             frequency=str(indicator.get("frequency", "monthly")),
             source_hint=source_hint,
         )
-        return _clean_normalized_frame(frame, str(indicator["key"])), source
+        primary_frame = _clean_normalized_frame(primary_frame, str(indicator["key"]))
     except Exception:
         fallback_source = str(indicator.get("fallback_source") or "")
         if fallback_source in EUROZONE_SOURCE_FETCHERS:
+            fallback_series_id = str(indicator.get("fallback_source_series_id") or source_series_id)
+            fallback_source_hint = str(indicator.get("fallback_source_hint") or source_hint)
             fallback_fetcher, _ = EUROZONE_SOURCE_FETCHERS[fallback_source]
             try:
                 frame = fallback_fetcher(
-                    source_series_id=source_series_id,
+                    source_series_id=fallback_series_id,
                     country=country,
                     frequency=str(indicator.get("frequency", "monthly")),
-                    source_hint=source_hint,
+                    source_hint=fallback_source_hint,
                 )
                 return _clean_normalized_frame(frame, str(indicator["key"])), fallback_source
             except Exception:
                 return _empty_frame(), fallback_source
         return _empty_frame(), source
+
+    fallback_source = str(indicator.get("fallback_source") or "")
+    if fallback_source not in EUROZONE_SOURCE_FETCHERS:
+        return primary_frame, source
+
+    fallback_series_id = str(indicator.get("fallback_source_series_id") or source_series_id)
+    fallback_source_hint = str(indicator.get("fallback_source_hint") or source_hint)
+    fallback_fetcher, _ = EUROZONE_SOURCE_FETCHERS[fallback_source]
+    try:
+        fallback_frame = fallback_fetcher(
+            source_series_id=fallback_series_id,
+            country=country,
+            frequency=str(indicator.get("frequency", "monthly")),
+            source_hint=fallback_source_hint,
+        )
+        fallback_frame = _clean_normalized_frame(fallback_frame, str(indicator["key"]))
+    except Exception:
+        return primary_frame, source
+
+    if primary_frame.empty and not fallback_frame.empty:
+        return fallback_frame, fallback_source
+    if fallback_frame.empty:
+        return primary_frame, source
+    if _latest_date(fallback_frame) > _latest_date(primary_frame):
+        return fallback_frame, fallback_source
+    return primary_frame, source
 
 
 def fetch_eurozone_api_bundle(base_dir: str = "data/raw/api/eurozone") -> pd.DataFrame:

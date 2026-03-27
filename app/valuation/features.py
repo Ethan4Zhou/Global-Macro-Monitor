@@ -250,14 +250,18 @@ def refresh_international_valuation_source_data(
 ) -> dict[str, object]:
     """Refresh China or Eurozone market valuation proxies from public market pages."""
     normalized_dir = Path(api_dir) / country / "normalized"
-    raw_market_dir = Path(api_dir) / country / "siblis"
     normalized_files: list[str] = []
     actual_sources: set[str] = set()
     series_ids_found: list[str] = []
 
+    source_to_subdir = {
+        "siblis_market": "siblis",
+        "public_site": "public",
+    }
+
     for indicator in get_country_indicators(country, "valuation"):
         source = str(indicator.get("source", "manual"))
-        if source != "siblis_market":
+        if source not in source_to_subdir:
             continue
         key = str(indicator["key"])
         source_series_id = str(indicator.get("source_series_id") or indicator.get("series_id") or key)
@@ -265,11 +269,20 @@ def refresh_international_valuation_source_data(
         normalized_path = normalized_dir / f"{key}.csv"
 
         try:
-            normalized = fetch_international_market_series(
-                source_series_id=source_series_id,
-                country=country,
-                frequency=frequency,
-            )
+            if source == "siblis_market":
+                normalized = fetch_international_market_series(
+                    source_series_id=source_series_id,
+                    country=country,
+                    frequency=frequency,
+                )
+            else:
+                from app.data.sources.public_site_client import fetch_public_site_series
+
+                normalized = fetch_public_site_series(
+                    source_series_id=source_series_id,
+                    country=country,
+                    frequency=frequency,
+                )
         except Exception:
             continue
 
@@ -277,7 +290,7 @@ def refresh_international_valuation_source_data(
             continue
 
         _save_normalized_optional_frame(normalized, normalized_path)
-        _save_normalized_optional_frame(normalized, raw_market_dir / f"{key}.csv")
+        _save_normalized_optional_frame(normalized, Path(api_dir) / country / source_to_subdir[source] / f"{key}.csv")
         normalized_files.append(normalized_path.name)
         series_ids_found.append(key)
         actual_sources.update(normalized["source"].dropna().astype(str).tolist())
@@ -303,9 +316,9 @@ def _load_optional_series(
         path = Path(manual_dir) / country / f"{series_id}.csv"
     elif source == "fred":
         path = Path(fred_dir) / f"{series_id}.csv"
-    elif source in {"us_fred", "us_multpl", "siblis_market"}:
+    elif source in {"us_fred", "us_multpl", "siblis_market", "public_site"}:
         path = _normalized_api_path(api_dir, country, series_id)
-    elif source in {"china_akshare", "china_nbs", "china_rates", "imf", "eurozone_ecb", "eurozone_eurostat", "eurozone_oecd"}:
+    elif source in {"tushare", "china_akshare", "china_nbs", "china_rates", "imf", "eurozone_ecb", "eurozone_eurostat", "eurozone_oecd"}:
         path = _normalized_api_path(api_dir, country, series_id)
     else:
         return None

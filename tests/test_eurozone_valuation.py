@@ -14,6 +14,7 @@ from app.valuation.eurozone_models import (
 from app.valuation.features import (
     build_country_valuation_features_frame,
     inspect_eurozone_valuation_inputs,
+    refresh_international_valuation_source_data,
 )
 
 
@@ -122,3 +123,50 @@ def test_eurozone_minimum_regime_classification() -> None:
     )
     classified = classify_country_macro_regime(features, country="eurozone")
     assert classified["regime"].iloc[-1] != "unknown"
+
+
+def test_refresh_international_valuation_source_data_supports_public_site(monkeypatch, tmp_path: Path) -> None:
+    """Eurozone valuation refresh should ingest public-site proxies into normalized storage."""
+
+    def _fake_public_fetch(**kwargs):  # type: ignore[no-untyped-def]
+        return pd.DataFrame(
+            {
+                "date": ["2026-03-01"],
+                "value": [2.34],
+                "series_id": ["equity_pb_proxy"],
+                "country": ["eurozone"],
+                "source": ["ycharts"],
+                "frequency": ["monthly"],
+                "release_date": ["2026-03-01"],
+                "ingested_at": ["2026-03-22T00:00:00+00:00"],
+            }
+        )
+
+    monkeypatch.setattr(
+        "app.valuation.features.get_country_indicators",
+        lambda country, group: (
+            [
+                {
+                    "key": "equity_pb_proxy",
+                    "source": "public_site",
+                    "source_series_id": "eurozone_equity_pb_proxy_public",
+                    "frequency": "monthly",
+                }
+            ]
+            if group == "valuation"
+            else []
+        ),
+    )
+    monkeypatch.setattr(
+        "app.data.sources.public_site_client.fetch_public_site_series",
+        _fake_public_fetch,
+    )
+
+    diagnostics = refresh_international_valuation_source_data(
+        country="eurozone",
+        api_dir=str(tmp_path / "api"),
+    )
+
+    assert diagnostics["canonical_series_ids_found"] == ["equity_pb_proxy"]
+    assert diagnostics["actual_sources_found"] == ["ycharts"]
+    assert (tmp_path / "api" / "eurozone" / "normalized" / "equity_pb_proxy.csv").exists()

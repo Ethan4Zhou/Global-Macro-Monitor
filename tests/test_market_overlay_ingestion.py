@@ -63,3 +63,44 @@ def test_save_market_overlay_series_writes_csv(tmp_path) -> None:
     )
     assert output == Path(tmp_path / "normalized" / "vix_proxy.csv")
     assert output.exists()
+
+
+def test_fetch_market_overlay_bundle_uses_public_fallback_for_regional_equities(monkeypatch) -> None:
+    """Public-site fallbacks should populate overlays when FRED fails."""
+
+    def _raise_fetch(series_id: str, api_key: str) -> pd.DataFrame:
+        raise RuntimeError("fred unavailable")
+
+    def _fake_public_fetch(source_series_id: str, country: str, frequency: str) -> pd.DataFrame:
+        mapping = {
+            "gold_proxy_public": ("gold_proxy", "global", "macrotrends", 3020.0),
+            "oil_proxy_public": ("oil_proxy", "global", "macrotrends", 68.4),
+            "copper_proxy_public": ("copper_proxy", "global", "macrotrends", 4.92),
+            "sp500_proxy_public": ("sp500_proxy", "us", "stooq", 5699.4),
+            "china_equity_proxy_public": ("china_equity_proxy", "china", "tradingeconomics", 3350.0),
+            "eurozone_equity_proxy_public": ("eurostoxx50_proxy", "eurozone", "tradingeconomics", 5520.0),
+        }
+        if source_series_id not in mapping:
+            return pd.DataFrame(columns=market_overlay_ingestion.NORMALIZED_COLUMNS)
+        series_name, series_country, series_source, value = mapping[source_series_id]
+        return pd.DataFrame(
+            {
+                "date": ["2026-03-20"],
+                "value": [value],
+                "series_id": [series_name],
+                "country": [series_country],
+                "source": [series_source],
+                "frequency": ["daily"],
+                "release_date": ["2026-03-20"],
+                "ingested_at": ["2026-03-22T00:00:00+00:00"],
+            }
+        )
+
+    monkeypatch.setattr(market_overlay_ingestion, "fetch_fred_series", _raise_fetch)
+    monkeypatch.setattr(market_overlay_ingestion, "fetch_public_site_series", _fake_public_fetch)
+
+    bundle = market_overlay_ingestion.fetch_market_overlay_bundle(api_key="demo")
+    assert bundle["gold_proxy"]["source"].iloc[-1] == "macrotrends"
+    assert bundle["sp500_proxy"]["source"].iloc[-1] == "stooq"
+    assert bundle["china_equity_proxy"]["source"].iloc[-1] == "tradingeconomics"
+    assert bundle["eurostoxx50_proxy"]["source"].iloc[-1] == "tradingeconomics"

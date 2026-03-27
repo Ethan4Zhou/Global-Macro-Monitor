@@ -8,6 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 from app.data.fetchers import fetch_fred_series
+from app.data.sources.public_site_client import fetch_public_site_series
 from app.utils.logging import get_logger
 
 NORMALIZED_COLUMNS = [
@@ -31,6 +32,14 @@ MARKET_OVERLAY_FRED_SERIES = {
     "sp500_proxy": {"fred_id": "SP500", "country": "us"},
     "eurostoxx50_proxy": {"fred_id": "NASDAQNQEUROZ50T", "country": "eurozone"},
     "china_equity_proxy": {"fred_id": "NASDAQNQCNAT", "country": "china"},
+}
+MARKET_OVERLAY_PUBLIC_SERIES = {
+    "gold_proxy": {"source_series_id": "gold_proxy_public", "country": "global"},
+    "oil_proxy": {"source_series_id": "oil_proxy_public", "country": "global"},
+    "copper_proxy": {"source_series_id": "copper_proxy_public", "country": "global"},
+    "sp500_proxy": {"source_series_id": "sp500_proxy_public", "country": "us"},
+    "china_equity_proxy": {"source_series_id": "china_equity_proxy_public", "country": "china"},
+    "eurostoxx50_proxy": {"source_series_id": "eurozone_equity_proxy_public", "country": "eurozone"},
 }
 
 logger = get_logger(__name__)
@@ -83,6 +92,22 @@ def fetch_market_overlay_bundle(api_key: str) -> dict[str, pd.DataFrame]:
         except Exception as exc:  # pragma: no cover - exercised by live fetch failures
             logger.warning("Failed to fetch market overlay series %s (%s): %s", series_id, metadata["fred_id"], exc)
             bundle[series_id] = pd.DataFrame(columns=NORMALIZED_COLUMNS)
+        if bundle[series_id].empty and series_id in MARKET_OVERLAY_PUBLIC_SERIES:
+            public_metadata = MARKET_OVERLAY_PUBLIC_SERIES[series_id]
+            try:
+                bundle[series_id] = fetch_public_site_series(
+                    source_series_id=str(public_metadata["source_series_id"]),
+                    country=str(public_metadata["country"]),
+                    frequency="daily",
+                )
+            except Exception as exc:  # pragma: no cover - exercised by live fetch failures
+                logger.warning(
+                    "Failed to fetch public market overlay series %s (%s): %s",
+                    series_id,
+                    public_metadata["source_series_id"],
+                    exc,
+                )
+                bundle[series_id] = pd.DataFrame(columns=NORMALIZED_COLUMNS)
     return bundle
 
 

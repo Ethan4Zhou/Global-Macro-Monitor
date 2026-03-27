@@ -253,7 +253,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1967-12-01,us,reflation,tight,-0.0966759016712977,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 1968-01-01,us,reflation,neutral,-0.0595701617698035,fair,high,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1968-02-01,us,reflation,neutral,-0.0068896504233542,fair,high,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-1968-03-01,us,reflation,neutral,0.0001794242785322,fair,high,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+1968-03-01,us,reflation,neutral,0.0001794242785321,fair,high,1.0,neutral,-1.0,cautious,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1968-04-01,us,reflation,tight,-0.1724221172795545,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 1968-05-01,us,reflation,tight,-0.2222638470133932,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 1968-06-01,us,reflation,tight,-0.2364833073070403,fair,high,0.0,neutral,-0.5,neutral,-0.5,neutral,2.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
@@ -281,7 +281,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1970-04-01,us,stagflation,neutral,-0.1314731022168043,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1970-05-01,us,stagflation,tight,0.0102339284786474,fair,high,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 1970-06-01,us,stagflation,tight,0.0574788630566774,fair,high,-3.0,cautious,-1.5,cautious,1.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-1970-07-01,us,stagflation,neutral,0.0900262070422586,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+1970-07-01,us,stagflation,neutral,0.0900262070422585,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1970-08-01,us,stagflation,neutral,0.1213468070213624,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1970-09-01,us,stagflation,easy,0.0919299801253715,fair,high,-1.0,cautious,-2.5,cautious,2.5,bullish,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1970-10-01,us,stagflation,neutral,0.0685804194367602,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -434,7 +434,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1983-01-01,us,stagflation,neutral,0.1120453589650082,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1983-02-01,us,stagflation,neutral,0.0863205109432557,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1983-03-01,us,stagflation,neutral,0.0352241582808752,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-1983-04-01,us,stagflation,neutral,0.0323373398880481,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+1983-04-01,us,stagflation,neutral,0.032337339888048,fair,high,-2.0,cautious,-2.0,cautious,2.0,bullish,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1983-05-01,us,slowdown,neutral,-0.0193117398576079,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1983-06-01,us,slowdown,neutral,-0.1466892486700712,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1983-07-01,us,slowdown,neutral,-0.2020462954517581,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -494,7 +494,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1988-01-01,us,goldilocks,neutral,0.1329775029692936,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1988-02-01,us,goldilocks,neutral,0.1455904014769511,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1988-03-01,us,goldilocks,neutral,0.1202407054333272,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-1988-04-01,us,goldilocks,neutral,0.1405776429773896,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+1988-04-01,us,goldilocks,neutral,0.1405776429773897,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1988-05-01,us,goldilocks,tight,0.168898486785238,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1988-06-01,us,goldilocks,tight,0.1081729482240548,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1988-07-01,us,goldilocks,tight,0.10849725402905,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -502,7 +502,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1988-09-01,us,goldilocks,tight,0.0993848911922024,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1988-10-01,us,goldilocks,neutral,0.0747865836115062,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1988-11-01,us,goldilocks,neutral,0.0998182775426582,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-1988-12-01,us,goldilocks,tight,0.0529372177383729,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+1988-12-01,us,goldilocks,tight,0.0529372177383728,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1989-01-01,us,goldilocks,tight,-0.0221051164119568,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1989-02-01,us,goldilocks,tight,-0.0566097566282601,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1989-03-01,us,goldilocks,tight,-0.0788167687454383,fair,high,1.0,neutral,0.5,neutral,-1.5,cautious,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -542,7 +542,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1992-01-01,us,slowdown,neutral,-0.1944898612455175,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1992-02-01,us,slowdown,neutral,-0.1847637229975865,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1992-03-01,us,slowdown,neutral,-0.1399707345914442,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-1992-04-01,us,slowdown,neutral,-0.1006738607223223,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+1992-04-01,us,slowdown,neutral,-0.1006738607223222,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1992-05-01,us,slowdown,neutral,-0.1259944815938128,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1992-06-01,us,slowdown,neutral,-0.0873549003896734,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 1992-07-01,us,slowdown,neutral,-0.0143965801113248,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -581,7 +581,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 1995-04-01,us,goldilocks,neutral,-0.1404742278039852,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1995-05-01,us,goldilocks,neutral,-0.1430277717931395,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1995-06-01,us,goldilocks,neutral,-0.1512805019633721,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-1995-07-01,us,goldilocks,neutral,-0.1830443139935059,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+1995-07-01,us,goldilocks,neutral,-0.183044313993506,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1995-08-01,us,goldilocks,neutral,-0.1872588992592683,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1995-09-01,us,goldilocks,neutral,-0.2215544971112057,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 1995-10-01,us,goldilocks,neutral,-0.2109978954172735,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -668,9 +668,9 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2002-07-01,us,slowdown,easy,-0.2508108738828545,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2002-08-01,us,slowdown,easy,-0.2778568409790645,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2002-09-01,us,slowdown,easy,-0.132368878071078,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2002-10-01,us,slowdown,easy,-0.1293624438509438,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2002-10-01,us,slowdown,easy,-0.1293624438509437,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2002-11-01,us,slowdown,easy,-0.169106121315981,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2002-12-01,us,slowdown,neutral,-0.1240697833396635,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2002-12-01,us,slowdown,neutral,-0.1240697833396634,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2003-01-01,us,slowdown,neutral,-0.1296542909981905,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2003-02-01,us,slowdown,neutral,-0.0101919227047291,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2003-03-01,us,slowdown,neutral,0.0280145227352765,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -688,7 +688,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2004-03-01,us,goldilocks,neutral,0.0554491352904982,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2004-04-01,us,goldilocks,neutral,0.0788829580835539,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2004-05-01,us,goldilocks,neutral,0.1501226584264997,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2004-06-01,us,goldilocks,neutral,0.1463305774564872,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2004-06-01,us,goldilocks,neutral,0.1463305774564871,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2004-07-01,us,goldilocks,neutral,0.1465136409386812,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2004-08-01,us,goldilocks,neutral,0.1439079532107993,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2004-09-01,us,goldilocks,neutral,0.1416755387713071,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -706,7 +706,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2005-09-01,us,goldilocks,neutral,0.1302361100874343,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2005-10-01,us,goldilocks,neutral,0.1261746794570473,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2005-11-01,us,goldilocks,neutral,0.0224918260119749,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2005-12-01,us,goldilocks,neutral,1.7209342523583082e-05,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2005-12-01,us,goldilocks,neutral,1.720934252359696e-05,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2006-01-01,us,goldilocks,neutral,0.0039068547903241,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2006-02-01,us,goldilocks,neutral,-0.0210361597025116,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2006-03-01,us,goldilocks,neutral,-0.0419216342887493,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -725,7 +725,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2007-04-01,us,goldilocks,neutral,-0.1429120934087518,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2007-05-01,us,goldilocks,neutral,-0.1575405789111712,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2007-06-01,us,goldilocks,neutral,-0.1785493681385863,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2007-07-01,us,goldilocks,neutral,-0.2197788802954878,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2007-07-01,us,goldilocks,neutral,-0.2197788802954879,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2007-08-01,us,goldilocks,neutral,-0.2311311308213605,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2007-09-01,us,goldilocks,neutral,-0.2338577522440579,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2007-10-01,us,goldilocks,neutral,-0.2346281714363532,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -770,9 +770,9 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2011-01-01,us,slowdown,neutral,0.4140148330376598,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2011-02-01,us,slowdown,neutral,0.4256813529527689,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2011-03-01,us,slowdown,neutral,0.4855422584369268,fair,high,-1.0,cautious,2.0,bullish,-0.5,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2011-04-01,us,slowdown,neutral,0.5055556793713365,cheap,high,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
+2011-04-01,us,slowdown,neutral,0.5055556793713366,cheap,high,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2011-05-01,us,slowdown,neutral,0.5408585793817056,cheap,high,0.0,neutral,1.0,neutral,-1.0,cautious,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
-2011-06-01,us,slowdown,easy,0.5825158032359987,cheap,high,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2011-06-01,us,slowdown,easy,0.5825158032359988,cheap,high,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2011-07-01,us,slowdown,easy,0.5656841904887037,cheap,high,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2011-08-01,us,slowdown,easy,0.6830212436369871,cheap,high,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2011-09-01,us,slowdown,easy,0.6707630216640066,cheap,high,1.0,neutral,0.5,neutral,-0.5,neutral,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -809,7 +809,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2014-04-01,us,goldilocks,neutral,0.2592074799116738,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2014-05-01,us,goldilocks,neutral,0.2699225659101953,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2014-06-01,us,goldilocks,neutral,0.2370848796550694,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2014-07-01,us,goldilocks,neutral,0.233158562574253,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2014-07-01,us,goldilocks,neutral,0.2331585625742531,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2014-08-01,us,goldilocks,neutral,0.2283250397809802,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2014-09-01,us,goldilocks,neutral,0.215344780548576,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2014-10-01,us,goldilocks,neutral,0.2224449266478902,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -839,7 +839,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2016-10-01,us,goldilocks,neutral,0.0354198237692591,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2016-11-01,us,goldilocks,neutral,0.0319397090649894,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2016-12-01,us,goldilocks,neutral,-0.0032048412982695,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2017-01-01,us,goldilocks,neutral,-0.0238752215679367,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2017-01-01,us,goldilocks,neutral,-0.0238752215679368,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2017-02-01,us,goldilocks,neutral,-0.0170039759922207,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2017-03-01,us,goldilocks,neutral,-0.0523951844227542,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2017-04-01,us,goldilocks,neutral,-0.0684113550241182,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
@@ -876,7 +876,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2019-11-01,us,goldilocks,neutral,-0.1277637353594041,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2019-12-01,us,goldilocks,neutral,-0.1523829523829509,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2020-01-01,us,goldilocks,neutral,-0.2615600373453409,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
-2020-02-01,us,goldilocks,neutral,-0.3099047676490375,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
+2020-02-01,us,goldilocks,neutral,-0.3099047676490376,fair,high,2.0,bullish,0.0,neutral,-1.0,cautious,-1.0,cautious,high,Macro and valuation inputs are both available with strong coverage.
 2020-03-01,us,slowdown,easy,-0.0498672295905593,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2020-04-01,us,slowdown,easy,-0.3866956450229504,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2020-05-01,us,slowdown,easy,-0.3346903724311523,fair,high,0.0,neutral,1.5,neutral,0.0,neutral,0.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
@@ -926,7 +926,7 @@ date,country,regime,liquidity_regime,valuation_score,valuation_regime,valuation_
 2024-01-01,us,reflation,neutral,-0.7246499550904741,expensive,high,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-02-01,us,reflation,neutral,-0.7622045458209477,expensive,high,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-03-01,us,reflation,tight,-0.8241253250750888,expensive,high,-1.0,cautious,0.0,neutral,0.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
-2024-04-01,us,reflation,tight,-0.8032376448976711,expensive,high,-1.0,cautious,0.0,neutral,0.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
+2024-04-01,us,reflation,tight,-0.803237644897671,expensive,high,-1.0,cautious,0.0,neutral,0.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2024-05-01,us,reflation,tight,-0.8260592907104154,expensive,high,-1.0,cautious,0.0,neutral,0.5,neutral,3.0,bullish,high,Macro and valuation inputs are both available with strong coverage.
 2024-06-01,us,reflation,neutral,-0.8709748638010975,expensive,high,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.
 2024-07-01,us,reflation,neutral,-0.898420826091565,expensive,high,0.0,neutral,-0.5,neutral,1.0,neutral,1.0,neutral,high,Macro and valuation inputs are both available with strong coverage.

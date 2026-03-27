@@ -78,7 +78,7 @@ def _load_series_file(
     source_series_id = str(indicator.get("source_series_id") or series_id)
     if source == "fred":
         path = Path(fred_base_dir) / f"{source_series_id}.csv"
-    elif source in {"china_akshare", "china_nbs", "china_rates", "imf", "eurozone_ecb", "eurozone_eurostat", "eurozone_oecd"}:
+    elif source in {"china_akshare", "china_nbs", "china_rates", "imf", "eurozone_ecb", "eurozone_eurostat", "eurozone_oecd", "public_site"}:
         path = Path(api_base_dir) / country / "normalized" / f"{series_id}.csv"
     elif source in {"ecb", "eurostat", "oecd", "tushare"}:
         path = Path(api_base_dir) / country / f"{series_id}.csv"

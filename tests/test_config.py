@@ -21,4 +21,4 @@ def test_country_indicator_groups_are_config_driven() -> None:
 
     assert us_config["display_name"] == "United States"
     assert any(item["key"] == "cpi" for item in us_macro)
-    assert any(item["source"] == "china_akshare" for item in china_macro)
+    assert any(item["source"] == "tushare" for item in china_macro)

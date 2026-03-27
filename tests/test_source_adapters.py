@@ -92,6 +92,28 @@ def test_tushare_adapter_parses_payload(mock_post: Mock) -> None:
     assert pd.api.types.is_datetime64_any_dtype(result["date"])
 
 
+@patch("app.data.sources.tushare_client.requests.post")
+def test_tushare_adapter_supports_hs300_dailybasic_fields(mock_post: Mock, monkeypatch: pytest.MonkeyPatch) -> None:
+    """Tushare client should support HS300 PE/PB proxies via index_dailybasic."""
+    mock_response = Mock()
+    mock_response.json.return_value = {
+        "code": 0,
+        "data": {
+            "fields": ["trade_date", "pe_ttm"],
+            "items": [["20250331", 12.38], ["20250401", 12.4]],
+        },
+    }
+    mock_response.raise_for_status.return_value = None
+    mock_post.return_value = mock_response
+    monkeypatch.setenv("TUSHARE_API_URL", "http://example.test")
+
+    result = fetch_tushare_series("hs300_pe_proxy", country="china", frequency="monthly", token="demo-token")
+
+    assert result["series_id"].iloc[0] == "hs300_pe_proxy"
+    assert result["value"].iloc[0] == 12.38
+    assert mock_post.call_args.kwargs["json"]["api_name"] == "index_dailybasic"
+
+
 def test_config_driven_country_fetching(monkeypatch: pytest.MonkeyPatch) -> None:
     """Country API fetching should route indicators through configured adapters."""
     called: list[str] = []
