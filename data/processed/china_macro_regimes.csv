@@ -1,339 +1,893 @@
 date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regime_confidence,regime_note,liquidity_regime
-1998-02-01,china,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
-1998-03-01,china,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
-1998-04-01,china,,,-1.3274546780700653,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1998-05-01,china,,,-1.3052674535618132,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1998-06-01,china,,,-0.420504909018217,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-07-01,china,,,-1.0617575959448506,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1998-08-01,china,,,-0.17825277330669334,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-09-01,china,,,-0.6340361344877876,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1998-10-01,china,,,0.4151682458530193,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1998-11-01,china,,,0.6965451903188602,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1998-12-01,china,,,1.0447319013453729,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-01-01,china,,,-1.0357492571573648,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1999-02-01,china,,,-1.3244347950468423,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1999-03-01,china,,,1.4448672764785597,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-04-01,china,,,1.831954591190313,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-05-01,china,,,1.6802569260761686,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-06-01,china,,,1.0023620573541026,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-07-01,china,,,1.324591640151435,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-1999-08-01,china,,,-0.3669801991427548,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1999-09-01,china,,,-0.10280670890664786,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-1999-10-01,china,,,-0.702207963958291,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1999-11-01,china,,,-1.3329339383975498,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-1999-12-01,china,,,-1.6287817849934778,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-01-01,china,,,-0.9905439984652257,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-02-01,china,,,-1.2594777799089854,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-03-01,china,,,-1.7695038366331888,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-04-01,china,,,-1.709744377875138,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-05-01,china,,,-0.8394498945585686,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-06-01,china,,,-1.1735013352959442,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-07-01,china,,,-0.8425130562231958,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-08-01,china,,,0.07808688094430277,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2000-09-01,china,,,-0.5355054565692867,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-10-01,china,,,-0.13847356851930295,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2000-11-01,china,,,-0.9901695557942969,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2000-12-01,china,,,-0.1857954704777655,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-01-01,china,,,-1.1241207194210878,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-02-01,china,,,-0.15075270847898717,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-03-01,china,,,-0.1487114329730855,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-04-01,china,,,-0.47351372381037815,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2001-05-01,china,,,-1.1912415748394978,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-06-01,china,,,-0.6781391704115671,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-07-01,china,,,-0.8289680452024197,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-08-01,china,,,-1.4482254008697126,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-09-01,china,,,-1.3217822157821488,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-10-01,china,,,-1.2823567648927563,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-11-01,china,,,-1.7692954672280143,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2001-12-01,china,,,-1.4774358262408307,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-01-01,china,,,-0.5266012810178956,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-02-01,china,,,-1.5766668124401348,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-03-01,china,,,-1.5234097538445615,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-04-01,china,,,-0.4420644742933974,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2002-05-01,china,,,-0.6650702166959559,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-06-01,china,,,-0.7321162805461314,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2002-07-01,china,,,-0.1827311584122639,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2002-08-01,china,,,-0.41505550149249826,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2002-09-01,china,,,0.45490443372784833,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2002-10-01,china,,,1.228050101025987,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2002-11-01,china,,,1.5770205527335739,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2002-12-01,china,,,1.23511522192247,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-01-01,china,,,1.358267127653477,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-02-01,china,,,3.0151643026331283,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-03-01,china,,,2.0566500739347773,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-04-01,china,,,2.224296217937029,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-05-01,china,,,2.5375865315941057,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-06-01,china,,,2.939873661036668,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-07-01,china,,,3.037549604179512,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-08-01,china,,,2.779925803297728,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-09-01,china,,,3.01171484645291,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-10-01,china,,,2.4279512431515786,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-11-01,china,,,2.44184344844352,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2003-12-01,china,,,2.0795840087368984,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-01-01,china,,,1.6701479612376997,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-02-01,china,,,0.9835750446898858,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-03-01,china,,,1.5311397200003545,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-04-01,china,,,1.3706992083566292,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-05-01,china,,,1.345126481156635,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-06-01,china,,,0.6363297294409603,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2004-07-01,china,,,0.06259618296265371,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2004-08-01,china,,,-0.33450214365427,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2004-09-01,china,,,-1.0784648081777648,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2004-10-01,china,,,-0.9337223243620105,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2004-11-01,china,,,-1.1404800075524242,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2004-12-01,china,,,-0.8640447243742105,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-01-01,china,,,-0.5916363579442394,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-02-01,china,,,-0.8075346075873295,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-03-01,china,,,-0.8878825777837875,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-04-01,china,,,-0.8347056397574943,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-05-01,china,,,-0.7824447408816779,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-06-01,china,,,-0.5528851267771379,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-07-01,china,,,-0.05462552029765092,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2005-08-01,china,,,0.21724122347053426,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2005-09-01,china,,,0.6695229876755231,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2005-10-01,china,,,0.9353422869608135,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2005-11-01,china,,,0.9710754466810233,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2005-12-01,china,,,1.0959710703343397,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-01-01,china,,,0.7683190796810526,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-02-01,china,,,1.4791442806714556,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-03-01,china,,,1.2788214544694074,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-04-01,china,,,1.261965833120971,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-05-01,china,,,1.2898341274756762,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-06-01,china,,,1.3168806673094233,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-07-01,china,,,1.0357663722219987,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-08-01,china,,,1.0253998467738978,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-09-01,china,,,0.7939086898255572,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2006-10-01,china,,,0.29606189173668646,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2006-11-01,china,,,0.4295880570357611,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2006-12-01,china,,,0.29162555510479177,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-01-01,china,,,0.3355701561624627,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-02-01,china,,,-0.16826004800377029,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-03-01,china,,,0.7480059001606494,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-04-01,china,,,0.5141861075763232,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-05-01,china,,,0.41931388951824833,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-06-01,china,,,0.23223057222299112,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-07-01,china,,,0.4168441064390304,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2007-08-01,china,,,1.0629596644357553,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-09-01,china,,,0.8689687152482156,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-10-01,china,,,1.0009457303393385,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-11-01,china,,,1.0385576093245303,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2007-12-01,china,,,0.983462402238419,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2008-01-01,china,,,0.18588200990664178,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2008-02-01,china,,,1.2086921092156824,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2008-03-01,china,,0.3764656808085787,0.5482241385311587,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
-2008-04-01,china,,0.5142917977119355,-0.016918012288131737,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
-2008-05-01,china,0.6897918866925419,-0.5846450735718981,0.26568876198398883,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-06-01,china,-1.1358523329395394,-1.2441820200179017,0.8296892224397353,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2008-07-01,china,-1.5187540531647792,-1.6583728874066241,0.4945165001817523,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-08-01,china,-0.9549917369445498,-2.022308210262247,0.017712747378386618,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-09-01,china,-0.4798681565849853,-1.6907338676263863,-0.1730352846327737,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-10-01,china,-0.780359176636273,-1.6942682986977877,-0.5068593397474429,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-11-01,china,-1.4336094081767212,-1.9710580898395114,-0.6478427861702174,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-12-01,china,-1.472654738438732,-1.9883916731179017,-0.7400145063587908,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2009-01-01,china,-0.3220902691847154,-1.7397207807646746,0.7071588266679453,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-02-01,china,0.5832113857540112,-2.106542551188782,1.1810370780642785,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-03-01,china,0.8129503983428435,-1.7050007906859708,1.9207788181534358,goldilocks,goldilocks,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-04-01,china,0.7984345866512718,-1.5907867380104208,4.069686959275101,goldilocks,goldilocks,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-05-01,china,0.6278815322412766,-1.4115393569192267,4.015264376891774,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-06-01,china,0.4095447967785063,-1.374074492884944,3.676357915390672,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-07-01,china,0.31772856719169273,-1.2986942099839025,4.432644480590882,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-08-01,china,0.4140801317988548,-1.0817912134146306,4.10344194175507,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-09-01,china,0.4512926074288085,-0.9321660871631198,3.8926402100332647,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-10-01,china,0.5606489864837303,-0.8327065888620231,3.9120206474939807,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-11-01,china,0.5276075949807005,-0.5389985997300766,3.7577026479569415,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-12-01,china,0.6742815937559933,-0.19893934681291567,3.624333486224724,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2010-01-01,china,0.5313627178659917,-0.27886758192798483,2.9442833244585835,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2010-02-01,china,0.08422677667954043,0.034302595039923875,2.4357583722921117,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2010-03-01,china,0.16990546960524777,-0.053822848119700735,2.223925056368962,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2010-04-01,china,0.28244001938323804,0.06886345891798043,1.3955446393255835,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2010-05-01,china,0.5222909059092923,0.1369827307251226,1.1164761573848472,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2010-06-01,china,-0.04267863842366873,0.10290601959854047,0.9749007930855119,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2010-07-01,china,-0.34856848419495057,0.20385245494412088,0.29805843225100065,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-08-01,china,-0.21722144009212202,0.25202943926273075,0.053864781325404586,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-09-01,china,0.21885176176422788,0.2855934127947152,0.4871118981025868,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-10-01,china,0.5257415764486439,0.5101449573684569,0.43089036924511614,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-11-01,china,0.6579291068773941,0.728596918138144,0.5108179821024461,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2010-12-01,china,0.3221479096847217,0.551006490399422,0.5632288840318989,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2011-01-01,china,0.054732919209221575,0.6417536794353768,0.6154315893411352,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2011-02-01,china,-0.19211529014536666,0.6398313457533457,-0.07246122773981103,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2011-03-01,china,0.03996799955543118,0.7649931788639938,-0.48474537216190466,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2011-04-01,china,0.09036818761115221,0.7377716520585842,-0.2348448098768407,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2011-05-01,china,0.059612867945374765,0.7775388012395094,-0.5932327473587454,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-06-01,china,-0.29407462054281563,1.0263300502395794,-0.646007649256184,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-07-01,china,-0.35856071600805495,1.0318196501399028,-0.42151485843849057,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2011-08-01,china,-0.28698605060077903,0.9144406835310632,-0.7531480396957674,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-09-01,china,-0.11772430604647524,0.869416327453494,-1.081644531672663,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-10-01,china,-0.1959743067269697,0.6712635103071519,-1.2122781219515966,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-11-01,china,-0.46056744703769686,0.2495421299053199,-1.230769142437883,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-12-01,china,-0.3851850788561594,0.1960478028922875,-1.2763553214134085,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2012-01-01,china,-0.26156010290614745,0.35272482042734427,-1.0197017401915365,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-02-01,china,0.055909387707623465,-0.11684045332816288,-1.3422644246282383,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-03-01,china,0.28339958382567554,0.028312048313944543,-1.1675532956726367,reflation,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-04-01,china,0.417706225438615,-0.04748511461251742,-1.0501512284117296,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-05-01,china,-0.01360998139658099,-0.17318497237069033,-1.2077001915049048,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-06-01,china,-0.4303215745780239,-0.46782165474094367,-1.0900425829590763,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-07-01,china,-0.6229307026228459,-0.585067165587726,-0.9739083077874403,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-08-01,china,-0.4389289283533781,-0.5077672639650398,-0.8863640344421181,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-09-01,china,-0.357786748346933,-0.5375725425848938,-0.9914475588672731,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-10-01,china,-0.2872418522221187,-0.6027899506810602,-0.6291121689187777,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-11-01,china,-0.05176134162894802,-0.4883392702912494,-0.8193295202319605,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2012-12-01,china,-0.08312731435771262,-0.30229495368526527,-0.8705288657402079,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-01-01,china,-0.14634334779489344,-0.48201130227324174,-0.8938001743196767,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-02-01,china,-0.2594538552673417,-0.03572282835655236,-0.3093423795949742,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2013-03-01,china,-0.13943667684485705,-0.44361149208655376,-0.502597283020445,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-04-01,china,-0.14004008343680302,-0.3276089559163789,-0.36190599421349545,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2013-05-01,china,-0.036213925104299896,-0.4381847829530697,-0.24926320247880687,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2013-06-01,china,-0.27458794092555905,-0.20652283808982347,-0.33241590706361024,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2013-07-01,china,-0.2232529181625889,-0.20491061687462825,-0.8347299478763025,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2013-08-01,china,-0.14415667603092905,-0.24177919879079213,-0.6912717746360804,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-09-01,china,0.019376274409911798,-0.04622093425641711,-0.6325404651031943,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2013-10-01,china,0.09454694982922533,-0.006842324432675924,-0.7704037610608111,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2013-11-01,china,0.022126696486658805,-0.0854559187238016,-0.739121028818598,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2013-12-01,china,-0.05171613515504566,-0.283283574693269,-0.7642224749926907,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-01-01,china,-0.21272703621840558,-0.2806712964012191,-0.9296025777840848,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-02-01,china,-0.322037847425919,-0.47867574749609804,-1.0373013075426065,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-03-01,china,-0.2910078883255023,-0.3138797960119064,-1.0037425960987119,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-04-01,china,-0.21073779956325972,-0.5536790300566262,-1.3340174304191879,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-05-01,china,-0.07521714834099123,-0.2650237792266335,-1.017762499705454,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-06-01,china,-0.018932870196375753,-0.34512433439125817,-0.9565527699650386,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-07-01,china,0.14423179138841813,-0.3426748130782236,-0.5870527066127134,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2014-08-01,china,0.017968529444979266,-0.4644177750943984,-0.9225218356962146,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2014-09-01,china,-0.004953574012127343,-0.6268647567610123,-1.1145048006211022,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-10-01,china,-0.204993870953397,-0.6210655928837833,-1.0803249851629815,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-11-01,china,-0.23808513766190886,-0.6997714780594507,-1.1584392778167434,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-12-01,china,-0.3274774946915,-0.6517501013488884,-1.2354936243384425,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-01-01,china,-0.3870179103608189,-0.9391540048366337,-1.2557211311421872,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-02-01,china,-0.3197797026890489,-0.6777571645160113,-1.6355708475212842,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-03-01,china,-0.25746486261105356,-0.672078818576196,-1.1517079145747082,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-04-01,china,-0.19152057549385104,-0.6242269532413376,-1.3941728453563094,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2015-05-01,china,-0.17117340174923043,-0.7466456858599252,-1.795493950059453,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2015-06-01,china,-0.1940429957870404,-0.6551422174758282,-1.5871021545587054,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2015-07-01,china,-0.2296544653611111,-0.5644946799481205,-1.3013307931940592,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-08-01,china,-0.3215501078077871,-0.38836712637327786,-0.8822707009845374,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-09-01,china,-0.32938430156644416,-0.5607613839303531,-0.8785759559602249,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-10-01,china,-0.308674604829793,-0.6847691357036486,-0.9299124696341399,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-11-01,china,-0.29716065458519136,-0.5926970313875718,-0.8158168598209316,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2015-12-01,china,-0.30140545035503175,-0.5449223933476035,-0.7575346460711956,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-01-01,china,-0.37258399191172015,-0.4536402304697963,-0.8651101132066273,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-02-01,china,-0.4405706122945259,-0.2303919983648649,-0.668337127936536,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-03-01,china,-0.2286035025791766,-0.22916402231429883,-0.6661204029694126,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-04-01,china,-0.14887132730720926,-0.2279554743776673,-0.8300699776257954,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2016-05-01,china,-0.010963123162704091,-0.36105353029401355,-0.9928457596204254,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2016-06-01,china,-0.23512175746650638,-0.4039705713967073,-1.2641667592841723,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-07-01,china,-0.24696003816549889,-0.4467729225553492,-1.2568007519761553,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-08-01,china,-0.1434890158222734,-0.6700778459186565,-1.6869661132230733,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2016-09-01,china,-0.09941587183177467,-0.393543699951371,-1.3461582938725887,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2016-10-01,china,0.13733842086937598,-0.3001674450804454,-1.310532909503972,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2016-11-01,china,0.22417914836204816,-0.20693421802751732,-1.2754612695315668,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2016-12-01,china,0.24071857801877786,-0.2980529601312865,-1.322490353140564,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2017-01-01,china,0.09545837585873904,-0.11147985244276723,-1.3416838941969476,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-02-01,china,0.05446174656737092,-0.8983355555629903,-1.3335202619482858,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-03-01,china,0.16636204524475542,-0.8449704835340958,-1.3795554063025384,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-04-01,china,0.07364164179778464,-0.6997968292146735,-1.505585055515746,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-05-01,china,-0.005720427207881372,-0.555757528678521,-1.5218725344755721,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2017-06-01,china,0.03882882323203465,-0.552566583529592,-1.751218339155617,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-07-01,china,0.10439342862344614,-0.5962400039887094,-1.7891019824179983,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-08-01,china,0.19104561740450007,-0.40478845254525886,-1.8259324772924717,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-09-01,china,0.2743753853216041,-0.49716311675722014,-1.8878588093397048,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2017-10-01,china,0.19997620781701733,-0.35244282190089804,-1.7917213380245383,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-11-01,china,0.18863004707363107,-0.4458883910410996,-1.8797317806498521,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2017-12-01,china,-0.02794796833070183,-0.39594987860641034,-1.7846972330985797,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-01-01,china,0.039083813805542295,-0.5376202615108193,-2.000032684631414,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2018-02-01,china,-0.28218171044950136,0.13838681882619397,-1.877703563625264,stagflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-03-01,china,-0.03870617052628324,-0.24871832844116873,-1.809561412476614,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-04-01,china,0.004523042244331397,-0.3930039730861017,-1.9452224896665458,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2018-05-01,china,0.39046329985258676,-0.39118719636046545,-1.9012840382916785,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2018-06-01,china,0.1005247653722567,-0.34062597051642796,-1.8835552133570703,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2018-07-01,china,0.04920514462285469,-0.2411838083774628,-1.9407516114605445,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2018-08-01,china,-0.06798873347584994,-0.14181721676670397,-1.7987254469260159,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-09-01,china,-0.13786649317801827,-0.04247290112166698,-1.857330002933219,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-10-01,china,-0.26664774372196465,-0.04230893489755078,-1.8164036114048525,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-11-01,china,-0.4176393880909247,-0.19147010287213262,-1.874026099628462,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2018-12-01,china,-0.5388427676329635,-0.3404991958931914,-1.8573405044745508,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2019-01-01,china,-0.45929605858326794,-0.4391723748797226,-1.8169596545221376,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2019-02-01,china,-0.5353031538571849,-0.5375310299563348,-1.7294784461829664,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2019-03-01,china,-0.09606759866464398,-0.13210475775053832,-1.811851240480046,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2019-04-01,china,-0.14347587043455645,-0.030390487231270795,-1.653511529525534,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2019-05-01,china,-0.20251661632896856,0.07132351177332735,-1.665366354626563,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2019-06-01,china,-0.5293305195787825,0.07106331362065131,-1.6532266292211384,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2019-07-01,china,-0.4249413760596524,0.12197574904676804,-1.641348569663609,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2019-08-01,china,-0.32033129162917534,0.12153288307316479,-1.7240469731591883,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2019-09-01,china,-0.23104753626838775,0.22414437452513897,-1.687494521575872,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2019-10-01,china,-0.4128725118652509,0.63617870342008,-1.628303969468803,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2019-11-01,china,-0.14666515452499118,0.9932729571533582,-1.6170321656354338,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2019-12-01,china,-0.17277656694224927,0.9864446249130134,-1.6525631139265642,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2020-01-01,china,-0.06027798150451044,1.4390878173330177,-1.5248159161734232,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2020-02-01,china,-3.827178770450134,1.322815862267172,-1.58486104935381,stagflation,stagflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2020-03-01,china,-0.7903531697200927,0.8526283749893763,-1.4819459097744827,stagflation,stagflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2020-04-01,china,-0.8873471688866716,0.3340763212178507,-1.1721196968896346,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2020-05-01,china,2.4770415442143987,-0.1324339433711395,-0.9347092231049652,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-06-01,china,-0.2071343002853025,-0.08010696201263617,-0.9314588178988917,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-07-01,china,0.0435281852713064,0.024272526880428885,-0.9282420879235136,reflation,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-08-01,china,0.08946558867693115,-0.13249334109104188,-1.018112853294693,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-09-01,china,0.1667010884201628,-0.498465398010721,-1.0840355111079836,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-10-01,china,0.13933809645556006,-1.1225786960089401,-0.9635144967246914,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2020-11-01,china,0.3532616406015039,-1.629588862550495,-1.053129481937849,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2020-12-01,china,0.26647850927746214,-1.252552836458357,-1.0026177859993908,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2021-01-01,china,0.17507445354666273,-1.498191009299519,-1.1383595539403784,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2021-02-01,china,-0.17193167953860533,-1.4320996055327804,-1.2958806858038687,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2021-03-01,china,0.0787728884694186,-1.112874599486954,-1.127614761848451,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2021-04-01,china,0.029799441113655328,-0.8490508397812219,-1.285014429970185,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2021-05-01,china,0.16101796071362506,-0.6386843403696235,-1.5784548026380318,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2021-06-01,china,-0.15193688677687484,-0.7391003190483961,-1.5228335158337631,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2021-07-01,china,-0.1547027572032051,-0.787216713789332,-1.4451982769660554,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2021-08-01,china,-0.25757476348934794,-0.8865842257267444,-1.5059468636899742,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2021-09-01,china,-0.42521739711023165,-0.9333969501945987,-1.5201286698728693,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2021-10-01,china,-0.4996513538478598,-0.5140639274749433,-1.4885916657161704,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2021-11-01,china,-0.29287265686461517,-0.09548246464539577,-1.3893511554960425,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2021-12-01,china,-0.11734820125978176,-0.513080667802198,-1.4276917252175803,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-01-01,china,-0.012296930419468582,-0.8242995229256685,-1.3068194346608633,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-02-01,china,-0.14214104242644338,-0.8202339827249573,-1.1191641465036206,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-03-01,china,-0.3598570689124857,-0.5024397622107125,-1.2509846632122767,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-04-01,china,-0.8983822151234606,-0.18524368059187626,-1.132141358371028,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-05-01,china,-0.5776273961965838,-0.1846892023061969,-0.9461407410808544,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-06-01,china,-0.2938850503479672,0.027510898480130008,-0.806648498424092,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2022-07-01,china,-0.00996779144208293,0.13356663520249876,-0.7360648911424879,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2022-08-01,china,-0.3396924252042349,0.0267444421187253,-0.5972878437239286,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2022-09-01,china,-0.32871517320809895,0.18677128292859624,-0.5502234449871399,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2022-10-01,china,-0.2588918212136534,-0.1883796466697861,-0.5718932976920056,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2022-11-01,china,-0.6501817534504621,-0.4559216473970138,-0.639310399046136,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-12-01,china,-1.1898633846578934,-0.3469626609935927,-0.5002572208376783,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-01-01,china,-0.4069909738528995,-0.18422626090526395,-0.6369370140993575,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-02-01,china,0.6068554933547443,-0.7771351559553612,-0.45161213718968307,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-03-01,china,1.0395249787119676,-0.9351277231891363,-0.38163746572070606,goldilocks,goldilocks,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-04-01,china,-0.05023818773377439,-1.252045252030117,-0.42703309503951276,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2023-05-01,china,-0.8591028573798825,-1.1899922759576553,-0.4954556575124586,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-06-01,china,-0.9288624190892176,-1.288956462446389,-0.679227754243547,slowdown,slowdown,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-07-01,china,-0.39199786428383937,-1.43912593815822,-0.7469075124644262,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-08-01,china,-0.17792003999714112,-1.2154878951149268,-0.8836106833465965,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-09-01,china,-0.02832177716658374,-1.2605813250198938,-0.9041522070479162,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-10-01,china,-0.18847416165176892,-1.3577692059638362,-0.9707701797309481,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-11-01,china,-0.3004019296031713,-1.5055577860991785,-0.9677333263956269,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-12-01,china,-0.555522217087963,-1.387997810172132,-1.0339731119559084,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-01-01,china,-0.41771493296218687,-1.638618973826048,-1.0997467812409958,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-02-01,china,-0.4402047153444748,-0.8389782177252941,-1.326079539781317,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-03-01,china,0.08176113270663532,-1.150673259380045,-1.3202744744973702,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2024-04-01,china,0.07141622770535266,-1.0390031472552732,-1.4062419736086573,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2024-05-01,china,-0.03971181664598922,-1.0335347970424613,-1.6508430744242153,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2024-06-01,china,-0.4509961853636319,-1.0806060051434094,-1.6866511231049055,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-07-01,china,-0.47711103096666097,-0.9172959579414316,-1.8574954569953324,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-08-01,china,-0.3998576257858796,-0.8604944680841312,-1.8221224215898817,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-09-01,china,-0.24722726159916963,-0.961987228090058,-1.8099080901944875,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2024-10-01,china,-0.1164410554992153,-1.0099751449497787,-1.6860150322834748,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2024-11-01,china,0.0733447393896842,-1.0574870101635478,-1.5194153841782883,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,tight
-2024-12-01,china,-0.06615983148689872,-1.104484654455127,-1.6010288317311705,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2025-01-01,china,-0.38595899877691875,-0.888473479651053,-1.5477062274842492,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2025-02-01,china,-0.22835235659197728,-1.5128963200376744,-1.6063598466129976,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2025-03-01,china,-0.10278278446547684,-1.1885958956448688,-1.5975839860345855,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2025-04-01,china,-0.20277904412693923,-1.1817288232376992,-1.5889504043313551,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2025-05-01,china,-0.3710667685283639,-1.1749794147120731,-0.4826136436008981,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-06-01,china,-0.4550297512914224,-1.0640741435182786,-0.739886813764671,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2025-07-01,china,-0.22478283545515676,-1.1108597703862158,-0.4899550185837985,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-08-01,china,-0.3066527240570315,-1.313074635621051,-0.49494608275566776,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-09-01,china,-0.26006538226589376,-1.2528564257161605,-0.20099201032185823,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-10-01,china,-0.3589803365686026,-0.9856831304743608,-0.3734373046721602,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-11-01,china,-0.35587959012538745,-0.7205082363688022,-0.13430936347248734,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-12-01,china,-0.23576705306769039,-0.6656913593099385,-0.13282369317418133,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-01-01,china,-0.1398268094903086,-0.9771579618641318,-0.23695583691716218,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-02-01,china,-0.21339769476353862,-0.3968992355262601,0.17762139537353402,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-03-01,china,-0.3877883097496049,-0.3958496922567701,0.12856639914405218,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+1951-12-01,china,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-01-01,china,,,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-02-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-03-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-04-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-05-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-06-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-07-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-08-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-09-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-10-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-11-01,china,,0.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1952-12-01,china,,-3.464101615137754,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-01-01,china,,-2.449489742783178,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-02-01,china,,-2.0,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-03-01,china,,-1.7320508075688774,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-04-01,china,,-1.549193338482967,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-05-01,china,,-1.4142135623730947,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-06-01,china,,-1.3093073414159544,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-07-01,china,,-1.2247448713915892,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-08-01,china,,-1.1547005383792517,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-09-01,china,,-1.0954451150103321,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-10-01,china,,-1.044465935734187,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-11-01,china,,-1.0000000000000002,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1953-12-01,china,,-0.497313475081803,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-01-01,china,,-0.4853530269571116,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-02-01,china,,-0.4742159984321707,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-03-01,china,,-0.46381204751485006,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-04-01,china,,-0.45406412649549693,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-05-01,china,,-0.4449060679995661,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-06-01,china,,-0.43628068601773706,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-07-01,china,,-0.4281382669171115,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-08-01,china,,-0.4204353591857183,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-09-01,china,,-0.4131337944425625,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-10-01,china,,-0.40619988923742945,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-11-01,china,,-0.3996037894639003,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1954-12-01,china,,-1.2417385908591674,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-01-01,china,,-1.2011636827179513,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-02-01,china,,-1.1643228333518039,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-03-01,china,,-1.1306763405711764,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-04-01,china,,-1.099787754499644,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-05-01,china,,-1.0712997937560047,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-06-01,china,,-1.0449167898983145,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-07-01,china,,-1.0203916668566713,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-08-01,china,,-0.9975161328678922,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-09-01,china,,-0.9761131883447108,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-10-01,china,,-0.9560313299611216,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-11-01,china,,-0.937140015023778,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1955-12-01,china,,-1.1642200518758434,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-01-01,china,,-1.1372083025664559,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-02-01,china,,-1.1119934706792807,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-03-01,china,,-1.088384773420946,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-04-01,china,,-1.0662186327761416,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-05-01,china,,-1.045353882806072,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-06-01,china,,-1.0256679700937046,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-07-01,china,,-1.0070539129351006,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-08-01,china,,-0.9894178464766428,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-09-01,china,,-0.9726770248716904,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-10-01,china,,-0.9567581831920168,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-11-01,china,,-0.941596184957982,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1956-12-01,china,,-1.0160965198042526,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-01-01,china,,-0.9995805110178028,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-02-01,china,,-0.9838445491006236,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-03-01,china,,-0.9688291037151145,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-04-01,china,,-0.9544808167338882,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-05-01,china,,-0.9407517030974847,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-06-01,china,,-0.9275984746006053,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-07-01,china,,-0.9149819648665704,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-08-01,china,,-0.9028666380886716,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-09-01,china,,-0.8912201674887162,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-10-01,china,,-0.8800130720937354,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-11-01,china,,-0.8692184025296358,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1957-12-01,china,,-0.2416104051064459,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-01-01,china,,-0.23987775332897304,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-02-01,china,,-0.2381818506916649,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-03-01,china,,-0.23652141622883352,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-04-01,china,,-0.23489523062659814,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-05-01,china,,-0.2333021324595693,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-06-01,china,,-0.23174101470454653,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-07-01,china,,-0.23021082150744543,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-08-01,china,,-0.22871054518200204,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-09-01,china,,-0.22723922342087083,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-10-01,china,,-0.2257959367015748,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-11-01,china,,-0.2243798058714247,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1958-12-01,china,,-1.1313449536371425,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-01-01,china,,-1.1164705809349047,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-02-01,china,,-1.1021678753100166,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-03-01,china,,-1.0884011324718688,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-04-01,china,,-1.0751376940599473,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-05-01,china,,-1.062347621495245,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-06-01,china,,-1.0500034115241874,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-07-01,china,,-1.0380797472993044,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-08-01,china,,-1.026553279866316,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-09-01,china,,-1.0154024357633495,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-10-01,china,,-1.0046072471229157,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-11-01,china,,-0.9941492012309598,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1959-12-01,china,,-0.6436143578798613,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-01-01,china,,-0.6389731668852728,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-02-01,china,,-0.6344309540319752,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-03-01,china,,-0.6299842505906001,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-04-01,china,,-0.6256297556686224,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-05-01,china,,-0.6213643259114963,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-06-01,china,,-0.6171849659658072,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-07-01,china,,-0.6130888196386892,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-08-01,china,,-0.6090731616942149,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-09-01,china,,-0.6051353902332268,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-10-01,china,,-0.6012730196081925,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-11-01,china,,-0.5974836738292485,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1960-12-01,china,,-0.033984767303144287,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-01-01,china,,-0.03382976080056408,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-02-01,china,,-0.033676856113254196,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-03-01,china,,-0.033526006167212456,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-04-01,china,,-0.03337716535136738,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-05-01,china,,-0.03323028945963924,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-06-01,china,,-0.033085335635780144,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-07-01,china,,-0.03294226232083956,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-08-01,china,,-0.03280102920310636,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-09-01,china,,-0.03266159717039157,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-10-01,china,,-0.032523928264524465,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-11-01,china,,-0.032387985637939515,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1961-12-01,china,,3.4399117838969477,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-01-01,china,,3.270833182940598,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-02-01,china,,3.1244622876296355,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-03-01,china,,2.9961326440860723,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-04-01,china,,2.8824186637516016,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-05-01,china,,2.7807412624249173,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-06-01,china,,2.689116603940826,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-07-01,china,,2.6059903668323416,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-08-01,china,,2.530125131263461,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-09-01,china,,2.460521870342215,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-10-01,china,,2.3963639753015236,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-11-01,china,,2.3369765492082926,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1962-12-01,china,,-0.008635659082750722,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-01-01,china,,-0.008603373738053645,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-02-01,china,,-0.008571447813475927,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-03-01,china,,-0.008539874689326132,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-04-01,china,,-0.008508647915351794,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-05-01,china,,-0.00847776120520475,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-06-01,china,,-0.00844720843112395,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-07-01,china,,-0.00841698361882861,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-08-01,china,,-0.008387080942611515,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-09-01,china,,-0.008357494720620907,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-10-01,china,,-0.008328219410326314,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-11-01,china,,-0.008299249604156289,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1963-12-01,china,,-1.909036247892199,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-01-01,china,,-1.8791779721937556,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-02-01,china,,-1.850678248157001,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-03-01,china,,-1.823437081707271,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-04-01,china,,-1.7973644882974036,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-05-01,china,,-1.7723792404454353,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-06-01,china,,-1.7484078016388578,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-07-01,china,,-1.725383414694397,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-08-01,china,,-1.703245318805278,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-09-01,china,,-1.6819380743442418,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-10-01,china,,-1.6614109783232096,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-11-01,china,,-1.6416175564667597,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1964-12-01,china,,-1.2300262333808294,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-01-01,china,,-1.220298863890866,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-02-01,china,,-1.2107986831497592,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-03-01,china,,-1.201516983101986,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-04-01,china,,-1.1924455159270972,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-05-01,china,,-1.1835764632307137,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-06-01,china,,-1.1749024077193202,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-07-01,china,,-1.1664163071256273,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-08-01,china,,-1.1581114701761799,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-09-01,china,,-1.1499815344148248,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-10-01,china,,-1.1420204457150065,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-11-01,china,,-1.1342224393309797,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1965-12-01,china,,-0.6816706330743885,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-01-01,china,,-0.6787357734655094,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-02-01,china,,-0.6758384975143126,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-03-01,china,,-0.6729780098514717,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-04-01,china,,-0.6701535384748826,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-05-01,china,,-0.6673643338743549,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-06-01,china,,-0.6646096681960489,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-07-01,china,,-0.6618888344445393,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-08-01,china,,-0.6592011457205199,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-09-01,china,,-0.6565459344922862,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-10-01,china,,-0.6539225518992372,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-11-01,china,,-0.6513303670857494,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1966-12-01,china,,-0.6487687665638674,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-01-01,china,,-0.646237153603352,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-02-01,china,,-0.643734947647707,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-03-01,china,,-0.6412615837548876,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-04-01,china,,-0.6388165120614666,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-05-01,china,,-0.6363991972691048,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-06-01,china,,-0.6340091181522374,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-07-01,china,,-0.6316457670859461,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-08-01,china,,-0.6293086495930479,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-09-01,china,,-0.6269972839094826,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-10-01,china,,-0.6247112005671318,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-11-01,china,,-0.6224499419932464,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1967-12-01,china,,-0.5086719440164333,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-01-01,china,,-0.5070212333801771,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-02-01,china,,-0.5053864894944029,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-03-01,china,,-0.5037674566064907,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-04-01,china,,-0.5021638846625595,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-05-01,china,,-0.5005755291452374,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-06-01,china,,-0.4990021509170441,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-07-01,china,,-0.4974435160691517,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-08-01,china,,-0.49589939577531134,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-09-01,china,,-0.4943695661507363,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-10-01,china,,-0.49285380811574425,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-11-01,china,,-0.49135190726397127,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1968-12-01,china,,-0.3565669665673215,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-01-01,china,,-0.35559074428275417,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-02-01,china,,-0.35462249655490774,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-03-01,china,,-0.3536621154008848,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-04-01,china,,-0.35270949487382686,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-05-01,china,,-0.3517645310138201,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-06-01,china,,-0.35082712180024,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-07-01,china,,-0.34989716710548674,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-08-01,china,,-0.3489745686500611,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-09-01,china,,-0.3480592299589377,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-10-01,china,,-0.3471510563191894,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-11-01,china,,-0.3462499547388225,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1969-12-01,china,,-0.16945537260925317,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-01-01,china,,-0.1690551330947985,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-02-01,china,,-0.16865771624661227,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-03-01,china,,-0.16826308904210366,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-04-01,china,,-0.1678712189970304,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-05-01,china,,-0.16748207415426736,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-06-01,china,,-0.1670956230728595,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-07-01,china,,-0.16671183481735252,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-08-01,china,,-0.16633067894739081,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-09-01,china,,-0.1659521255075763,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-10-01,china,,-0.16557614501757995,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-11-01,china,,-0.16520270846249865,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1970-12-01,china,,-0.3655031087375126,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-01-01,china,,-0.3646017994678777,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-02-01,china,,-0.36370712520952436,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-03-01,china,,-0.3628190049535951,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-04-01,china,,-0.36193735906919033,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-05-01,china,,-0.3610621092733785,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-06-01,china,,-0.3601931786019994,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-07-01,china,,-0.3593304913812379,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-08-01,china,,-0.3584739731999414,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-09-01,china,,-0.3576235508826612,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-10-01,china,,-0.356779152463393,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-11-01,china,,-0.3559407071599968,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1971-12-01,china,,-0.3756228900372022,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-01-01,china,,-0.3747367813597945,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-02-01,china,,-0.3738569143317425,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-03-01,china,,-0.37298321601968143,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-04-01,china,,-0.37211561467780907,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-05-01,china,,-0.3712540397231389,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-06-01,china,,-0.37039842171138065,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-07-01,china,,-0.3695486923134301,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-08-01,china,,-0.3687047842924488,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-09-01,china,,-0.3678666314815174,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-10-01,china,,-0.3670341687618447,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-11-01,china,,-0.36620733204151745,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1972-12-01,china,,-0.30251695096582204,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-01-01,china,,-0.3018664813417472,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-02-01,china,,-0.3012201896584919,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-03-01,china,,-0.30057803138213274,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-04-01,china,,-0.2999399626405059,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-05-01,china,,-0.29930594021061724,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-06-01,china,,-0.2986759215063445,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-07-01,china,,-0.29804986456642246,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-08-01,china,,-0.29742772804270434,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-09-01,china,,-0.2968094711886914,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-10-01,china,,-0.29619505384832384,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-11-01,china,,-0.2955844364450259,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1973-12-01,china,,-0.3163872479118866,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-01-01,china,,-0.31573257252941067,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-02-01,china,,-0.3150819444061267,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-03-01,china,,-0.31443532201232827,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-04-01,china,,-0.31379266441247283,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-05-01,china,,-0.3131539312542963,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-06-01,china,,-0.3125190827581713,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-07-01,china,,-0.3118880797067012,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-08-01,china,,-0.31126088343454444,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-09-01,china,,-0.3106374558184628,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-10-01,china,,-0.31001775926758884,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-11-01,china,,-0.30940175671390513,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1974-12-01,china,,-0.17769321037690958,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-01-01,china,,-0.17736325829320432,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-02-01,china,,-0.1770351374380692,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-03-01,china,,-0.17670883093512368,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-04-01,china,,-0.17638432212493033,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-05-01,china,,-0.17606159456142279,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-06-01,china,,-0.17574063200840478,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-07-01,china,,-0.17542141843611928,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-08-01,china,,-0.17510393801788587,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-09-01,china,,-0.17478817512680492,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-10-01,china,,-0.17447411433252694,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-11-01,china,,-0.17416174039808544,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1975-12-01,china,,-0.24077673477256828,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-01-01,china,,-0.24033722246586847,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-02-01,china,,-0.2399001082543937,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-03-01,china,,-0.23946537040943588,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-04-01,china,,-0.23903298747692295,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-05-01,china,,-0.23860293827297294,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-06-01,china,,-0.23817520187953417,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-07-01,china,,-0.23774975764011202,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-08-01,china,,-0.23732658515557853,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-09-01,china,,-0.2369056642800645,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-10-01,china,,-0.2364869751169312,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-11-01,china,,-0.23607049801481997,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1976-12-01,china,,-0.2583981124723291,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-01-01,china,,-0.2579414335591001,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-02-01,china,,-0.25748716744778866,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-03-01,china,,-0.2570352929667622,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-04-01,china,,-0.25658578920356345,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-05-01,china,,-0.2561386355008454,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-06-01,china,,-0.255693811452384,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-07-01,china,,-0.2552512968991668,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-08-01,china,,-0.2548110719255556,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-09-01,china,,-0.2543731168555216,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-10-01,china,,-0.2539374122489521,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-11-01,china,,-0.2535039388980256,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1977-12-01,china,,0.3029608610194526,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-01-01,china,,0.30243385559649805,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-02-01,china,,0.30190959084395774,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-03-01,china,,0.30138804308931516,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-04-01,china,,0.3008691889453286,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-05-01,china,,0.30035300530562525,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-06-01,china,,0.2998394693403796,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-07-01,china,,0.2993285584920722,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-08-01,china,,0.2988202504713285,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-09-01,china,,0.29831452325283364,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-10-01,china,,0.29781135507132467,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-11-01,china,,0.29731072441765566,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1978-12-01,china,,-0.17461117844053536,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-01-01,china,,-0.17433501206708096,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-02-01,china,,-0.17406015192282198,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-03-01,china,,-0.1737865877429789,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-04-01,china,,-0.17351430937534795,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-05-01,china,,-0.17324330677871896,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-06-01,china,,-0.1729735700213197,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-07-01,china,,-0.17270508927928718,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-08-01,china,,-0.1724378548351649,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-09-01,china,,-0.17217185707642554,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-10-01,china,,-0.17190708649401895,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-11-01,china,,-0.17164353368094395,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1979-12-01,china,,0.11654194718771334,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-01-01,china,,0.11636708215901796,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-02-01,china,,0.11619300190278159,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-03-01,china,,0.11601970056657716,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-04-01,china,,0.11584717235889772,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-05-01,china,,0.11567541154834411,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-06-01,china,,0.1155044124628248,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-07-01,china,,0.1153341694887695,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-08-01,china,,0.1151646770703548,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-09-01,china,,0.114995929708743,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-10-01,china,,0.11482792196133246,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-11-01,china,,0.11466064844102074,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1980-12-01,china,,1.4770643398286678,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-01-01,china,,1.4703770727824697,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-02-01,china,,1.4637798188687177,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-03-01,china,,1.4572705766893768,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-04-01,china,,1.450847406597563,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-05-01,china,,1.4445084282693066,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-06-01,china,,1.4382518183910107,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-07-01,china,,1.4320758084561442,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-08-01,china,,1.4259786826651264,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-09-01,china,,1.4199587759227321,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-10-01,china,,1.4140144719277215,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-11-01,china,,1.408144201349705,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1981-12-01,china,,0.20772053522255404,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-01-01,china,,0.20742106880330044,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-02-01,china,,0.20712289386440608,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-03-01,china,,0.20682600114973881,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-04-01,china,,0.20653038149577618,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-05-01,china,,0.20623602583041736,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-06-01,china,,0.20594292517181406,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-07-01,china,,0.20565107062721916,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-08-01,china,,0.20536045339185346,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-09-01,china,,0.2050710647477903,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-10-01,china,,0.2047828960628567,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-11-01,china,,0.2044959387895524,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1982-12-01,china,,0.08247336643752316,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-01-01,china,,0.08236228517630742,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-02-01,china,,0.08225165154692106,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-03-01,china,,0.08214146255099682,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-04-01,china,,0.08203171521820994,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-05-01,china,,0.08192240660594152,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-06-01,china,,0.08181353379894754,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-07-01,china,,0.08170509390903194,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-08-01,china,,0.08159708407472517,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-09-01,china,,0.08148950146096665,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-10-01,china,,0.08138234325879268,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-11-01,china,,0.08127560668502788,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1983-12-01,china,,0.08116928898198213,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-01-01,china,,0.08106338741715079,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-02-01,china,,0.08095789928292013,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-03-01,china,,0.08085282189627645,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-04-01,china,,0.08074815259851933,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-05-01,china,,0.08064388875497919,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-06-01,china,,0.08054002775473883,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-07-01,china,,0.0804365670103587,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-08-01,china,,0.08033350395760622,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-09-01,china,,0.0802308360551887,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-10-01,china,,0.08012856078449049,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-11-01,china,,0.08002667564931315,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1984-12-01,china,,0.2557415112080403,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-01-01,china,,0.2553990417151357,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-02-01,china,,0.2550579443746163,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-03-01,china,,0.25471821004801903,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-04-01,china,,0.25437982968185996,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-05-01,china,,0.2540427943066225,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-06-01,china,,0.25370709503575783,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-07-01,china,,0.25337272306470104,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-08-01,china,,0.2530396696699015,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-09-01,china,,0.2527079262078664,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-10-01,china,,0.2523774841142193,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-11-01,china,,0.2520483349027707,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1985-12-01,china,,1.9242127340003303,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-01-01,china,,1.9132451277729303,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-02-01,china,,1.902462947874405,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-03-01,china,,1.8918610275918541,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-04-01,china,,1.8814343995428984,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-05-01,china,,1.871178285896128,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-06-01,china,,1.8610880891716577,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-07-01,china,,1.8511593835815499,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-08-01,china,,1.8413879068730672,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-09-01,china,,1.8317695526405997,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-10-01,china,,1.8223003630747754,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-11-01,china,,1.812976522119674,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1986-12-01,china,,1.1213082478393586,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-01-01,china,,0.6775674813833141,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-02-01,china,,0.7009313999169857,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-03-01,china,,0.846916503731351,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-04-01,china,,0.9187937855649612,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-05-01,china,,1.2597740188229674,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-06-01,china,,1.2804113033626452,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-07-01,china,,1.3741292333761697,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-08-01,china,,1.3938922243984009,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-09-01,china,,1.2916992114527677,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-10-01,china,,1.1902587848350468,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-11-01,china,,1.4059826075031525,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1987-12-01,china,,1.4254481169490711,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-01-01,china,,1.4204836194961863,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-02-01,china,,1.730002512655165,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-03-01,china,,2.2263605102469177,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-04-01,china,,2.425341391416954,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-05-01,china,,2.876783731223476,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-06-01,china,,3.3321492465609164,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-07-01,china,,3.9414796531308314,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-08-01,china,,4.825584123095828,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-09-01,china,,5.278415069425888,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-10-01,china,,5.253740909010795,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-11-01,china,,5.033642430486296,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1988-12-01,china,,5.098995797814024,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-01-01,china,,4.858717593808523,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-02-01,china,,4.910368990557473,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-03-01,china,,4.530689815751052,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-04-01,china,,4.355920791798734,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-05-01,china,,3.9523010627286195,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-06-01,china,,3.5389721224965087,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-07-01,china,,2.905650032217871,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-08-01,china,,2.1713299391448477,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-09-01,china,,1.5009073063288034,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-10-01,china,,0.9919297973065799,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-11-01,china,,0.7808311431013394,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1989-12-01,china,,0.6399709409510956,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-01-01,china,,0.23730794806062513,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-02-01,china,,0.2545254302653076,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-03-01,china,,0.07912785786284246,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-04-01,china,,0.04397987650913709,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-05-01,china,,-0.04381795357630421,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-06-01,china,,-0.32483892458026875,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-07-01,china,,-0.32445180340727403,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-08-01,china,,-0.07765820003169835,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-09-01,china,,-0.007086708656458987,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-10-01,china,,0.028202875638095495,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-11-01,china,,0.24007733331859285,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1990-12-01,china,,0.13375190078111507,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-01-01,china,,-0.13183368200405127,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-02-01,china,,-0.20254459759865942,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-03-01,china,,-0.23778174444052874,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-04-01,china,,-0.2907567228926955,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-05-01,china,,0.11821419978901491,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-06-01,china,,0.26036409869992383,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-07-01,china,,0.31347047259925737,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-08-01,china,,0.34873930081545884,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-09-01,china,,0.2770018658943887,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-10-01,china,,0.3302393905471563,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-11-01,china,,0.25839120028819335,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1991-12-01,china,,0.275989499545141,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1992-01-01,china,,0.45466712108886714,,unknown,unknown,unknown,Growth or inflation score is unavailable.,unknown
+1992-02-01,china,,0.4182783327440777,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-03-01,china,,0.417770502392835,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-04-01,china,,0.7400508593508784,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-05-01,china,,0.3082167773241042,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-06-01,china,,0.32584144455669967,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-07-01,china,,0.3974166779116106,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-08-01,china,,0.5049322235303045,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-09-01,china,,0.8102595301812487,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-10-01,china,,0.880852255611078,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-11-01,china,,0.9332276221762965,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1992-12-01,china,,1.0393515304331509,3.4641016151377526,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-01-01,china,,1.3065434255597326,2.449489742783177,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-02-01,china,,1.3925874490531382,2.000000000000001,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-03-01,china,,1.6387754272493018,1.7320508075688767,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-04-01,china,,1.704009267253384,0.7745966692414833,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-05-01,china,,1.9459827898956255,0.7071067811865467,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1993-06-01,china,,2.1310189583112638,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-07-01,china,,2.312463787632714,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-08-01,china,,2.3328472243213745,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-09-01,china,,2.196203142665828,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-10-01,china,,2.218265533427288,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-11-01,china,,2.343410228662536,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1993-12-01,china,,2.6881003382011834,2.8116235740429327,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-01-01,china,,3.0556984113806345,2.414314548184012,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-02-01,china,,3.3752251487830796,2.14858362908633,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-03-01,china,,3.2028266958292098,1.954861776161215,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-04-01,china,,3.053216550714896,0.9027883879878804,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-05-01,china,,2.957571356524866,0.8429913903063374,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1994-06-01,china,,3.139663320606071,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-07-01,china,,3.3302030660340205,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-08-01,china,,3.574706461827669,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-09-01,china,,3.759839151259004,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-10-01,china,,3.7666716506362232,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-11-01,china,,3.6821957745146277,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1994-12-01,china,,3.3323000711680426,0.6204425356203309,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1995-01-01,china,,3.0854914551897306,0.6091467654487477,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1995-02-01,china,,2.80238340301469,0.5984463026884715,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1995-03-01,china,,2.6160212501272584,0.5882906301110616,unknown,unknown,unknown,Growth or inflation score is unavailable.,easy
+1995-04-01,china,,2.50803423252269,0.28931751765163016,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-05-01,china,,2.431905063811888,0.2847198901492704,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-06-01,china,,2.1080636282922733,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-07-01,china,,1.8772303888625712,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-08-01,china,,1.546409843870397,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-09-01,china,,1.350507581016537,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-10-01,china,,1.1852386930554983,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-11-01,china,,1.050192756418217,0.0,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+1995-12-01,china,,0.8862172501497566,-0.7114020781061804,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-01-01,china,,0.7226681942130339,-1.556012292322995,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-02-01,china,,0.7658620906583203,-1.205574857311504,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-03-01,china,,0.8384466287050997,-0.9190718107584412,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-04-01,china,,0.8223603491509337,-0.855625280547206,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-05-01,china,,0.7030183079015984,-0.8658632598846046,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-06-01,china,,0.6577312491860724,-0.9000198348305459,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-07-01,china,,0.6125157825718303,-1.1709461473909677,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-08-01,china,,0.5821526054648694,-1.0287437150470233,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-09-01,china,,0.477816062839597,-0.9393058880104552,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-10-01,china,,0.41800856336090464,-1.2557286613935075,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-11-01,china,,0.40272530949638935,-1.5297624278627584,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1996-12-01,china,,0.4171326836611438,-1.4434167999022123,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-01-01,china,,0.2532908987867616,-1.5209871836407818,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-02-01,china,,0.20843556536053987,-2.1529287886262543,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-03-01,china,,-0.029905740196194158,-2.1851076723714438,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-04-01,china,,-0.1490597777362725,-2.1916063290112953,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-05-01,china,,-0.20856078503996578,-2.3847171820074187,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-06-01,china,,-0.20836177292876013,-2.2723794158250654,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-07-01,china,,-0.22309909318344223,-2.351700356272384,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-08-01,china,,-0.3424644545791254,-2.3994477644667387,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-09-01,china,,-0.35707423020207785,-2.3064128734639007,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-10-01,china,,-0.40161503674010207,-2.3210579466295935,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-11-01,china,,-0.46110634085309504,-2.269907023456156,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1997-12-01,china,,-0.5655028447156784,-1.9944610901433597,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-01-01,china,,-0.5798219396836135,-1.9373780872746176,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-02-01,china,,-0.6391238193513866,-1.9917995675720008,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-03-01,china,,-0.5182386877764146,-2.1198349093100606,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-04-01,china,,-0.6678352499202802,-2.120810424796262,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-05-01,china,,-0.7721065470323455,-1.8965563417405602,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-06-01,china,,-0.8160660917915828,-2.0374194939451615,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-07-01,china,,-0.8298759273747743,-1.8303979534265946,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-08-01,china,,-0.8286274943336083,-1.8618651911638977,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-09-01,china,,-0.8424155092931437,-1.6286055279654754,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-10-01,china,,-0.780991701422329,-1.5628690714377407,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-11-01,china,,-0.7949205770609542,-1.4929840166304098,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1998-12-01,china,,-0.7636757292783357,-1.715397292293996,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-01-01,china,,-0.7927166830591966,-1.7271500312996082,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-02-01,china,,-0.8066367888801852,-1.339876729144683,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-03-01,china,,-0.8807641203018577,-1.2242063439505741,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-04-01,china,,-0.9396233292379893,-1.2045939797581604,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-05-01,china,,-0.9380725116429003,-1.2788092785006142,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-06-01,china,,-0.9214693068984325,-1.1986486777624836,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-07-01,china,,-0.8145156970326883,-1.435281343281639,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-08-01,china,,-0.7982588641785315,-1.3764555175448,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-09-01,china,,-0.7217071532252025,-1.436366862882896,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-10-01,china,,-0.6905684866204024,-1.529942676393464,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-11-01,china,,-0.7349796413298022,-1.5496102680692416,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+1999-12-01,china,,-0.7491021430728366,-1.4389635100895957,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-01-01,china,,-0.6271950634141876,-1.3933138245626009,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-02-01,china,,-0.4903040374934145,-1.6291686551571898,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-03-01,china,,-0.626006053428554,-1.5697655714480963,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-04-01,china,,-0.6403970661873843,-1.469964069898234,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-05-01,china,,-0.5790226357359285,-1.5610212577580143,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-06-01,china,,-0.5177149426766776,-1.4177242873967542,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-07-01,china,,-0.5171528427683932,-1.4342143812097845,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-08-01,china,,-0.5469545298562655,-1.4277470000950614,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-09-01,china,,-0.5919137487857986,-1.3934251672689184,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-10-01,china,,-0.5912329305228963,-1.5064886981384777,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-11-01,china,,-0.39284366465993364,-1.468910601879134,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2000-12-01,china,,-0.36201163653149043,-1.4605986596151153,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-01-01,china,,-0.4088915842529669,-1.3017219646331035,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-02-01,china,,-0.5898593960401659,-1.4550093682060583,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-03-01,china,,-0.46719850976298566,-1.2977405507748951,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-04-01,china,,-0.34461281499660745,-1.3281876335888751,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-05-01,china,,-0.32901157229075084,-1.3918581015971678,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-06-01,china,,-0.3745682722920633,-1.1241434943242643,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-07-01,china,,-0.3589114522618843,-1.2020965657592186,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-08-01,china,,-0.4351156682041738,-1.1793986950285629,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-09-01,china,,-0.6031455221762668,-0.8540449403475139,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-10-01,china,,-0.5564974386288368,-1.242396122523002,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-11-01,china,,-0.6325335526858517,-0.6900654722380607,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2001-12-01,china,,-0.6317968339492367,-0.6893084455662825,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-01-01,china,,-0.7384403456033101,-1.2007759022036228,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-02-01,china,,-0.5840273619052032,-1.2003019363724075,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-03-01,china,,-0.7062267229579554,-1.0293345592959084,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-04-01,china,,-0.7821379811708781,-1.0550729778607537,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-05-01,china,,-0.7503764443139455,-1.0576520363471063,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-06-01,china,,-0.7033044181494684,-0.9691156490672556,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-07-01,china,,-0.717816193538545,-0.9960173640391733,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-08-01,china,,-0.6861579835705741,-0.8627306307087376,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-09-01,china,,-0.6853309018189833,-0.7423362966257817,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-10-01,china,,-0.6999034773592129,-0.68044188625579,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-11-01,china,,-0.6836485157096668,-0.7227827702913545,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2002-12-01,china,,-0.6365957309552016,-0.6978652361998684,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2003-01-01,china,,-0.514025648846747,-0.4017810170121753,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-02-01,china,,-0.5428223988811598,-0.5397791165650129,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2003-03-01,china,,-0.4310499578447399,-0.4858675141685089,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-04-01,china,,-0.4120869793154862,-0.40637708204111045,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-05-01,china,,-0.4704716017242745,-0.28707908311062413,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-06-01,china,,-0.5195271774164583,-0.21276717985871704,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-07-01,china,,-0.491124385691658,-0.22618956349469044,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-08-01,china,,-0.43020363179613375,-0.11832451834978992,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-09-01,china,,-0.3987805867997795,-0.2288803709447383,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-10-01,china,,-0.28977617970393355,-0.18852932022425806,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-11-01,china,,-0.11244410650172751,-0.259922511305762,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2003-12-01,china,,-0.07504027084481188,-0.3577394429958707,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2004-01-01,china,,-0.07809186889596814,-0.5301582824736719,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-02-01,china,,-0.24619614898336628,-0.37176799801803007,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2004-03-01,china,,-0.09795338243687485,-0.40919061992758776,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2004-04-01,china,,0.020654897100589053,-0.40636876293054675,unknown,unknown,unknown,Growth or inflation score is unavailable.,neutral
+2004-05-01,china,,0.10960607706308002,-0.5768072018260182,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-06-01,china,,0.20323735184694564,-0.7390191830638031,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-07-01,china,,0.2499622333359688,-0.8414059278708306,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-08-01,china,,0.24662397825390858,-1.037707255546951,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-09-01,china,,0.23702530260904905,-0.994250588289147,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-10-01,china,,0.09269554349172204,-1.0474843158006764,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-11-01,china,,-0.13003048086169722,-0.9699327481661957,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2004-12-01,china,,-0.19739823505327067,-0.9103626378827913,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2005-01-01,china,,-0.27731683197778473,-0.9258332525314062,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2005-02-01,china,,0.04349298285553805,-0.9533627466044734,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2005-03-01,china,,-0.15470638375829118,-0.9489104388546485,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2005-04-01,china,,-0.2899277528805234,-0.9360036054214033,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
+2005-05-01,china,-0.462910049886274,-0.3007063125043911,-0.8866276771581314,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-06-01,china,-1.4734724451713745,-0.3256648987565855,-0.7557075634570526,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-07-01,china,-1.2627523560142708,-0.2938459855598307,-0.6747580504930106,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-08-01,china,-0.3256650963501775,-0.3788113270155384,-0.5437412385837616,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-09-01,china,0.3587323463726189,-0.4384730735527726,-0.4699801705373896,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-10-01,china,0.4866921367957535,-0.38435398697466217,-0.4595914600750769,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-11-01,china,0.3966970932126673,-0.36978455122438664,-0.419438567861618,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-12-01,china,-0.01606258334417564,-0.32990746481895794,-0.5088354154714575,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2006-01-01,china,-0.3967137661865665,-0.2773762147493179,-0.30229099290706024,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-02-01,china,-0.5882155536923976,-0.440331005313453,-0.35015249980128355,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-03-01,china,0.021029072617931133,-0.44943811254816096,-0.35653895176067485,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2006-04-01,china,1.3574150636826985,-0.38399369974290365,-0.3352434285434453,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-05-01,china,1.088088593374467,-0.3566728715769955,-0.31776836159685784,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-06-01,china,0.3267648762901078,-0.335716513286524,-0.39518515367330914,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-07-01,china,-0.9345493819409387,-0.4117238560736692,-0.39768884846182767,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-08-01,china,-0.5276573924948476,-0.3652360418968905,-0.45482374712376095,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-09-01,china,0.49365866870584907,-0.33468204563577414,-0.5944988157424497,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2006-10-01,china,0.6643032170306813,-0.350326019572007,-0.5604019758225157,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2006-11-01,china,0.885186063875844,-0.2751205629688113,-0.5940973370287909,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2006-12-01,china,-0.07203213176816914,-0.12655256675018686,-0.573974993508065,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2007-01-01,china,0.37734272799892904,-0.22862011675404176,-0.7191129522685813,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2007-02-01,china,-0.31769320424550407,-0.14217579336937844,-0.4608680459575172,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2007-03-01,china,0.41538681194046867,-0.05093869468238278,-0.5249709762041729,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-04-01,china,1.1934680061936755,-0.09089916715592129,-0.5463594700779578,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-05-01,china,1.3017283886111328,-0.033188741214117384,-0.5896346581817944,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-06-01,china,0.3753192443426662,0.122265072239917,-0.5461264573966385,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2007-07-01,china,-0.8495085237432431,0.3241966038057046,-0.36008140595831173,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-08-01,china,-0.4759096076150483,0.4682947018892595,-0.409726006387297,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-09-01,china,0.266066626622767,0.42293240937521426,-0.361541854401001,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-10-01,china,-0.02809787183146441,0.464313055165667,-0.3578575124938235,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2007-11-01,china,0.40464843129728967,0.5345837728873736,-0.35942478335257216,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-12-01,china,-0.07753546925733186,0.4649521338640209,-0.5879145110044899,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2008-01-01,china,-0.0015065379543231644,0.5594256738289588,-0.29938305385895375,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2008-02-01,china,-0.5860099248041101,0.8162270295801677,-0.4948888816516973,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-03-01,china,0.7337829076363566,0.7508884097534028,-0.6515490287217702,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-04-01,china,2.0165437932613948,0.7822002704002922,-0.5501743630007034,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-05-01,china,0.8890218924564952,0.65249747205256,-0.3987527305743302,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-06-01,china,-0.9559604185868985,0.5551591733199719,-0.4904898018788381,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-07-01,china,-2.758199374295419,0.42565291869944116,-0.6244806458596625,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-08-01,china,-2.232047292217695,0.19937621288144958,-0.668856503639247,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-09-01,china,-1.5300666474886195,0.15077362346465703,-0.7609267252013594,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-10-01,china,-2.0734117069545785,0.05368578511498481,-0.793907311812268,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-11-01,china,-3.1556769109485985,-0.20514256393075495,-0.8200381579598002,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-12-01,china,-3.2380348198528233,-0.3991790867104774,-0.41339422246364044,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-01-01,china,-1.519808451271833,-0.4312215443855974,-0.28215785082446393,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2009-02-01,china,0.17299912229883674,-0.851803950602456,-0.054160906637992126,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2009-03-01,china,0.7119506821741985,-0.785995409756832,0.6235884923767866,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-04-01,china,0.7131858954420839,-0.8336437206759049,0.6807493131097541,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-05-01,china,0.44636892626872743,-0.8164271897703467,0.6500748853955405,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-06-01,china,0.1197375012332691,-0.864031267048414,1.014311471494505,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2009-07-01,china,-0.0010451486386190137,-0.8791386028138221,1.0040934796855794,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
+2009-08-01,china,0.16447218410439451,-0.7808002873754744,1.014156671431292,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2009-09-01,china,0.2386153149533746,-0.7150488780941086,1.1141149710595195,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-10-01,china,0.4193278667491268,-0.6656109618189895,1.1230791684526786,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-11-01,china,0.3942686362994843,-0.4863719920948445,1.160096593530255,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-12-01,china,0.6292366800676448,-0.27472723793712756,0.8775381757731092,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2010-01-01,china,0.4549490840135513,-0.3395549937993131,0.645104470948076,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2010-02-01,china,-0.15136834246766234,-0.14402775385389485,0.580914859494788,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
+2010-03-01,china,-0.026293256330304687,-0.19277453038392764,0.17017546906980893,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-04-01,china,0.13415395229260538,-0.12745083771589466,0.031206018735995253,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2010-05-01,china,0.4677246066684629,-0.078436795331195,-0.03422879641799209,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2010-06-01,china,-0.27653182483019867,-0.11101841792211788,-0.3752451448120455,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-07-01,china,-0.6836747593398567,-0.04561669606682967,-0.49720572374858923,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-08-01,china,-0.5157083515521613,-0.012899735436278755,-0.27688166703198674,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-09-01,china,0.04923816862446226,0.003463318386694934,-0.30365914929451693,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-10-01,china,0.4505344209053055,0.13438335358592682,-0.2616870882474867,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-11-01,china,0.6310779478918815,0.24891593931642528,-0.23351910324052735,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-12-01,china,0.21628982762013563,0.1667980861074378,-0.20536665851757452,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2011-01-01,china,-0.11597818569416876,0.21587066089908788,-0.5505704241538427,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2011-02-01,china,-0.42541987009254945,0.2157117307648788,-0.7563612985427872,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-03-01,china,-0.13922069462965855,0.29764728036574284,-0.6293170142886441,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-04-01,china,-0.075697325645306,0.280991234432845,-0.8074359034604878,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-05-01,china,-0.11145663649926488,0.3136573552397494,-0.8322755935503245,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-06-01,china,-0.5409776269393188,0.46144349968636694,-0.7184088020001584,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-07-01,china,-0.6209749391724937,0.477506781284411,-0.8825429917947131,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-08-01,china,-0.5361057716271215,0.4277069732982721,-1.04545278917003,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-09-01,china,-0.3337880860654062,0.41088054968909477,-1.104482434286469,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-10-01,china,-0.4247169386793663,0.3116357083399063,-1.1187104468933702,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-11-01,china,-0.7349162361772974,0.09691813728595043,-1.141090124831513,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-12-01,china,-0.6459331028385689,0.08033913002974814,-1.011385099406515,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2012-01-01,china,-0.5004674339165268,0.14637256755957925,-1.1728212040998132,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2012-02-01,china,-0.1309224299148729,-0.06867100886886926,-1.08438203185752,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2012-03-01,china,0.13392018130947025,-0.0024417696498209964,-1.0243727914056031,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2012-04-01,china,0.2908844503985965,-0.03555386107932792,-1.1028613505768972,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2012-05-01,china,-0.20044862995136947,-0.10180197965257134,-1.042760270435924,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2012-06-01,china,-0.6740328829151935,-0.23436031414015998,-0.9831843018343693,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-07-01,china,-0.8912352036154514,-0.3005424552624025,-0.9378786077749032,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-08-01,china,-0.6811535117974657,-0.2671214631095817,-0.9895767995132112,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-09-01,china,-0.5876774166563998,-0.28353425303000623,-0.8060200404238573,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-10-01,china,-0.506663922829716,-0.3165623919659322,-0.9002229933567893,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-11-01,china,-0.2426367376743634,-0.26643657692767053,-0.924658979346962,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-12-01,china,-0.27675580768632113,-0.183036729752539,-0.9351085900421843,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-01-01,china,-0.34576792381052984,-0.26616798415708554,-0.6406585509957664,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2013-02-01,china,-0.46900333426675256,-0.06601463718396167,-0.7360909571899494,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-03-01,china,-0.33556853677526377,-0.24939136177825014,-0.6643872206602064,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2013-04-01,china,-0.3351779449100185,-0.1991578486176852,-0.6068440678041814,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-05-01,china,-0.2211052913395704,-0.2491039722560543,-0.6470502664347956,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2013-06-01,china,-0.47921804336837015,-0.14868615615357242,-0.8961537775794188,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-07-01,china,-0.4214312619413613,-0.14858343911530855,-0.8233910910907024,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-08-01,china,-0.3345359126445349,-0.16521008553003472,-0.792851403387091,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-09-01,china,-0.15798008412506623,-0.08139339343982631,-0.8601667407210595,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-10-01,china,-0.07783108841107189,-0.06458619460429334,-0.8433654462371658,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-11-01,china,-0.15580688267341428,-0.09806909696672403,-0.8546026525252921,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-12-01,china,-0.23406006018110886,-0.18187252319684016,-0.821367090597447,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2014-01-01,china,-0.4038382522314118,-0.18174655457138156,-0.7827670395509819,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2014-02-01,china,-0.5169522498483549,-0.2655946940042859,-1.4436587778542043,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2014-03-01,china,-0.48087335431606787,-0.19818407910449506,-1.0731909834926496,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2014-04-01,china,-0.3938689321447037,-0.29894050191257915,-1.2023382278156878,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2014-05-01,china,-0.2502556651798369,-0.18094105672657448,-0.3357274080194766,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-06-01,china,-0.19147396776486392,-0.21449176176363566,0.0005487880806562817,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-07-01,china,-0.021461262457974667,-0.2143425435708192,9.861586663595379e-05,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-08-01,china,-0.15495797932449773,-0.2647688166032962,-0.10958314902343269,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-09-01,china,-0.1785665522916685,-0.3320519266450563,-0.29900149503356555,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-10-01,china,-0.38548018211981344,-0.33180772450537427,-0.3179159171793275,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2014-11-01,china,-0.41674841111802746,-0.3653373328933607,1.8354295150653437,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2014-12-01,china,-0.5061938545506005,-0.348167613585346,1.2086845083735076,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-01-01,china,-0.5640162044597109,-0.4662426635567801,0.8621425377352675,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-02-01,china,-0.4912113004484027,-0.3643895005004609,0.10523672218172068,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-03-01,china,-0.425100310895861,-0.364117885500843,0.9897519197689458,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-04-01,china,-0.3564922369025399,-0.34691272804925233,0.7205182713704112,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-05-01,china,-0.3354776496490689,-0.397488303975479,1.387360099089834,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-06-01,china,-0.35861822648219355,-0.3632811381344469,1.38788094474626,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-07-01,china,-0.39413074865320225,-0.3290854767341131,1.178228539663021,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-08-01,china,-0.48610476147476495,-0.2609500349338494,1.1707948015572374,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-09-01,china,-0.49147681634690615,-0.32870654174838243,0.6136061336549313,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-10-01,china,-0.46823047851072097,-0.379448847781932,1.071606231393513,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-11-01,china,-0.4549111234954639,-0.3451610241643967,0.5716747472399768,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-12-01,china,-0.4578042438796419,-0.32789685074433395,0.4823627415708578,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-01-01,china,-0.5279787260716315,-0.2936141593374198,0.04795244580473845,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-02-01,china,-0.593782794047227,-0.20823408379347305,-0.015411734136721034,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-03-01,china,-0.3782570918234936,-0.2080933294805063,-0.0348223803824114,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-04-01,china,-0.29920847867839917,-0.2079528602077789,-0.08216279229964052,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-05-01,china,-0.16300220291605919,-0.2590127666252158,-0.1444614102445471,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-06-01,china,-0.3896362717032076,-0.2759108569169968,-0.15731770633764555,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-07-01,china,-0.39982539492738484,-0.2928058465484685,-0.24235000459730446,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-08-01,china,-0.2953890381836598,-0.37807809753338206,-0.19532341974323564,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-09-01,china,-0.2519770264264758,-0.27517024620051267,-0.19845206474779864,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-10-01,china,-0.018104721173473726,-0.2407471042937179,-0.20055460653873655,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-11-01,china,0.06353710956364667,-0.20632884359429213,-0.2157114258522984,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2016-12-01,china,0.07551526591803516,-0.24046711577099755,-0.22542402980645904,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-01-01,china,-0.07117801892388012,-0.1717099846874366,-0.25760305754867097,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-02-01,china,-0.11132856669098483,-0.46326841970211124,-0.2728162121979885,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-03-01,china,2.7343592108319825e-06,-0.44574699282646957,-0.2911522580445625,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-04-01,china,-0.0921438291927703,-0.3938896798547353,-0.3066339054631128,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-05-01,china,-0.16909154867626042,-0.34205141888143276,-0.3414031638454664,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-06-01,china,-0.12311137900199434,-0.34180862981817905,-0.34427299959827157,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-07-01,china,-0.05778236589897184,-0.35876905626549355,-0.35512471894962316,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-08-01,china,0.026940897190869437,-0.28966118348755315,-0.37112048040671336,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-09-01,china,0.10717666184013855,-0.3239088028397692,-0.3525021821302175,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-10-01,china,0.03234918427664335,-0.27198309649197894,-0.35766560306624745,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-11-01,china,0.021221787203719276,-0.3062855019791352,-0.3476014529537035,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-12-01,china,-0.1898549319574473,-0.28882105799502455,-0.39524637674320234,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-01-01,china,-0.12061815352856126,-0.34041239404293333,-0.3709615576501819,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-02-01,china,-0.4317368688503666,-0.09833807123640069,-0.36182732944910573,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-03-01,china,-0.1880783801740748,-0.23655968974739827,-0.38889182955301077,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-04-01,china,-0.14510999832166804,-0.2882864065495371,-0.40936611470958484,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-05-01,china,0.2298381817620171,-0.2880907178893728,-0.11099535950396769,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-06-01,china,-0.05766081702882569,-0.27058128845560375,0.04943366834518709,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2018-07-01,china,-0.10683409674962564,-0.23575043670629897,-0.016939314844786446,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2018-08-01,china,-0.21893736582529627,-0.20092417526430054,-0.4494992690532397,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-09-01,china,-0.283452021546836,-0.16610120942025902,-0.5722198905031969,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2018-10-01,china,-0.404378064465594,-0.16599490017376772,-0.19218545694676387,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-11-01,china,-0.5452463729092671,-0.21799060890696387,0.33542742520535473,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-12-01,china,-0.6557889518041201,-0.26997928389626813,0.4953951720221362,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-01-01,china,-0.5721546866067164,-0.30457182889992407,0.46637348508584553,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-02-01,china,-0.6414784464204624,-0.3391561046398334,0.08162595968103448,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-03-01,china,-0.21458152549962017,-0.19967576969932102,0.11423253348459621,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-04-01,china,-0.26462424114420247,-0.1647124604712208,-0.5888401009209323,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2019-05-01,china,-0.32353594557705484,-0.1297513155541225,-0.2857907293372362,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-06-01,china,-0.6374048517348956,-0.1296699503431408,-0.27645157084191585,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-07-01,china,-0.5314586240335261,-0.11213897127047674,0.1357630159111946,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-08-01,china,-0.42872188055726185,-0.1120691171770228,0.28775620712788624,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-09-01,china,-0.34316331415331025,-0.07705697886663095,0.15189768009049964,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-10-01,china,-0.5183314578216296,0.06284767534812509,-0.19992242656028006,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2019-11-01,china,-0.26149010846542753,0.1852555226192718,-0.05577464223967343,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2019-12-01,china,-0.2893280539374644,0.1851382239352183,0.02256756488334575,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2020-01-01,china,-0.18352531406473455,0.34262312886323876,0.42131926374892836,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2020-02-01,china,-3.8285742049224227,0.3073499354826254,0.801909619395006,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2020-03-01,china,-0.8125855606822155,0.14936511712431388,0.9316031029386556,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2020-04-01,china,-0.918730593208741,-0.026158742682987655,1.164921290383233,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2020-05-01,china,2.369187427871186,-0.18412491045965715,0.5002298813302337,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2020-06-01,china,-0.34442707967914,-0.16644588442324237,0.1879518440899342,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-07-01,china,-0.09249616813298804,-0.1311940381955662,-0.3264846158987834,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-08-01,china,-0.04912016841084424,-0.18386640721625291,-0.25565706946691846,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-09-01,china,0.024132430319908485,-0.30690636708296537,-0.3202972551595922,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-10-01,china,-0.005823009573106032,-0.5178992114732781,-0.2613760574091395,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-11-01,china,0.2011756662564107,-0.6935148189547335,-0.30909334189254667,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-12-01,china,0.1104374388289956,-0.5696548796252163,-0.07183576336227633,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-01-01,china,0.019602599762905935,-0.6572690202693385,-0.11845611819870025,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-02-01,china,-0.31678175629904337,-0.6390843422997657,-0.19568670530878335,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-03-01,china,-0.06332360172213315,-0.5327806595914792,-0.16313315265019962,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-04-01,china,-0.11048473822343197,-0.4441796509882618,-0.13186132174899842,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-05-01,china,0.018564653381165343,-0.37326522161285586,0.13517846312631027,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2021-06-01,china,-0.2871855986649269,-0.4083274957258887,0.013157268200907391,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-07-01,china,-0.2831604792498112,-0.42570917208790077,0.3497767288469528,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-08-01,china,-0.3779996744937134,-0.4607579598020792,0.2237668421414713,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-09-01,china,-0.5341548718334108,-0.47810684336048803,0.19467259671649706,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-10-01,china,-0.5973688291376711,-0.33622043558911247,-0.15097443658043638,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-11-01,china,-0.38920013880891713,-0.19436215844447666,0.07951252558850905,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-12-01,china,-0.21916902878157862,-0.33595900970309384,0.28322127725929647,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-01-01,china,-0.12192342308670029,-0.44206552433821716,0.6776176426237784,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2022-02-01,china,-0.25281166265801835,-0.4417520488129778,0.4023607005748181,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-03-01,china,-0.4630810571242822,-0.335008693702628,0.26509669498768573,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-04-01,china,-0.9765889970556153,-0.22828797483796937,-0.022538872458616587,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-05-01,china,-0.6490342886388213,-0.22814598594210078,0.2061338083782373,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-06-01,china,-0.3713247619015492,-0.15691892875650015,0.09589728281461334,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-07-01,china,-0.10230015479829113,-0.12125978983496778,0.25475894298957374,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-08-01,china,-0.43001452253575756,-0.15677232436328803,0.46962587412930523,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-09-01,china,-0.41770505032053573,-0.10326934097647102,0.309776592649523,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-10-01,china,-0.34953243286081587,-0.22789790088114656,0.4198747573661984,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-11-01,china,-0.7263821950549219,-0.3168638672987566,-0.1596978231562034,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-12-01,china,-1.2350095537354395,-0.2809988203700775,0.031458818358668796,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-01-01,china,-0.46177957500621486,-0.2272990723537549,-0.15452319129108905,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-02-01,china,0.5062591241728499,-0.4235012540219019,0.07059464775044991,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-03-01,china,0.8908080279611068,-0.47677425408813084,0.09563207252046473,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-04-01,china,-0.18991399341153278,-0.5835960155556349,0.26361309104861486,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2023-05-01,china,-0.9600367107298674,-0.5652741674435315,0.3923572238109667,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-06-01,china,-0.9996974728796075,-0.6005854591270856,0.6059276946736862,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2023-07-01,china,-0.46341083695472135,-0.6537435476827909,0.4695553264313029,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-08-01,china,-0.2584486138847846,-0.5816653922213413,0.7287968355466223,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2023-09-01,china,-0.12117979301614115,-0.5991058658460449,0.3039667895615582,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2023-10-01,china,-0.283014494974036,-0.6344295881034473,0.29126369849810485,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-11-01,china,-0.3913318519514364,-0.6876211807160443,0.05242436334404339,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-12-01,china,-0.633012144083128,-0.6512212316137858,0.33875602937460336,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-01-01,china,-0.4920137796713407,-0.7402466496378923,0.5172211225830424,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-02-01,china,-0.5109911162422476,-0.4707807361707223,0.6254636411528071,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-03-01,china,-0.009443957278619408,-0.5780379059820736,0.5585114401980318,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2024-04-01,china,-0.03239165800978713,-0.5417198829325377,0.3712686486669458,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-05-01,china,-0.14720116723152077,-0.5413171717737436,0.2724453436682031,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-06-01,china,-0.5425385631845141,-0.5588674854059488,0.3243367774712511,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-07-01,china,-0.5573540688953477,-0.504567392242293,0.6110069082456585,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-08-01,china,-0.47579362646086215,-0.4862361011051927,0.5494740781038778,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-09-01,china,-0.32692972643744106,-0.5218447863968514,0.4864724323754439,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-10-01,china,-0.2042702352574159,-0.5394483487033096,0.7680034579173063,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-11-01,china,-0.028542976053031216,-0.5570405387406068,0.9501149564455978,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2024-12-01,china,-0.17030850083675642,-0.5746206176181655,1.4109440168447431,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2025-01-01,china,-0.4766916753378715,-0.5021692036585783,0.9832417238576667,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-02-01,china,-0.3187272091147536,-0.7179205318960037,0.702045357126557,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-03-01,china,-0.19826600419358137,-0.6092300381172753,0.20289501155167655,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-04-01,china,-0.2961464401560274,-0.608755959887685,0.4272505201237443,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-05-01,china,-0.45495345031961654,-0.6082829866641031,0.6213718948810721,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-06-01,china,-0.5288960011901661,-0.5717424714726764,0.7410391662891519,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-07-01,china,-0.3037351917692661,-0.5893549373127357,0.4673901757822906,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-08-01,china,-0.3835078002311811,-0.6610926665164942,0.14397715152877807,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-09-01,china,-0.3382438978938289,-0.6425052577622962,0.07133998540462105,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-10-01,china,-0.4325402305414931,-0.5516965780792977,0.203171895086514,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-11-01,china,-0.4269267832745054,-0.4609435204872469,0.25872199018424447,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-12-01,china,-0.31125891121039334,-0.44254993333231135,0.27704084688600006,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-01-01,china,-0.19250063575308632,-0.5507691563572381,0.2651431932272431,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-02-01,china,-0.2635756942098117,-0.3513274108813019,0.35155933222071856,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-03-01,china,-0.4273460725168839,-0.3511061318473949,0.2914449258040265,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
