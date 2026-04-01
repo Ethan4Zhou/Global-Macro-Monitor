@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-03-31",
+    "title": "Bowman, Supporting Small Businesses",
+    "body": "Speech At CBA LIVE 26, Consumer Bankers Association, San Diego, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260331a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-03-31",
+    "title": "Barr, Brief Remarks on Stablecoins",
+    "body": "Speech At âThe GENIUS Act in Practice: Key Questions for Stablecoin Regulation,â The Federalist Society, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-03-26",
     "title": "Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
     "body": "Speech At the Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-02-24",
     "title": "Waller, Operationalizing AI at the Federal Reserve",
     "body": "Speech At the Federal Reserve Bank of Boston 2026 Technology-Enabled Disruption Conference: Shaping the Future of Finance and Payments, Boston, Massachusetts (via webcast)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260224a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-23",
-    "title": "Waller, Labor Market Data: Signal or Noise?",
-    "body": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The National Association for Business Economics, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-19",
-    "title": "Bowman, Opening Remarks",
-    "body": "Speech At the Federal Reserve Bank of Atlanta 2026 Banking Outlook Conference: The Next Horizon in Banking, Atlanta, Georgia (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260219a.htm"
   }
 ]

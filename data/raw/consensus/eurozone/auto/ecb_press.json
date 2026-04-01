@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-03-31",
+    "title": "Eurosystem sets out comprehensive strategy for future of European payments",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260331~04561d8476.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-03-27",
     "title": "Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260327~eca8717025.en.pdf"
@@ -75,12 +82,5 @@
     "date": "2026-03-23",
     "title": "Luis de Guindos: Interview with El Mundo",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260323~b893c61107.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-21",
-    "title": "Piero Cipollone: Digital euro - why?",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260321~bf2186fc07.en.pdf"
   }
 ]
