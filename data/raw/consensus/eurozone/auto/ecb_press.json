@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-01",
+    "title": "Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe’s resilience and autonomy in payments",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260401~d9106c31db.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-03-31",
     "title": "Eurosystem sets out comprehensive strategy for future of European payments",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260331~04561d8476.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-03-23",
     "title": "New data release: ECB wage tracker continues to suggest negotiated wage pressures easing in 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260323~ba4ddfe349.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-23",
-    "title": "Luis de Guindos: Interview with El Mundo",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260323~b893c61107.en.html"
   }
 ]
