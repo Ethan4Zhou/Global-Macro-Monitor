@@ -674,4 +674,4 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2026-01-01,eurozone,0.4309020041405988,-0.11730564530591805,-0.45474612453407004,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2026-02-01,eurozone,0.28709278320320397,-0.0951468228983961,-0.4053778178778651,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2026-03-01,eurozone,0.2637614616696105,-0.03073066508414013,-0.5000196454428458,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2026-04-01,eurozone,0.3683604469916216,-0.07176784877953768,-0.5348855166780928,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2026-04-01,eurozone,0.3683604469916216,-0.001736334240575746,-0.5348855166780928,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
