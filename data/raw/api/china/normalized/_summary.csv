@@ -1,12 +1,12 @@
 series_id,source_used,row_count,latest_date,required_for_minimum_regime,status,ingested_at
-cpi,china_nbs,0,,True,missing,2026-04-07 03:38:52.774885+00:00
-pmi,china_nbs,0,,True,missing,2026-04-07 03:38:52.774885+00:00
-industrial_production,public_site,1,2025-11-01,False,ready,2026-04-07 03:38:52.774885+00:00
-policy_rate,china_rates,0,,True,missing,2026-04-07 03:38:52.774885+00:00
-yield_10y,china_rates,0,,True,missing,2026-04-07 03:38:52.774885+00:00
-m2,public_site,0,,False,missing,2026-04-07 03:38:52.774885+00:00
-core_cpi,public_site,0,,False,missing,2026-04-07 03:38:52.774885+00:00
-unrate,public_site,1,2026-02-01,False,ready,2026-04-07 03:38:52.774885+00:00
-hs300_pe_proxy,tushare,0,,False,missing,2026-04-07 03:38:52.774885+00:00
-hs300_pb_proxy,tushare,0,,False,missing,2026-04-07 03:38:52.774885+00:00
-shiller_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-04-07 03:38:52.774885+00:00
+cpi,china_nbs,0,,True,missing,2026-04-08 03:40:18.181304+00:00
+pmi,china_nbs,0,,True,missing,2026-04-08 03:40:18.181304+00:00
+industrial_production,public_site,1,2025-11-01,False,ready,2026-04-08 03:40:18.181304+00:00
+policy_rate,china_rates,0,,True,missing,2026-04-08 03:40:18.181304+00:00
+yield_10y,china_rates,0,,True,missing,2026-04-08 03:40:18.181304+00:00
+m2,public_site,0,,False,missing,2026-04-08 03:40:18.181304+00:00
+core_cpi,public_site,0,,False,missing,2026-04-08 03:40:18.181304+00:00
+unrate,public_site,1,2026-02-01,False,ready,2026-04-08 03:40:18.181304+00:00
+hs300_pe_proxy,tushare,0,,False,missing,2026-04-08 03:40:18.181304+00:00
+hs300_pb_proxy,tushare,0,,False,missing,2026-04-08 03:40:18.181304+00:00
+shiller_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-04-08 03:40:18.181304+00:00
