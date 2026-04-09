@@ -1,1 +1,3 @@
-
+selected_mode,date,severity,alert_type,region,entity_name,old_value,new_value,metric_value,reason
+latest_available,2026-04-09,medium,nowcast_shift,global,defensive,,,-0.5555555555555556,"us:shiller_pe_proxy:cheaper:risk, us:vix_proxy:higher_volatility:risk, us:sp500_proxy:stronger:risk"
+last_common_date,2026-04-09,medium,nowcast_shift,global,defensive,,,-0.5555555555555556,"us:shiller_pe_proxy:cheaper:risk, us:vix_proxy:higher_volatility:risk, us:sp500_proxy:stronger:risk"
