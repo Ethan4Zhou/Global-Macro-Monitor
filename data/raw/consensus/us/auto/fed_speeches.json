@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-04-14",
+    "title": "Barr, Rural Communities: Worth the Investment",
+    "body": "Speech At Strengthening Americaâs Economy through Rural Investment: A Working Forum, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-04-07",
     "title": "Jefferson, Economic Outlook and the Labor Market",
     "body": "Speech At the College of Business Administration, University of Detroit Mercy, Detroit, Michigan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260407a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-03-03",
     "title": "Bowman, Liquidity Resiliency, Financial Stability, and the Role of the Federal Reserve",
     "body": "Speech At The Roundtable on Liquidity and Lender of Last Resort sponsored by the Committee on Capital Markets Regulation, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260303a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-24",
-    "title": "Cook, Opening Remarks for the âAI and Productivity across the Economyâ Panel",
-    "body": "Speech At âThe Great Realignment: Navigating AI, Demographic, and Geoeconomic Shifts,â 42nd Annual NABE Economic Policy Conference, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260224a.htm"
   }
 ]

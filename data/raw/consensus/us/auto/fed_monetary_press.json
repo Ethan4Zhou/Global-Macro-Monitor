@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-04-14",
+    "title": "Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026",
+    "body": "Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-04-08",
     "title": "Minutes of the Federal Open Market Committee, March 17â18, 2026",
     "body": "Minutes of the Federal Open Market Committee, March 17â18, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm"
@@ -61,12 +68,5 @@
     "date": "2025-12-30",
     "title": "Minutes of the Federal Open Market Committee, December 9â10, 2025",
     "body": "Minutes of the Federal Open Market Committee, December 9â10, 2025\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251230a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2025-12-10",
-    "title": "Federal Reserve issues FOMC statement",
-    "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
   }
 ]
