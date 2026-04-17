@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-16",
+    "title": "Europe's successes and the path forward",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260416~3ae2dad6b3.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-04-16",
+    "title": "Meeting of 18-19 March 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260416~6a27b0c258.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-04-15",
     "title": "Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-03-25",
     "title": "Christine Lagarde: Navigating energy shocks: risks and policy responses",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260325~ac2916a211.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-24",
-    "title": "Piero Cipollone: The digital euro: preparing for a potential launch",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-24",
-    "title": "ECB to open its doors for the Night of the Museums on 25 April 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260324~c439239caa.en.html"
   }
 ]
