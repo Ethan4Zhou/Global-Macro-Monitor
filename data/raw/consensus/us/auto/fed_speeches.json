@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-04-17",
+    "title": "Waller, One Transitory Shock After Another",
+    "body": "Speech At the David Kaserman Memorial Lecture, Department of Economics, Auburn University, Auburn, Alabama\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-04-14",
     "title": "Barr, Rural Communities: Worth the Investment",
     "body": "Speech At Strengthening Americaâs Economy through Rural Investment: A Working Forum, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-03-12",
     "title": "Bowman, Capital Rules for the Real Economy",
     "body": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260312a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-03",
-    "title": "Bowman, Liquidity Resiliency, Financial Stability, and the Role of the Federal Reserve",
-    "body": "Speech At The Roundtable on Liquidity and Lender of Last Resort sponsored by the Committee on Capital Markets Regulation, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260303a.htm"
   }
 ]

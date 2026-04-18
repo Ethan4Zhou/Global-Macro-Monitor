@@ -2,8 +2,15 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-17",
+    "title": "Christine Lagarde: IMFC Statement",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260417~033a4546f5.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-04-16",
-    "title": "Europe's successes and the path forward",
+    "title": "Isabel Schnabel: Europe's successes and the path forward",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260416~3ae2dad6b3.en.pdf"
   },
   {
@@ -75,12 +82,5 @@
     "date": "2026-03-25",
     "title": "The outlook for the euro area economy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb~6b0b29cdd4.sp260325_1_en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-25",
-    "title": "Christine Lagarde: Navigating energy shocks: risks and policy responses",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260325~ac2916a211.en.html"
   }
 ]
