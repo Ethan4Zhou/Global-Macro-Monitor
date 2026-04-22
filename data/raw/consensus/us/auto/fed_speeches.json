@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-04-21",
+    "title": "Waller, Modernizing Federal Reserve Operations in the 21st Century",
+    "body": "Speech At The Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-04-17",
     "title": "Waller, One Transitory Shock After Another",
     "body": "Speech At the David Kaserman Memorial Lecture, Department of Economics, Auburn University, Auburn, Alabama\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-03-21",
     "title": "Powell, Acceptance Remarks",
     "body": "Speech At the American Society for Public Administration Annual Conference: Paul A. Volcker Public Integrity Award Ceremony (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/powell20260321a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-12",
-    "title": "Bowman, Capital Rules for the Real Economy",
-    "body": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260312a.htm"
   }
 ]
