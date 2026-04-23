@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-22",
+    "title": "Frank Elderson: Interview with NRC",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260422~0201121d60.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-04-22",
+    "title": "Philip R. Lane: Expanding the supply of euro safe assets",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260422~0242ad3585.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-04-20",
     "title": "Christine Lagarde: The energy shock: where we stand and what we need to know",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260420~cdf674023e.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-03-27",
     "title": "Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260327~eca8717025.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-27",
-    "title": "ECB Consumer Expectations Survey results – February 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260327~d8261341ca.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-26",
-    "title": "Luis de Guindos: Navigating turbulence: challenges for Europe and the path ahead",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260326~cbb4721baf.en.html"
   }
 ]
