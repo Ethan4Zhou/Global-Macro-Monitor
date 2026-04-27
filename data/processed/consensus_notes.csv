@@ -1,7 +1,7 @@
 region,source_name,source_type,date,title,body,note_id,ingestion_timestamp
-china,IMF,institution,2026-02-18,IMF Executive Board Concludes 2025 Article IV Consultation with China,"The IMF described China's economy as resilient in 2025 because exports and policy stimulus held growth near target, but it also emphasized that private domestic demand remained weak and deflationary pressures persisted. The release pointed to slower growth in 2026, muted inflation, and downside risks tied to property weakness and elevated debt. It argued that more expansionary macro support, including further monetary easing, may still be needed while China rebalances toward consumption-led growth.",236eb0de88b2464b,2026-04-26 04:04:13.201835+00:00
-china,Associated Press,media,2026-03-06,China sets a lower economic growth target of 4.5% to 5% for 2026 as challenges loom,"Public reporting around the annual government work report stressed that China lowered its growth target range for 2026 and acknowledged ongoing domestic challenges, especially weak consumption and a fragile property backdrop. The narrative emphasized slower but still positive growth, subdued inflation pressure, and a policy stance that remains supportive as officials try to stabilize expectations and boost domestic demand.",2f8c52ec0db6466d,2026-04-26 04:04:13.201488+00:00
-china,Wall Street Journal,media,2026-03-16,China's Economy Off to Steady Start in 2026 Amid Lowered Expectations,"The public market narrative highlighted a steady start to 2026, with industrial output and investment holding up, but it also stressed that the property sector remained weak and consumer sentiment was still soft. The overall tone was that growth is resilient rather than booming, inflation is still subdued, and policymakers are leaning toward continued support instead of a restrictive stance.",33498c05b2fcb697,2026-04-26 04:04:13.202193+00:00
+china,IMF,institution,2026-02-18,IMF Executive Board Concludes 2025 Article IV Consultation with China,"The IMF described China's economy as resilient in 2025 because exports and policy stimulus held growth near target, but it also emphasized that private domestic demand remained weak and deflationary pressures persisted. The release pointed to slower growth in 2026, muted inflation, and downside risks tied to property weakness and elevated debt. It argued that more expansionary macro support, including further monetary easing, may still be needed while China rebalances toward consumption-led growth.",236eb0de88b2464b,2026-04-27 04:09:05.792383+00:00
+china,Associated Press,media,2026-03-06,China sets a lower economic growth target of 4.5% to 5% for 2026 as challenges loom,"Public reporting around the annual government work report stressed that China lowered its growth target range for 2026 and acknowledged ongoing domestic challenges, especially weak consumption and a fragile property backdrop. The narrative emphasized slower but still positive growth, subdued inflation pressure, and a policy stance that remains supportive as officials try to stabilize expectations and boost domestic demand.",2f8c52ec0db6466d,2026-04-27 04:09:05.792042+00:00
+china,Wall Street Journal,media,2026-03-16,China's Economy Off to Steady Start in 2026 Amid Lowered Expectations,"The public market narrative highlighted a steady start to 2026, with industrial output and investment holding up, but it also stressed that the property sector remained weak and consumer sentiment was still soft. The overall tone was that growth is resilient rather than booming, inflation is still subdued, and policymakers are leaning toward continued support instead of a restrictive stance.",33498c05b2fcb697,2026-04-27 04:09:05.792715+00:00
 china,BIS,institution,2026-03-25,Pan Gongsheng: China's high-quality development and global economic rebalancing,"Keynote speech by Mr Pan Gongsheng, Governor of the People's Bank of China, at the 2026 China Development Forum, Beijing, 22 March 2026.
 
 Source URL: https://www.bis.org/review/r260324a.htm",1b840964ccdfae86,2026-04-09 03:37:10.236376+00:00
@@ -15,7 +15,7 @@ eurozone,ECB,official,2026-03-02,President Lagarde launches EuroSteps Walking Ch
 eurozone,ECB,official,2026-03-03,Philip R. Lane: Interview with Financial Times,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260303~768fa10188.en.html,99f2d9f7bb3d5933,2026-03-20 10:49:22.122420+00:00
 eurozone,ECB,official,2026-03-04,Euro area bank interest rate statistics: January 2026,Source URL: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2603~a68d3c121b.en.html,8cd6f1b6115d2ad3,2026-04-17 03:53:43.934763+00:00
 eurozone,ECB,official,2026-03-05,"Christine Lagarde: Technology, fragmentation and the new uncertainty",Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260305~b091c4a651.en.html,cdddfdb51d4df869,2026-03-23 03:33:05.396221+00:00
-eurozone,ECB,official,2026-03-05,Meeting of 4-5 February 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260305~4a9b7afe1c.en.html,f9e167e72007be86,2026-04-26 04:04:10.053254+00:00
+eurozone,ECB,official,2026-03-05,Meeting of 4-5 February 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260305~4a9b7afe1c.en.html,f9e167e72007be86,2026-04-27 04:09:03.081090+00:00
 eurozone,ECB,official,2026-03-06,Piero Cipollone: Digital euro,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260306~d0237cda20.en.pdf,79bdca762f05d76d,2026-03-23 03:33:05.396019+00:00
 eurozone,ECB,official,2026-03-06,Isabel Schnabel: Navigating inflation and employment in an era of supply shocks and AI,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260306_1~a4943607d7.en.html,b123413c2ab638fa,2026-03-23 03:33:05.395816+00:00
 eurozone,ECB,official,2026-03-08,Christine Lagarde: Interview with ELLE Magazine,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260308~1c03ad3ece.en.html,519fd7f7485200d0,2026-03-24 03:22:06.993465+00:00
@@ -46,7 +46,7 @@ Source URL: https://www.bis.org/review/r260317e.htm",fdff52faad3bf461,2026-03-31
 eurozone,ECB,official,2026-03-19,"Christine Lagarde, Luis de Guindos: Monetary policy statement (with Q&A)",Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html,57653246dac9308a,2026-03-27 03:41:43.885084+00:00
 eurozone,ECB,official,2026-03-19,Monetary policy decisions,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260319~3057739775.en.html,992eafec168b3501,2026-03-26 03:39:10.810030+00:00
 eurozone,ECB,official,2026-03-20,Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates),Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260320~5dfc6af626.en.html,ac0799d23055e4a2,2026-03-27 03:41:43.884805+00:00
-eurozone,ECB,official,2026-03-20,Euro area monthly balance of payments: January 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html,ada28d6daba1e92e,2026-04-26 04:04:10.052991+00:00
+eurozone,ECB,official,2026-03-20,Euro area monthly balance of payments: January 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html,ada28d6daba1e92e,2026-04-27 04:09:03.080866+00:00
 eurozone,ECB,official,2026-03-21,Piero Cipollone: Digital euro - why?,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260321~bf2186fc07.en.pdf,babadf78902c82fa,2026-03-31 03:40:59.198172+00:00
 eurozone,ECB,official,2026-03-23,Piero Cipollone: Building the rails for Europe’s tokenised financial markets,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260323~a88f20c049.en.html,638ea3139720916a,2026-04-14 03:51:20.783951+00:00
 eurozone,ECB,official,2026-03-23,Luis de Guindos: Interview with El Mundo,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260323~b893c61107.en.html,964b1c3a57b151ff,2026-04-01 03:51:43.821779+00:00
@@ -63,16 +63,16 @@ eurozone,ECB,official,2026-03-25,Christine Lagarde: Navigating energy shocks: ri
 eurozone,BIS,institution,2026-03-25,"Yannis Stournaras: The Greek economy ten years after the crisis - lessons for national economies, the eurozone and future challenges","Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the ""American Hellenic Educational Progressive Association"" event, Frankfurt am Main, 19 March 2026.
 
 Source URL: https://www.bis.org/review/r260324b.htm",d965ee1e93865d39,2026-04-09 03:37:04.699224+00:00
-eurozone,ECB,official,2026-03-26,Monetary developments in the euro area: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2602~b3ebd27726.en.html,5a2f7be564fbd68b,2026-04-26 04:04:10.052701+00:00
+eurozone,ECB,official,2026-03-26,Monetary developments in the euro area: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2602~b3ebd27726.en.html,5a2f7be564fbd68b,2026-04-27 04:09:03.080605+00:00
 eurozone,ECB,official,2026-03-26,Luis de Guindos: Navigating turbulence: challenges for Europe and the path ahead,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260326~cbb4721baf.en.html,7f010c9245c657be,2026-04-22 03:49:35.588193+00:00
 eurozone,ECB,official,2026-03-27,ECB Consumer Expectations Survey results – February 2026,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260327~d8261341ca.en.html,023f6a9c933058af,2026-04-22 03:49:35.587934+00:00
 eurozone,ECB,official,2026-03-27,Isabel Schnabel: Monetary policy in times of geopolitical fragmentation,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260327~eca8717025.en.pdf,0fcbcf6a46efb643,2026-04-24 03:59:38.105885+00:00
 eurozone,BIS,institution,2026-03-31,Olli Rehn: How to navigate geopolitical turmoil in central banking? A European perspective,"Speech by Mr Olli Rehn, Governor of the Bank of Finland, at ""The ECB and Its Watchers XXVI"", organised by the Institute for Monetary and Financial Stability, Frankfurt am Main, 25 March 2026.
 
 Source URL: https://www.bis.org/review/r260326e.htm",1d21efd5a54d7640,2026-04-16 03:55:44.869561+00:00
-eurozone,ECB,official,2026-03-31,Eurosystem sets out comprehensive strategy for future of European payments,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260331~04561d8476.en.html,5936e8809ae37888,2026-04-26 04:04:10.051019+00:00
-eurozone,ECB,official,2026-04-01,Euro area bank interest rate statistics: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html,8d5551bf803ced65,2026-04-26 04:04:10.052439+00:00
-eurozone,ECB,official,2026-04-01,Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe’s resilience and autonomy in payments,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260401~d9106c31db.en.html,e6cb2961f5cd9462,2026-04-26 04:04:10.050729+00:00
+eurozone,ECB,official,2026-03-31,Eurosystem sets out comprehensive strategy for future of European payments,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260331~04561d8476.en.html,5936e8809ae37888,2026-04-27 04:09:03.079139+00:00
+eurozone,ECB,official,2026-04-01,Euro area bank interest rate statistics: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html,8d5551bf803ced65,2026-04-27 04:09:03.080387+00:00
+eurozone,ECB,official,2026-04-01,Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe’s resilience and autonomy in payments,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260401~d9106c31db.en.html,e6cb2961f5cd9462,2026-04-27 04:09:03.078918+00:00
 eurozone,BIS,institution,2026-04-07,François Villeroy de Galhau: Little time left to wake up - can we reconcile Europe with speed?,"Speech (virtually) by Mr François Villeroy de Galhau, Governor of the Bank of France, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.
 
 Source URL: https://www.bis.org/review/r260330a.htm",04099abd7d914aac,2026-04-16 03:55:44.869379+00:00
@@ -82,53 +82,53 @@ Source URL: https://www.bis.org/review/r260407f.htm",324f357eb835250b,2026-04-21
 eurozone,BIS,institution,2026-04-09,Christine Lagarde: Navigating energy shocks - risks and policy responses,"Keynote speech by Ms Christine Lagarde, President of the European Central Bank, at ""The ECB and Its Watchers"" conference, organised by the Institute for Monetary and Financial Stability at Goethe University Frankfurt, Frankfurt am Main, 25 March 2026.
 
 Source URL: https://www.bis.org/review/r260407d.htm",5da1f0198ccea099,2026-04-20 03:59:41.230840+00:00
-eurozone,ECB,official,2026-04-09,Euro area quarterly balance of payments and international investment position: fourth quarter of 2025,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bq260409~16fc82b973.en.html,6697c27aa2cf1eaa,2026-04-26 04:04:10.052179+00:00
+eurozone,ECB,official,2026-04-09,Euro area quarterly balance of payments and international investment position: fourth quarter of 2025,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bq260409~16fc82b973.en.html,6697c27aa2cf1eaa,2026-04-27 04:09:03.080168+00:00
 eurozone,BIS,institution,2026-04-09,François Villeroy de Galhau: Navigating an uncertain world - steering monetary policy in the right direction to hold our course,"Speech by Mr François Villeroy de Galhau, Governor of the Bank of France, at Sciences Po, Paris, 2 April 2026.
 
 Source URL: https://www.bis.org/review/r260409a.htm",78fa93e81ef0f66d,2026-04-21 03:53:33.600406+00:00
 eurozone,BIS,institution,2026-04-09,Denis Beau: Stablecoins - what strategic choices for Europe?,"Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session ""Stablecoins: what strategic choices for Europe?"", Nicosia, 26 March 2026.
 
 Source URL: https://www.bis.org/review/r260331b.htm",a326af697a18b866,2026-04-21 03:53:33.600695+00:00
-eurozone,ECB,official,2026-04-09,Households and non-financial corporations in the euro area: fourth quarter of 2025,Source URL: https://www.ecb.europa.eu//press/stats/ffi/html/ecb.eaefd_early2025q4~a8664570e4.en.html,e41fe9f890eec572,2026-04-26 04:04:10.051911+00:00
-eurozone,ECB,official,2026-04-14,ECB Governing Council urges Single Market boost to strengthen bank competitiveness,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260414~ad43db8bb6.en.html,39bb3ebfa9cb05c8,2026-04-26 04:04:10.050454+00:00
-eurozone,ECB,official,2026-04-14,Philip R. Lane: The economic outlook and monetary policy in the euro area,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260414~b312adeb55.en.pdf,612a1c301fd22323,2026-04-26 04:04:10.050191+00:00
-eurozone,ECB,official,2026-04-15,Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html,d6edf996f4b985ee,2026-04-26 04:04:10.049920+00:00
+eurozone,ECB,official,2026-04-09,Households and non-financial corporations in the euro area: fourth quarter of 2025,Source URL: https://www.ecb.europa.eu//press/stats/ffi/html/ecb.eaefd_early2025q4~a8664570e4.en.html,e41fe9f890eec572,2026-04-27 04:09:03.079942+00:00
+eurozone,ECB,official,2026-04-14,ECB Governing Council urges Single Market boost to strengthen bank competitiveness,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260414~ad43db8bb6.en.html,39bb3ebfa9cb05c8,2026-04-27 04:09:03.078639+00:00
+eurozone,ECB,official,2026-04-14,Philip R. Lane: The economic outlook and monetary policy in the euro area,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260414~b312adeb55.en.pdf,612a1c301fd22323,2026-04-27 04:09:03.078421+00:00
+eurozone,ECB,official,2026-04-15,Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html,d6edf996f4b985ee,2026-04-27 04:09:03.078208+00:00
 eurozone,BIS,institution,2026-04-16,Yannis Stournaras: Monetary and broader policy considerations for the euro area under the present energy price shock,"Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the Economist Romania Government Roundtable ""Monetary and broader policy considerations for the euro area under the present energy price shock"", Bucharest, 30 March 2026.
 
 Source URL: https://www.bis.org/review/r260410h.htm",30eaed9dfa40970f,2026-04-21 03:53:33.599868+00:00
 eurozone,BIS,institution,2026-04-16,"Yannis Stournaras: The Greek economy ten years after the crisis - lessons for national economies, the eurozone and future challenges","Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the National Bank of Romania, Bucharest, 30 March 2026.
 
 Source URL: https://www.bis.org/review/r260410i.htm",576d4d9cb6238e71,2026-04-21 03:53:33.600138+00:00
-eurozone,ECB,official,2026-04-16,Meeting of 18-19 March 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260416~6a27b0c258.en.html,c30fb357b5fd0912,2026-04-26 04:04:10.051622+00:00
-eurozone,ECB,official,2026-04-16,Isabel Schnabel: Europe's successes and the path forward,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260416~3ae2dad6b3.en.pdf,ee36fdb6ca9e748b,2026-04-26 04:04:10.049357+00:00
+eurozone,ECB,official,2026-04-16,Meeting of 18-19 March 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260416~6a27b0c258.en.html,c30fb357b5fd0912,2026-04-27 04:09:03.079698+00:00
+eurozone,ECB,official,2026-04-16,Isabel Schnabel: Europe's successes and the path forward,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260416~3ae2dad6b3.en.pdf,ee36fdb6ca9e748b,2026-04-27 04:09:03.077772+00:00
 eurozone,BIS,institution,2026-04-16,"Bas ter Weel: Resilient payments - cash, card, connected","Opening address by Mr Bas ter Weel, Executive Board Member of Monetary Affairs of De Nederlandsche Bank, at the DNB's Retail Payments Research Conference 2026 ""Future-proof payments: innovative, resilient and inclusive"", Amsterdam, 9 April 2026.
 
 Source URL: https://www.bis.org/review/r260416g.htm",f51c8c7c15335470,2026-04-22 03:49:35.584870+00:00
 eurozone,ECB,official,2026-04-16,Europe's successes and the path forward,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260416~3ae2dad6b3.en.pdf,f8082e176be577ab,2026-04-17 03:53:43.929507+00:00
-eurozone,ECB,official,2026-04-17,Euro area monthly balance of payments: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260417~8cf2910734.en.html,b55a05be33bca097,2026-04-26 04:04:10.051356+00:00
-eurozone,ECB,official,2026-04-17,Christine Lagarde: IMFC Statement,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260417~033a4546f5.en.html,fdf1e5ee548cd147,2026-04-26 04:04:10.049093+00:00
+eurozone,ECB,official,2026-04-17,Euro area monthly balance of payments: February 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260417~8cf2910734.en.html,b55a05be33bca097,2026-04-27 04:09:03.079445+00:00
+eurozone,ECB,official,2026-04-17,Christine Lagarde: IMFC Statement,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260417~033a4546f5.en.html,fdf1e5ee548cd147,2026-04-27 04:09:03.077520+00:00
 eurozone,BIS,institution,2026-04-20,Denis Beau: The challenges posed by AI from the perspective of the central bank,"Speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at an event organised by the Institut d'Administration des Entreprises, Brest, 2 April 2026.
 
-Source URL: https://www.bis.org/review/r260416j.htm",20ee99c6a05dcdab,2026-04-26 04:04:10.047612+00:00
+Source URL: https://www.bis.org/review/r260416j.htm",20ee99c6a05dcdab,2026-04-27 04:09:03.076240+00:00
 eurozone,BIS,institution,2026-04-20,François Villeroy de Galhau: One year on - why the transatlantic partnership remains of mutual interest,"Speech by Mr François Villeroy de Galhau, Governor of the Bank of France, at the Atlantic Council, Washington DC, 15 April 2026.
 
-Source URL: https://www.bis.org/review/r260416l.htm",8d418450779deb7f,2026-04-26 04:04:10.047343+00:00
-eurozone,ECB,official,2026-04-20,Christine Lagarde: The energy shock: where we stand and what we need to know,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260420~cdf674023e.en.html,bf3a6d5532d41f9f,2026-04-26 04:04:10.048799+00:00
+Source URL: https://www.bis.org/review/r260416l.htm",8d418450779deb7f,2026-04-27 04:09:03.076011+00:00
+eurozone,ECB,official,2026-04-20,Christine Lagarde: The energy shock: where we stand and what we need to know,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260420~cdf674023e.en.html,bf3a6d5532d41f9f,2026-04-27 04:09:03.077306+00:00
 eurozone,BIS,institution,2026-04-21,"Joachim Nagel: Already here, not yet everywhere - shaping the economic impact of artificial intelligence","Keynote speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the International Economic Symposium, Rome, 21 April 2026.
 
-Source URL: https://www.bis.org/review/r260421a.htm",d282483917deb994,2026-04-26 04:04:10.047072+00:00
+Source URL: https://www.bis.org/review/r260421a.htm",d282483917deb994,2026-04-27 04:09:03.075768+00:00
 eurozone,BIS,institution,2026-04-21,Christine Lagarde: IMFC statement,"Statement by Ms Christine Lagarde, President of the European Central Bank, at the fifty-third meeting of the International Monetary and Financial Committee, IMF Spring Meetings, Washington DC, 17 April 2026.
 
-Source URL: https://www.bis.org/review/r260421b.htm",e03fb20180add2d0,2026-04-26 04:04:10.046779+00:00
-eurozone,ECB,official,2026-04-22,Philip R. Lane: Expanding the supply of euro safe assets,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260422~0242ad3585.en.html,2254c49d7d9a7007,2026-04-26 04:04:10.048532+00:00
-eurozone,ECB,official,2026-04-22,Frank Elderson: Interview with NRC,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260422~0201121d60.en.html,2a967f2a7096f2b8,2026-04-26 04:04:10.048260+00:00
+Source URL: https://www.bis.org/review/r260421b.htm",e03fb20180add2d0,2026-04-27 04:09:03.075482+00:00
+eurozone,ECB,official,2026-04-22,Philip R. Lane: Expanding the supply of euro safe assets,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260422~0242ad3585.en.html,2254c49d7d9a7007,2026-04-27 04:09:03.077082+00:00
+eurozone,ECB,official,2026-04-22,Frank Elderson: Interview with NRC,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260422~0201121d60.en.html,2a967f2a7096f2b8,2026-04-27 04:09:03.076850+00:00
 eurozone,BIS,institution,2026-04-22,Christine Lagarde: The energy shock - where we stand and what we need to know,"Keynote speech by Ms Christine Lagarde, President of the European Central Bank, at the annual reception of the Association of German Banks on the occasion of their 75th anniversary, Berlin, 20 April 2026.
 
-Source URL: https://www.bis.org/review/r260422c.htm",e99b66b28bcf62c7,2026-04-26 04:04:10.046510+00:00
+Source URL: https://www.bis.org/review/r260422c.htm",e99b66b28bcf62c7,2026-04-27 04:09:03.075240+00:00
 eurozone,BIS,institution,2026-04-22,Olli Rehn: Geopolitical turmoil and the eurozone,"Speech by Mr Olli Rehn, Governor of the Bank of Finland, at the Washington Economic Festival ""Global macro sessions"", organised by Reinventing Bretton Woods Committee, Washington DC, 16 April 2026.
 
-Source URL: https://www.bis.org/review/r260422i.htm",ffa75d60dc96dcb8,2026-04-26 04:04:10.046224+00:00
-eurozone,ECB,official,2026-04-24,ECB signs agreements with European standard setters to facilitate digital euro payments,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260424~202f9d832b.en.html,edb016a55dc8fccb,2026-04-26 04:04:10.047989+00:00
+Source URL: https://www.bis.org/review/r260422i.htm",ffa75d60dc96dcb8,2026-04-27 04:09:03.074965+00:00
+eurozone,ECB,official,2026-04-24,ECB signs agreements with European standard setters to facilitate digital euro payments,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260424~202f9d832b.en.html,edb016a55dc8fccb,2026-04-27 04:09:03.076576+00:00
 us,Federal Reserve,official,2025-12-10,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
 Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",0576f444e0dc2b5c,2026-04-14 03:51:17.857302+00:00
@@ -137,16 +137,16 @@ us,Federal Reserve,official,2025-12-10,Federal Reserve Board and Federal Open Ma
 Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210b.htm",2ffc796842f4ebac,2026-04-08 03:40:51.277265+00:00
 us,Federal Reserve,official,2025-12-30,"Minutes of the Federal Open Market Committee, December 9â10, 2025","Minutes of the Federal Open Market Committee, December 9â10, 2025
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251230a.htm",717e75dd7689b567,2026-04-26 04:04:08.466056+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251230a.htm",717e75dd7689b567,2026-04-27 04:09:01.611059+00:00
 us,Federal Reserve,official,2026-01-06,"Minutes of the Board's discount rate meeting on December 10, 2025","Minutes of the Board's discount rate meeting on December 10, 2025
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260106a.htm",6d8f57410be255cd,2026-04-26 04:04:08.465743+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260106a.htm",6d8f57410be255cd,2026-04-27 04:09:01.610829+00:00
 us,Federal Reserve,official,2026-01-28,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",d854cd50f4ae2be6,2026-04-26 04:04:08.465218+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",d854cd50f4ae2be6,2026-04-27 04:09:01.610334+00:00
 us,Federal Reserve,official,2026-01-28,"Federal Open Market Committee reaffirms its ""Statement on Longer-Run Goals and Monetary Policy Strategy""","Federal Open Market Committee reaffirms its ""Statement on Longer-Run Goals and Monetary Policy Strategy""
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm",ec51e5706d146a26,2026-04-26 04:04:08.465480+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm",ec51e5706d146a26,2026-04-27 04:09:01.610559+00:00
 us,Federal Reserve,official,2026-01-30,"Waller, Statement by Governor Christopher J. Waller","Speech
 
 Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260130a.htm",5607cc05aa42c800,2026-03-20 10:49:20.500051+00:00
@@ -167,7 +167,7 @@ us,Federal Reserve,official,2026-02-17,"Barr, What Will Artificial Intelligence 
 Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260217a.htm",6ab7bd10b3a46f7c,2026-03-26 03:39:08.963215+00:00
 us,Federal Reserve,official,2026-02-18,"Minutes of the Federal Open Market Committee, January 27â28, 2026","Minutes of the Federal Open Market Committee, January 27â28, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",297b6ee24c8c6bc9,2026-04-26 04:04:08.464948+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",297b6ee24c8c6bc9,2026-04-27 04:09:01.610107+00:00
 us,Federal Reserve,official,2026-02-19,"Bowman, Opening Remarks","Speech At the Federal Reserve Bank of Atlanta 2026 Banking Outlook Conference: The Next Horizon in Banking, Atlanta, Georgia (via pre-recorded video)
 
 Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20260219a.htm",a3325a881b56ff20,2026-03-31 03:40:57.349082+00:00
@@ -182,7 +182,7 @@ us,Federal Reserve,official,2026-02-24,"Waller, Operationalizing AI at the Feder
 Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260224a.htm",16240aae3af174d0,2026-04-07 03:39:43.312579+00:00
 us,Federal Reserve,official,2026-02-24,"Minutes of the Board's discount rate meetings on January 20 and 28, 2026","Minutes of the Board's discount rate meetings on January 20 and 28, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm",56bd9a1d59bf8107,2026-04-26 04:04:08.464658+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm",56bd9a1d59bf8107,2026-04-27 04:09:01.609874+00:00
 us,Federal Reserve,official,2026-03-03,"Bowman, Liquidity Resiliency, Financial Stability, and the Role of the Federal Reserve","Speech At The Roundtable on Liquidity and Lender of Last Resort sponsored by the Committee on Capital Markets Regulation, Washington, D.C.
 
 Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20260303a.htm",45e9deb84be10482,2026-04-17 03:53:41.966813+00:00
@@ -200,16 +200,16 @@ us,BIS,institution,2026-03-17,Michelle W Bowman: Capital rules for the real econ
 Source URL: https://www.bis.org/review/r260316e.htm",bc448d837b6ac0f9,2026-03-25 03:26:48.085288+00:00
 us,Federal Reserve,official,2026-03-18,Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting,"Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",0b1911d49f8b204d,2026-04-26 04:04:08.464393+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",0b1911d49f8b204d,2026-04-27 04:09:01.609599+00:00
 us,Federal Reserve,official,2026-03-18,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",ff5c6bd4c806f498,2026-04-26 04:04:08.464123+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",ff5c6bd4c806f498,2026-04-27 04:09:01.609368+00:00
 us,Federal Reserve,official,2026-03-21,"Powell, Acceptance Remarks","Speech At the American Society for Public Administration Annual Conference: Paul A. Volcker Public Integrity Award Ceremony (via pre-recorded video)
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/powell20260321a.htm",e9c3d1469db9bef8,2026-04-26 04:04:08.469384+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/powell20260321a.htm",e9c3d1469db9bef8,2026-04-27 04:09:01.613923+00:00
 us,Federal Reserve,official,2026-03-24,"Barr, Developing Communities through Public-private Partnerships","Speech At the 2026 National Community Investment Conference, Phoenix, Arizona
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260324a.htm",add73ccc0173c70e,2026-04-26 04:04:08.469125+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260324a.htm",add73ccc0173c70e,2026-04-27 04:09:01.613688+00:00
 us,BIS,institution,2026-03-25,Michael S Barr: Developing communities through public-private partnerships,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the2026 National Community Investment Conference, Phoenix, Arizona, 24 March 2026.
 
 Source URL: https://www.bis.org/review/r260325c.htm",04a56ec1d595dbf4,2026-03-30 03:49:48.073053+00:00
@@ -218,19 +218,19 @@ us,BIS,institution,2026-03-25,Michael S Barr: Developing communities through pub
 Source URL: https://www.bis.org/review/r260325c.htm",93c8a552a3e41651,2026-04-09 03:37:02.839551+00:00
 us,Federal Reserve,official,2026-03-26,"Jefferson, Economic Outlook and Energy Effects","Speech At the Global Perspectives Speaker Series, Federal Reserve Bank of Dallas, Dallas, Texas
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260326a.htm",51416c3586a9c5ff,2026-04-26 04:04:08.468316+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260326a.htm",51416c3586a9c5ff,2026-04-27 04:09:01.613017+00:00
 us,Federal Reserve,official,2026-03-26,"Cook, Reflections on Financial Stability","Speech At Yale Program on Financial Stability, School of Management, Yale University, New Haven, Connecticut
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/cook20260326a.htm",75d897d2826e9708,2026-04-26 04:04:08.468837+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/cook20260326a.htm",75d897d2826e9708,2026-04-27 04:09:01.613444+00:00
 us,Federal Reserve,official,2026-03-26,"Barr, Brief Remarks on the Economic Outlook and Monetary Policy","Speech At the Brookings Institution, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm",b25129d8b03d7c97,2026-04-26 04:04:08.468051+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm",b25129d8b03d7c97,2026-04-27 04:09:01.612795+00:00
 us,Federal Reserve,official,2026-03-26,"Miran, Prospects for Shrinking the Fedâs Balance Sheet","Speech At the Economic Club of Miami, Miami, Florida
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/miran20260326a.htm",ccbf75702e545ace,2026-04-26 04:04:08.468577+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/miran20260326a.htm",ccbf75702e545ace,2026-04-27 04:09:01.613232+00:00
 us,Federal Reserve,official,2026-03-31,"Bowman, Supporting Small Businesses","Speech At CBA LIVE 26, Consumer Bankers Association, San Diego, California
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20260331a.htm",242a8e5f9737abb3,2026-04-26 04:04:08.467500+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20260331a.htm",242a8e5f9737abb3,2026-04-27 04:09:01.612320+00:00
 us,BIS,institution,2026-03-31,Michael S Barr: Brief remarks on the economic outlook and monetary policy,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the Brookings Institution, Washington DC, 26 March 2026.
 
 Source URL: https://www.bis.org/review/r260330c.htm",518a9ec3ddff82cb,2026-04-16 03:55:43.390037+00:00
@@ -245,13 +245,13 @@ us,BIS,institution,2026-03-31,Philip N Jefferson: Economic outlook and energy ef
 Source URL: https://www.bis.org/review/r260330d.htm",9cd7e1e5d50f6022,2026-04-16 03:55:43.389864+00:00
 us,Federal Reserve,official,2026-03-31,"Barr, Brief Remarks on Stablecoins","Speech At âThe GENIUS Act in Practice: Key Questions for Stablecoin Regulation,â The Federalist Society, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm",b055973bf7544514,2026-04-26 04:04:08.467762+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm",b055973bf7544514,2026-04-27 04:09:01.612535+00:00
 us,Federal Reserve,official,2026-04-07,"Jefferson, Economic Outlook and the Labor Market","Speech At the College of Business Administration, University of Detroit Mercy, Detroit, Michigan
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260407a.htm",7bf0d7f8f0ffd74a,2026-04-26 04:04:08.467237+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260407a.htm",7bf0d7f8f0ffd74a,2026-04-27 04:09:01.612101+00:00
 us,Federal Reserve,official,2026-04-08,"Minutes of the Federal Open Market Committee, March 17â18, 2026","Minutes of the Federal Open Market Committee, March 17â18, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",94b9c6933c5ff78a,2026-04-26 04:04:08.463818+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",94b9c6933c5ff78a,2026-04-27 04:09:01.609124+00:00
 us,BIS,institution,2026-04-09,Michael S Barr: Brief remarks on stablecoins,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at ""The GENIUS Act in practice: key questions for stablecoin regulation"", The Federalist Society, Washington DC, 31 March 2026.
 
 Source URL: https://www.bis.org/review/r260408b.htm",4a26cced364f17be,2026-04-21 03:53:31.635898+00:00
@@ -263,34 +263,34 @@ us,BIS,institution,2026-04-09,John C Williams: Ferrying through the crosscurrent
 Source URL: https://www.bis.org/review/r260407b.htm",e8142c9eecfdbdbd,2026-04-20 03:59:39.017640+00:00
 us,Federal Reserve,official,2026-04-14,"Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026","Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",8efb5c264ec408de,2026-04-26 04:04:08.463542+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",8efb5c264ec408de,2026-04-27 04:09:01.608874+00:00
 us,Federal Reserve,official,2026-04-14,"Barr, Rural Communities: Worth the Investment","Speech At Strengthening Americaâs Economy through Rural Investment: A Working Forum, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm",d1bbde59a84673b3,2026-04-26 04:04:08.466971+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm",d1bbde59a84673b3,2026-04-27 04:09:01.611876+00:00
 us,BIS,institution,2026-04-16,Michael S Barr: Rural communities - worth the investment,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at ""Strengthening America's economy through rural investment: a working forum"", Washington DC, 14 April 2026.
 
 Source URL: https://www.bis.org/review/r260416h.htm",368f7352b914125e,2026-04-22 03:49:33.442350+00:00
 us,Federal Reserve,official,2026-04-17,"Waller, One Transitory Shock After Another","Speech At the David Kaserman Memorial Lecture, Department of Economics, Auburn University, Auburn, Alabama
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm",fffa25de7d13014d,2026-04-26 04:04:08.466673+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm",fffa25de7d13014d,2026-04-27 04:09:01.611614+00:00
 us,BIS,institution,2026-04-20,Piero Cipollone: Sparking the transformation of finance - tokenisation and the role of central banks,"Keynote address by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the 24th Annual Symposium ""Building the financial system of the 21st century: an agenda for Europe and the United States"", hosted by the Harvard Law School and the Program on International Financial Systems, Washington DC, 15 April 2026.
 
-Source URL: https://www.bis.org/review/r260416k.htm",44a78e3ebb4cc501,2026-04-26 04:04:08.463187+00:00
+Source URL: https://www.bis.org/review/r260416k.htm",44a78e3ebb4cc501,2026-04-27 04:09:01.608498+00:00
 us,BIS,institution,2026-04-20,Philip N Jefferson: Economic outlook and the labor market,"Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the College of Business Administration, University of Detroit Mercy, Detroit, Michigan, 7 April 2026.
 
 Source URL: https://www.bis.org/review/r260410f.htm",e84d0b655626acdf,2026-04-22 03:49:33.442081+00:00
 us,BIS,institution,2026-04-21,Christopher J Waller: One transitory shock after another,"Text of the David Kaserman Memorial Lecture by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, Department of Economics, Auburn University, Auburn, Alabama, 17 April 2026.
 
-Source URL: https://www.bis.org/review/r260420f.htm",161fdbc0e9641386,2026-04-26 04:04:08.462614+00:00
+Source URL: https://www.bis.org/review/r260420f.htm",161fdbc0e9641386,2026-04-27 04:09:01.608033+00:00
 us,Federal Reserve,official,2026-04-21,"Waller, Modernizing Federal Reserve Operations in the 21st Century","Speech At The Brookings Institution, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm",226cad555a8a6853,2026-04-26 04:04:08.466406+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm",226cad555a8a6853,2026-04-27 04:09:01.611389+00:00
 us,BIS,institution,2026-04-21,John C Williams: The cosmos,"Remarks by Mr John C Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, at the Federal Home Loan Bank of New York 2026 Member Symposium, New York City, 16 April 2026.
 
-Source URL: https://www.bis.org/review/r260420e.htm",d363640f9ded3cf6,2026-04-26 04:04:08.462911+00:00
+Source URL: https://www.bis.org/review/r260420e.htm",d363640f9ded3cf6,2026-04-27 04:09:01.608270+00:00
 us,BIS,institution,2026-04-22,Sarah Breeden: This time is different?,"Speech by Ms Sarah Breeden, Deputy Governor for Financial Stability of the Bank of England, at the Harvard Law School (HLS)-The Program on International Financial Systems (PIFS) Symposium ""Building the financial system of the 21st century: an agenda for Europe and the United States"", London, 17 April 2026.
 
-Source URL: https://www.bis.org/review/r260422a.htm",7c34d26811597994,2026-04-26 04:04:08.462337+00:00
+Source URL: https://www.bis.org/review/r260422a.htm",7c34d26811597994,2026-04-27 04:09:01.607778+00:00
 us,BIS,institution,2026-04-22,Christopher J Waller: Modernising Federal Reserve operations in the 21st century,"Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Brookings Institution, Washington DC, 21 April 2026.
 
-Source URL: https://www.bis.org/review/r260422k.htm",fc7e590146a5450d,2026-04-26 04:04:08.462047+00:00
+Source URL: https://www.bis.org/review/r260422k.htm",fc7e590146a5450d,2026-04-27 04:09:01.607465+00:00
