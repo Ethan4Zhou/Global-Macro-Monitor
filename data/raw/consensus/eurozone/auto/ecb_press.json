@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-27",
+    "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260427~039951e152.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-04-24",
     "title": "ECB signs agreements with European standard setters to facilitate digital euro payments",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260424~202f9d832b.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-04-01",
     "title": "Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe’s resilience and autonomy in payments",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260401~d9106c31db.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-03-31",
-    "title": "Eurosystem sets out comprehensive strategy for future of European payments",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260331~04561d8476.en.html"
   }
 ]
