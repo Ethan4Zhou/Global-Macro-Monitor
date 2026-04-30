@@ -669,9 +669,9 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2025-08-01,eurozone,0.3913057897282929,-0.11504032403693337,-0.3556130839384223,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-09-01,eurozone,0.4433605854476717,-0.05203873644272057,-0.5469203009447169,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2025-10-01,eurozone,0.48219444884041235,-0.07026432257889542,-0.4039982421858127,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-11-01,eurozone,0.6551032188199489,-0.08284751801136951,-0.38080304731063275,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-12-01,eurozone,0.5942355778587395,-0.11307053593340138,-0.47191926675251006,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-01-01,eurozone,0.4924964208283507,-0.11730564530591805,-0.45465848004143294,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-02-01,eurozone,0.3894284144617334,-0.0951468228983961,-0.4053024034369317,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-03-01,eurozone,0.38922912346389704,-0.061246545343131405,-0.49996706154055437,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-04-01,eurozone,0.43974406342057115,-0.03219791311134518,-0.5348329900101223,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2025-11-01,eurozone,0.6551032188199489,-0.08284751801136951,-0.38076964720259826,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-12-01,eurozone,0.5942355778587395,-0.11307053593340138,-0.4719371576912599,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-01-01,eurozone,0.4924964208283507,-0.11730564530591805,-0.45466601930961437,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-02-01,eurozone,0.3894284144617334,-0.0951468228983961,-0.40630771150492206,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-03-01,eurozone,0.38922912346389704,-0.061246545343131405,-0.4640458600603369,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-04-01,eurozone,0.43974406342057115,-0.03219791311134518,-0.49913870773535773,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
