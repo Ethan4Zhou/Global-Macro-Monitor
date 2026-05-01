@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-04-30",
+    "title": "Christine Lagarde, Luis de Guindos: Monetary policy statement (with Q&A)",
+    "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-04-30",
+    "title": "Monetary policy decisions",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-04-28",
     "title": "ECB Consumer Expectations Survey results – March 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260428_1~eddb480492.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-04-16",
     "title": "Meeting of 18-19 March 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260416~6a27b0c258.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-04-15",
-    "title": "Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-04-14",
-    "title": "Philip R. Lane: The economic outlook and monetary policy in the euro area",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260414~b312adeb55.en.pdf"
   }
 ]
