@@ -2,6 +2,27 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-05-08",
+    "title": "Bowman, When Regulation Reshapes Markets: The Migration of Corporate Lending",
+    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260508a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-05-08",
+    "title": "Waller, Update On Federal Reserve Bank Operations",
+    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260508a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-05-08",
+    "title": "Cook, Perspectives on Tokenization and Implications for the Financial System",
+    "body": "Speech At the Central Bank of West African States (BCEAO) Conference on Digital Assets, Dakar, Senegal\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260508a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-05-05",
     "title": "Bowman, A Coordinated Approach to Consumer Fraud Protection",
     "body": "Speech At the 2026 Women in Housing and Finance Symposium, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260505a.htm"
@@ -61,26 +82,5 @@
     "date": "2026-03-26",
     "title": "Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
     "body": "Speech At the Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-26",
-    "title": "Jefferson, Economic Outlook and Energy Effects",
-    "body": "Speech At the Global Perspectives Speaker Series, Federal Reserve Bank of Dallas, Dallas, Texas\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260326a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-26",
-    "title": "Miran, Prospects for Shrinking the Fedâs Balance Sheet",
-    "body": "Speech At the Economic Club of Miami, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/miran20260326a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-26",
-    "title": "Cook, Reflections on Financial Stability",
-    "body": "Speech At Yale Program on Financial Stability, School of Management, Yale University, New Haven, Connecticut\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260326a.htm"
   }
 ]
