@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-05-11",
+    "title": "Luis de Guindos: Interview with Financial Times",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260511~3fa2df2fa9.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-10",
+    "title": "European Central Bank and Reserve Bank of India sign Memorandum of Understanding on cooperation",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260510~e8a674e2fb.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-05-08",
     "title": "Christine Lagarde: Stablecoins and the future of money: separating functions from instruments",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-05-04",
     "title": "Luis de Guindos: Presentation of the ECB Annual Report 2025 to the Committee on Economic and Monetary Affairs of the European Parliament",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260504_1~c7601bf295.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-04",
-    "title": "Piero Cipollone: Digital assets, payment efficiency and monetary policy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260504~3e75e8b138.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-04",
-    "title": "Results of the ECB Survey of Professional Forecasters for the second quarter of 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260504~bb7a0cbf4c.en.html"
   }
 ]
