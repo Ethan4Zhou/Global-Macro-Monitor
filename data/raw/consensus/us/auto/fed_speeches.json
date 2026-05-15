@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-05-14",
+    "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
+    "body": "Speech At the Money Marketeers of New York University, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-05-14",
+    "title": "Bowman, Opening Remarks",
+    "body": "Speech At the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference: Powering Progress, Protecting Trust, Kansas City, Missouri (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260514a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-05-08",
     "title": "Bowman, When Regulation Reshapes Markets: The Migration of Corporate Lending",
     "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260508a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-03-31",
     "title": "Bowman, Supporting Small Businesses",
     "body": "Speech At CBA LIVE 26, Consumer Bankers Association, San Diego, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260331a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-31",
-    "title": "Barr, Brief Remarks on Stablecoins",
-    "body": "Speech At âThe GENIUS Act in Practice: Key Questions for Stablecoin Regulation,â The Federalist Society, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-26",
-    "title": "Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
-    "body": "Speech At the Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm"
   }
 ]
