@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-05-26",
+    "title": "Philip R. Lane: Interview with Nikkei",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260526_1~71caa51b14.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-26",
+    "title": "Isabel Schnabel: Interview with Reuters",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260526~6736a05aaa.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-05-22",
     "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
     "body": "Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260522~a4812a8f23.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-05-08",
     "title": "Christine Lagarde: Stablecoins and the future of money: separating functions from instruments",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-07",
-    "title": "Isabel Schnabel: The quiet erosion of central bank independence",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260507_1~d5ae988ece.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-07",
-    "title": "Luis de Guindos: Deepening financial integration to support Europe’s prosperity",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260507~c99288185f.en.html"
   }
 ]
