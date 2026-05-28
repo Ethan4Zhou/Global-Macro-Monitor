@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-05-27",
+    "title": "Luis de Guindos: Financial Stability Review - May 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260527~bc724e42c1.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-27",
+    "title": "Financial stability vulnerabilities remain elevated as geoeconomic shock unfolds",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260527~92140c5054.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-05-26",
     "title": "Philip R. Lane: Interview with Nikkei",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260526_1~71caa51b14.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-05-11",
     "title": "Luis de Guindos: Interview with Financial Times",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260511~3fa2df2fa9.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-10",
-    "title": "European Central Bank and Reserve Bank of India sign Memorandum of Understanding on cooperation",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260510~e8a674e2fb.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-08",
-    "title": "Christine Lagarde: Stablecoins and the future of money: separating functions from instruments",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html"
   }
 ]

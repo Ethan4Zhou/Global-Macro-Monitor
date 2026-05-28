@@ -2,9 +2,23 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-05-28",
+    "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+    "body": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-05-27",
+    "title": "Cook, The Opportunities and Risks AI Presents for the Economy and Financial System",
+    "body": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-05-22",
     "title": "Waller, Policy Risks Have Changed",
-    "body": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt, Germany\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm"
+    "body": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm"
   },
   {
     "source_name": "Federal Reserve",
@@ -68,19 +82,5 @@
     "date": "2026-04-21",
     "title": "Waller, Modernizing Federal Reserve Operations in the 21st Century",
     "body": "Speech At The Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-04-17",
-    "title": "Waller, One Transitory Shock After Another",
-    "body": "Speech At the David Kaserman Memorial Lecture, Department of Economics, Auburn University, Auburn, Alabama\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-04-14",
-    "title": "Barr, Rural Communities: Worth the Investment",
-    "body": "Speech At Strengthening Americaâs Economy through Rural Investment: A Working Forum, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm"
   }
 ]
