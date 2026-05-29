@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-05-28",
+    "title": "Meeting of 29-30 April 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260528~a93230dc4b.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-28",
+    "title": "Piero Cipollone: Money in the digital age",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260528_1~7bb2eecfe5.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-28",
+    "title": "Christine Lagarde: When It Matters Most: Upholding Independence in Challenging Times",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260528~0cb263f599.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-05-27",
     "title": "Luis de Guindos: Financial Stability Review - May 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260527~bc724e42c1.en.pdf"
@@ -61,26 +82,5 @@
     "date": "2026-05-13",
     "title": "Christine Lagarde: The courage to build a Europe that endures",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260513_1~ab5ae9e754.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-13",
-    "title": "Philip R. Lane: Analytical perspectives on energy supply shocks",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260513~5b14c78806.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-12",
-    "title": "Frank Elderson: Boosting prosperity through deeper integration",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260512~640d289749.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-11",
-    "title": "Luis de Guindos: Interview with Financial Times",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260511~3fa2df2fa9.en.html"
   }
 ]
