@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-05-29",
+    "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
+    "body": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-05-28",
     "title": "Jefferson, Global Economic Developments and the U.S. Economy",
     "body": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm"
@@ -45,15 +52,15 @@
     "source_name": "Federal Reserve",
     "source_type": "official",
     "date": "2026-05-08",
-    "title": "Waller, Update On Federal Reserve Bank Operations",
-    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260508a.htm"
+    "title": "Bowman, When Regulation Reshapes Markets: The Migration of Corporate Lending",
+    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260508a.htm"
   },
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
     "date": "2026-05-08",
-    "title": "Bowman, When Regulation Reshapes Markets: The Migration of Corporate Lending",
-    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260508a.htm"
+    "title": "Waller, Update On Federal Reserve Bank Operations",
+    "body": "Speech At the Hoover Institution Annual Monetary Policy Conference, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260508a.htm"
   },
   {
     "source_name": "Federal Reserve",
@@ -75,12 +82,5 @@
     "date": "2026-05-01",
     "title": "Bowman, Artificial Intelligence in the Financial System",
     "body": "Speech At the Financial Stability Oversight Council Artificial Intelligence Series Roundtable on Cybersecurity and Risk Management, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260501a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-04-21",
-    "title": "Waller, Modernizing Federal Reserve Operations in the 21st Century",
-    "body": "Speech At The Brookings Institution, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm"
   }
 ]
