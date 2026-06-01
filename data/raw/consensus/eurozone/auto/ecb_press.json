@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-01",
+    "title": "Isabel Schnabel: From money market funds to stablecoins: lessons for central banks",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260601~38dffe5ec5.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-05-31",
+    "title": "Luis de Guindos: Interview with Expansión",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260531~f648dbde70.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-05-29",
     "title": "ECB appoints three Directors General",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260529~2699fd8390.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-05-22",
     "title": "Philip R. Lane: Europe and the world economy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260522~f0f11a5f05.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-21",
-    "title": "Frank Elderson: A central banker’s perspective on climate change and nature degradation",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260521~ccae6782e3.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-20",
-    "title": "Results of the March 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260520~feb373ad0d.en.html"
   }
 ]
