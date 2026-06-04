@@ -951,3 +951,4 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2026-02-01,us,0.45694263633849713,-0.4304938120332491,-0.028812245967183778,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-03-01,us,0.4664748035580581,-0.25538745891956327,-0.10820655368611432,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-04-01,us,0.39704782620807005,-0.14053378487407853,-0.11774396751574225,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-05-01,us,0.4756900125179073,-0.18557044426384478,-0.24682729783784613,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
