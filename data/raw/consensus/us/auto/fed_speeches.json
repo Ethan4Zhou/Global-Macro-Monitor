@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-06-06",
+    "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
+    "body": "Speech At American University, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-06-01",
     "title": "Powell, Acceptance Remarks",
     "body": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-05-08",
     "title": "Cook, Perspectives on Tokenization and Implications for the Financial System",
     "body": "Speech At the Central Bank of West African States (BCEAO) Conference on Digital Assets, Dakar, Senegal\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260508a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-05",
-    "title": "Bowman, A Coordinated Approach to Consumer Fraud Protection",
-    "body": "Speech At the 2026 Women in Housing and Finance Symposium, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260505a.htm"
   }
 ]
