@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-11",
+    "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+    "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-11",
+    "title": "Monetary policy decisions",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-06-10",
     "title": "Frank Elderson: Interview with Het Financieele Dagblad",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260610~439aa97519.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-05-31",
     "title": "Luis de Guindos: Interview with Expansión",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260531~f648dbde70.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-29",
-    "title": "ECB appoints three Directors General",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260529~2699fd8390.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-28",
-    "title": "Meeting of 29-30 April 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260528~a93230dc4b.en.html"
   }
 ]
