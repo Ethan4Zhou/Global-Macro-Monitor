@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-12",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "body": "Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260612~12de4776f6.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-12",
+    "title": "EU structural financial indicators: end of 2025",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260612~ab34769159.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-06-11",
     "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
     "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-06-01",
     "title": "ECB Consumer Expectations Survey results – April 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260601~bf8026bfc2.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-01",
-    "title": "Isabel Schnabel: From money market funds to stablecoins: lessons for central banks",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260601~38dffe5ec5.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-05-31",
-    "title": "Luis de Guindos: Interview with Expansión",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260531~f648dbde70.en.html"
   }
 ]
