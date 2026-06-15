@@ -1,12 +1,12 @@
 series_id,source_used,row_count,latest_date,required_for_minimum_regime,status,ingested_at
-cpi,eurozone_eurostat,301,2025-12-01,True,ready,2026-06-14 05:17:38.305367+00:00
-growth_proxy,eurozone_eurostat,423,2026-03-01,True,ready,2026-06-14 05:17:38.305367+00:00
-policy_rate,eurozone_ecb,10027,2026-06-14,True,ready,2026-06-14 05:17:38.305367+00:00
-yield_10y,eurozone_ecb,677,2026-05-01,True,ready,2026-06-14 05:17:38.305367+00:00
-industrial_production,eurozone_eurostat,423,2026-03-01,False,ready,2026-06-14 05:17:38.305367+00:00
-core_cpi,eurozone_eurostat,290,2026-05-01,False,ready,2026-06-14 05:17:38.305367+00:00
-unrate,eurozone_eurostat,0,,False,missing,2026-06-14 05:17:38.305367+00:00
-m3,eurozone_ecb,556,2026-04-01,False,ready,2026-06-14 05:17:38.305367+00:00
-equity_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-06-14 05:17:38.305367+00:00
-shiller_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-06-14 05:17:38.305367+00:00
-equity_pb_proxy,public_site,0,,False,missing,2026-06-14 05:17:38.305367+00:00
+cpi,eurozone_eurostat,302,2026-05-01,True,ready,2026-06-15 05:37:57.003075+00:00
+growth_proxy,eurozone_eurostat,423,2026-03-01,True,ready,2026-06-15 05:37:57.003075+00:00
+policy_rate,eurozone_ecb,10028,2026-06-15,True,ready,2026-06-15 05:37:57.003075+00:00
+yield_10y,eurozone_ecb,677,2026-05-01,True,ready,2026-06-15 05:37:57.003075+00:00
+industrial_production,eurozone_eurostat,423,2026-03-01,False,ready,2026-06-15 05:37:57.003075+00:00
+core_cpi,eurozone_eurostat,289,2025-12-01,False,ready,2026-06-15 05:37:57.003075+00:00
+unrate,eurozone_eurostat,0,,False,missing,2026-06-15 05:37:57.003075+00:00
+m3,eurozone_ecb,556,2026-04-01,False,ready,2026-06-15 05:37:57.003075+00:00
+equity_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-06-15 05:37:57.003075+00:00
+shiller_pe_proxy,siblis_market,49,2025-12-01,False,ready,2026-06-15 05:37:57.003075+00:00
+equity_pb_proxy,public_site,0,,False,missing,2026-06-15 05:37:57.003075+00:00
