@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-06-17",
+    "title": "Federal Reserve issues FOMC statement",
+    "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-06-17",
+    "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+    "body": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-05-26",
     "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "body": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm"
@@ -54,19 +68,5 @@
     "date": "2026-02-24",
     "title": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
     "body": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-02-18",
-    "title": "Minutes of the Federal Open Market Committee, January 27â28, 2026",
-    "body": "Minutes of the Federal Open Market Committee, January 27â28, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-01-28",
-    "title": "Federal Reserve issues FOMC statement",
-    "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm"
   }
 ]
