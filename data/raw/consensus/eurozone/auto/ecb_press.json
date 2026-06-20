@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-19",
+    "title": "Frank Elderson: Fireside chat",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260619_1~09441a4cbe.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-19",
+    "title": "Piero Cipollone: The foundations of national sovereignty: the role of central bank money",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260619~53145e5a0b.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-19",
+    "title": "ECB publishes consolidated banking data for end-December 2025",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-06-18",
     "title": "Piero Cipollone: Digital euro: the future of money",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260618~da08e71469.en.pdf"
@@ -61,26 +82,5 @@
     "date": "2026-06-11",
     "title": "Monetary policy decisions",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-10",
-    "title": "Frank Elderson: Interview with Het Financieele Dagblad",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260610~439aa97519.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-08",
-    "title": "ECB announces main milestones for roll-out of Integrated Reporting Framework",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260608~6766ec7154.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-04",
-    "title": "Christine Lagarde: Women and leadership: widening the pipeline",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260604~f5d373b29f.en.html"
   }
 ]
