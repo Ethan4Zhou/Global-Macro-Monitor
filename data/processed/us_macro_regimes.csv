@@ -890,65 +890,65 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2021-01-01,us,0.09557253437135962,-0.8023372181648151,1.5596762842099414,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
 2021-02-01,us,0.14501920693062942,-0.7694937805259744,1.5671868700669744,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
 2021-03-01,us,0.2715437953428925,-0.5237926074032295,1.2083100206979849,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-04-01,us,0.09939258994047745,-0.008018075518703913,0.8490215994126242,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2021-05-01,us,0.20629503479545347,0.28766191801519625,0.6476109196215367,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-06-01,us,0.0914238181880277,0.4815771373912169,0.7445061867625286,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2021-07-01,us,0.4974453097084626,0.42721386003255746,0.8397262831256032,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-08-01,us,0.5665481630745871,0.35709100101691593,0.8949899005594074,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-09-01,us,1.0211897504798384,0.4037646477042099,0.7828271150040105,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-10-01,us,0.90778692024273,0.6726751072631025,0.5947846022317554,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-11-01,us,1.0733171991717985,0.8629852654029958,0.5465766337182688,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2021-12-01,us,1.0173328605066487,1.0114263376287707,0.6387166753082238,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2022-01-01,us,0.8644559173715561,1.188512743525018,0.5472727888940918,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2022-02-01,us,0.6817551265630206,1.3313389217725828,0.378477743973029,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-03-01,us,0.7008813003045392,1.4435518460185923,0.13577881165611544,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-04-01,us,0.797201031256849,1.318156251407036,-0.18085367621185308,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-05-01,us,0.8260623523591393,1.3419271047286598,-0.42834082393967454,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-06-01,us,0.7002052024896672,1.3912642126064403,-0.5826152187338409,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-07-01,us,0.7865147732032118,1.2987792520738535,-0.3473770723560109,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-08-01,us,0.650533428611614,1.3320128288927213,-0.4495441455373628,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-09-01,us,0.7269685103842438,1.391518214913865,-0.6762665829247618,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-10-01,us,0.5809395495235441,1.2498306603523868,-1.137084985702308,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-11-01,us,0.6475810325646385,1.074865287175924,-1.2286367057025074,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2022-12-01,us,0.6466156572222588,0.8943791358009892,-0.9429064140845009,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-01-01,us,0.7232031042391055,0.8512111705277996,-0.6808067044813833,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-02-01,us,0.6544892244568629,0.7790020004548577,-0.7654721701929839,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-03-01,us,0.6535035478246574,0.6139313326673341,-0.9072764177848474,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-04-01,us,0.730170962223351,0.6085283456285973,-0.9036789736574135,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-05-01,us,0.6613242619336781,0.4326985190587997,-0.8234527659854162,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2023-06-01,us,0.5826030308740346,0.1541677562815938,-0.9214529703363034,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-07-01,us,0.5717964295258393,0.16089670044386067,-1.053521496717361,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-08-01,us,0.561029221409206,0.17526863890959665,-1.1334358828757392,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-09-01,us,0.5502999258252962,0.11520185406245446,-1.116604243263155,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-10-01,us,0.3060846817050551,0.020021303254353855,-1.2112340531285604,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2023-11-01,us,0.5775324475702048,-0.0021457405215030423,-0.8684574592717654,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2023-12-01,us,0.49887584998478884,0.008778917077633806,-0.49628349087838464,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2024-01-01,us,0.722186370878138,-0.041802807385335886,-0.291375095000764,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2024-02-01,us,0.429146996248866,-0.049220708745314826,-0.4638145434665939,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2024-03-01,us,0.486805716530327,0.018461808123430977,-0.5818605329868689,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2024-04-01,us,0.3982503147047981,-0.04134564150597144,-0.6628448281394013,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2024-05-01,us,0.5341501118181098,-0.10781077096338654,-0.5654836032575288,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2024-06-01,us,0.37727632021504226,-0.18088402759000707,-0.4598379745785306,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2024-07-01,us,0.27889687778950256,-0.19280868524657896,-0.2643410312684331,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2024-08-01,us,0.24891094815020656,-0.23941707139866608,-0.0799052363105256,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-09-01,us,0.45365174894338917,-0.27103512008910874,0.008413066680895642,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-10-01,us,0.5314714136868658,-0.2412465052604702,-0.08099338691499439,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-11-01,us,0.46253541304447066,-0.21934082663651783,-0.28976791748498054,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-12-01,us,0.46207136547470906,-0.20764568304213082,-0.3720793307079374,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-01-01,us,0.5399894026030696,-0.17267668466700326,-0.3331360907023141,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-02-01,us,0.4709274530159578,-0.2346707398154815,-0.1777990543118259,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-03-01,us,0.3919927018222763,-0.3734974889511262,-0.11177245352955012,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-04-01,us,0.30320555836876106,-0.3896685377911797,-0.004368695652106042,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-05-01,us,0.3616334287397702,-0.3824657830497808,-0.15684567508608127,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-06-01,us,0.5085255447110153,-0.3003240007789742,-0.20085130553748823,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-07-01,us,0.36073879373044904,-0.2603413323922832,-0.1888575670439911,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-08-01,us,0.429137628774468,-0.21455465342545954,-0.06995140278654356,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-09-01,us,0.1927048608565899,-0.2183969408924862,0.010885771982221487,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-10-01,us,0.3202379205128493,-0.3340027785481893,0.0876212241500629,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-11-01,us,0.2312983942517168,-0.35991982260333194,0.049007807206665005,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-12-01,us,0.36886879683534757,-0.3575833727706693,-0.004963413504222941,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-01-01,us,0.44739849801865866,-0.43022730378384527,-0.06957754495052593,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-02-01,us,0.45694263633849713,-0.4304938120332491,-0.028812245967183778,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-03-01,us,0.4664748035580581,-0.25538745891956327,-0.10820655368611432,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-04-01,us,0.39704782620807005,-0.14053378487407853,-0.11774396751574225,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-05-01,us,0.4756900125179073,-0.05666361633771656,-0.24682729783784613,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-04-01,us,0.09939258994047745,-0.008018075518703913,0.8489805785531053,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2021-05-01,us,0.20629503479545347,0.28766191801519625,0.6475327569852231,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-06-01,us,0.0914238181880277,0.4815771373912169,0.7444681727064528,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2021-07-01,us,0.4974453097084626,0.42721386003255746,0.839688785804124,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-08-01,us,0.5665481630745871,0.35709100101691593,0.8949529133291168,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-09-01,us,1.0211897504798384,0.4037646477042099,0.7828284454968637,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-10-01,us,0.90778692024273,0.6726751072631025,0.594748499601243,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-11-01,us,1.0733171991717985,0.8629852654029958,0.5465041297398681,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2021-12-01,us,1.0173328605066487,1.0114263376287707,0.6386817299687404,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2022-01-01,us,0.8644559173715561,1.188512743525018,0.5472744888324788,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2022-02-01,us,0.6817551265630206,1.3313389217725828,0.37847915102245455,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-03-01,us,0.7008813003045392,1.4435518460185923,0.13581533413408786,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-04-01,us,0.797201031256849,1.318156251407036,-0.18085026999842335,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-05-01,us,0.8260623523591393,1.3419271047286598,-0.42837079066692796,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-06-01,us,0.7002052024896672,1.3912642126064403,-0.5826130963230705,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-07-01,us,0.7865147732032118,1.2987792520738535,-0.34744372924881284,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-08-01,us,0.650533428611614,1.3320128288927213,-0.44927272817574393,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-09-01,us,0.7269685103842438,1.391518214913865,-0.6762007961928151,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-10-01,us,0.5809395495235441,1.2498306603523868,-1.1370864217078436,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-11-01,us,0.6475810325646385,1.074865287175924,-1.228638769824041,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2022-12-01,us,0.6466156572222588,0.8943791358009892,-0.9429418143608027,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-01-01,us,0.7232031042391055,0.8512111705277996,-0.6808093572048739,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-02-01,us,0.6544892244568629,0.7790020004548577,-0.7655701687151966,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-03-01,us,0.6535035478246574,0.6139313326673341,-0.9073400821858456,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-04-01,us,0.730170962223351,0.6085283456285973,-0.9036817888138782,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-05-01,us,0.6613242619336781,0.4326985190587997,-0.8233956312425902,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2023-06-01,us,0.5826030308740346,0.1541677562815938,-0.9214561715465058,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-07-01,us,0.5717964295258393,0.16089670044386067,-1.0534653370130829,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-08-01,us,0.561029221409206,0.17526863890959665,-1.1337067912280665,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-09-01,us,0.5502999258252962,0.11520185406245446,-1.1167243148298795,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-10-01,us,0.3060846817050551,0.020021303254353855,-1.2111405674749416,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2023-11-01,us,0.5775324475702048,-0.0021457405215030423,-0.8683659749640064,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2023-12-01,us,0.49887584998478884,0.008778917077633806,-0.4962230963330728,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-01-01,us,0.722186370878138,-0.041802807385335886,-0.2914370567351722,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2024-02-01,us,0.429146996248866,-0.049220708745314826,-0.4639389372052849,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2024-03-01,us,0.486805716530327,0.018461808123430977,-0.5819844971221816,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2024-04-01,us,0.3982503147047981,-0.04134564150597144,-0.6628429102799652,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2024-05-01,us,0.5341501118181098,-0.10781077096338654,-0.5654817036763755,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2024-06-01,us,0.37727632021504226,-0.18088402759000707,-0.4598045709120596,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2024-07-01,us,0.27889687778950256,-0.19280868524657896,-0.26430773499882243,goldilocks,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2024-08-01,us,0.24891094815020656,-0.23941707139866608,-0.0798713183242668,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-09-01,us,0.45365174894338917,-0.27103512008910874,0.008478735959211225,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-10-01,us,0.5314714136868658,-0.2412465052604702,-0.0810574723837845,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-11-01,us,0.46253541304447066,-0.21934082663651783,-0.2897995701530923,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-12-01,us,0.46207136547470906,-0.20764568304213082,-0.3721097928947579,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-01-01,us,0.5399894026030696,-0.17267668466700326,-0.3330700597018144,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-02-01,us,0.4709274530159578,-0.2346707398154815,-0.17760325721335898,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-03-01,us,0.3919927018222763,-0.3734974889511262,-0.11164175582066088,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-04-01,us,0.30320555836876106,-0.3896685377911797,-0.0043047842683858195,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-05-01,us,0.3616334287397702,-0.3824657830497808,-0.15684440651554704,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-06-01,us,0.5085255447110153,-0.3003240007789742,-0.200882346415654,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-07-01,us,0.36073879373044904,-0.2603413323922832,-0.18873308801379937,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-08-01,us,0.429137628774468,-0.21455465342545954,-0.06985730163057328,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-09-01,us,0.1927048608565899,-0.2183969408924862,0.010916350880364106,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-10-01,us,0.3202379205128493,-0.3340027785481893,0.08762089959832461,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-11-01,us,0.2312983942517168,-0.35991982260333194,0.04897684719764614,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-12-01,us,0.36886879683534757,-0.3575833727706693,-0.004962461886352437,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-01-01,us,0.44739849801865866,-0.43022730378384527,-0.0695778255855054,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-02-01,us,0.45694263633849713,-0.4304938120332491,-0.028811054965965602,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-03-01,us,0.4664748035580581,-0.25538745891956327,-0.10823572591244432,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-04-01,us,0.39704782620807005,-0.14053378487407853,-0.11777579521002475,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-05-01,us,0.4756900125179073,-0.05666361633771656,-0.172081757074704,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
