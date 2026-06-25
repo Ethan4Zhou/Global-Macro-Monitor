@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-24",
+    "title": "ECB reports on progress towards euro adoption",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-24",
+    "title": "Iceland joins TIPS for instant payments",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624_1~ce8e85127f.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-06-23",
     "title": "Boris Vujčić: Outlook for the euro area economy and monetary policy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260623_1~e421434341.en.pdf"
@@ -68,19 +82,5 @@
     "date": "2026-06-15",
     "title": "Carbon emissions of ECB and Eurosystem portfolios continue to decline",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260615~92388776dd.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-15",
-    "title": "Christine Lagarde: Money in transition",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260615~35e6c6c4de.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-12",
-    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-    "body": "Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260612~12de4776f6.en.html"
   }
 ]
