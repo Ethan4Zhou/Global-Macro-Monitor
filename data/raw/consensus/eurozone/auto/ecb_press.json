@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-06-25",
+    "title": "Piero Cipollone: Central bank money for the digital era",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-25",
+    "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-06-25",
+    "title": "Isabel Schnabel: Interview with Die Zeit",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260626~c18c7252f3.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-06-24",
     "title": "ECB reports on progress towards euro adoption",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html"
@@ -61,26 +82,5 @@
     "date": "2026-06-18",
     "title": "Piero Cipollone: Digital euro: the future of money",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260618~da08e71469.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-17",
-    "title": "New data release: ECB wage tracker points to stable negotiated wage pressures in 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260617~79dfc49802.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-16",
-    "title": "Philip R. Lane: Outlook for the euro area economy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260616~8076dabd2c.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-15",
-    "title": "Carbon emissions of ECB and Eurosystem portfolios continue to decline",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260615~92388776dd.en.html"
   }
 ]
