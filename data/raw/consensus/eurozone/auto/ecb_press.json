@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-07-06",
+    "title": "Philip R. Lane: AI and monetary policy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260706~b81aa4e329.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-07-02",
     "title": "Christine Lagarde: Interview with Les Échos",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260702~c56db179c3.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-06-25",
     "title": "Isabel Schnabel: Interview with Die Zeit",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260626~c18c7252f3.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-24",
-    "title": "ECB reports on progress towards euro adoption",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html"
   }
 ]
