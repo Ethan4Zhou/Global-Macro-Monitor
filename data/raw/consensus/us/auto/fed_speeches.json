@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-07-07",
+    "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
+    "body": "Speech At the Financial Stability Board Virtual Outreach Event\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-06",
     "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
     "body": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-05-14",
     "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
     "body": "Speech At the Money Marketeers of New York University, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-14",
-    "title": "Bowman, Opening Remarks",
-    "body": "Speech At the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference: Powering Progress, Protecting Trust, Kansas City, Missouri (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260514a.htm"
   }
 ]
