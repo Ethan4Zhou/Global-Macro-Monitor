@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-07-13",
+    "title": "Waller, Monetary Policy at a Crossroads",
+    "body": "Speech At the New York Association for Business Economics, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-07-13",
+    "title": "Bowman, Modernizing Financial Regulation",
+    "body": "Speech At a Bank Policy Institute London Conference, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-07",
     "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
     "body": "Speech At the Financial Stability Board Virtual Outreach Event\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-05-22",
     "title": "Waller, Policy Risks Have Changed",
     "body": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-20",
-    "title": "Barr, Measuring Financial Health",
-    "body": "Speech At EMERGE Financial Health 2026 Scaling Progress, Shaping the Future, Atlanta, Georgia\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260520a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-14",
-    "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-    "body": "Speech At the Money Marketeers of New York University, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm"
   }
 ]

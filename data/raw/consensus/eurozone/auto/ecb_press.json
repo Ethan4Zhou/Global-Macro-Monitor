@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-07-13",
+    "title": "Piero Cipollone: Interview with Jornal de Negocios",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260713~d928475792.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-07-13",
+    "title": "Isabel Schnabel: How to foster growth and resilience in Europe",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260713~e78632b27a.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-07-09",
     "title": "Meeting of 10-11 June 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260709~0e7f8241c9.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-06-26",
     "title": "ECB Consumer Expectations Survey results – May 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-25",
-    "title": "Piero Cipollone: Central bank money for the digital era",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-06-25",
-    "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
   }
 ]
