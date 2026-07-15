@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-07-14",
+    "title": "Bowman, Responsible Innovation and Financial Inclusion",
+    "body": "Speech At âNext-Gen Financial Inclusion,â the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-07-14",
+    "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+    "body": "Speech At âNext-Gen Financial Inclusion,â the third annual Financial Inclusion Conference hosted by the Federal Reserve Board\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-13",
     "title": "Waller, Monetary Policy at a Crossroads",
     "body": "Speech At the New York Association for Business Economics, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-05-28",
     "title": "Jefferson, Global Economic Developments and the U.S. Economy",
     "body": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-27",
-    "title": "Cook, The Opportunities and Risks AI Presents for the Economy and Financial System",
-    "body": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-22",
-    "title": "Waller, Policy Risks Have Changed",
-    "body": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm"
   }
 ]

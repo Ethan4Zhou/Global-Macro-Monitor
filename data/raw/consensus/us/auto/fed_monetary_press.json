@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-07-14",
+    "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+    "body": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-09",
     "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "body": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
@@ -61,12 +68,5 @@
     "date": "2026-04-08",
     "title": "Minutes of the Federal Open Market Committee, March 17â18, 2026",
     "body": "Minutes of the Federal Open Market Committee, March 17â18, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-03-18",
-    "title": "Federal Reserve issues FOMC statement",
-    "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
   }
 ]
