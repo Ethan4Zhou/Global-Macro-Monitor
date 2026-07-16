@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-07-15",
+    "title": "Cook, Economic Outlook",
+    "body": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-14",
     "title": "Bowman, Responsible Innovation and Financial Inclusion",
     "body": "Speech At âNext-Gen Financial Inclusion,â the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-05-29",
     "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
     "body": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-05-28",
-    "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-    "body": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm"
   }
 ]
