@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-07-23",
+    "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-07-23",
+    "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+    "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-07-23",
+    "title": "Monetary policy decisions",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-07-21",
     "title": "ECB appoints Boris Kisselevsky as Director General Secretariat",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721_1~8c6ba4c5fb.en.html"
@@ -61,26 +82,5 @@
     "date": "2026-07-09",
     "title": "Meeting of 10-11 June 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260709~0e7f8241c9.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-07-06",
-    "title": "Philip R. Lane: AI and monetary policy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260706~b81aa4e329.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-07-02",
-    "title": "Christine Lagarde: Interview with Les Échos",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260702~c56db179c3.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-07-02",
-    "title": "Piero Cipollone: The digital transformation of money, payments and finance",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260702_1~c58dcd8150.en.pdf"
   }
 ]
