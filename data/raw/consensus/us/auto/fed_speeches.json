@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-08-05",
+    "title": "Cook, Outlook for the U.S. and Alaskan Economies",
+    "body": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-16",
     "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymakerâs Perspective",
     "body": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-06-06",
     "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
     "body": "Speech At American University, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-06-01",
-    "title": "Powell, Acceptance Remarks",
-    "body": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm"
   }
 ]
