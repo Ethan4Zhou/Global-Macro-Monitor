@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-08-07",
+    "title": "ECB publishes consolidated banking data for end-March 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-07-30",
     "title": "Digital euro app to incorporate highest accessibility standards",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-07-23",
     "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
     "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-07-23",
-    "title": "Monetary policy decisions",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
   }
 ]
