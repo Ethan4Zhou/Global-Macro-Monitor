@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-08-19",
+    "title": "Minutes of the Federal Open Market Committee, July 28â29, 2026",
+    "body": "Minutes of the Federal Open Market Committee, July 28â29, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-07-29",
     "title": "Federal Reserve issues FOMC statement",
     "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
@@ -61,12 +68,5 @@
     "date": "2026-04-29",
     "title": "Federal Reserve issues FOMC statement",
     "body": "Federal Reserve issues FOMC statement\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-04-14",
-    "title": "Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026",
-    "body": "Minutes of the Boardâs discount rate meetings on February 9 and March 18, 2026\n\nSource URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm"
   }
 ]

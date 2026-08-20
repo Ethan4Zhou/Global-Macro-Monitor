@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-08-19",
+    "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-08-17",
     "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf"
@@ -75,12 +82,5 @@
     "date": "2026-07-24",
     "title": "ECB to start implementing enhanced repo facility for central banks",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-07-24",
-    "title": "Results of the ECB Survey of Professional Forecasters for the third quarter of 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.html"
   }
 ]

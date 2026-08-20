@@ -671,11 +671,11 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2025-10-01,eurozone,0.46310834254260785,-0.07026432257889542,-0.3992722601888699,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-11-01,eurozone,0.5974210746524168,-0.08284751801136951,-0.3961413500313083,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2025-12-01,eurozone,0.601816683803078,-0.11307053593340138,-0.4674076347462527,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-01-01,eurozone,0.4783483920034729,-0.11730564530591805,-0.46849502179341895,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-02-01,eurozone,0.371749294194479,-0.0951468228983961,-0.4215266284723558,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-03-01,eurozone,0.35175508954507795,-0.061246545343131405,-0.462471637094789,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2026-04-01,eurozone,0.5151290283319812,-0.03219791311134518,-0.5449229440281412,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2026-05-01,eurozone,0.5022430673907,0.015850935635897588,-0.597266902323567,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2026-06-01,eurozone,0.3403493406052081,0.04990619286827796,-0.5731318941942345,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2026-07-01,eurozone,0.31561009006491514,0.04982040199311063,-0.6189798047662314,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2026-08-01,eurozone,0.14345333949237246,0.04973505203676917,-0.6041104033419121,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-01-01,eurozone,0.4783483920034729,-0.11730564530591805,-0.46849285491642645,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-02-01,eurozone,0.371749294194479,-0.0951468228983961,-0.4215269329558546,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-03-01,eurozone,0.35175508954507795,-0.061246545343131405,-0.4624763411165139,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2026-04-01,eurozone,0.5151290283319812,-0.03219791311134518,-0.544923179735269,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2026-05-01,eurozone,0.5022430673907,0.015850935635897588,-0.5972628598581159,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-06-01,eurozone,0.3403493406052081,0.04990619286827796,-0.5731268861464691,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-07-01,eurozone,0.31561009006491514,0.04982040199311063,-0.6189817473854106,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-08-01,eurozone,0.14345333949237246,0.04973505203676917,-0.6041141573023304,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
