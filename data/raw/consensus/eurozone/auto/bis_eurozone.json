@@ -2,6 +2,13 @@
   {
     "source_name": "BIS",
     "source_type": "institution",
+    "date": "2026-09-01",
+    "title": "The everyday work of inclusion",
+    "body": "Speech by Mr Olaf Sleijpen, President of De Nederlandsche Bank, at Workplace Pride, Amsterdam, 7 August 2026.\n\nSource URL: https://www.bis.org/speeches/20260901-everyday-work-inclusion"
+  },
+  {
+    "source_name": "BIS",
+    "source_type": "institution",
     "date": "2026-08-17",
     "title": "Opportunities and risks for CCPs and their overseers in a changing environment",
     "body": "Keynote speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the CCP Global Annual Meeting 2026, Amsterdam, 23 June 2026.\n\nSource URL: https://www.bis.org/speeches/20260817-opportunities-and-risks-ccps-and-their-overseers-changing-environment"
@@ -33,12 +40,5 @@
     "date": "2026-07-30",
     "title": "Agents of change",
     "body": "Speech by Ms Sarah Breeden, Deputy Governor for Financial Stability of the Bank of England, at the ECB Forum on Central Banking 2026 \"Shaping Europe's future: innovation, growth and stability\", Sintra, 29 June 2026.\n\nSource URL: https://www.bis.org/speeches/20260730-agents-change"
-  },
-  {
-    "source_name": "BIS",
-    "source_type": "institution",
-    "date": "2026-06-30",
-    "title": "The digital euro - promoting innovation, safeguarding sovereignty, strengthening Europe",
-    "body": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the International Bankers Forum, Frankfurt am Main, 24 June 2026.\n\nSource URL: https://www.bis.org/speeches/20260630-digital-euro-promoting-innovation-safeguarding-sovereignty-strengthening-europe"
   }
 ]

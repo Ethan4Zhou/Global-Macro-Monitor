@@ -678,5 +678,5 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2026-05-01,eurozone,0.5022430673907,0.015850935635897588,-0.5971661699073297,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
 2026-06-01,eurozone,0.3403493406052081,0.04990619286827796,-0.5711976094813842,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
 2026-07-01,eurozone,0.31561009006491514,0.04982040199311063,-0.6175314225874577,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2026-08-01,eurozone,0.14345333949237246,0.04973505203676917,-0.6665965269272851,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2026-09-01,eurozone,0.16099860828842283,0.03731817775041333,-0.5694269280297648,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-08-01,eurozone,0.14345333949237246,0.07257953495699203,-0.6665568334583778,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2026-09-01,eurozone,0.16099860828842283,0.052105474545233774,-0.5693873105502825,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight

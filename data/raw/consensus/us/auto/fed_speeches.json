@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-01",
+    "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+    "body": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-08-28",
     "title": "Warsh, In Our Time",
     "body": "Speech At âFinancial Innovation: Implications for Payments and Policy,â an economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-06-24",
     "title": "Cook, Welcome Remarks",
     "body": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-06-22",
-    "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
-    "body": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm"
   }
 ]
