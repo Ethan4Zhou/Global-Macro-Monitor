@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-03",
+    "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+    "body": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-01",
     "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
     "body": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-07-06",
     "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
     "body": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-06-24",
-    "title": "Cook, Welcome Remarks",
-    "body": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm"
   }
 ]
