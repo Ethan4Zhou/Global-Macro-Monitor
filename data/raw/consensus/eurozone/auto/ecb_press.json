@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-09-11",
+    "title": "Philip R. Lane: Outlook for the euro area economy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260911~a4d6526f00.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-09-10",
     "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
     "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-08-21",
     "title": "ECB Consumer Expectations Survey results – July 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-19",
-    "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html"
   }
 ]
