@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-09-12",
+    "title": "Christine Lagarde: Interview with Ouest-France",
+    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-12",
+    "title": "Christine Lagarde: Europe seen from Normandy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-09-11",
     "title": "Philip R. Lane: Outlook for the euro area economy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260911~a4d6526f00.en.pdf"
@@ -68,19 +82,5 @@
     "date": "2026-08-26",
     "title": "Piero Cipollone: From vision to delivery: building Europe’s tokenised financial market",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-24",
-    "title": "Piero Cipollone: Interview with ilsussidiario.net",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-21",
-    "title": "ECB Consumer Expectations Survey results – July 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html"
   }
 ]
