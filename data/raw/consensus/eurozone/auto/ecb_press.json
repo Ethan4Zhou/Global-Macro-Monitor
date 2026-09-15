@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-09-14",
+    "title": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-14",
+    "title": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-14",
+    "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-09-12",
     "title": "Christine Lagarde: Interview with Ouest-France",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html"
@@ -61,26 +82,5 @@
     "date": "2026-09-01",
     "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-28",
-    "title": "Isabel Schnabel: Central banks on-chain",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-27",
-    "title": "Meeting of 22-23 July 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-08-26",
-    "title": "Piero Cipollone: From vision to delivery: building Europe’s tokenised financial market",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html"
   }
 ]
