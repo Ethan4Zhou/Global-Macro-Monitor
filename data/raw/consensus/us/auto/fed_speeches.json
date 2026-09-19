@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-18",
+    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-09-18",
+    "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-03",
     "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
     "body": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-07-13",
     "title": "Bowman, Modernizing Financial Regulation",
     "body": "Speech At a Bank Policy Institute London Conference, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-07",
-    "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
-    "body": "Speech At the Financial Stability Board Virtual Outreach Event\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-06",
-    "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
-    "body": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm"
   }
 ]
