@@ -2,9 +2,9 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
-    "date": "2026-09-18",
-    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
-    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
+    "date": "2026-09-22",
+    "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
+    "body": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm"
   },
   {
     "source_name": "Federal Reserve",
@@ -12,6 +12,13 @@
     "date": "2026-09-18",
     "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
     "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-09-18",
+    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
   },
   {
     "source_name": "Federal Reserve",
@@ -75,12 +82,5 @@
     "date": "2026-07-13",
     "title": "Waller, Monetary Policy at a Crossroads",
     "body": "Speech At the New York Association for Business Economics, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-13",
-    "title": "Bowman, Modernizing Financial Regulation",
-    "body": "Speech At a Bank Policy Institute London Conference, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm"
   }
 ]
