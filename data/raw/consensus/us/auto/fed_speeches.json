@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-23",
+    "title": "Barr, A Long-Term View on the Costs of Shelter",
+    "body": "Speech At âHousing Affordability 2026: A Community Development Summit,â hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-22",
     "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
     "body": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-07-14",
     "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
     "body": "Speech At âNext-Gen Financial Inclusion,â the third annual Financial Inclusion Conference hosted by the Federal Reserve Board\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-13",
-    "title": "Waller, Monetary Policy at a Crossroads",
-    "body": "Speech At the New York Association for Business Economics, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm"
   }
 ]

@@ -2,6 +2,27 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-09-23",
+    "title": "Philip R. Lane: The Outlook for the Euro Area Economy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-23",
+    "title": "The digitalisation of money, payments and finance",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-23",
+    "title": "Almost ten million people took part in ECB survey on new euro banknotes",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-09-22",
     "title": "Philip R. Lane: Interview with Le Temps",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html"
@@ -61,26 +82,5 @@
     "date": "2026-09-14",
     "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-12",
-    "title": "Christine Lagarde: Interview with Ouest-France",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-12",
-    "title": "Christine Lagarde: Europe seen from Normandy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-11",
-    "title": "Philip R. Lane: Outlook for the euro area economy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260911~a4d6526f00.en.pdf"
   }
 ]
