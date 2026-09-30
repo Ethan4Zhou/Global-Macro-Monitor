@@ -2,6 +2,13 @@
   {
     "source_name": "BIS",
     "source_type": "institution",
+    "date": "2026-09-29",
+    "title": "An update on AI and the economy",
+    "body": "Opening keynote by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the Oakland Tech Week, cohosted by the Kapor Center, Oakland, California, 28 September 2026.\n\nSource URL: https://www.bis.org/speeches/20260929-update-ai-and-economy"
+  },
+  {
+    "source_name": "BIS",
+    "source_type": "institution",
     "date": "2026-09-28",
     "title": "Discount window modernization and treasury market functioning",
     "body": "Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the 2026 US Treasury Market Conference, organised by the Federal Reserve Bank of New York, New York City, 22 September 2026.\n\nSource URL: https://www.bis.org/speeches/20260928-discount-window-modernization-and-treasury-market-functioning"
@@ -12,19 +19,5 @@
     "date": "2026-09-16",
     "title": "The economic outlook and some comments on my policy communication",
     "body": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at Reuters NEXT Newsmaker Interview, Washington DC, 3 September 2026.\n\nSource URL: https://www.bis.org/speeches/20260916-economic-outlook-and-some-comments-my-policy-communication"
-  },
-  {
-    "source_name": "BIS",
-    "source_type": "institution",
-    "date": "2026-09-15",
-    "title": "Central banks on-chain",
-    "body": "Speech by Ms Isabel Schnabel, Member of the Executive Board of the European Central Bank, at \"Financial innovation: implications for payments and policy”, an economic symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming, 28 August 2026.\n\nSource URL: https://www.bis.org/speeches/20260915-central-banks-on-chain"
-  },
-  {
-    "source_name": "BIS",
-    "source_type": "institution",
-    "date": "2026-09-15",
-    "title": "In our time",
-    "body": "Speech by Mr Kevin Warsh, Chair of the Board of Governors of the Federal Reserve System, at \"Financial innovation: implications for payments and policy”, an economic symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming, 28 August 2026.\n\nSource URL: https://www.bis.org/speeches/20260915-our-time"
   }
 ]

@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-09-30",
+    "title": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-09-29",
+    "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-09-28",
     "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-09-18",
     "title": "ECB Consumer Expectations Survey results – August 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-18",
-    "title": "Boris Vujčić: Interview with Reuters",
-    "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-16",
-    "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html"
   }
 ]

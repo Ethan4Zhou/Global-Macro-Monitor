@@ -2,6 +2,27 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-29",
+    "title": "Waller, Payments in the Age of AI Agents",
+    "body": "Speech At Sibos 2026, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-09-29",
+    "title": "Barr, Economic Conditions and Monetary Policy",
+    "body": "Speech At the Detroit Economic Club, Detroit, Michigan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-09-29",
+    "title": "Bowman, Opening Remarks",
+    "body": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-28",
     "title": "Cook, An Update on AI and the Economy",
     "body": "Speech At the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
@@ -61,26 +82,5 @@
     "date": "2026-08-05",
     "title": "Cook, Outlook for the U.S. and Alaskan Economies",
     "body": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-16",
-    "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymakerâs Perspective",
-    "body": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-15",
-    "title": "Cook, Economic Outlook",
-    "body": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-07-14",
-    "title": "Bowman, Responsible Innovation and Financial Inclusion",
-    "body": "Speech At âNext-Gen Financial Inclusion,â the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm"
   }
 ]
