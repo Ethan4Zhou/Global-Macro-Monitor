@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-09-30",
+    "title": "Cook, The Dual Mandate in Rural America",
+    "body": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-29",
     "title": "Waller, Payments in the Age of AI Agents",
     "body": "Speech At Sibos 2026, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-08-28",
     "title": "Warsh, In Our Time",
     "body": "Speech At âFinancial Innovation: Implications for Payments and Policy,â an economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-08-05",
-    "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-    "body": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
   }
 ]
