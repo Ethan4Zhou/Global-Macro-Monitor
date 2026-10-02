@@ -2,6 +2,27 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-10-01",
+    "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+    "body": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-10-01",
+    "title": "Jefferson, The U.S. Economy and Monetary Policy",
+    "body": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-10-01",
+    "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+    "body": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-09-30",
     "title": "Cook, The Dual Mandate in Rural America",
     "body": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
@@ -52,35 +73,14 @@
     "source_name": "Federal Reserve",
     "source_type": "official",
     "date": "2026-09-18",
-    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
-    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-18",
     "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
     "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
   },
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
-    "date": "2026-09-03",
-    "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
-    "body": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-01",
-    "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-    "body": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-08-28",
-    "title": "Warsh, In Our Time",
-    "body": "Speech At âFinancial Innovation: Implications for Payments and Policy,â an economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    "date": "2026-09-18",
+    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
   }
 ]
