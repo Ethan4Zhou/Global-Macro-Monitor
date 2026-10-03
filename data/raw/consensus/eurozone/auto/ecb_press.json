@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-10-02",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "body": "Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-10-02",
+    "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-10-01",
     "title": "Isabel Schnabel: Central banks on-chain",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf"
@@ -68,19 +82,5 @@
     "date": "2026-09-23",
     "title": "Philip R. Lane: The Outlook for the Euro Area Economy",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-23",
-    "title": "The digitalisation of money, payments and finance",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-09-23",
-    "title": "Almost ten million people took part in ECB survey on new euro banknotes",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
   }
 ]
