@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-10-06",
+    "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
+    "body": "Speech At the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St. Louis, Missouri\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-10-01",
     "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
     "body": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-09-18",
     "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
     "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-18",
-    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
-    "body": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
   }
 ]
