@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-10-15",
+    "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+    "body": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-10-08",
     "title": "Waller, The Signaling Value of the Summary of Economic Projections",
     "body": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of Türkiye, Istanbul, Türkiye\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-09-23",
     "title": "Barr, A Long-Term View on the Costs of Shelter",
     "body": "Speech At âHousing Affordability 2026: A Community Development Summit,â hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-22",
-    "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
-    "body": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm"
   }
 ]
