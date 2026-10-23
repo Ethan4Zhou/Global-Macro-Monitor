@@ -640,260 +640,260 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2005-02-01,china,,0.04349298285553804,-0.9533627466044732,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2005-03-01,china,,-0.15470638375829115,-0.9489104388546483,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
 2005-04-01,china,,-0.2899277528805234,-0.936003605421403,unknown,unknown,unknown,Growth or inflation score is unavailable.,tight
-2005-05-01,china,-0.462910049886274,-0.30070631250439106,-0.8866276771581314,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2005-06-01,china,-1.4734724451713745,-0.32566489875658544,-0.7557075634570525,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-05-01,china,-0.46291004988627177,-0.30070631250439106,-0.8866276771581314,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-06-01,china,-1.473472445171374,-0.32566489875658544,-0.7557075634570525,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2005-07-01,china,-1.2627523560142708,-0.2938459855598307,-0.6747580504930106,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2005-08-01,china,-0.3256650963501775,-0.3788113270155384,-0.5437412385837614,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2005-09-01,china,0.3587323463726189,-0.43847307355277254,-0.4699801705373896,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-10-01,china,0.4866921367957535,-0.3843539869746621,-0.4595914600750768,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-11-01,china,0.39669709321266733,-0.3697845512243866,-0.41943856786161793,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2005-12-01,china,-0.01606258334417802,-0.32990746481895794,-0.5088354154714575,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2006-01-01,china,-0.39671376618656656,-0.27737621474931784,-0.3022909929070602,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-02-01,china,-0.5882155536923976,-0.44033100531345293,-0.35015249980128355,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-03-01,china,0.02102907261792858,-0.44943811254816085,-0.3565389517606748,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2006-04-01,china,1.357415063682696,-0.3839936997429036,-0.33524342854344524,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-05-01,china,1.0880885933744697,-0.3566728715769955,-0.3177683615968578,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-06-01,china,0.32676487629010553,-0.33571651328652397,-0.39518515367330914,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-07-01,china,-0.9345493819409392,-0.4117238560736691,-0.3976888484618276,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-08-01,china,-0.5276573924948477,-0.3652360418968905,-0.4548237471237609,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2006-09-01,china,0.4936586687058518,-0.33468204563577414,-0.5944988157424497,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-08-01,china,-0.32566509635017615,-0.3788113270155384,-0.5437412385837614,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2005-09-01,china,0.35873234637261864,-0.43847307355277254,-0.4699801705373896,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-10-01,china,0.48669213679575346,-0.3843539869746621,-0.4595914600750768,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-11-01,china,0.39669709321266744,-0.3697845512243866,-0.41943856786161793,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2005-12-01,china,-0.016062583344175627,-0.32990746481895794,-0.5088354154714575,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2006-01-01,china,-0.39671376618656673,-0.27737621474931784,-0.3022909929070602,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-02-01,china,-0.5882155536923979,-0.44033100531345293,-0.35015249980128355,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-03-01,china,0.02102907261793091,-0.44943811254816085,-0.3565389517606748,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2006-04-01,china,1.357415063682699,-0.3839936997429036,-0.33524342854344524,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-05-01,china,1.0880885933744675,-0.3566728715769955,-0.3177683615968578,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-06-01,china,0.3267648762901081,-0.33571651328652397,-0.39518515367330914,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-07-01,china,-0.9345493819409388,-0.4117238560736691,-0.3976888484618276,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-08-01,china,-0.5276573924948502,-0.3652360418968905,-0.4548237471237609,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2006-09-01,china,0.49365866870584907,-0.33468204563577414,-0.5944988157424497,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2006-10-01,china,0.6643032170306815,-0.35032601957200693,-0.5604019758225156,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2006-11-01,china,0.8851860638758418,-0.27512056296881127,-0.5940973370287909,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2006-11-01,china,0.885186063875844,-0.27512056296881127,-0.5940973370287909,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2006-12-01,china,-0.07203213176816903,-0.12655256675018686,-0.573974993508065,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
-2007-01-01,china,0.37734272799892926,-0.22862011675404176,-0.7191129522685812,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2007-01-01,china,0.37734272799892915,-0.22862011675404176,-0.7191129522685812,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2007-02-01,china,-0.31769320424550407,-0.14217579336937844,-0.4608680459575171,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2007-03-01,china,0.4153868119404688,-0.05093869468238278,-0.5249709762041729,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2007-04-01,china,1.1934680061936762,-0.09089916715592129,-0.5463594700779577,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2007-05-01,china,1.3017283886111333,-0.033188741214117384,-0.5896346581817944,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2007-06-01,china,0.37531924434266656,0.12226507223991699,-0.5461264573966383,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
+2007-03-01,china,0.41538681194046867,-0.05093869468238278,-0.5249709762041729,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-04-01,china,1.193468006193676,-0.09089916715592129,-0.5463594700779577,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-05-01,china,1.3017283886111355,-0.033188741214117384,-0.5896346581817944,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2007-06-01,china,0.3753192443426661,0.12226507223991699,-0.5461264573966383,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,tight
 2007-07-01,china,-0.8495085237432431,0.32419660380570453,-0.3600814059583117,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-08-01,china,-0.4759096076150485,0.4682947018892594,-0.40972600638729695,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-09-01,china,0.2660666266227669,0.4229324093752142,-0.36154185440100095,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-10-01,china,-0.028097871831464435,0.464313055165667,-0.3578575124938235,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2007-11-01,china,0.4046484312972898,0.5345837728873735,-0.35942478335257216,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2007-12-01,china,-0.07753546925733185,0.4649521338640209,-0.5879145110044898,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2008-01-01,china,-0.001506537954323161,0.5594256738289588,-0.29938305385895375,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
-2008-02-01,china,-0.5860099248041103,0.8162270295801676,-0.4948888816516973,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2008-03-01,china,0.7337829076363598,0.7508884097534028,-0.6515490287217702,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-04-01,china,2.016543793261395,0.7822002704002922,-0.5501743630007034,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-05-01,china,0.8890218924564955,0.65249747205256,-0.39875273057433014,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-08-01,china,-0.4759096076150483,0.4682947018892594,-0.40972600638729695,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-09-01,china,0.266066626622767,0.4229324093752142,-0.36154185440100095,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-10-01,china,-0.028097871831464404,0.464313055165667,-0.3578575124938235,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2007-11-01,china,0.40464843129728967,0.5345837728873735,-0.35942478335257216,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2007-12-01,china,-0.07753546925733186,0.4649521338640209,-0.5879145110044898,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2008-01-01,china,-0.0015065379543231748,0.5594256738289588,-0.29938305385895375,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,neutral
+2008-02-01,china,-0.5860099248041101,0.8162270295801676,-0.4948888816516973,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-03-01,china,0.7337829076363565,0.7508884097534028,-0.6515490287217702,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-04-01,china,2.0165437932613948,0.7822002704002922,-0.5501743630007034,reflation,reflation,high,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-05-01,china,0.8890218924564951,0.65249747205256,-0.39875273057433014,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2008-06-01,china,-0.9559604185868985,0.5551591733199718,-0.49048980187883806,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2008-07-01,china,-2.758199374295419,0.42565291869944116,-0.6244806458596625,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-08-01,china,-2.2320472922176937,0.19937621288144955,-0.6688565036392469,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2008-09-01,china,-1.5300666474886204,0.15077362346465703,-0.7609267252013593,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2008-10-01,china,-2.073411706954579,0.053685785114984806,-0.7939073118122679,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2008-11-01,china,-3.155676910948597,-0.20514256393075495,-0.8200381579598001,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2008-12-01,china,-3.2380348198528237,-0.39917908671047736,-0.4133942224636404,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2008-08-01,china,-2.232047292217695,0.19937621288144955,-0.6688565036392469,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-09-01,china,-1.5300666474886195,0.15077362346465703,-0.7609267252013593,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-10-01,china,-2.0734117069545785,0.053685785114984806,-0.7939073118122679,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2008-11-01,china,-3.1556769109485985,-0.20514256393075495,-0.8200381579598001,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2008-12-01,china,-3.238034819852823,-0.39917908671047736,-0.4133942224636404,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2009-01-01,china,-1.519808451271833,-0.4312215443855974,-0.28215785082446393,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2009-02-01,china,0.1729991222988363,-0.8518039506024558,-0.054160906637992126,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2009-02-01,china,0.17299912229883652,-0.8518039506024558,-0.054160906637992126,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2009-03-01,china,0.7119506821741985,-0.785995409756832,0.6235884923767865,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-04-01,china,0.7131858954420849,-0.8336437206759048,0.680749313109754,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-05-01,china,0.44636892626872854,-0.8164271897703467,0.6500748853955405,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-06-01,china,0.11973750123326911,-0.864031267048414,1.0143114714945047,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2009-07-01,china,-0.0010451486386190154,-0.8791386028138221,1.0040934796855794,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
+2009-04-01,china,0.7131858954420839,-0.8336437206759048,0.680749313109754,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-05-01,china,0.44636892626872743,-0.8164271897703467,0.6500748853955405,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-06-01,china,0.1197375012332691,-0.864031267048414,1.0143114714945047,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2009-07-01,china,-0.0010451486386200476,-0.8791386028138221,1.0040934796855794,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
 2009-08-01,china,0.16447218410439451,-0.7808002873754744,1.014156671431292,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2009-09-01,china,0.2386153149533746,-0.7150488780941086,1.1141149710595193,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-10-01,china,0.41932786674912687,-0.6656109618189894,1.1230791684526786,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-09-01,china,0.23861531495337462,-0.7150488780941086,1.1141149710595193,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2009-10-01,china,0.4193278667491268,-0.6656109618189894,1.1230791684526786,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2009-11-01,china,0.39426863629948433,-0.4863719920948445,1.160096593530255,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2009-12-01,china,0.6292366800676438,-0.27472723793712756,0.8775381757731092,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2010-01-01,china,0.45494908401355133,-0.33955499379931303,0.6451044709480759,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2010-02-01,china,-0.15136834246766237,-0.14402775385389482,0.5809148594947879,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
-2010-03-01,china,-0.026293256330304743,-0.19277453038392764,0.17017546906980893,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-04-01,china,0.1341539522926054,-0.12745083771589463,0.03120601873599525,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2010-05-01,china,0.46772460666846405,-0.078436795331195,-0.03422879641799209,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2010-06-01,china,-0.27653182483019867,-0.11101841792211788,-0.3752451448120455,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-07-01,china,-0.6836747593398568,-0.045616696066829665,-0.49720572374858923,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-08-01,china,-0.5157083515521614,-0.012899735436278755,-0.2768816670319867,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-09-01,china,0.04923816862446226,0.0034633183866949334,-0.30365914929451693,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-10-01,china,0.4505344209053056,0.13438335358592682,-0.2616870882474867,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2010-11-01,china,0.6310779478918818,0.24891593931642525,-0.23351910324052735,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2010-12-01,china,0.21628982762013563,0.1667980861074378,-0.2053666585175745,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2011-01-01,china,-0.11597818569416882,0.21587066089908782,-0.5505704241538427,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
-2011-02-01,china,-0.42541987009254956,0.21571173076487876,-0.7563612985427872,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-03-01,china,-0.13922069462965855,0.2976472803657428,-0.6293170142886441,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-04-01,china,-0.07569732564530601,0.28099123443284496,-0.8074359034604878,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-05-01,china,-0.11145663649926488,0.3136573552397494,-0.8322755935503244,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-06-01,china,-0.5409776269393188,0.46144349968636683,-0.7184088020001583,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-07-01,china,-0.6209749391724937,0.477506781284411,-0.882542991794713,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-08-01,china,-0.5361057716271216,0.42770697329827206,-1.04545278917003,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-09-01,china,-0.3337880860654062,0.41088054968909477,-1.104482434286469,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-10-01,china,-0.42471693867936633,0.3116357083399063,-1.11871044689337,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2011-11-01,china,-0.7349162361772976,0.09691813728595042,-1.141090124831513,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2011-12-01,china,-0.6459331028385689,0.08033913002974813,-1.0113850994065148,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2012-01-01,china,-0.5004674339165268,0.14637256755957925,-1.1728212040998132,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2012-02-01,china,-0.13092242991487169,-0.06867100886886925,-1.08438203185752,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2009-12-01,china,0.6292366800676448,-0.27472723793712756,0.8775381757731092,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2010-01-01,china,0.4549490840135513,-0.33955499379931303,0.6451044709480759,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2010-02-01,china,-0.1513683424676613,-0.14402775385389482,0.5809148594947879,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,easy
+2010-03-01,china,-0.026293256330303605,-0.19277453038392764,0.17017546906980893,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-04-01,china,0.13415395229260535,-0.12745083771589463,0.03120601873599525,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2010-05-01,china,0.46772460666846294,-0.078436795331195,-0.03422879641799209,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2010-06-01,china,-0.27653182483019856,-0.11101841792211788,-0.3752451448120455,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-07-01,china,-0.6836747593398567,-0.045616696066829665,-0.49720572374858923,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-08-01,china,-0.5157083515521612,-0.012899735436278755,-0.2768816670319867,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-09-01,china,0.049238168624462314,0.0034633183866949334,-0.30365914929451693,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-10-01,china,0.4505344209053055,0.13438335358592682,-0.2616870882474867,reflation,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2010-11-01,china,0.6310779478918815,0.24891593931642525,-0.23351910324052735,reflation,reflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2010-12-01,china,0.2162898276201356,0.1667980861074378,-0.2053666585175745,reflation,reflation,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2011-01-01,china,-0.11597818569416872,0.21587066089908782,-0.5505704241538427,stagflation,reflation,low,Regime change was held back because one score remained near neutral.,tight
+2011-02-01,china,-0.42541987009254945,0.21571173076487876,-0.7563612985427872,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-03-01,china,-0.13922069462965853,0.2976472803657428,-0.6293170142886441,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-04-01,china,-0.07569732564530599,0.28099123443284496,-0.8074359034604878,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-05-01,china,-0.11145663649926486,0.3136573552397494,-0.8322755935503244,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-06-01,china,-0.5409776269393187,0.46144349968636683,-0.7184088020001583,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-07-01,china,-0.6209749391724947,0.477506781284411,-0.882542991794713,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-08-01,china,-0.5361057716271215,0.42770697329827206,-1.04545278917003,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-09-01,china,-0.33378808606540616,0.41088054968909477,-1.104482434286469,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-10-01,china,-0.4247169386793663,0.3116357083399063,-1.11871044689337,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2011-11-01,china,-0.7349162361772987,0.09691813728595042,-1.141090124831513,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2011-12-01,china,-0.6459331028385688,0.08033913002974813,-1.0113850994065148,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2012-01-01,china,-0.5004674339165267,0.14637256755957925,-1.1728212040998132,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2012-02-01,china,-0.13092242991487285,-0.06867100886886925,-1.08438203185752,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
 2012-03-01,china,0.13392018130947025,-0.0024417696498209964,-1.024372791405603,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
 2012-04-01,china,0.29088445039859656,-0.03555386107932791,-1.102861350576897,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-05-01,china,-0.20044862995136953,-0.10180197965257133,-1.0427602704359238,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
-2012-06-01,china,-0.6740328829151936,-0.23436031414015998,-0.9831843018343693,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-07-01,china,-0.8912352036154516,-0.3005424552624024,-0.9378786077749032,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-08-01,china,-0.6811535117974646,-0.2671214631095817,-0.9895767995132112,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-05-01,china,-0.20044862995136947,-0.10180197965257133,-1.0427602704359238,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,tight
+2012-06-01,china,-0.6740328829151923,-0.23436031414015998,-0.9831843018343693,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-07-01,china,-0.8912352036154514,-0.3005424552624024,-0.9378786077749032,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-08-01,china,-0.6811535117974659,-0.2671214631095817,-0.9895767995132112,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2012-09-01,china,-0.5876774166563998,-0.2835342530300062,-0.8060200404238573,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2012-10-01,china,-0.506663922829716,-0.3165623919659322,-0.9002229933567892,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-11-01,china,-0.24263673767436345,-0.26643657692767053,-0.924658979346962,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2012-12-01,china,-0.2767558076863212,-0.183036729752539,-0.9351085900421843,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-01-01,china,-0.3457679238105299,-0.26616798415708554,-0.6406585509957664,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2013-02-01,china,-0.46900333426675006,-0.06601463718396167,-0.7360909571899494,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-03-01,china,-0.3355685367752638,-0.24939136177825014,-0.6643872206602063,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2013-04-01,china,-0.3351779449100173,-0.19915784861768518,-0.6068440678041814,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2012-11-01,china,-0.2426367376743646,-0.26643657692767053,-0.924658979346962,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2012-12-01,china,-0.27675580768632113,-0.183036729752539,-0.9351085900421843,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-01-01,china,-0.34576792381052984,-0.26616798415708554,-0.6406585509957664,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2013-02-01,china,-0.4690033342667525,-0.06601463718396167,-0.7360909571899494,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-03-01,china,-0.33556853677526377,-0.24939136177825014,-0.6643872206602063,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2013-04-01,china,-0.3351779449100185,-0.19915784861768518,-0.6068440678041814,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2013-05-01,china,-0.2211052913395704,-0.2491039722560543,-0.6470502664347955,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
 2013-06-01,china,-0.47921804336837015,-0.14868615615357242,-0.8961537775794187,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2013-07-01,china,-0.4214312619413614,-0.14858343911530855,-0.8233910910907023,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-08-01,china,-0.33453591264453497,-0.1652100855300347,-0.7928514033870909,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-09-01,china,-0.15798008412506626,-0.08139339343982631,-0.8601667407210595,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-10-01,china,-0.07783108841107317,-0.06458619460429334,-0.8433654462371657,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-11-01,china,-0.15580688267341425,-0.09806909696672401,-0.854602652525292,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2013-12-01,china,-0.23406006018110886,-0.18187252319684016,-0.821367090597447,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-01-01,china,-0.4038382522314118,-0.18174655457138156,-0.7827670395509818,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-08-01,china,-0.3345359126445349,-0.1652100855300347,-0.7928514033870909,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-09-01,china,-0.1579800841250649,-0.08139339343982631,-0.8601667407210595,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-10-01,china,-0.07783108841107184,-0.06458619460429334,-0.8433654462371657,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-11-01,china,-0.15580688267341422,-0.09806909696672401,-0.854602652525292,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2013-12-01,china,-0.23406006018110884,-0.18187252319684016,-0.821367090597447,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2014-01-01,china,-0.40383825223141173,-0.18174655457138156,-0.7827670395509818,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
 2014-02-01,china,-0.5169522498483549,-0.2655946940042859,-1.4436587778542043,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-03-01,china,-0.4808733543160679,-0.19818407910449504,-1.0731909834926496,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2014-04-01,china,-0.3938689321447037,-0.29894050191257915,-1.2023382278156878,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
-2014-05-01,china,-0.2502556651798369,-0.18094105672657446,-0.3357274080194765,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-06-01,china,-0.19147396776486392,-0.21449176176363563,0.0005487880806563187,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-07-01,china,-0.02146126245797597,-0.2143425435708192,9.86158666360278e-05,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-08-01,china,-0.15495797932449645,-0.2647688166032962,-0.10958314902343262,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-09-01,china,-0.1785665522916685,-0.33205192664505623,-0.29900149503356555,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2014-10-01,china,-0.38548018211981344,-0.3318077245053742,-0.3179159171793275,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2014-11-01,china,-0.41674841111802746,-0.3653373328933606,1.8354295150653437,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2014-03-01,china,-0.48087335431606787,-0.19818407910449504,-1.0731909834926496,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2014-04-01,china,-0.39386893214470237,-0.29894050191257915,-1.2023382278156878,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,tight
+2014-05-01,china,-0.2502556651798369,-0.18094105672657446,-0.3357274080194766,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-06-01,china,-0.1914739677648639,-0.21449176176363563,0.000548788080657355,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-07-01,china,-0.021461262457974722,-0.2143425435708192,9.861586663743409e-05,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-08-01,china,-0.15495797932449773,-0.2647688166032962,-0.1095831490234318,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-09-01,china,-0.17856655229166718,-0.33205192664505623,-0.29900149503356577,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2014-10-01,china,-0.38548018211981344,-0.3318077245053742,-0.31791591717932777,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2014-11-01,china,-0.41674841111802746,-0.3653373328933606,1.8354295150653435,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2014-12-01,china,-0.5061938545506005,-0.3481676135853459,1.2086845083735076,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-01-01,china,-0.5640162044597109,-0.4662426635567801,0.8621425377352673,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-02-01,china,-0.4912113004484028,-0.3643895005004609,0.10523672218172068,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2015-03-01,china,-0.425100310895861,-0.36411788550084295,0.9897519197689458,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-01-01,china,-0.5640162044597121,-0.4662426635567801,0.8621425377352673,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-02-01,china,-0.4912113004484027,-0.3643895005004609,0.10523672218172068,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2015-03-01,china,-0.4251003108958609,-0.36411788550084295,0.989751919768946,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2015-04-01,china,-0.3564922369025399,-0.34691272804925233,0.7205182713704112,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-05-01,china,-0.3354776496490689,-0.397488303975479,1.387360099089834,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-06-01,china,-0.35861822648219494,-0.3632811381344469,1.38788094474626,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-07-01,china,-0.39413074865320236,-0.32908547673411304,1.178228539663021,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-08-01,china,-0.48610476147476495,-0.26095003493384933,1.1707948015572376,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-09-01,china,-0.49147681634690615,-0.3287065417483824,0.6136061336549313,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-10-01,china,-0.468230478510721,-0.37944884778193194,1.071606231393513,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-11-01,china,-0.4549111234954639,-0.3451610241643967,0.5716747472399768,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2015-12-01,china,-0.4578042438796419,-0.32789685074433395,0.4823627415708578,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-01-01,china,-0.5279787260716317,-0.2936141593374198,0.04795244580473831,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-02-01,china,-0.593782794047227,-0.20823408379347302,-0.015411734136721034,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-03-01,china,-0.3782570918234936,-0.20809332948050624,-0.034822380382411366,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-04-01,china,-0.29920847867839795,-0.20795286020777887,-0.08216279229964052,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-05-01,china,-0.1630022029160592,-0.2590127666252158,-0.1444614102445471,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2016-06-01,china,-0.3896362717032076,-0.2759108569169968,-0.1573177063376455,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-07-01,china,-0.3998253949273849,-0.2928058465484685,-0.24235000459730446,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-08-01,china,-0.2953890381836598,-0.37807809753338206,-0.19532341974323564,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-09-01,china,-0.25197702642647585,-0.27517024620051267,-0.19845206474779864,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2016-10-01,china,-0.01810472117347503,-0.24074710429371787,-0.20055460653873647,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2016-11-01,china,0.0635371095636467,-0.20632884359429213,-0.21571142585229833,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2016-12-01,china,0.07551526591803519,-0.24046711577099755,-0.22542402980645904,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2015-05-01,china,-0.3354776496490688,-0.397488303975479,1.387360099089834,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-06-01,china,-0.35861822648219355,-0.3632811381344469,1.3878809447462597,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-07-01,china,-0.39413074865320225,-0.32908547673411304,1.178228539663021,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-08-01,china,-0.48610476147476495,-0.26095003493384933,1.1707948015572371,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-09-01,china,-0.4914768163469061,-0.3287065417483824,0.6136061336549313,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-10-01,china,-0.46823047851072097,-0.37944884778193194,1.071606231393513,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-11-01,china,-0.45491112349546386,-0.3451610241643967,0.5716747472399768,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2015-12-01,china,-0.4578042438796418,-0.32789685074433395,0.4823627415708578,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-01-01,china,-0.5279787260716315,-0.2936141593374198,0.04795244580473831,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-02-01,china,-0.593782794047227,-0.20823408379347302,-0.015411734136720997,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-03-01,china,-0.3782570918234935,-0.20809332948050624,-0.034822380382411366,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-04-01,china,-0.29920847867839917,-0.20795286020777887,-0.08216279229964052,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-05-01,china,-0.16300220291605919,-0.2590127666252158,-0.1444614102445471,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-06-01,china,-0.3896362717032075,-0.2759108569169968,-0.1573177063376455,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-07-01,china,-0.39982539492738484,-0.2928058465484685,-0.24235000459730446,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-08-01,china,-0.29538903818365975,-0.37807809753338206,-0.19532341974323564,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-09-01,china,-0.2519770264264758,-0.27517024620051267,-0.19845206474779864,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2016-10-01,china,-0.01810472117347378,-0.24074710429371787,-0.20055460653873647,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2016-11-01,china,0.06353710956364664,-0.20632884359429213,-0.21571142585229833,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2016-12-01,china,0.07551526591803517,-0.24046711577099755,-0.22542402980645904,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2017-01-01,china,-0.07117801892388012,-0.1717099846874366,-0.25760305754867097,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2017-02-01,china,-0.11132856669098483,-0.46326841970211113,-0.2728162121979884,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2017-03-01,china,2.7343592108458603e-06,-0.44574699282646957,-0.2911522580445625,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2017-04-01,china,-0.0921438291927703,-0.3938896798547352,-0.3066339054631128,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-03-01,china,2.7343592108319825e-06,-0.44574699282646957,-0.2911522580445625,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-04-01,china,-0.09214382919277028,-0.3938896798547352,-0.3066339054631128,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2017-05-01,china,-0.16909154867626042,-0.34205141888143276,-0.34140316384546626,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2017-06-01,china,-0.12311137900199434,-0.34180862981817905,-0.3442729995982714,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2017-07-01,china,-0.05778236589897183,-0.35876905626549355,-0.35512471894962316,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-07-01,china,-0.0577823658989718,-0.35876905626549355,-0.35512471894962316,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2017-08-01,china,0.026940897190869437,-0.2896611834875531,-0.37112048040671336,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2017-09-01,china,0.10717666184013855,-0.32390880283976914,-0.3525021821302175,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2017-10-01,china,0.032349184276643364,-0.2719830964919789,-0.35766560306624745,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2017-11-01,china,0.021221787203719276,-0.3062855019791351,-0.3476014529537035,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2017-12-01,china,-0.1898549319574487,-0.28882105799502455,-0.39524637674320234,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-01-01,china,-0.12061815352855984,-0.34041239404293333,-0.37096155765018196,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-02-01,china,-0.43173686885036516,-0.09833807123640068,-0.36182732944910573,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2017-11-01,china,0.021221787203719287,-0.3062855019791351,-0.3476014529537035,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2017-12-01,china,-0.18985493195744726,-0.28882105799502455,-0.39524637674320234,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-01-01,china,-0.12061815352856126,-0.34041239404293333,-0.37096155765018196,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-02-01,china,-0.43173686885036655,-0.09833807123640068,-0.36182732944910573,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2018-03-01,china,-0.1880783801740748,-0.23655968974739824,-0.38889182955301077,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-04-01,china,-0.14510999832166804,-0.2882864065495371,-0.40936611470958484,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2018-05-01,china,0.22983818176201715,-0.2880907178893728,-0.11099535950396774,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2018-06-01,china,-0.05766081702882569,-0.2705812884556037,0.04943366834518709,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
+2018-04-01,china,-0.14510999832166804,-0.2882864065495371,-0.409366114709585,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-05-01,china,0.2298381817620171,-0.2880907178893728,-0.11099535950396788,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-06-01,china,-0.05766081702882568,-0.2705812884556037,0.049433668345186976,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
 2018-07-01,china,-0.10683409674962564,-0.23575043670629894,-0.0169393148447865,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2018-08-01,china,-0.21893736582529627,-0.20092417526430054,-0.4494992690532397,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2018-08-01,china,-0.21893736582529622,-0.20092417526430054,-0.4494992690532397,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2018-09-01,china,-0.283452021546836,-0.16610120942025902,-0.572219890503197,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2018-10-01,china,-0.404378064465594,-0.16599490017376772,-0.19218545694676392,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2018-10-01,china,-0.40437806446559393,-0.16599490017376772,-0.19218545694676398,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2018-11-01,china,-0.5452463729092671,-0.21799060890696384,0.33542742520535485,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2018-12-01,china,-0.6557889518041201,-0.26997928389626813,0.4953951720221362,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-01-01,china,-0.5721546866067164,-0.304571828899924,0.46637348508584553,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-02-01,china,-0.6414784464204624,-0.3391561046398334,0.08162595968103444,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2019-03-01,china,-0.21458152549962017,-0.19967576969932102,0.11423253348459617,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-04-01,china,-0.264624241144201,-0.16471246047122076,-0.5888401009209323,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
-2019-05-01,china,-0.3235359455770519,-0.12975131555412248,-0.28579072933723626,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-06-01,china,-0.6374048517348956,-0.12966995034314077,-0.2764515708419159,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-07-01,china,-0.5314586240335261,-0.11213897127047673,0.13576301591119458,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-08-01,china,-0.42872188055726185,-0.1120691171770228,0.2877562071278862,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2019-09-01,china,-0.34316331415331175,-0.07705697886663093,0.15189768009049964,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-01-01,china,-0.5721546866067163,-0.304571828899924,0.46637348508584553,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-02-01,china,-0.6414784464204623,-0.3391561046398334,0.08162595968103452,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2019-03-01,china,-0.21458152549962017,-0.19967576969932102,0.11423253348459621,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-04-01,china,-0.2646242411442024,-0.16471246047122076,-0.5888401009209323,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,tight
+2019-05-01,china,-0.32353594557705473,-0.12975131555412248,-0.2857907293372362,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-06-01,china,-0.6374048517348955,-0.12966995034314077,-0.27645157084191585,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-07-01,china,-0.531458624033526,-0.11213897127047673,0.13576301591119458,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-08-01,china,-0.4287218805572618,-0.1120691171770228,0.2877562071278862,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2019-09-01,china,-0.3431633141533102,-0.07705697886663093,0.15189768009049973,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2019-10-01,china,-0.5183314578216296,0.06284767534812509,-0.1999224265602801,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
 2019-11-01,china,-0.26149010846542753,0.1852555226192718,-0.05577464223967343,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2019-12-01,china,-0.2893280539374644,0.18513822393521828,0.02256756488334575,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2020-01-01,china,-0.18352531406473452,0.3426231288632387,0.42131926374892836,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2020-02-01,china,-3.8285742049224227,0.3073499354826254,0.801909619395006,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2019-12-01,china,-0.28932805393746436,0.18513822393521828,0.02256756488334579,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2020-01-01,china,-0.18352531406473455,0.3426231288632387,0.4213192637489285,stagflation,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2020-02-01,china,-3.8285742049224214,0.3073499354826254,0.8019096193950059,stagflation,stagflation,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2020-03-01,china,-0.8125855606822155,0.14936511712431388,0.9316031029386556,stagflation,stagflation,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2020-04-01,china,-0.9187305932087423,-0.026158742682987655,1.164921290383233,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
-2020-05-01,china,2.3691874278711866,-0.18412491045965715,0.5002298813302337,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,easy
-2020-06-01,china,-0.34442707967914,-0.16644588442324235,0.1879518440899342,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
-2020-07-01,china,-0.09249616813298804,-0.13119403819556616,-0.3264846158987834,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-04-01,china,-0.918730593208741,-0.026158742682987655,1.164921290383233,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2020-05-01,china,2.3691874278711857,-0.18412491045965715,0.5002298813302337,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,easy
+2020-06-01,china,-0.34442707967914,-0.16644588442324235,0.18795184408993412,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-07-01,china,-0.09249616813298803,-0.13119403819556616,-0.3264846158987834,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
 2020-08-01,china,-0.04912016841084424,-0.18386640721625291,-0.25565706946691846,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
-2020-09-01,china,0.024132430319909928,-0.30690636708296537,-0.3202972551595922,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
-2020-10-01,china,-0.005823009573106032,-0.5178992114732781,-0.26137605740913944,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
-2020-11-01,china,0.20117566625640926,-0.6935148189547334,-0.3090933418925466,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2020-12-01,china,0.1104374388289956,-0.5696548796252162,-0.07183576336227633,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-01-01,china,0.019602599762905924,-0.6572690202693384,-0.11845611819870025,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2020-09-01,china,0.024132430319907097,-0.30690636708296537,-0.3202972551595922,goldilocks,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-10-01,china,-0.005823009573104589,-0.5178992114732781,-0.2613760574091394,slowdown,stagflation,low,Regime change was held back because one score remained near neutral.,neutral
+2020-11-01,china,0.20117566625641073,-0.6935148189547334,-0.30909334189254656,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2020-12-01,china,0.11043743882899704,-0.5696548796252162,-0.07183576336227629,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-01-01,china,0.019602599762905928,-0.6572690202693384,-0.11845611819870021,goldilocks,goldilocks,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2021-02-01,china,-0.3167817562990433,-0.6390843422997656,-0.19568670530878332,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-03-01,china,-0.06332360172213314,-0.5327806595914791,-0.16313315265019962,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-04-01,china,-0.11048473822343197,-0.4441796509882618,-0.1318613217489984,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-05-01,china,0.018564653381165357,-0.37326522161285586,0.1351784631263103,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
-2021-06-01,china,-0.2871855986649269,-0.40832749572588867,0.013157268200907391,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-03-01,china,-0.06332360172213314,-0.5327806595914791,-0.16313315265019965,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-04-01,china,-0.11048473822343342,-0.4441796509882618,-0.13186132174899837,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-05-01,china,0.018564653381165357,-0.37326522161285586,0.13517846312631027,goldilocks,slowdown,low,Regime change was held back because one score remained near neutral.,neutral
+2021-06-01,china,-0.2871855986649269,-0.40832749572588867,0.013157268200907435,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2021-07-01,china,-0.28316047924981114,-0.4257091720879007,0.3497767288469528,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2021-08-01,china,-0.3779996744937134,-0.4607579598020792,0.22376684214147136,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-09-01,china,-0.5341548718334108,-0.47810684336048803,0.19467259671649711,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-10-01,china,-0.5973688291376695,-0.33622043558911247,-0.15097443658043638,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2021-11-01,china,-0.3892001388089171,-0.1943621584444766,0.07951252558850905,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2021-12-01,china,-0.21916902878157718,-0.33595900970309384,0.28322127725929636,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-01-01,china,-0.12192342308670168,-0.44206552433821716,0.6776176426237784,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2022-02-01,china,-0.2528116626580183,-0.44175204881297775,0.4023607005748181,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-03-01,china,-0.46308105712428216,-0.335008693702628,0.26509669498768573,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-04-01,china,-0.9765889970556153,-0.22828797483796937,-0.022538872458616566,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-05-01,china,-0.6490342886388211,-0.22814598594210075,0.20613380837823728,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-06-01,china,-0.3713247619015491,-0.15691892875650015,0.09589728281461336,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-09-01,china,-0.5341548718334108,-0.47810684336048803,0.194672596716497,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-10-01,china,-0.5973688291376711,-0.33622043558911247,-0.15097443658043633,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2021-11-01,china,-0.3892001388089171,-0.1943621584444766,0.0795125255885091,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2021-12-01,china,-0.21916902878157862,-0.33595900970309384,0.2832212772592965,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-01-01,china,-0.12192342308670029,-0.44206552433821716,0.6776176426237784,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2022-02-01,china,-0.25281166265801985,-0.44175204881297775,0.4023607005748181,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-03-01,china,-0.46308105712428216,-0.335008693702628,0.2650966949876856,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-04-01,china,-0.9765889970556152,-0.22828797483796937,-0.022538872458616566,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-05-01,china,-0.6490342886388212,-0.22814598594210075,0.2061338083782373,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-06-01,china,-0.3713247619015491,-0.15691892875650015,0.09589728281461332,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
 2022-07-01,china,-0.10230015479829108,-0.12125978983496778,0.2547589429895738,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2022-08-01,china,-0.4300145225357575,-0.156772324363288,0.4696258741293051,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2022-09-01,china,-0.4177050503205357,-0.10326934097647102,0.30977659264952306,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2022-10-01,china,-0.3495324328608158,-0.22789790088114656,0.41987475736619845,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-08-01,china,-0.4300145225357575,-0.156772324363288,0.4696258741293053,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-09-01,china,-0.41770505032053573,-0.10326934097647102,0.3097765926495232,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2022-10-01,china,-0.34953243286081587,-0.22789790088114656,0.41987475736619845,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2022-11-01,china,-0.7263821950549217,-0.3168638672987566,-0.15969782315620337,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2022-12-01,china,-1.235009553735439,-0.2809988203700775,0.031458818358668796,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2022-12-01,china,-1.2350095537354395,-0.2809988203700775,0.03145881835866875,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2023-01-01,china,-0.46177957500621475,-0.2272990723537549,-0.15452319129108905,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-02-01,china,0.50625912417285,-0.4235012540219019,0.07059464775044991,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-03-01,china,0.890808027961107,-0.47677425408813084,0.09563207252046473,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-02-01,china,0.5062591241728499,-0.4235012540219019,0.07059464775044984,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-03-01,china,0.8908080279611068,-0.47677425408813084,0.09563207252046473,goldilocks,goldilocks,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2023-04-01,china,-0.18991399341153278,-0.5835960155556349,0.26361309104861486,slowdown,goldilocks,low,Regime change was held back because one score remained near neutral.,neutral
-2023-05-01,china,-0.9600367107298673,-0.5652741674435315,0.39235722381096677,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-06-01,china,-0.9996974728796073,-0.6005854591270855,0.6059276946736861,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2023-07-01,china,-0.4634108369547213,-0.6537435476827907,0.4695553264313029,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-08-01,china,-0.2584486138847845,-0.5816653922213412,0.7287968355466223,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2023-09-01,china,-0.12117979301614104,-0.5991058658460449,0.3039667895615582,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2023-10-01,china,-0.28301449497403447,-0.6344295881034473,0.29126369849810485,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2023-11-01,china,-0.3913318519514363,-0.6876211807160442,0.05242436334404341,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-05-01,china,-0.9600367107298675,-0.5652741674435315,0.39235722381096677,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-06-01,china,-0.9996974728796073,-0.6005854591270855,0.6059276946736862,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2023-07-01,china,-0.46341083695472135,-0.6537435476827907,0.46955532643130293,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-08-01,china,-0.2584486138847846,-0.5816653922213412,0.7287968355466223,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2023-09-01,china,-0.12117979301614104,-0.5991058658460449,0.30396678956155815,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2023-10-01,china,-0.2830144949740345,-0.6344295881034473,0.29126369849810485,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2023-11-01,china,-0.3913318519514379,-0.6876211807160442,0.052424363344043365,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2023-12-01,china,-0.6330121440831264,-0.6512212316137856,0.33875602937460336,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-01-01,china,-0.4920137796713406,-0.7402466496378923,0.5172211225830424,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2024-02-01,china,-0.5109911162422475,-0.47078073617072225,0.6254636411528072,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2024-03-01,china,-0.009443957278617854,-0.5780379059820735,0.5585114401980318,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2024-01-01,china,-0.4920137796713421,-0.7402466496378923,0.5172211225830424,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-02-01,china,-0.5109911162422476,-0.47078073617072225,0.6254636411528072,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-03-01,china,-0.009443957278620907,-0.5780379059820735,0.5585114401980317,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
 2024-04-01,china,-0.03239165800978708,-0.5417198829325376,0.3712686486669458,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2024-05-01,china,-0.14720116723152077,-0.5413171717737436,0.27244534366820317,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2024-06-01,china,-0.542538563184514,-0.5588674854059488,0.3243367774712511,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-07-01,china,-0.5573540688953476,-0.5045673922422929,0.6110069082456586,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2024-08-01,china,-0.4757936264608621,-0.4862361011051926,0.5494740781038778,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2024-09-01,china,-0.32692972643744095,-0.5218447863968513,0.4864724323754439,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2024-10-01,china,-0.20427023525741733,-0.5394483487033096,0.7680034579173063,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-05-01,china,-0.14720116723152077,-0.5413171717737436,0.2724453436682032,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2024-06-01,china,-0.5425385631845124,-0.5588674854059488,0.3243367774712511,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-07-01,china,-0.5573540688953476,-0.5045673922422929,0.6110069082456587,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-08-01,china,-0.47579362646086215,-0.4862361011051926,0.5494740781038779,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-09-01,china,-0.32692972643744095,-0.5218447863968513,0.4864724323754441,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2024-10-01,china,-0.2042702352574159,-0.5394483487033096,0.7680034579173063,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2024-11-01,china,-0.028542976053031133,-0.5570405387406067,0.9501149564455977,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2024-12-01,china,-0.17030850083675791,-0.5746206176181655,1.4109440168447431,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
-2025-01-01,china,-0.47669167533787143,-0.5021692036585783,0.9832417238576667,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2025-02-01,china,-0.31872720911475355,-0.7179205318960037,0.702045357126557,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2025-03-01,china,-0.19826600419358137,-0.6092300381172753,0.2028950115516766,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
-2025-04-01,china,-0.29614644015602737,-0.6087559598876849,0.4272505201237443,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-05-01,china,-0.45495345031961804,-0.6082829866641031,0.6213718948810723,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2024-12-01,china,-0.17030850083675642,-0.5746206176181655,1.4109440168447431,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,easy
+2025-01-01,china,-0.4766916753378715,-0.5021692036585783,0.9832417238576665,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-02-01,china,-0.31872720911475205,-0.7179205318960037,0.702045357126557,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
+2025-03-01,china,-0.19826600419358137,-0.6092300381172753,0.2028950115516765,slowdown,slowdown,low,Regime sits near the neutral boundary and should be read with caution.,neutral
+2025-04-01,china,-0.2961464401560274,-0.6087559598876849,0.4272505201237443,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-05-01,china,-0.45495345031961654,-0.6082829866641031,0.6213718948810725,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
 2025-06-01,china,-0.5288960011901661,-0.5717424714726764,0.741039166289152,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,easy
-2025-07-01,china,-0.30373519176926606,-0.5893549373127357,0.4673901757822906,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-08-01,china,-0.38350780023118103,-0.6610926665164942,0.14397715152877816,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-09-01,china,-0.3382438978938288,-0.6425052577622962,0.0713399854046211,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-10-01,china,-0.43254023054149304,-0.5516965780792976,0.20317189508651406,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2025-11-01,china,-0.4269267832745039,-0.4609435204872469,0.25872199018424447,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-07-01,china,-0.3037351917692661,-0.5893549373127357,0.46739017578229075,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-08-01,china,-0.38350780023118103,-0.6610926665164942,0.14397715152877807,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-09-01,china,-0.33824389789382886,-0.6425052577622962,0.07133998540462114,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-10-01,china,-0.4325402305414931,-0.5516965780792976,0.20317189508651395,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2025-11-01,china,-0.4269267832745054,-0.4609435204872469,0.25872199018424447,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2025-12-01,china,-0.31125891121039323,-0.44254993333231135,0.27704084688600006,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-01-01,china,-0.28875095362962944,-0.550769156357238,0.2651431932272431,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-02-01,china,-0.3953635413147174,-0.3513274108813019,0.3515593322207186,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-03-01,china,-0.6410191087753259,-0.3511061318473949,0.29144492580402653,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-04-01,china,-0.5107750643409178,-0.35088527039672457,0.24673699910653674,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-05-01,china,-0.45270577532956047,-0.3506648252175486,0.2027444424385449,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-06-01,china,-0.45102568021892364,-0.3504447950038859,0.3380010096670145,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-05-01,china,-0.4527057753295605,-0.3506648252175486,0.2027444424385448,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-06-01,china,-0.4510256802189237,-0.3504447950038859,0.3380010096670145,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-07-01,china,-0.4493640233862871,-0.35022517845548445,0.3311357317111725,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-08-01,china,-0.44772047125395076,-0.3500059742777893,0.4229498888623084,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
-2026-09-01,china,-0.4460946986161601,-0.3497871811819097,0.41644443424635674,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-08-01,china,-0.44772047125395087,-0.3500059742777893,0.4229498888623084,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-09-01,china,-0.4460946986161602,-0.3497871811819097,0.41644443424635674,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
