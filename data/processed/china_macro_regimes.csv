@@ -897,3 +897,4 @@ date,country,growth_score,inflation_score,liquidity_score,regime_raw,regime,regi
 2026-07-01,china,-0.4493640233862871,-0.35022517845548445,0.3311357317111725,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-08-01,china,-0.44772047125395087,-0.3500059742777893,0.4229498888623084,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
 2026-09-01,china,-0.4460946986161602,-0.3497871811819097,0.41644443424635674,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
+2026-10-01,china,-0.4444863883711606,-0.3495687978845881,0.410205786654602,slowdown,slowdown,medium,Regime is based on growth and inflation scores with sufficient distance from neutral.,neutral
