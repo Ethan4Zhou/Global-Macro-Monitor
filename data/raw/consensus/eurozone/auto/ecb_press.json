@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-11-10",
+    "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-11-10",
+    "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-11-07",
     "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-10-29",
     "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-10-29",
-    "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-    "body": "Source URL: https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-10-29",
-    "title": "Monetary policy decisions",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
   }
 ]

@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-10",
+    "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+    "body": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-11-10",
+    "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+    "body": "Speech At the Bank of England Watchers Conference Kingâs Business School and Money, Macro and Finance Society, London, United Kingdom\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-10-15",
     "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
     "body": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-09-29",
     "title": "Bowman, Opening Remarks",
     "body": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-28",
-    "title": "Cook, An Update on AI and the Economy",
-    "body": "Speech At the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-23",
-    "title": "Barr, A Long-Term View on the Costs of Shelter",
-    "body": "Speech At âHousing Affordability 2026: A Community Development Summit,â hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm"
   }
 ]
