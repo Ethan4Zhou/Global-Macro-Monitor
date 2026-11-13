@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-12",
+    "title": "Barr, American Inequality and the Future of AI",
+    "body": "Speech At Yale University, New Haven, Connecticut\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-11-10",
     "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
     "body": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-09-29",
     "title": "Barr, Economic Conditions and Monetary Policy",
     "body": "Speech At the Detroit Economic Club, Detroit, Michigan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-29",
-    "title": "Bowman, Opening Remarks",
-    "body": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
   }
 ]
