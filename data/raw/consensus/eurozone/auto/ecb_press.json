@@ -2,6 +2,13 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-11-13",
+    "title": "Isabel Schnabel: Made in Europe",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-11-10",
     "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
@@ -75,12 +82,5 @@
     "date": "2026-10-30",
     "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
     "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-10-29",
-    "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
   }
 ]

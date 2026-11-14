@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-14",
+    "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+    "body": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-11-12",
     "title": "Barr, American Inequality and the Future of AI",
     "body": "Speech At Yale University, New Haven, Connecticut\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-09-29",
     "title": "Waller, Payments in the Age of AI Agents",
     "body": "Speech At Sibos 2026, Miami, Florida\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-09-29",
-    "title": "Barr, Economic Conditions and Monetary Policy",
-    "body": "Speech At the Detroit Economic Club, Detroit, Michigan\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
   }
 ]
