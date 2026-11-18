@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-17",
+    "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+    "body": "Speech At âNavigating the Future of Banking and Payments,â The Clearing House Annual Conference 2026, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-11-16",
     "title": "Warsh, Opening Remarks",
     "body": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-10-01",
     "title": "Jefferson, The U.S. Economy and Monetary Policy",
     "body": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-10-01",
-    "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-    "body": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
   }
 ]
