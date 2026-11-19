@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-11-18",
+    "title": "Boris Vujčić: Financial Stability Review - November 2026",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-11-18",
+    "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-11-17",
     "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf"
@@ -68,19 +82,5 @@
     "date": "2026-11-05",
     "title": "Piero Cipollone: Shaping the future of money",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-11-04",
-    "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-11-02",
-    "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html"
   }
 ]

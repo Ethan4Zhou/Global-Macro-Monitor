@@ -2,6 +2,13 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-18",
+    "title": "Barr, Investing in Americaâs Underserved Communities",
+    "body": "Speech At Making Missing Markets: Catalyzing Capital and Igniting Innovation, Federal Reserve Bank of New York, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-11-17",
     "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
     "body": "Speech At âNavigating the Future of Banking and Payments,â The Clearing House Annual Conference 2026, New York, New York\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
@@ -75,12 +82,5 @@
     "date": "2026-10-01",
     "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
     "body": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-10-01",
-    "title": "Jefferson, The U.S. Economy and Monetary Policy",
-    "body": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
   }
 ]
