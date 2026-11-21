@@ -2,6 +2,20 @@
   {
     "source_name": "Federal Reserve",
     "source_type": "official",
+    "date": "2026-11-20",
+    "title": "Cook, The U.S. Economy in Global Context",
+    "body": "Speech At the XXIX Annual Conference of the Central Bank of Chile, Santiago, Chile\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
+    "date": "2026-11-20",
+    "title": "Waller, Opening Remarks",
+    "body": "Speech At the 2026 College Fed Challenge Finals, Board of Governors of the Federal Reserve System, Washington, D.C.\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm"
+  },
+  {
+    "source_name": "Federal Reserve",
+    "source_type": "official",
     "date": "2026-11-19",
     "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
     "body": "Speech At the International Monetary Fund and Central Bank of Brazil Conference âA Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead,â Brasília, Brazil\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
@@ -68,19 +82,5 @@
     "date": "2026-10-15",
     "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
     "body": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-10-08",
-    "title": "Waller, The Signaling Value of the Summary of Economic Projections",
-    "body": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of Türkiye, Istanbul, Türkiye\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
-  },
-  {
-    "source_name": "Federal Reserve",
-    "source_type": "official",
-    "date": "2026-10-06",
-    "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-    "body": "Speech At the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St. Louis, Missouri\n\nSource URL: https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
   }
 ]
