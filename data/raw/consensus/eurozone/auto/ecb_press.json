@@ -2,6 +2,20 @@
   {
     "source_name": "ECB",
     "source_type": "official",
+    "date": "2026-11-23",
+    "title": "Philip R. Lane: Climate change and monetary policy",
+    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
+    "date": "2026-11-23",
+    "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+  },
+  {
+    "source_name": "ECB",
+    "source_type": "official",
     "date": "2026-11-20",
     "title": "Christine Lagarde: Acting in time",
     "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
@@ -68,19 +82,5 @@
     "date": "2026-11-07",
     "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
     "body": "Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-11-06",
-    "title": "ECB publishes consolidated banking data for end-June 2026",
-    "body": "Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
-  },
-  {
-    "source_name": "ECB",
-    "source_type": "official",
-    "date": "2026-11-05",
-    "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
-    "body": "Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
   }
 ]
