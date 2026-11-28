@@ -1,7 +1,7 @@
 region,source_name,source_type,date,title,body,note_id,ingestion_timestamp
-china,IMF,institution,2026-02-18,IMF Executive Board Concludes 2025 Article IV Consultation with China,"The IMF described China's economy as resilient in 2025 because exports and policy stimulus held growth near target, but it also emphasized that private domestic demand remained weak and deflationary pressures persisted. The release pointed to slower growth in 2026, muted inflation, and downside risks tied to property weakness and elevated debt. It argued that more expansionary macro support, including further monetary easing, may still be needed while China rebalances toward consumption-led growth.",236eb0de88b2464b,2026-11-27 08:57:11.962605+00:00
-china,Associated Press,media,2026-03-06,China sets a lower economic growth target of 4.5% to 5% for 2026 as challenges loom,"Public reporting around the annual government work report stressed that China lowered its growth target range for 2026 and acknowledged ongoing domestic challenges, especially weak consumption and a fragile property backdrop. The narrative emphasized slower but still positive growth, subdued inflation pressure, and a policy stance that remains supportive as officials try to stabilize expectations and boost domestic demand.",2f8c52ec0db6466d,2026-11-27 08:57:11.962359+00:00
-china,Wall Street Journal,media,2026-03-16,China's Economy Off to Steady Start in 2026 Amid Lowered Expectations,"The public market narrative highlighted a steady start to 2026, with industrial output and investment holding up, but it also stressed that the property sector remained weak and consumer sentiment was still soft. The overall tone was that growth is resilient rather than booming, inflation is still subdued, and policymakers are leaning toward continued support instead of a restrictive stance.",33498c05b2fcb697,2026-11-27 08:57:11.962837+00:00
+china,IMF,institution,2026-02-18,IMF Executive Board Concludes 2025 Article IV Consultation with China,"The IMF described China's economy as resilient in 2025 because exports and policy stimulus held growth near target, but it also emphasized that private domestic demand remained weak and deflationary pressures persisted. The release pointed to slower growth in 2026, muted inflation, and downside risks tied to property weakness and elevated debt. It argued that more expansionary macro support, including further monetary easing, may still be needed while China rebalances toward consumption-led growth.",236eb0de88b2464b,2026-11-28 08:18:24.198614+00:00
+china,Associated Press,media,2026-03-06,China sets a lower economic growth target of 4.5% to 5% for 2026 as challenges loom,"Public reporting around the annual government work report stressed that China lowered its growth target range for 2026 and acknowledged ongoing domestic challenges, especially weak consumption and a fragile property backdrop. The narrative emphasized slower but still positive growth, subdued inflation pressure, and a policy stance that remains supportive as officials try to stabilize expectations and boost domestic demand.",2f8c52ec0db6466d,2026-11-28 08:18:24.198431+00:00
+china,Wall Street Journal,media,2026-03-16,China's Economy Off to Steady Start in 2026 Amid Lowered Expectations,"The public market narrative highlighted a steady start to 2026, with industrial output and investment holding up, but it also stressed that the property sector remained weak and consumer sentiment was still soft. The overall tone was that growth is resilient rather than booming, inflation is still subdued, and policymakers are leaning toward continued support instead of a restrictive stance.",33498c05b2fcb697,2026-11-28 08:18:24.198784+00:00
 china,BIS,institution,2026-03-25,Pan Gongsheng: China's high-quality development and global economic rebalancing,"Keynote speech by Mr Pan Gongsheng, Governor of the People's Bank of China, at the 2026 China Development Forum, Beijing, 22 March 2026.
 
 Source URL: https://www.bis.org/review/r260324a.htm",1b840964ccdfae86,2026-04-09 03:37:10.236376+00:00
@@ -40,7 +40,7 @@ china,BIS,institution,2026-10-27,Deepening foreign exchange opening-up to bette
 Source URL: https://www.bis.org/speeches/20261027-deepening-foreign-exchange-opening-better-serve-chinas-new-development-paradigm",50129aabc9f1eab2,2026-11-11 06:58:20.765347+00:00
 china,BIS,institution,2026-11-26,Europe and China - a changing relationship in a changing world,"Keynote speech by Dr Sabine Mauderer, First Deputy Governor of the Deutsche Bundesbank, at the 12th China Day, organised by dfv Euro Finance Group GmbH, Frankfurt am Main, 16 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-europe-and-china-changing-relationship-changing-world",bb01919eb8abced9,2026-11-27 08:57:11.962085+00:00
+Source URL: https://www.bis.org/speeches/20261126-europe-and-china-changing-relationship-changing-world",bb01919eb8abced9,2026-11-28 08:18:24.198196+00:00
 eurozone,ECB,official,2026-01-28,Euro area economic and financial developments by institutional sector: third quarter of 2025,Source URL: https://www.ecb.europa.eu//press/stats/ffi/html/ecb.eaefd_full2025q3~cf562d9538.en.html,f89347779dd18ad8,2026-03-20 05:46:52.034221+00:00
 eurozone,ECB,official,2026-01-29,Payments statistics: first half of 2025,Source URL: https://www.ecb.europa.eu//press/stats/paysec/html/ecb.pis2025h1~36edd636c8.en.html,34380fed425d1761,2026-03-26 03:39:10.812202+00:00
 eurozone,ECB,official,2026-01-29,Monetary developments in the euro area: December 2025,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2512~48fd6bad29.en.html,d236c98ba2afb76e,2026-04-01 03:51:43.824019+00:00
@@ -560,7 +560,7 @@ eurozone,BIS,institution,2026-10-20,IMFC Statement,"Statement by Ms Christine La
 
 Source URL: https://www.bis.org/speeches/20261020-imfc-statement",187b725c315c7b63,2026-11-03 07:08:14.678315+00:00
 eurozone,ECB,official,2026-10-20,Frank Elderson: Interview with Die Presse,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html,62bc22b6e21ab34a,2026-10-30 06:15:36.306630+00:00
-eurozone,ECB,official,2026-10-20,Euro area monthly balance of payments: August 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp261020~679813bbc5.en.html,db78d38e1a7240ed,2026-11-27 08:57:04.819269+00:00
+eurozone,ECB,official,2026-10-20,Euro area monthly balance of payments: August 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp261020~679813bbc5.en.html,db78d38e1a7240ed,2026-11-28 08:18:20.636550+00:00
 eurozone,ECB,official,2026-10-21,Philip R. Lane: Euro liquidity lines and the international monetary system,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html,aa289c707527322c,2026-10-30 06:15:36.306529+00:00
 eurozone,ECB,official,2026-10-21,Piero Cipollone: Pontes and Appia: unlocking opportunities for banks,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf,b73d22a57467ede4,2026-10-30 06:15:36.306428+00:00
 eurozone,ECB,official,2026-10-23,ECB Consumer Expectations Survey results – September 2026,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html,405f64e74cac0a5e,2026-11-02 06:38:32.974114+00:00
@@ -570,12 +570,12 @@ eurozone,BIS,institution,2026-10-26,Shackleton’s lesson - we still have a choi
 Source URL: https://www.bis.org/speeches/20261026-shackletons-lesson-we-still-have-choice",1d3ae3cbe3f7eec5,2026-11-10 07:39:34.954102+00:00
 eurozone,ECB,official,2026-10-26,Frank Elderson: Taking action for nature – investing in economic resilience and prosperity,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html,929a954e56584a8c,2026-11-05 07:12:13.822804+00:00
 eurozone,ECB,official,2026-10-26,Survey on the Access to Finance of Enterprises: lending conditions tightened,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html,f704cdd81d55c013,2026-11-05 07:12:13.822584+00:00
-eurozone,ECB,official,2026-10-27,Monetary developments in the euro area: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2609~dd1bf1b2e4.en.html,026fb722cd408994,2026-11-27 08:57:04.819104+00:00
+eurozone,ECB,official,2026-10-27,Monetary developments in the euro area: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2609~dd1bf1b2e4.en.html,026fb722cd408994,2026-11-28 08:18:20.636423+00:00
 eurozone,BIS,institution,2026-10-27,Keeping European supervision on track,"Keynote speech by Mr Steven Maijoor, Executive Board Member and Chair of Supervision of De Nederlandsche Bank, at the Data Amplified conference, The Hague, 27 October 2026.
 
 Source URL: https://www.bis.org/speeches/20261027-keeping-european-supervision-track",60ed1e3996789215,2026-11-11 06:58:15.839265+00:00
 eurozone,ECB,official,2026-10-27,October 2026 euro area bank lending survey,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html,a62163e5cd3fa118,2026-11-06 07:11:47.878014+00:00
-eurozone,ECB,official,2026-10-28,Euro area economic and financial developments by institutional sector: second quarter of 2026,Source URL: https://www.ecb.europa.eu//press/stats/ffi/html/ecb.eaefd_full2026q2~b2bd701420.en.html,137f6cc271b89d0d,2026-11-27 08:57:04.818931+00:00
+eurozone,ECB,official,2026-10-28,Euro area economic and financial developments by institutional sector: second quarter of 2026,Source URL: https://www.ecb.europa.eu//press/stats/ffi/html/ecb.eaefd_full2026q2~b2bd701420.en.html,137f6cc271b89d0d,2026-11-28 08:18:20.636293+00:00
 eurozone,ECB,official,2026-10-29,Monetary policy decisions,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html,43770e292b2fcb46,2026-11-10 07:39:34.956322+00:00
 eurozone,ECB,official,2026-10-29,"Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html,691b76054249fcec,2026-11-13 07:05:06.317924+00:00
 eurozone,ECB,official,2026-10-29,ECB President Lagarde to step down on 7 February 2027,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html,983df1ddfaf5f1aa,2026-11-07 06:24:58.642143+00:00
@@ -587,7 +587,7 @@ eurozone,BIS,institution,2026-11-02,"Capital needs AI, and AI needs capital - Eu
 
 Source URL: https://www.bis.org/speeches/20261102-capital-needs-ai-and-ai-needs-capital-europes-opportunity-more-growth",692ebc904aad3fb2,2026-11-19 07:47:25.498809+00:00
 eurozone,ECB,official,2026-11-02,"Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html,9845e8f614541244,2026-11-18 07:51:33.684207+00:00
-eurozone,ECB,official,2026-11-02,Euro area bank interest rate statistics: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2611~2502265512.en.html,a655c8c42d2ad0ce,2026-11-27 08:57:04.818744+00:00
+eurozone,ECB,official,2026-11-02,Euro area bank interest rate statistics: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2611~2502265512.en.html,a655c8c42d2ad0ce,2026-11-28 08:18:20.636162+00:00
 eurozone,BIS,institution,2026-11-03,"Marking our tenth anniversary - one conviction, two principles and three challenges","Speech by Mr Emmanuel Moulin, Governor of the Bank of France, at the Prudential Supervision and Resolution Authority (ACPR)-Financial Markets Authority(AMF) Fintech Forum, Paris, 2 October 2026.
 
 Source URL: https://www.bis.org/speeches/20261103-marking-our-tenth-anniversary-one-conviction-two-principles-and-three-challenges",3e108191da9ed5d1,2026-11-25 09:00:51.579397+00:00
@@ -613,43 +613,46 @@ eurozone,BIS,institution,2026-11-09,Safeguarding trust and monetary sovereignty 
 Source URL: https://www.bis.org/speeches/20261109-safeguarding-trust-and-monetary-sovereignty-digital-payments-era",b315230d42b16a66,2026-11-26 08:46:35.637388+00:00
 eurozone,BIS,institution,2026-11-10,Navigating stormy waters - reflections on monetary policy,"Speech by Ms Isabel Schnabel, Member of the Executive Board of the European Central Bank, at the ECB Conference on Money Markets 2026, Frankfurt am Main, 5 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261110-navigating-stormy-waters-reflections-monetary-policy",2224f8079b6d29da,2026-11-27 08:57:04.815609+00:00
+Source URL: https://www.bis.org/speeches/20261110-navigating-stormy-waters-reflections-monetary-policy",2224f8079b6d29da,2026-11-28 08:18:20.633699+00:00
 eurozone,ECB,official,2026-11-10,Piero Cipollone: Cash and the digital euro: two sides of the same coin,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html,b0497ba38f19cd76,2026-11-25 09:00:51.583525+00:00
 eurozone,ECB,official,2026-11-10,Philip R. Lane: The science and practice of monetary policy communication: the ECB experience,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html,b661e6c992269b86,2026-11-25 09:00:51.583255+00:00
 eurozone,BIS,institution,2026-11-12,"One policy, many realities - why differences matter for monetary policy","Speech by Mr Olaf Sleijpen, President of De Nederlandsche Bank, at the opening of the 29th Annual Research Conference of De Nederlandsche Bank, Amsterdam, 10 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",a330b8f8f1ca8205,2026-11-27 08:57:04.815254+00:00
+Source URL: https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",a330b8f8f1ca8205,2026-11-28 08:18:20.633562+00:00
 eurozone,BIS,institution,2026-11-12,Competitiveness and resilience in the financial sector - oxymoron or complementarity?,"Speech by Mr Emmanuel Moulin, Governor of the Bank of France and Chairman of the Autorité de contrôle prudentiel et de resolution (ACPR), at the ACPR conference, Paris, 5 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261112-competitiveness-and-resilience-financial-sector-oxymoron-or-complementarity",fd2043c86f748586,2026-11-27 08:57:04.815433+00:00
+Source URL: https://www.bis.org/speeches/20261112-competitiveness-and-resilience-financial-sector-oxymoron-or-complementarity",fd2043c86f748586,2026-11-28 08:18:20.633426+00:00
 eurozone,ECB,official,2026-11-13,Isabel Schnabel: Made in Europe,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html,73a930007aa1c7f0,2026-11-26 08:46:35.641902+00:00
 eurozone,ECB,official,2026-11-16,Frank Elderson: Smart supervision for small banks,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html,10284bdec37368a6,2026-11-27 08:57:04.817631+00:00
 eurozone,ECB,official,2026-11-16,Boris Vujčić: Risks and resilience in the euro area financial system,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html,3dbbc3bc102f879f,2026-11-27 08:57:04.817798+00:00
 eurozone,ECB,official,2026-11-17,Philip R. Lane: The practice and science of monetary policy communication: the ECB experience,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf,c0b02e718b19fedd,2026-11-27 08:57:04.817467+00:00
-eurozone,ECB,official,2026-11-18,"Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html,15fe1961dd9d542c,2026-11-27 08:57:04.817300+00:00
-eurozone,ECB,official,2026-11-18,Boris Vujčić: Financial Stability Review - November 2026,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf,401abafb76594474,2026-11-27 08:57:04.817133+00:00
+eurozone,ECB,official,2026-11-18,"Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html,15fe1961dd9d542c,2026-11-28 08:18:20.635427+00:00
+eurozone,ECB,official,2026-11-18,Boris Vujčić: Financial Stability Review - November 2026,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf,401abafb76594474,2026-11-28 08:18:20.635297+00:00
 eurozone,BIS,institution,2026-11-19,The Deutsche Bundesbank's 2026 Financial Stability Review,"Introductory statement by Mr Michael Theurer, Member of the Executive Board of the Deutsche Bundesbank, at the press conference on the publication of the Deutsche Bundesbank's 2026 Financial Stability Review, Frankfurt am Main, 12 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261119-deutsche-bundesbanks-2026-financial-stability-review",263d62acbfbea211,2026-11-27 08:57:04.814845+00:00
-eurozone,ECB,official,2026-11-19,Euro area monthly balance of payments: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp261119~9319ec6fea.en.html,7d36c5fa5ff8725f,2026-11-27 08:57:04.818578+00:00
+Source URL: https://www.bis.org/speeches/20261119-deutsche-bundesbanks-2026-financial-stability-review",263d62acbfbea211,2026-11-28 08:18:20.633144+00:00
+eurozone,ECB,official,2026-11-19,Euro area monthly balance of payments: September 2026,Source URL: https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp261119~9319ec6fea.en.html,7d36c5fa5ff8725f,2026-11-28 08:18:20.636030+00:00
 eurozone,BIS,institution,2026-11-19,Navigating new economic realities - Europe’s outlook in a changing global landscape,"Keynote speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 79th Siemens Bankers Conference, Munich, 13 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261119-navigating-new-economic-realities-europes-outlook-changing-global-landscape",b0da6ce91357bcf6,2026-11-27 08:57:04.815071+00:00
-eurozone,ECB,official,2026-11-20,Christine Lagarde: Acting in time,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html,30371353fcf37601,2026-11-27 08:57:04.816962+00:00
-eurozone,ECB,official,2026-11-23,ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html,045e759fee4f49b5,2026-11-27 08:57:04.816774+00:00
-eurozone,ECB,official,2026-11-23,Philip R. Lane: Climate change and monetary policy,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf,6c469db60693ee54,2026-11-27 08:57:04.816605+00:00
-eurozone,ECB,official,2026-11-24,Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html,d6bedf088399bf82,2026-11-27 08:57:04.816434+00:00
-eurozone,ECB,official,2026-11-25,ECB and Sveriges Riksbank conclude agreement for Sweden to join T2,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html,015126d3756cde85,2026-11-27 08:57:04.816073+00:00
-eurozone,ECB,official,2026-11-25,Card payments edge past cash in shops; euro area consumers want both,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html,84919751fb0b7a91,2026-11-27 08:57:04.816246+00:00
-eurozone,ECB,official,2026-11-26,Meeting of 28-29 October 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html,027b668855bcafe9,2026-11-27 08:57:04.818069+00:00
-eurozone,ECB,official,2026-11-26,Climate change indicators: November 2026,Source URL: https://www.ecb.europa.eu//press/stats/cci/html/ecb.cci261126~bd9267f05a.en.html,02b675e5967942db,2026-11-27 08:57:04.818411+00:00
-eurozone,ECB,official,2026-11-26,Monetary developments in the euro area: October 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2610~4bad1d63b5.en.html,0a6d0c417546829b,2026-11-27 08:57:04.818244+00:00
+Source URL: https://www.bis.org/speeches/20261119-navigating-new-economic-realities-europes-outlook-changing-global-landscape",b0da6ce91357bcf6,2026-11-28 08:18:20.633285+00:00
+eurozone,ECB,official,2026-11-20,Christine Lagarde: Acting in time,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html,30371353fcf37601,2026-11-28 08:18:20.635166+00:00
+eurozone,ECB,official,2026-11-23,ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html,045e759fee4f49b5,2026-11-28 08:18:20.635035+00:00
+eurozone,ECB,official,2026-11-23,Philip R. Lane: Climate change and monetary policy,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf,6c469db60693ee54,2026-11-28 08:18:20.634896+00:00
+eurozone,ECB,official,2026-11-24,Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe,Source URL: https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html,d6bedf088399bf82,2026-11-28 08:18:20.634745+00:00
+eurozone,ECB,official,2026-11-25,ECB and Sveriges Riksbank conclude agreement for Sweden to join T2,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html,015126d3756cde85,2026-11-28 08:18:20.634486+00:00
+eurozone,ECB,official,2026-11-25,Card payments edge past cash in shops; euro area consumers want both,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html,84919751fb0b7a91,2026-11-28 08:18:20.634615+00:00
+eurozone,ECB,official,2026-11-26,Meeting of 28-29 October 2026,Source URL: https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html,027b668855bcafe9,2026-11-28 08:18:20.635609+00:00
+eurozone,ECB,official,2026-11-26,Climate change indicators: November 2026,Source URL: https://www.ecb.europa.eu//press/stats/cci/html/ecb.cci261126~bd9267f05a.en.html,02b675e5967942db,2026-11-28 08:18:20.635885+00:00
+eurozone,ECB,official,2026-11-26,Monetary developments in the euro area: October 2026,Source URL: https://www.ecb.europa.eu//press/stats/md/html/ecb.md2610~4bad1d63b5.en.html,0a6d0c417546829b,2026-11-28 08:18:20.635740+00:00
 eurozone,BIS,institution,2026-11-26,Europe and China - a changing relationship in a changing world,"Keynote speech by Dr Sabine Mauderer, First Deputy Governor of the Deutsche Bundesbank, at the 12th China Day, organised by dfv Euro Finance Group GmbH, Frankfurt am Main, 16 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-europe-and-china-changing-relationship-changing-world",40786669c7988936,2026-11-27 08:57:04.814652+00:00
+Source URL: https://www.bis.org/speeches/20261126-europe-and-china-changing-relationship-changing-world",40786669c7988936,2026-11-28 08:18:20.632762+00:00
 eurozone,BIS,institution,2026-11-26,Acting in time,"Keynote speech by Ms Christine Lagarde, President of the European Central Bank, at the 36th Frankfurt European Banking Congress, Frankfurt am Main, 20 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-acting-time",b52a7a934147d878,2026-11-27 08:57:04.814447+00:00
+Source URL: https://www.bis.org/speeches/20261126-acting-time",b52a7a934147d878,2026-11-28 08:18:20.632989+00:00
+eurozone,ECB,official,2026-11-27,ECB Consumer Expectations Survey results – October 2026,Source URL: https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html,03c456a2b9527da5,2026-11-28 08:18:20.634224+00:00
+eurozone,ECB,official,2026-11-27,Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates),Source URL: https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html,9be3a64b33a4d7ef,2026-11-28 08:18:20.634092+00:00
+eurozone,ECB,official,2026-11-28,Boris Vujčić: Interview with Kurier,Source URL: https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html,b1b487fcc265d46c,2026-11-28 08:18:20.633953+00:00
 us,Federal Reserve,official,2025-12-10,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
 Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",0576f444e0dc2b5c,2026-04-14 03:51:17.857302+00:00
@@ -1048,10 +1051,10 @@ us,BIS,institution,2026-08-17,Outlook for the US and Alaskan economies,"Speech b
 Source URL: https://www.bis.org/speeches/20260817-outlook-us-and-alaskan-economies",f6ed78873b9de78e,2026-09-21 05:19:05.321110+00:00
 us,Federal Reserve,official,2026-08-19,"Minutes of the Federal Open Market Committee, July 28â29, 2026","Minutes of the Federal Open Market Committee, July 28â29, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",49dcccee11acd255,2026-11-27 08:57:03.107756+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",49dcccee11acd255,2026-11-28 08:18:17.999440+00:00
 us,Federal Reserve,official,2026-08-25,"Minutes of the Board's discount rate meetings on July 20 and July 29, 2026","Minutes of the Board's discount rate meetings on July 20 and July 29, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",06631ed796eed2a7,2026-11-27 08:57:03.107588+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",06631ed796eed2a7,2026-11-28 08:18:17.999308+00:00
 us,Federal Reserve,official,2026-08-28,"Warsh, In Our Time","Speech At âFinancial Innovation: Implications for Payments and Policy,â an economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming
 
 Source URL: https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",32e06812d448f484,2026-10-01 06:24:06.522961+00:00
@@ -1069,13 +1072,13 @@ us,BIS,institution,2026-09-15,Central banks on-chain,"Speech by Ms Isabel Schnab
 Source URL: https://www.bis.org/speeches/20260915-central-banks-on-chain",51a5e9fcec063829,2026-09-29 06:03:53.302330+00:00
 us,Federal Reserve,official,2026-09-16,Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting,"Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",39b101e03d02e5e6,2026-11-27 08:57:03.107421+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",39b101e03d02e5e6,2026-11-28 08:18:17.999176+00:00
 us,BIS,institution,2026-09-16,The economic outlook and some comments on my policy communication,"Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at Reuters NEXT Newsmaker Interview, Washington DC, 3 September 2026.
 
 Source URL: https://www.bis.org/speeches/20260916-economic-outlook-and-some-comments-my-policy-communication",532e58d9bc75f8a1,2026-10-04 06:13:46.692464+00:00
 us,Federal Reserve,official,2026-09-16,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",fc2f0cdb9cabcdc2,2026-11-27 08:57:03.107251+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",fc2f0cdb9cabcdc2,2026-11-28 08:18:17.999043+00:00
 us,Federal Reserve,official,2026-09-18,"Bowman, Initial Findings from Independent Review of Silicon Valley Bank","Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom
 
 Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",248b4bdfa38c396b,2026-10-06 06:43:59.602887+00:00
@@ -1141,7 +1144,7 @@ us,BIS,institution,2026-10-07,Modernizing financial regulation - initial observa
 Source URL: https://www.bis.org/speeches/20261007-modernizing-financial-regulation-initial-observations-eslr",54676dc92f2a3759,2026-10-21 05:10:03.706912+00:00
 us,Federal Reserve,official,2026-10-07,"Minutes of the Federal Open Market Committee, September 15-16, 2026","Minutes of the Federal Open Market Committee, September 15-16, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",879fff97be3c9ca2,2026-11-27 08:57:03.107079+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",879fff97be3c9ca2,2026-11-28 08:18:17.998900+00:00
 us,BIS,institution,2026-10-07,The US economy and monetary policy,"Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the Darden School of Business, University of Virginia, Charlottesville, Virginia, 1 October 2026.
 
 Source URL: https://www.bis.org/speeches/20261007-us-economy-and-monetary-policy",be589984083297e1,2026-10-20 05:09:08.295029+00:00
@@ -1156,7 +1159,7 @@ us,BIS,institution,2026-10-13,Modernizing the regulatory and supervisory landsca
 Source URL: https://www.bis.org/speeches/20261013-modernizing-regulatory-and-supervisory-landscape",2107062b5ab65cfe,2026-10-27 05:25:15.937735+00:00
 us,Federal Reserve,official,2026-10-13,"Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026","Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",2d08b8e5bc5f952b,2026-11-27 08:57:03.106897+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",2d08b8e5bc5f952b,2026-11-28 08:18:17.998746+00:00
 us,BIS,institution,2026-10-13,The signaling value of the summary of economic projections,"Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Istanbul Economic Forum, organised by the Central Bank of the Republic of Türkiye, Istanbul, 8 October 2026.
 
 Source URL: https://www.bis.org/speeches/20261013-signaling-value-summary-economic-projections",e7ba4e9e3d33738d,2026-10-27 05:25:15.937516+00:00
@@ -1168,79 +1171,79 @@ us,BIS,institution,2026-10-19,Supervisory modernisation after Silicon Valley Ban
 Source URL: https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",5f3e26f68d131a10,2026-11-02 06:38:31.161565+00:00
 us,Federal Reserve,official,2026-10-28,Federal Reserve issues FOMC statement,"Federal Reserve issues FOMC statement
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",010018f802bd2a86,2026-11-27 08:57:03.106713+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",010018f802bd2a86,2026-11-28 08:18:17.998613+00:00
 us,BIS,institution,2026-11-02,AI adoption in Europe,"Keynote speech by Philip R Lane, Member of the Executive Board of the European Central Bank, at the Federal Reserve Bank of San Francisco Economic Research Symposium on “AI and the economy”, San Francisco, 30 October 2026.
 
 Source URL: https://www.bis.org/speeches/20261102-ai-adoption-europe",246a12ae25548720,2026-11-19 07:47:24.283362+00:00
 us,Federal Reserve,official,2026-11-10,"Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism","Speech At the Bank of England Watchers Conference Kingâs Business School and Money, Macro and Finance Society, London, United Kingdom
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",24ec58747ef82558,2026-11-27 08:57:03.110023+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",24ec58747ef82558,2026-11-28 08:18:18.001169+00:00
 us,Federal Reserve,official,2026-11-10,"Bowman, The U.S. Economy and Considerations for Monetary Policy","Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",8f0f3f7c875a1d68,2026-11-27 08:57:03.109805+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",8f0f3f7c875a1d68,2026-11-28 08:18:18.001033+00:00
 us,BIS,institution,2026-11-10,Welcome address - Fourth Women in Central Banking Workshop,"Welcome address by Ms Victoria Rodríguez Ceja, Governor of Bank of Mexico, at the Fourth Women in Central Banking Workshop, organised by Bank of Mexico, the Federal Reserve Bank of Dallas, Norges Bank (Central Bank of Norway) and Bank of Italy, Mexico City, 6 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261110-welcome-address-fourth-women-central-banking-workshop",b7914476a7bf8648,2026-11-27 08:57:03.105924+00:00
+Source URL: https://www.bis.org/speeches/20261110-welcome-address-fourth-women-central-banking-workshop",b7914476a7bf8648,2026-11-28 08:18:17.997989+00:00
 us,BIS,institution,2026-11-12,The US economy and considerations for monetary policy,"Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the C Peter McColough Series on International Economics Council on Foreign Relations, Washington DC, 10 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",19e342f2a84ce154,2026-11-27 08:57:03.105730+00:00
+Source URL: https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",19e342f2a84ce154,2026-11-28 08:18:17.997801+00:00
 us,Federal Reserve,official,2026-11-12,"Barr, American Inequality and the Future of AI","Speech At Yale University, New Haven, Connecticut
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",1e303c51407a47f7,2026-11-27 08:57:03.109637+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",1e303c51407a47f7,2026-11-28 08:18:18.000893+00:00
 us,BIS,institution,2026-11-12,The economic outlook and some thoughts on labor market dynamism,"Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",23c12ee40853d80b,2026-11-27 08:57:03.105549+00:00
+Source URL: https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",23c12ee40853d80b,2026-11-28 08:18:17.997661+00:00
 us,Federal Reserve,official,2026-11-12,Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027,"Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",b3846df890781291,2026-11-27 08:57:03.106538+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",b3846df890781291,2026-11-28 08:18:17.998482+00:00
 us,Federal Reserve,official,2026-11-14,"Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy","Speech At the University of California, San Diego Economic Roundtable, San Diego, California
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",84d3049a6c7f9e51,2026-11-27 08:57:03.109469+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",84d3049a6c7f9e51,2026-11-28 08:18:18.000744+00:00
 us,Federal Reserve,official,2026-11-16,"Barr, Some Potential Financial Stability Implications of Artificial Intelligence","Speech At the Seventh Annual Association for Computing Machinery International Conference on Artificial Intelligence in Finance, Milan, Italy
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",8f45c3fed356eb3d,2026-11-27 08:57:03.109300+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",8f45c3fed356eb3d,2026-11-28 08:18:18.000600+00:00
 us,Federal Reserve,official,2026-11-16,"Warsh, Opening Remarks","Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",95ffd4cb8317f97e,2026-11-27 08:57:03.109128+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",95ffd4cb8317f97e,2026-11-28 08:18:18.000461+00:00
 us,Federal Reserve,official,2026-11-17,"Waller, Considerations at the Intersection of Payments and Tokenized Markets","Speech At âNavigating the Future of Banking and Payments,â The Clearing House Annual Conference 2026, New York, New York
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",a006b89c97f7e501,2026-11-27 08:57:03.108944+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",a006b89c97f7e501,2026-11-28 08:18:18.000330+00:00
 us,Federal Reserve,official,2026-11-18,"Minutes of the Federal Open Market Committee, October 27-28, 2026","Minutes of the Federal Open Market Committee, October 27-28, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",3d67e56c7549893e,2026-11-27 08:57:03.106364+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",3d67e56c7549893e,2026-11-28 08:18:17.998348+00:00
 us,Federal Reserve,official,2026-11-18,"Barr, Investing in Americaâs Underserved Communities","Speech At Making Missing Markets: Catalyzing Capital and Igniting Innovation, Federal Reserve Bank of New York, New York, New York
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",aa52ae83b155bd08,2026-11-27 08:57:03.108739+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",aa52ae83b155bd08,2026-11-28 08:18:18.000197+00:00
 us,BIS,institution,2026-11-19,Some potential financial stability implications of Artificial Intelligence,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the Seventh Annual Association for Computing Machinery International Conference on “Artificial Intelligence in finance”, Milan, 16 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261119-some-potential-financial-stability-implications-artificial-intelligence",23c1c44d40086998,2026-11-27 08:57:03.105370+00:00
+Source URL: https://www.bis.org/speeches/20261119-some-potential-financial-stability-implications-artificial-intelligence",23c1c44d40086998,2026-11-28 08:18:17.997517+00:00
 us,Federal Reserve,official,2026-11-19,"Jefferson, Monetary Policy amid Frequent and Complex Shocks","Speech At the International Monetary Fund and Central Bank of Brazil Conference âA Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead,â Brasília, Brazil
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",4401f50977640cf9,2026-11-27 08:57:03.108569+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",4401f50977640cf9,2026-11-28 08:18:18.000065+00:00
 us,BIS,institution,2026-11-19,"New technology, old questions: productivity puzzles and the macroeconomy","Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the University of California, San Diego Economic Roundtable, San Diego, California, 13 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261119-new-technology-old-questions-productivity-puzzles-and-macroeconomy",f87f9cc26d341076,2026-11-27 08:57:03.105184+00:00
+Source URL: https://www.bis.org/speeches/20261119-new-technology-old-questions-productivity-puzzles-and-macroeconomy",f87f9cc26d341076,2026-11-28 08:18:17.997377+00:00
 us,Federal Reserve,official,2026-11-20,"Waller, Opening Remarks","Speech At the 2026 College Fed Challenge Finals, Board of Governors of the Federal Reserve System, Washington, D.C.
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",0e4fe5f5a7e33770,2026-11-27 08:57:03.108398+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",0e4fe5f5a7e33770,2026-11-28 08:18:17.999924+00:00
 us,Federal Reserve,official,2026-11-20,"Cook, The U.S. Economy in Global Context","Speech At the XXIX Annual Conference of the Central Bank of Chile, Santiago, Chile
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",8010c07f912c64f9,2026-11-27 08:57:03.108226+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",8010c07f912c64f9,2026-11-28 08:18:17.999769+00:00
 us,Federal Reserve,official,2026-11-24,"Minutes of the Board's discount rate meetings on October 19 and October 28, 2026","Minutes of the Board's discount rate meetings on October 19 and October 28, 2026
 
-Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",6af1e2a66559324b,2026-11-27 08:57:03.106183+00:00
+Source URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",6af1e2a66559324b,2026-11-28 08:18:17.998213+00:00
 us,Federal Reserve,official,2026-11-25,"Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas","Speech At the ASBAâBCBSâFSI High-Level Meeting for the Americas on Banking Supervision, Brasília, Brazil (via pre-recorded video)
 
-Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",24d1bb908b021cf8,2026-11-27 08:57:03.108044+00:00
+Source URL: https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",24d1bb908b021cf8,2026-11-28 08:18:17.999634+00:00
 us,BIS,institution,2026-11-26,Opening remarks - Productivity and Jobs Task Force Conference,"Speech by Mr Kevin Warsh, Chair of the Board of Governors of the Federal Reserve System, at the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California, 16 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-opening-remarks-productivity-and-jobs-task-force-conference",1c9b7a025ec4a41e,2026-11-27 08:57:03.104382+00:00
+Source URL: https://www.bis.org/speeches/20261126-opening-remarks-productivity-and-jobs-task-force-conference",1c9b7a025ec4a41e,2026-11-28 08:18:17.996683+00:00
 us,BIS,institution,2026-11-26,Considerations at the intersection of payments and tokenized markets,"Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",4b0ad11b938f4d09,2026-11-27 08:57:03.104793+00:00
+Source URL: https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",4b0ad11b938f4d09,2026-11-28 08:18:17.997082+00:00
 us,BIS,institution,2026-11-26,Monetary policy amid frequent and complex shocks,"Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the International Monetary Fund and Central Bank of Brazil Conference “A quarter century of inflation targeting in Latin America: progress, challenges, and the road ahead”, Brasilia, 19 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-monetary-policy-amid-frequent-and-complex-shocks",5132d7758ea60d1f,2026-11-27 08:57:03.104603+00:00
+Source URL: https://www.bis.org/speeches/20261126-monetary-policy-amid-frequent-and-complex-shocks",5132d7758ea60d1f,2026-11-28 08:18:17.996911+00:00
 us,BIS,institution,2026-11-26,Investing in America’s underserved communities,"Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the conference “Making missing markets: catalyzing capital and igniting innovation”, organised by the Federal Reserve Bank of New York, New York City, 18 November 2026.
 
-Source URL: https://www.bis.org/speeches/20261126-investing-americas-underserved-communities",a38738529aec0006,2026-11-27 08:57:03.104994+00:00
+Source URL: https://www.bis.org/speeches/20261126-investing-americas-underserved-communities",a38738529aec0006,2026-11-28 08:18:17.997232+00:00
